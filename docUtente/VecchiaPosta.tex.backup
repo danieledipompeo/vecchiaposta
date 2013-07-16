@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt,hidelinks,draft]{report}
+
+%%Pacchetti utili anche se non necessari
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{tabularx}
+\usepackage[italian]{babel}
+\usepackage[bookmarks=true]{hyperref}
+\usepackage{url}
+% \usepackage{subfigure}
+\usepackage{epstopdf}
+\usepackage[utf8]{inputenc}
+% \usepackage[utf8x]{inputenc}
+\usepackage{listings}
+\usepackage{graphicx}
+%-------------------------------------------
+
+\title{Progettazione sito web\\ ''B\&B La Vecchia Posta''}
+\author{Daniele Di Pompeo \\mat. 226766}
+% \annoaccademico{2013-2014}
+\begin{document}
+%   \begin{figure}%
+% 	\includegraphics[scale=1.5,keepaspectratio=true]{img/vpLogo}%
+% 	\centering
+%   \end{figure}
+
+\maketitle
+
+%----------------------------------------------------
+
+\chapter{Generalità}
+\section{Il Committente}
+Il B\&B La Vecchia Posta, innaugurato nell'Agosto del 2010 è situtato nel comune di Cagnano Amiterno, a pochi chilometri dal centro della città di L'Aquila. Situato in Via Amiternum n 6 è
+stato innaugurato nell'Agosto del 2010 con la volontà e l'idea di far risvegliare dal torpidio il paese natale del committente.
+Offre ai suoi clienti 6 spaziose camere tutte con bagno privato, ampio spazio verde di proprietà garantendo ai suoi clienti il massimo confort e relax. 
+Si riporta una veduta aerea dell'area del B\&B per far rendere conto al lettore la posizione geografica e la conformazione dello spazio (fig.\ref{fig:bbArea}). 
+
+\begin{figure}[h!]%
+	\includegraphics[width=0.6\textwidth,keepaspectratio=true]{img/bbArea1}
+	\centering
+	\caption{Veduta area del B\&B La Vecchia Posta}%
+	\label{fig:bbArea}%
+\end{figure}
+L'attività del B\&B è principalmente legata al turismo primaverile/estivo in quanto il paese non offre strutture adeguate per attirare turisti invernali.
+Il B\&B organizza percorsi turistici segnalando le bellezze naturali del posto, è legato al portale ``Tripadvisor'' dal quale ha ricevuto per l'anno 2012 e per l'anno 2013 il tagliando di struttura consigliata dal portale.
+Il committente, che in questo particolare caso risulta essere anche lo sviluppatore dell'applicazione web, è riuscito a stringere collaborazioni con altri portali di promozione del turismo come ``Bed-and-Breakfast.it'', che risulta essere
+il primo portale italiano interamente dedicato al mondo del B\&B. il B\&B risulta essere ad conduzione familiare, è gestito dal sottoscritto e con la collaborazione dei propri genitori, inoltre non ha nessun dipendente.
+
+\section{Situazione attuale}
+\section{Obiettivi generali del nuovo sito}
+\section{Utenti}
+\section{Scenari d'uso}
+\section{Posizionamento competitivo}
+
+%----------------------------------------------------
+
+\chapter{Requisiti del sito}
+
+\section{Requisiti di architettura}
+
+\section{Requisiti di comunicazione}
+
+\section{Requisiti funzionali}
+	\subsection{Casi d'uso}
+	\subsection{Base di dati}
+	\subsection{Sicurezza e privacy}
+
+\section{Requisiti di contenuto}
+
+\section{Requisiti di gestione}
+	\subsection{Infrastruttura per l'esercizio del sito}
+	\subsection{Gestione dei sistemi}
+	\subsection{Gestione del sito}
+	\subsection{Gestione dei contenuti}
+	\subsection{Getione degli utenti}
+
+\section{Requisiti di accessibilità}
+	\subsection{Prestazioni}
+	\subsection{Reperibilità}
+	\subsection{Compatibilità con i browser}
+	\subsection{Accessibilità da parte di utenti disabili}
+
+\section{Requisiti di usabilità}
+
+\section{Glossario}
+
+%----------------------------------------------------
+
+\chapter{Requisiti di gestione progetto}
+
+\section{Tempi e risorse}
+\section{Gruppo di progetto}
+\section{Responsabilità del committente}
+\section{Documentazione prevista}
+\section{Verifiche e convalide}
+\section{Consegna finale e pubblicazione del sito}
+\section{Ambiente di sviluppo}
+\section{Altri requisiti}
+\section{Analisi dei rischi}
+
+
+\end{document}
