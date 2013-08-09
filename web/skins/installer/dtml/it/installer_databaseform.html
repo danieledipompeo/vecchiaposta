@@ -1,0 +1,39 @@
+<form class="w100_100" action="installer.php" method="POST">
+	<div class="">
+		<p>Di seguito puoi inserire i dettagli di connessione al database.
+			Se non sei sicuro dei dati da inserire contatta il tuo fornitore di
+			hosting.</p>
+	</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20"><strong>Username
+			Mysql</strong></label> <input class="w220" type="text" name="usernameMysql" />
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20"><strong>Password
+			Mysql</strong></label> <input class="w220" type="password" name="passwordMysql" />
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20"><strong>Nome
+			Database</strong> </label> <input class="w220" type="text" name="database" /> 
+			<small class="line_height30 w100_100 ml20 text"><strong>Attenzione</strong>:	il database deve gi&agrave; esistere</small>
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20"><strong>Host
+			Mysql</strong></label> <input class="w220" type="text" name="host" />
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20"><strong>Prefisso tabelle</strong></label> 
+		<input class="w220" type="text" name="prefix" />
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="mt20">
+		<label class="flt_lft line_height30 w230 right_align mr20">&nbsp;</label>
+		<input type="hidden" name="InstallerState_2" value="InstallerState_2" />
+		<input class=" mb20" type="submit" value="Continua" />
+	</div>
+
+</form>

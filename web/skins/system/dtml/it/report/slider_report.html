@@ -1,0 +1,29 @@
+<a class="addLink tooltip" href="{$service_link}?action=emit" title="aggiungi una nuova news">aggiungi</a>
+{if $instances != null || $instance != null}
+<ul>
+    {foreach from=$instances item=instance}
+    <li class="border_bm">
+        <h2>
+            {$instance->titolo}
+        </h2>
+			<span>
+				<h6 class="inl_blk">
+                    <a class="tooltip" href="{$service_link}?action=emit&value={$instance->id}&preload=1" title="modifica {$instance->name}">Modifica</a>
+                </h6>
+			</span>
+			<span>
+				<h6 class="inl_blk ml10">
+                    <a class="tooltip" href="{$service_link}?action=delete&value={$instance->id}&preload=1" title="elimina {$instance->name}">Rimuovi</a>
+                </h6>
+			</span>
+    </li>
+    {/foreach}
+</ul>
+{else}
+<h1>NON CI SONO slider</h1>
+{/if}
+
+<!-- MODIFICA QUESTA LINEA-->
+
+</div>
+
