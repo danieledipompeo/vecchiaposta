@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.19)  15 JUL 2013 17:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.9)  20 AUG 2013 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,8 +601,19 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.41 \end{abstract}
+                    [1]
 Capitolo 1.
+<img/bbArea1.png, id=180, 281.05pt x 207.77625pt>
+File: img/bbArea1.png Graphic file (type png)
+ <use img/bbArea1.png>
+Package pdftex.def Info: img/bbArea1.png used on input line 51.
+(pdftex.def)             Requested size: 234.00238pt x 172.9932pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -610,20 +621,22 @@ been already used, duplicate ignored
 l.59 
       [1
 
-] <img/googleAnalytics1.png, id=182, 702.4644pt x 403.2666pt>
-File: img/googleAnalytics1.png Graphic file (type png)
+ <./img/bbArea1.png>] [2]
+<img/googleAnalyticsDoc1.png, id=192, 1234.6125pt x 885.3075pt>
+File: img/googleAnalyticsDoc1.png Graphic file (type png)
 
-<use img/googleAnalytics1.png>
-Package pdftex.def Info: img/googleAnalytics1.png used on input line 61.
-(pdftex.def)             Requested size: 312.00119pt x 179.1177pt.
- [2 <./img/googleAnalytics1.png>]
-<img/googleAnalytics2.png, id=191, 919.435pt x 383.4325pt>
-File: img/googleAnalytics2.png Graphic file (type png)
+<use img/googleAnalyticsDoc1.png>
+Package pdftex.def Info: img/googleAnalyticsDoc1.png used on input line 81.
+(pdftex.def)             Requested size: 370.49881pt x 265.67534pt.
+ [3 <./img/googleAnalyticsDoc1.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 100.
 
-<use img/googleAnalytics2.png>
-Package pdftex.def Info: img/googleAnalytics2.png used on input line 79.
-(pdftex.def)             Requested size: 350.99762pt x 146.3787pt.
- [3 <./img/googleAnalytics2.png>] [4]
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+ [4]
 Capitolo 2.
 [5
 
@@ -633,33 +646,34 @@ Overfull \vbox (170.06677pt too high) has occurred while \output is active []
 
 [6]
 Capitolo 3.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
 [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (./VecchiaPosta.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `VecchiaPosta.out' has not changed.
 (rerunfilecheck)             Checksum: 67BA7EF81D8A38794A421AE428B66B58;2860.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 7662 strings out of 495059
- 109403 string characters out of 3182030
- 195055 words of memory out of 3000000
- 10706 multiletter control sequences out of 15000+200000
- 8673 words of font info for 35 fonts, out of 3000000 for 9000
+ 7680 strings out of 495059
+ 109681 string characters out of 3182031
+ 196002 words of memory out of 3000000
+ 10722 multiletter control sequences out of 15000+200000
+ 9237 words of font info for 37 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,6n,32p,295b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,6n,32p,294b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on VecchiaPosta.pdf (8 pages, 502477 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on VecchiaPosta.pdf (9 pages, 986568 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
  339 words of extra memory for PDF output out of 10000 (max. 10000000)
 
