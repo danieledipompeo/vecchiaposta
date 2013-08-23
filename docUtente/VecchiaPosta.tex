@@ -82,9 +82,10 @@ resti sulla home page poco meno di 2 minuti e abbandona il sito prima di inviare
 	\caption{Dati Google Analitycs Home Page}%
 	\label{fig:googleHomePage}%
 \end{figure}
-Dall'immagine {fig.\ref{fig:googleHomePage}} postata risulta evidente che la barra di navigazione posta sopra il logo rende difficoltosa all'utente medio comprendere quale sia il vero link alla homePage, si notano alcuni click sullo spazio negativo della
-barra di navigazione (più del 40\% degli utenti).
-Non permette la modifica della grandezzzqa del font, non permettendo una facile navigazione a persone ipovedenti.
+Dall'immagine fig.\ref{fig:googleHomePage} risulta evidente che la barra di navigazione posta sopra il logo rende difficoltosa all'utente medio comprendere quale sia il vero link alla homePage, si notano alcuni click sullo spazio negativo della
+barra di navigazione (più del 40\% degli utenti). Nella sezione ``Appendice B'' vengono riportare altre immagini e dettagli a supporto degli aspetti negativi della versione attuale 
+del sito web.
+\par Non permette la modifica della grandezzzqa del font, non permettendo una facile navigazione a persone ipovedenti.
 
 \section{Obiettivi generali del nuovo sito}
 La nuova versione del sito web dovrà eliminare queste problematiche, invogliando gli utenti ad inviare più richieste di prenotazioni inserendo nella parte ``sopra la piega'' un link
@@ -147,8 +148,16 @@ Dall'analisi effettuata risultano essere stati individuati tre categorie di uten
 \section{Scenari d'uso}
 \par
 \begin{itemize}
- \item [Cliente] inserire qui una storia
- \item [Utente] inserire qui una storia
+ \item \textbf{Cliente}: Michela è una gentile signora che lavora presso un'agenzia per il turismo nazionale e con la voglia di scoprire le bellezze naturalistiche e magari trovare
+ un nuovo cliente per il suo impiego decide di prenotare una vacanza di qualche giorno in un B\&B del parco nazionale del gran sasso. Navigando in internet e utilizzando i portali 
+ più famosi del settore è riuscita a navigare sul sito del B\&B La Vecchia Posta. Attirata dalle foto effettua una prenotazione. Da allora Michela trascorre le sue vacanze estive nel 
+ B\&B La Vecchia Posta.
+ 
+ \item \textbf{Utente}: Antonietta ragazza di 23 anni studentessa di filosofia a Bologna non è la classica ragazza che gli amici eticheterebbero come ``tecnologica''. Infatti ama utilizzare
+ il suo vecchio telefono nokia con il tastierino numerico e schermo non touch. 
+ \par Navigando in internet per una ricerca universitaria inizia a seguire una serie di link pubblicitari accattivanti
+ per prenotare le proprie vacanze a prezzi super stracciati. Non essendo un'abile navigatrice di internet non si rende facilemnte conto di ciò che sta facendo, ma cliccando su un link piuttosto che su un altro
+ finalmente la sua attenzione viene colpita dal sito del B\&B La Vecchia Posta. Recupera facilmente i recapiti telefonici effettua una chiamata al B\&B e prenota la sua vacanza.
 \end{itemize}
 
 \section{Posizionamento competitivo}
@@ -166,15 +175,58 @@ mentre per i siti extra-regione sono stati analizzati:
  \item Soggiorno Pezzati (Firenze)
  \item Il Melograno (Muro Leccese)
 \end{itemize}
-\par Per il nuovo sito si intende posizionarlo nei primissimi posti dei motori di ricerca (google, bing, yahoo) cercando di migliorare l'inidicizzazione.
-
-
-
-%----------------------------------------------------
+Per l'analisi dettagliata sui siti web analizzati si rimanda alla sezione ``Appendice A''.
+\par Per il nuovo sito si intende migliorare l'indicizzazione sui principali motori di ricerca (google, bing, yahoo) posizionandolo nei primissimi posti 
+seguendo le direttive imposte dai motori di ricerca.
 
 \chapter{Requisiti del sito}
 
 \section{Requisiti di architettura}
+\subsection{Architettura informativa}
+\begin{itemize}
+ \item Home
+ \begin{itemize}
+  \item Camere
+  \begin{itemize}
+   \item Singola
+   \item Doppia
+   \item Tripla
+   \item Quadrupla
+  \end{itemize}
+  \item Eventi
+  \begin{itemize}
+   \item Perdonanza Celistiniana
+   \item Festa del Cioccolato
+   \item Sagre e Feste
+  \end{itemize}
+  \item Attività
+  \begin{itemize}
+   \item Ippovia del Gran Sassi
+   \item L'anello del Lago di Campotosto
+   \item Da Cagnano al Gran Sasso
+  \end{itemize}
+  \item Dintorni
+  \begin{itemize}
+   \item L'Aquila
+   \item Amatrice
+   \item Parco Nazionale del Gran Sasso
+   \item Lago di Campotosto
+   \item Campo Imperatore
+   \item Campo Felice
+  \end{itemize}
+  \item Dove Siamo
+ \end{itemize}
+\end{itemize}
+
+\subsection{Navigazione}
+Per quanto riguarda la navigazione del sito sarà necessario organizzare una barra di navigazione orizzontale che permetta all'utente di spostarsi facilmente da una sezione di primo livello
+ad un'altra. La barra di navigazione di primo livello si è deciso di posizionarla al di sotto del header, che contiene il logo dell'azienda, la preview dell'offerta attiva. Al di sopra del logo
+si pensa di sistemare i collegamenti alle pagine social, link che vengono utilizzati in minor modo, l'icona per mostrare la mappa velocemente, un pulsante per effettuare una rihciesta di prenotazione
+e i bottoni per la gestione della grandezza dei font.
+\par Per le sezioni di secondo livello si pensa di utilizzare una barra di navigazione verticale per permettere all'utente di spostarsi nelle varie sezioni interne agevolmente senza
+perdersi nei vari link del sito. Il menu di secondo livello verrà posizionato nella sidebar di destra, appena sotto lo slider, suddividendo lo spazio della pagina in un 70\% destinato aqi contenuti
+ed un 30\% destinato al menu di secondo livello.
+\par Si riporta uno schema della gabbia logica per l'homepage del sito. Le altre pagine manterranno una struttura simile all'homepage mantenendo alta la coesione tra contenuti.
 
 \section{Requisiti di comunicazione}
 
