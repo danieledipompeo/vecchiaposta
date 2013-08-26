@@ -227,29 +227,101 @@ e i bottoni per la gestione della grandezza dei font.
 perdersi nei vari link del sito. Il menu di secondo livello verrà posizionato nella sidebar di destra, appena sotto lo slider, suddividendo lo spazio della pagina in un 70\% destinato aqi contenuti
 ed un 30\% destinato al menu di secondo livello.
 \par Si riporta uno schema della gabbia logica per l'homepage del sito. Le altre pagine manterranno una struttura simile all'homepage mantenendo alta la coesione tra contenuti.
-
+\\Nella fig.\ref{fig:gabbiaLogica} viene riportata la struttura dell'intero sito e non solo della homepage mostrando anche il posizionamento della barra di navigazione di secondo livello ove presente.
+\begin{figure}[h!]%
+	\includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/gabbiaLogica}
+	\centering
+	\caption{Gabbia logica}%
+	\label{fig:gabbiaLogica}%
+\end{figure}
+\newpage
 \section{Requisiti di comunicazione}
+\subsection{Identità di marca, tono e stile della comunicazione}
+
+\subsection{Grafica e multimedialità}
+Per il comparto grafico si pensato di prendere come risoluizione base del sito i 1200px di larghezza, essendo la risoluizione di maggiore utilizzo\footnote{Dati di \url{www.w3schools.com}}.
+Non sono quindi previsti scroll orizzontali ma solo verticali, mantenendo \textit{sopra la piega} tutte le informazioni principali e le due barre di navigazione, primaria e secondaria. Per mantenere
+il sito al passo con i tempi si è deciso di renderlo anche responsive, prevedendone una versione per smartphone e tablet oltre che per desktop.
+\subsection{Lingua e localizzazione}
+Per lo sviluppo del nuova versione del sito, si è scelto di utilizzare il framework beContent, ciò ci permette in automatico la scelta della lingua preferita dall'utente, potendo eliminare i bottoni per la 
+scelta della lingua del sito. 
 
 \section{Requisiti funzionali}
-	\subsection{Casi d'uso}
-	\subsection{Base di dati}
-	\subsection{Sicurezza e privacy}
+  \subsection{Casi d'uso}
+  Per la realizzazione del nuovo sito internet sono stati individuati, in prima analisi, i seguenti casi d'uso per i singoli attori. Si fa presente che i seguenti casi d'uso verranno
+  riportati sia in forma non dettagliata che dettagliata e che essendo i casi d'uso analizzati nella fase di indagine, potranno subire delle modifiche nelle fasi successive dello sviluppo.
+  \begin{itemize}
+   \item Amministratore:
+   \begin{enumerate}
+    \item UC1: Inserire contenuti
+    \item UC2: Aggiornare il sistema
+    \item UC3: Mantenere frunzionante il sistema
+   \end{enumerate}
+   \item Cliente: 
+   \begin{enumerate}
+    \item UC4: Visualizzare le informazioni di contatto
+   \end{enumerate}
+   \item Utente: 
+   \begin{enumerate}
+    \item UC5: Effettuare una richiesta di prenotazione
+   \end{enumerate}
+  \end{itemize}
+Si rimanda il lettore all'appendice C per la lettura dei casi d'uso in forma dettagliata.
+\subsection{Base di dati}
+La nuova versione del sito internet, non utilizzerà la vecchia base dati, ma sarà sviluppata una nuova base di dati rispettando le esigenze del nuovo framework di sviluppo.
+\par Nella nuova base di dati verranno memorizzati tutte le informazioni necessarie al funzionamento di beContent, come la password di amministratore e di tutti gli utenti che devono
+interagire con lo stesso (attualmente l'amministratore di sistema è anche il committente quindi un solo utente avrà i diritti per l'accesso nell'area di backend del framework).
+Verranno inoltre memorizzati i contenuti delle pagine interne (testo, link, file multimediali).
+
+\subsection{Sicurezza e privacy}
+Nella versione 1.0 del nuovo sito non è previsto il mantenimento delle informazioni dei clienti su database, ma solamente l'invio tramite email dei dati utili alla prenotazione di una camera.
+All'utente sarà comuque richiesto esplicitamente di accettare le codizioni sull'utilizzo dei propri dati in conformità con la normativa art. 13 del d.lgs. 196/2003.
 
 \section{Requisiti di contenuto}
+Essendo l'amministratore l'unica figura responsabile ad utilizzare il framework, sarà compito dell'amministratore inserire, modificare ed eliminare i contenuti multimediali del sito.
+Le sezioni in lingua straniera (inglese, spagnolo) saranno redatte dal sottoscritto coadiuvato da Antonietta, laureata in lingue straniere (inglese e spagnolo).
+\par Le due lingue straniere scelte sono dovute dal fatto che molte delle visite al sito internet provengono in maggioranza dall'Italia, in successione Stati Uniti, Inghilterra e Brasile come viene mostrato
+dalla figura \ref{fig:googleAnalyticsPaesi} nella sezione ``Appendice B''.
 
 \section{Requisiti di gestione}
-	\subsection{Infrastruttura per l'esercizio del sito}
-	\subsection{Gestione dei sistemi}
-	\subsection{Gestione del sito}
-	\subsection{Gestione dei contenuti}
-	\subsection{Getione degli utenti}
+  \subsection{Infrastruttura per l'esercizio del sito}
+  Si presuppone di hostare il nuovo sito internet su una web-pharm che offra anche servizio SMTP per l'invio di email. Il B\&B La Vecchia Posta risulta essere titolare di un dominio internet \url{www.vecchiaposta.it},
+  non si ha la necessità di registrare alias e altri domini, almeno per il momento.
+  \par Il B\&B ha inoltre una casella di posta elettronica utilizzata per la ricezione delle richieste di prenotazioni e per le risposte ai clienti. Risulta utile utilizzare
+  i servizi di Antivirus, AntiSpamm che la web-pharm offre per rendere più confortevole l'utilizzo della mail, eliminando i messaggi indesiderati.
+  \subsection{Gestione dei sistemi}
+  Il sitema sarà affidato in outsourcing, ed è stato scelto come gestore esterno la compagnia Aruba, tra le web-pharm più in voga al momento.
+  \par Nella fase iniziale non è venuta alla luce l'esigenza di richiedere al gestore caratteristiche particolari del server, l'unica esigenza è stata avere la piattaforma su OS Linux, con tecnologia lampp.
+  Il progettista avrà l'onere di espletare tutte le beghe burocratiche con la web-pharm.
+  \subsection{Gestione del sito}
+  Il sito internet sarà gestito interamente dal sottoscritto, che si occuperà di risolvere eventuali bug e di apportare modifiche successive alla pubblicazione della nuova versione	
+  \subsection{Gestione dei contenuti}
+  I contenuti multimediali saranno inseriti sempre dal sottoscritto, essendo l'unica figura con i diritti per utilizzare il framework.
+  Si riporta una tabella riassuntiva:
+  \begin{center}
+    \begin{tabular}{||m{4cm}|m{4cm}|m{4cm}||}
+      \hline
+	\textbf{Contenuti} & \textbf{Chi li aggiorna} & \textbf{Chi ne autorizza la pubblicazione}\\
+      \hline
+	Amministratore & mantenere aggiornarnate le informazioni presenti sul sito & fornire all'amministratore le informazioni aggiornate da inserire nel sito web\\
+      \hline
+	Utente & reperire le informazioni di contatto, prendere visione della struttura
+	      & impressionare l'utente casuale invogliando ad effettuare una prenotazione\\
+      \hline  
+	Cliente & reperire informazioni di contatto, visionare il tariffario, effettuare una richiesta di prenotazione & mantere ottimi rapporti con
+	il cliente abitudinario, invogliare il ``passaparola'' dei clienti \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \subsection{Getione degli utenti}
+  Gli utenti comunicheranno con l'azienda tramite posta elettronica, o direttamente o utilizzando l'apposito form presente in tutte le pagine del sito.
+  \par Non sono previsti tempi massimi di attesa per le risposte da parte dell'azienda e sarà compito del gestore gestire le comunicazioni con i clienti della struttura.
 
 \section{Requisiti di accessibilità}
 	\subsection{Prestazioni}
 	\subsection{Reperibilità}
 	\subsection{Compatibilità con i browser}
 	\subsection{Accessibilità da parte di utenti disabili}
-
 \section{Requisiti di usabilità}
 
 \section{Glossario}
@@ -268,5 +340,18 @@ ed un 30\% destinato al menu di secondo livello.
 \section{Altri requisiti}
 \section{Analisi dei rischi}
 
-
+\chapter{Appendice}
+\section{Appendice A}
+Siti concorrenti
+\section{Appendice B}
+In questa sezione saranno riportate tutte le informazioni recuprate dal servizio Analitycs di Google inc.\footnote{\url{https://www.google.com/analytics/}}
+\begin{figure}[h!]%
+	\includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/googleAnalyticsPaesi}
+	\centering
+	\caption{Provenienza degli accessi al sito internet}%
+	\label{fig:googleAnalyticsPaesi}%
+\end{figure}
+\newpage
+\section{Appendice C}
+Appendice dei casi d'uso
 \end{document}
