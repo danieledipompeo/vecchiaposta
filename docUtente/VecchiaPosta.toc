@@ -5,10 +5,10 @@
 \contentsline {subsection}{\numberline {1.2.1}Aspetti rilevanti del sito}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Principali pregi}{2}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Principali difetti}{2}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Obiettivi generali del nuovo sito}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Utenti}{4}{section.1.4}
+\contentsline {section}{\numberline {1.3}Obiettivi generali del nuovo sito}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Utenti}{5}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Profilo degli utenti}{5}{subsection.1.4.1}
-\contentsline {section}{\numberline {1.5}Scenari d'uso}{5}{section.1.5}
+\contentsline {section}{\numberline {1.5}Scenari d'uso}{6}{section.1.5}
 \contentsline {section}{\numberline {1.6}Posizionamento competitivo}{6}{section.1.6}
 \contentsline {chapter}{\numberline {2}Requisiti del sito}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Requisiti di architettura}{8}{section.2.1}
@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {2.5.2}Gestione dei sistemi}{13}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Gestione del sito}{13}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Gestione dei contenuti}{13}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Getione degli utenti}{13}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.5}Getione degli utenti}{14}{subsection.2.5.5}
 \contentsline {section}{\numberline {2.6}Requisiti di accessibilit\IeC {\`a}}{14}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Prestazioni}{14}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Reperibilit\IeC {\`a}}{14}{subsection.2.6.2}
@@ -41,13 +41,13 @@
 \contentsline {section}{\numberline {3.2}Gruppo di progetto}{17}{section.3.2}
 \contentsline {section}{\numberline {3.3}Responsabilit\IeC {\`a} del committente}{17}{section.3.3}
 \contentsline {section}{\numberline {3.4}Documentazione prevista}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}Verifiche e convalide}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Consegna finale e pubblicazione del sito}{17}{section.3.6}
-\contentsline {section}{\numberline {3.7}Ambiente di sviluppo}{17}{section.3.7}
-\contentsline {section}{\numberline {3.8}Altri requisiti}{17}{section.3.8}
-\contentsline {section}{\numberline {3.9}Analisi dei rischi}{17}{section.3.9}
-\contentsline {chapter}{\numberline {4}Appendice}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Appendice A}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Appendice B}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Appendice C}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Appendice D}{19}{section.4.4}
+\contentsline {section}{\numberline {3.5}Verifiche e convalide}{18}{section.3.5}
+\contentsline {section}{\numberline {3.6}Consegna finale e pubblicazione del sito}{18}{section.3.6}
+\contentsline {section}{\numberline {3.7}Ambiente di sviluppo}{18}{section.3.7}
+\contentsline {section}{\numberline {3.8}Altri requisiti}{18}{section.3.8}
+\contentsline {section}{\numberline {3.9}Analisi dei rischi}{18}{section.3.9}
+\contentsline {chapter}{\numberline {4}Appendice}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Appendice A}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Appendice B}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}Appendice C}{20}{section.4.3}
+\contentsline {section}{\numberline {4.4}Appendice D}{20}{section.4.4}

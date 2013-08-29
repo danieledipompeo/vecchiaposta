@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.7.9)  27 AUG 2013 13:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.8.29)  29 AUG 2013 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **VecchiaPosta.tex
 (./VecchiaPosta.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, it
+alian, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -127,14 +127,9 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen119
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Italian'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@italian = a dialect from \language0
 Package babel Info: Making " an active character on input line 94.
-)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -585,25 +580,30 @@ LaTeX Info: Redefining \nameref on input line 23.
 \MPnumerator=\count127
 \makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks27
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+) <img/logo.png, id=213, 379.4175pt x 229.85875pt>
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 27.
+(pdftex.def)             Requested size: 195.0pt x 118.1348pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./VecchiaPosta.tocpdfTeX 
-warning (ext4): destination with the same identifier (name{page.1}) has been al
-ready used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo.png>] (./Vecchi
+aPosta.tocpdfTeX warning (ext4): destination with the same identifier (name{pag
+e.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 ... {2.6.1}Prestazioni}{14}{subsection.2.6.1}
@@ -617,242 +617,247 @@ l.33 ... {2.6.1}Prestazioni}{14}{subsection.2.6.1}
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 \end{abstract}
+l.55 \end{abstract}
                     [1]
 Capitolo 1.
-<img/bbArea1.png, id=285, 281.05pt x 207.77625pt>
+<img/bbArea1.png, id=288, 281.05pt x 207.77625pt>
 File: img/bbArea1.png Graphic file (type png)
  <use img/bbArea1.png>
-Package pdftex.def Info: img/bbArea1.png used on input line 50.
+Package pdftex.def Info: img/bbArea1.png used on input line 65.
 (pdftex.def)             Requested size: 234.00238pt x 172.9932pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 
-      [1
+l.74   \par I
+             l sito web è stato realizzato nel 2010 dalla Fermenti Grafici,...
+[1
 
  <./img/bbArea1.png>]pdfTeX warning (ext4): destination with the same identifie
 r (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
-      [2] <img/googleAnalyticsDoc1.png, id=295, 1234.6125pt x 885.3075pt>
+l.95   \par
+            Questo è visibile anche dai dati statistici raccolti da google ...
+[2] <img/googleAnalyticsDoc1.png, id=298, 1234.6125pt x 885.3075pt>
 File: img/googleAnalyticsDoc1.png Graphic file (type png)
 
 <use img/googleAnalyticsDoc1.png>
-Package pdftex.def Info: img/googleAnalyticsDoc1.png used on input line 80.
+Package pdftex.def Info: img/googleAnalyticsDoc1.png used on input line 98.
 (pdftex.def)             Requested size: 370.49881pt x 265.67534pt.
  [3 <./img/googleAnalyticsDoc1.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
-
-Overfull \hbox (1.62788pt too wide) in paragraph at lines 120--121
-[]\OT1/cmr/m/n/12 L'utente oc-ca-sion-ale (utente che rag-giunge il sitoweb in-
-volon-tari-a-mente)
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/cmr/bx/n/12 Categoria di
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-[]|\OT1/cmr/bx/n/12 Bisogni prin-ci-pali
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|\OT1/cmr/bx/n/12 Bisogni prin-ci-pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
-\OT1/cmr/bx/n/12 degli uten-ti in
+Underfull \hbox (badness 2096) in paragraph at lines 147--147
+\OT1/cmr/bx/n/12 li de-gli uten-ti in
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 129--129
-[]|\OT1/cmr/m/n/12 mantenere ag-giornar-
+Underfull \hbox (badness 1189) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/12 mantenere ag-gior-nar-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 129--129
-\OT1/cmr/m/n/12 nate le in-for-mazioni
+Underfull \hbox (badness 2626) in paragraph at lines 149--149
+\OT1/cmr/m/n/12 na-te le in-for-ma-zio-ni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]|\OT1/cmr/m/n/12 fornire al-l'am-min-is-
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/12 fornire al-l'am-mi-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-[]|\OT1/cmr/m/n/12 reperire le in-for-
+Underfull \hbox (badness 4752) in paragraph at lines 149--149
+\OT1/cmr/m/n/12 stra-to-re le in-for-ma-
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 131--132
-\OT1/cmr/m/n/12 mazioni di con-tat-to,
+Underfull \hbox (badness 6675) in paragraph at lines 149--149
+\OT1/cmr/m/n/12 zio-ni ag-gior-na-te da
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 135--135
-[]|\OT1/cmr/m/n/12 reperire in-for-mazioni
+Underfull \hbox (badness 3861) in paragraph at lines 153--153
+[]|\OT1/cmr/m/n/12 impressionare l'u-ten-
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 135--135
-\OT1/cmr/m/n/12 di con-tat-to, vi-sion-
+Underfull \hbox (badness 1484) in paragraph at lines 153--153
+\OT1/cmr/m/n/12 te ca-sua-le in-vo-glian-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 4096) in paragraph at lines 155--155
+[]|\OT1/cmr/m/n/12 reperire in-for-ma-zio-ni
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 155--155
+\OT1/cmr/m/n/12 di con-tat-to, vi-sio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\OT1/cmr/m/n/12 alta,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \OT1/cmr/m/n/12 me-dia,
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 135--136
+Underfull \hbox (badness 3098) in paragraph at lines 155--156
 []|\OT1/cmr/m/n/12 mantere ot-ti-mi rap-
  []
 
 
-Overfull \hbox (80.33849pt too wide) in paragraph at lines 125--139
+Underfull \hbox (badness 3826) in paragraph at lines 155--156
+\OT1/cmr/m/n/12 por-ti con il clien-te
+ []
+
+
+Overfull \hbox (80.33849pt too wide) in paragraph at lines 145--159
  [] 
  []
 
-[5]
-Overfull \hbox (3.23384pt too wide) in paragraph at lines 156--158
-[]\OT1/cmr/bx/n/12 Utente\OT1/cmr/m/n/12 : An-toni-et-ta ragaz-za di 23 an-ni s
-tu-dentes-sa di filosofia a Bologna
- []
-
-[6] [7]
+[5] [6] [7]
 Capitolo 2.
 [8
 
-] <img/gabbiaLogica.png, id=334, 1304.875pt x 1170.3725pt>
+] <img/gabbiaLogica.png, id=339, 1304.875pt x 1170.3725pt>
 File: img/gabbiaLogica.png Graphic file (type png)
 
 <use img/gabbiaLogica.png>
-Package pdftex.def Info: img/gabbiaLogica.png used on input line 232.
+Package pdftex.def Info: img/gabbiaLogica.png used on input line 255.
 (pdftex.def)             Requested size: 370.49881pt x 332.30954pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9]
-Overfull \hbox (5.43282pt too wide) in paragraph at lines 239--239
-[]\OT1/cmr/bx/n/14.4 Identit^^Ra di mar-ca, tono e stile del-la co-mu-ni-cazion
-e 
+[9] [10 <./img/gabbiaLogica.png>] [11]
+Overfull \hbox (6.06673pt too wide) in paragraph at lines 311--312
+\OT1/cmr/m/n/12 Essendo l'am-mi-ni-stra-to-re l'u-ni-ca fi-gu-ra re-spon-sa-bi-
+le ad uti-liz-za-re il fra-mework,
  []
 
-[10 <./img/gabbiaLogica.png>] [11] [12] [13] [14]
-Overfull \hbox (0.32234pt too wide) in paragraph at lines 370--371
-[]\OT1/cmr/m/n/12 Deuteranopia: dis-tur-bo pi^^Ru fre-quente lega-to al-la dif-
-fi-colt^^Ra di dis-tinguere
+[12]
+Underfull \hbox (badness 1509) in paragraph at lines 341--342
+[]|\OT1/cmr/bx/n/12 Chi ne au-to-
  []
 
-[15] [16]
+
+Underfull \hbox (badness 1546) in paragraph at lines 341--342
+\OT1/cmr/bx/n/12 riz-za la pub-
+ []
+
+[13] [14] [15] [16]
 Capitolo 3.
 [17
 
-]
+] [18]
 Capitolo 4.
-<img/googleAnalyticsPaesi.png, id=407, 668.4975pt x 398.48875pt>
+<img/googleAnalyticsPaesi.png, id=416, 668.4975pt x 398.48875pt>
 File: img/googleAnalyticsPaesi.png Graphic file (type png)
 
 <use img/googleAnalyticsPaesi.png>
-Package pdftex.def Info: img/googleAnalyticsPaesi.png used on input line 404.
+Package pdftex.def Info: img/googleAnalyticsPaesi.png used on input line 458.
 (pdftex.def)             Requested size: 370.49881pt x 220.85985pt.
 
-<img/googleAnalyticsBrowser.png, id=408, 940.51375pt x 403.5075pt>
+<img/googleAnalyticsBrowser.png, id=417, 940.51375pt x 403.5075pt>
 File: img/googleAnalyticsBrowser.png Graphic file (type png)
 
 <use img/googleAnalyticsBrowser.png>
-Package pdftex.def Info: img/googleAnalyticsBrowser.png used on input line 410.
+Package pdftex.def Info: img/googleAnalyticsBrowser.png used on input line 464.
 
 (pdftex.def)             Requested size: 370.49881pt x 158.9558pt.
 
-Overfull \hbox (0.94038pt too wide) in paragraph at lines 402--415
-\OT1/cmr/m/n/12 In ques-ta sezione saran-no ri-por-tate tutte le in-for-mazioni
- re-cuprate dal servizio
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18
+[19
 
-] [19 <./img/googleAnalyticsPaesi.png (PNG copy)> <./img/googleAnalyticsBrowser
+] [20 <./img/googleAnalyticsPaesi.png (PNG copy)> <./img/googleAnalyticsBrowser
 .png (PNG copy)>]
-<img/daltonismoProtanopia.png, id=420, 1115.16624pt x 662.475pt>
+<img/daltonismoProtanopia.png, id=428, 1115.16624pt x 662.475pt>
 File: img/daltonismoProtanopia.png Graphic file (type png)
 
 <use img/daltonismoProtanopia.png>
-Package pdftex.def Info: img/daltonismoProtanopia.png used on input line 423.
+Package pdftex.def Info: img/daltonismoProtanopia.png used on input line 477.
 (pdftex.def)             Requested size: 370.49881pt x 220.09328pt.
 
-<img/daltonismoDeuteranopia.png, id=421, 1129.21875pt x 657.45625pt>
+<img/daltonismoDeuteranopia.png, id=429, 1129.21875pt x 657.45625pt>
 File: img/daltonismoDeuteranopia.png Graphic file (type png)
 
 <use img/daltonismoDeuteranopia.png>
-Package pdftex.def Info: img/daltonismoDeuteranopia.png used on input line 430.
+Package pdftex.def Info: img/daltonismoDeuteranopia.png used on input line 484.
 
 (pdftex.def)             Requested size: 370.49881pt x 215.71727pt.
 
-<img/daltonismoTritanopia.png, id=422, 1115.16624pt x 650.43pt>
+<img/daltonismoTritanopia.png, id=430, 1115.16624pt x 650.43pt>
 File: img/daltonismoTritanopia.png Graphic file (type png)
 
 <use img/daltonismoTritanopia.png>
-Package pdftex.def Info: img/daltonismoTritanopia.png used on input line 437.
+Package pdftex.def Info: img/daltonismoTritanopia.png used on input line 491.
 (pdftex.def)             Requested size: 370.49881pt x 216.09157pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
-[20 <./img/daltonismoProtanopia.png (PNG copy)> <./img/daltonismoDeuteranopia.p
-ng (PNG copy)>] [21 <./img/daltonismoTritanopia.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+[21 <./img/daltonismoProtanopia.png (PNG copy)> <./img/daltonismoDeuteranopia.p
+ng (PNG copy)>] [22 <./img/daltonismoTritanopia.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
 
 (./VecchiaPosta.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 498.
 Package rerunfilecheck Info: File `VecchiaPosta.out' has not changed.
 (rerunfilecheck)             Checksum: 456F85ED01F1D2EE707B84B78B9965FF;3620.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 498.
  ) 
 Here is how much of TeX's memory you used:
- 7815 strings out of 495059
- 111799 string characters out of 3182031
- 201344 words of memory out of 3000000
- 10791 multiletter control sequences out of 15000+200000
- 15080 words of font info for 63 fonts, out of 3000000 for 9000
+ 7817 strings out of 495048
+ 111818 string characters out of 3181554
+ 202293 words of memory out of 3000000
+ 10793 multiletter control sequences out of 15000+200000
+ 14377 words of font info for 59 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,10n,32p,284b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,32p,245b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt12.pfb>
-Output written on VecchiaPosta.pdf (25 pages, 1314099 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb>
+Output written on VecchiaPosta.pdf (26 pages, 1337037 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 442 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,11 @@
+<?php
+  
+  $to      = 'info@vecchiaposta.it';
+  $subject = 'test';
+  $message = 'hello';
+  $headers = 'From: webmaster@vecchiaposta.local' . "\r\n" .
+     'Reply-To: webmaster@example.com' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+
+  mail($to, $subject, $message, $headers);	
+  echo 'test';
