@@ -188,13 +188,10 @@
   \begin{itemize}
     \item B\&B Camaga
     \item B\&B Oasi nel Vetoio
-    \item B\&B Grace
   \end{itemize}
   mentre per i siti extra-regione sono stati analizzati:
   \begin{itemize}
     \item Il giglio binaco (Sorrento)
-    \item Soggiorno Pezzati (Firenze)
-    \item Il Melograno (Muro Leccese)
   \end{itemize}
   Per l'analisi dettagliata sui siti web analizzati si rimanda alla sezione ``Appendice A''.
   \par Per il nuovo sito si intende migliorare l'indicizzazione sui principali motori di ricerca (google, bing, yahoo) posizionandolo nei primissimi posti 
@@ -362,10 +359,10 @@
   
   \subsection{Reperibilità}
     Il sito risulterà essere accessibile solamente tramite l'url \url{www.vecchiaposta.it}, non stati previsti alias ne altri domini di primo livello (es: .co.uk .com .es).
-    \par Ci si è posti l'obiettivo di posizionare il sito web nelle prime posizioni dei risultati di ricerca sui principali portali di ricerca (google, bing, yahoo). Per raggiungere qesto
-    obiettivo si è vincolati a rispettare le regole previste dai motori di ricerca. 
-    \par Le principali azioni che verranno svolte sono quelle legate all'analisi del sito web tramite un browser
-    testuale che ci consentirà di individuare eventuali falle nella struttura del sito. Uno dei principali browser testuali e Lynx, e molti spider dei motori di ricerca indicizzano il sito
+    \par Ci si è posti l'obiettivo di posizionare il sito web nelle prime posizioni dei risultati dei sui principali portali di ricerca (google, bing, yahoo).
+    \\Per raggiungere qesto obiettivo si è vincolati a rispettare le regole previste dai motori di ricerca. 
+    \par Le principali azioni che verranno svolte sono quelle legate all'analisi del sito web tramite un browser testuale che ci consentirà di individuare eventuali
+    falle nella struttura del sito. Uno dei principali browser testuali e Lynx, e molti spider dei motori di ricerca indicizzano il sito
     in base al risultato ottenuto che è molto simile a quello che si ottiene con l'utilizzo di Lynx. 
     \par Si avrà cura di inserire l'attributo ALT il più descrittivo possibile, aiutando così l'utente con handicap oculare. 
     \\Si inserirà un titolo esaustivo e indicativo del sito migliorando la presentazione nella preview dei risultati di ricerca. 
@@ -380,15 +377,15 @@
     \item Firefox
     \item Safari
     \end{itemize}
-    risultato che poteva essere immaginato anche senza i risultati di google analytics. L'elenco è stato posto in ordine decrescente.
+    L'elenco è stato posto in ordine decrescente. Il risultato che poteva essere immaginato anche senza i risultati di google analytics.
     \par Si rimanda alla fig \ref{fig:googleAnalyticsBrowser}, nella sezione Appendice C, per avere una visione più dettagliata dei browser utilizzati.
   
   \subsection{Accessibilità da parte di utenti disabili}
-    Nella nuova versione non è prevista l'acquisizione di nessuna certificazione di accessibilità, ma si intende comunque rendere il sito accessibile anche alle
-    persone con qualche handicap
-    Per prima cosa il sito internet sarà dotato di un controllo sulla grandezza del font, utile per le persone ipovedenti. Per le perone che utilizzano browser 
-    vocali si farà attenzione nell'inserire descrizioni dettagliate ed esaustive nell'attributo ALT per rendere il sito usabile.
-    Per quanto riguarda disturbi cromatici è stato effettuato un test tramite il sito \url{http://colorfilter.wickline.org/} che permette di modificare la palette dei colori
+    Nella nuova versione non è prevista l'acquisizione di nessuna certificazione di accessibilità, ma si intende comunque rendere il sito il più accessibile possibile anche alle
+    persone con qualche invalidità..
+    \par Per prima cosa il sito internet sarà dotato di un controllo sulla grandezza del font, utile per le persone ipovedenti. 
+    \\ Per le perone che utilizzano browser vocali si farà attenzione nell'inserire descrizioni dettagliate ed esaustive nell'attributo ALT per rendere il sito usabile.
+    \\ Per quanto riguarda disturbi cromatici è stato effettuato un test tramite il sito \url{http://colorfilter.wickline.org/} che permette di modificare la palette dei colori
     simulando il risultato agli occhi di un daltonico. Il risultato finale del test è risultato soddisfaciente per i disturbi:
     \begin{itemize}
       \item Protanopia: disturbo più frequente legato alla difficoltà di distinguere maggiormente il rosso (\ref{fig:daltonismoProtanopia})
@@ -398,11 +395,12 @@
     mantenendo quasi inalterato il senso del contrasto voluto. Nell'Appendice D sono riportati gli screenshot dei risultati dei test\footnote{dati raccolti dal'url \url{http://www.treccani.it/enciclopedia}}.
 
 \section{Requisiti di usabilità}
-  Per quant riguarda i requisiti di usabilità durante questa prima analisi non stati individuati particolari requisiti, quindi si rimanda a versioni successive. 
-  L'obiettivo della nuova versione è di eliminare alcuni problemi legati all'ambiguità della vecchia versione, come ad esempio la barra del menu ed i click nella zona di spazio
+  Per quanto riguarda i requisiti di usabilità durante questa prima analisi non stati individuati particolari requisiti, quindi si rimanda a versioni successive. 
+  \par L'obiettivo della nuova versione è di eliminare alcuni problemi legati all'ambiguità della vecchia versione, come ad esempio la barra del menu ed i click nella zona di spazio
   negativo per ritornare alla home. 
-  \par Il feedback sarà costituito dai nuovi risultati che google analytics riporterà post pubblicazione della nuova versione. Un altro obietti della nuova versione è quello di 
-  ottenere più richieste di prenotazioni inserendo in tutte le pagine una scorciatoia alla pagina di richiesta, cosa che nella versione vecchia non è presente.
+  \par Il feedback sarà costituito dai nuovi risultati che google analytics riporterà post pubblicazione della nuova versione.
+  \\ Un altro obiettivo della nuova versione è quello di ottenere più richieste di prenotazioni inserendo in tutte le pagine una scorciatoia alla pagina di richiesta,
+  cosa che nella vecchia versione non è presente.
 
 \section{Glossario}
   Non sono stati utilizzati particolari termini tali da giustificare la presenza di un glossario.
@@ -412,11 +410,12 @@
 \chapter{Requisiti di gestione progetto}
 
 \section{Tempi e risorse}
-  Essedo già presente una versione del sito internet, che consente all'azienda di essere visibile in rete non ci sono tempistiche strette da rispettare. L'intento è di produrre u na prima versione del sito
-  con le funzionalità presenti attualmente ristrutturando la parte grafica e migliorando la navigabilità del sito, magari aumentando le richieste di prenotazioni.
+  Essedo già presente una versione del sito internet, che consente all'azienda di essere visibile in rete non ci sono tempistiche strette da rispettare. 
+  \\ L'intento è di produrre una prima versione del sito con le funzionalità attualmente presenti ristrutturando la parte grafica e migliorando la navigabilità del sito, 
+  magari aumentando le richieste di prenotazioni.
 
 \section{Gruppo di progetto}
-  L'intero progetto sarà realizzato solamente dal sottoscritto che ricoprirà le figure di progettista, webmaster e capo progetto.
+  Il gruppo è costituito dal sottoscritto che ricoprirà le figure di progettista, webmaster e capo progetto.
 
 \section{Responsabilità del committente}
   In questo caso essendo il progettista ed il committente la stessa persona risulta difficile separare le responsabilità di uno e dell'altra.
@@ -425,13 +424,15 @@
   Non risultano esserci vincoli sulla documentazione da produrre.
 
 \section{Verifiche e convalide}
-  Il nuovo sito verrà sottoposto a test di usabilità in locale utilizzando amici e familiari del progettista nonchè test in remoto fornendo un url privato per il test a clienti abitudinari
-  dell'azienda. Superati i test di usabilità sul prototipo finale, descritto nel documento ``piano di qualità'' si procederà con la pubblicazione su un server web.
-  \par Successivamente alla pubblicazione il sito web verrà monitorato su eventuali bug riscontrati grazie a test di robustezza effettuati dal progettista e da altri utenti. Eventuali
-  bug o miglioramenti/carenze saranno segnalati al progettista che provvederà all'aggiornamento.
+  Il nuovo sito verrà sottoposto a test di usabilità in locale utilizzando amici e familiari del progettista nonchè test in remoto fornendo un url privato 
+  a clienti abitudinari dell'azienda. Superati i test di usabilità sul prototipo finale, descritto nel documento ``piano di qualità'' si procederà con la pubblicazione 
+  su un server web.
+  \par Successivamente alla pubblicazione il sito web verrà monitorato su eventuali bug riscontrati grazie a test di robustezza effettuati dal progettista e da altri utenti. 
+  \\ Eventuali bug o miglioramenti/carenze saranno segnalati al progettista che provvederà all'aggiornamento.
 
 \section{Consegna finale e pubblicazione del sito}
-  La consegna finale del sito, nella sua prima versione, sarà realizzata e pubblicata nel più breve tempo possibile. Si auspica una conclusione dei lavori in 3 settimane di lavoro.
+  La consegna finale del sito, nella sua prima versione, sarà realizzata e pubblicata nel più breve tempo possibile. 
+  Si auspica una conclusione dei lavori in 3 settimane.
   
 \section{Ambiente di sviluppo}
   L'intero progetto sarà sviluppato con tecnologia LAMPP, versione linux di XAMPP. Che comprende un server web apache, MySQL ed interprete di PHP per il server side. Queste scelte sono vincolate 
@@ -447,7 +448,86 @@
 
 \chapter{Appendice}
 \section{Appendice A}
-Siti concorrenti
+  In questa sezione verranno mostrati i pregi e i difetti dei siti concorrenti analizzati. Anche se la ricerca è stata eseguita su più siti si riportano le considerazioni
+  solamente di due siti aziendali locali ed uno non locale che hanno colpito maggiormente il sottoscritto.
+  \begin{itemize}
+    \item \textbf{B\&B Camaga} (fig. \ref{fig:bebCamaga}): 
+      \begin{itemize}
+	\item Pro:
+	  \begin{itemize}
+	    \item Home page leggera: appena 305Kb
+	    \item Sito provvisto di una breadcrump\footnote{letteralmente bricola di pane,
+	    in internet indica il percorso dell'utente \url{http://it.wikipedia.org/wiki/Breadcrumb}}
+	  \end{itemize}
+	\item Contro:
+	  \begin{itemize}
+	    \item Caricamento della home page: anche se leggera ed esegue poche richieste HTTP impiega 14,5 secondi nel caricamento intero della pagina, causa principale è il 
+	    caricamento dell'immagine nella home;
+	    \item Stile di non gradevole effetto grafico, presenta una side-bar di destra con colori non conformi allo stile, che sembra quasi una pubblicità;
+	    \item Nel menu utilizzate etichette forvianti come ``Dove Siamo'' che invece di fornire la posizione del B\&B, cosa che si aspetta, fornisce indicazioni su come 
+	    raggiungerlo;
+	    \item Header e Menu sono presenti due menu uno laterale in verticale e l'altro appena sotto l'header con il logo/motto del B\&B. Anche in questo caso forse la scelta 
+	    grafica non è risultata ottimale, infatti utilizza un font serif per il logo rendendolo quasi illeggibile;
+	  \end{itemize}
+	  \begin{figure}[h!]%
+	    \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/bebCamaga}
+	    \centering
+	    \caption{Screenshot sito: \url{www.camagaaq.com}}%
+	    \label{fig:bebCamaga}%
+	  \end{figure}
+      \item \textbf{La compagnia del viaggiatore} (fig. \ref{fig:bebViaggiatore}):
+	\begin{itemize}
+	 \item Pro:
+	  \begin{itemize}
+	   \item Home page curata esteticamente propone una barra di navigazione orizzontale, uno slider e scorciatoie ai servizi principali dell'azienda
+	   \item Ogni singola pagina ha al suo interno un proprio slider di immagini
+	   \item I caratteri e il tema sono sicuramente scelte  di un esperto del settore
+	  \end{itemize}
+	 \item Contro:
+	  \begin{itemize}
+	   \item Breadcrumb non presnte
+	   \item Regolazione del font non prevista
+	   \item Alcuni contrasti risultano essere privi di effetto, come il verde chiaro su sfondo bianco.
+	  \end{itemize}
+	\end{itemize}
+	\begin{figure}[h!]%
+	    \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/bebViaggiatore}
+	    \centering
+	    \caption{Screenshot sito: \url{http://www.compagniadelviaggiatore.it/}}%
+	    \label{fig:bebViaggiatore}%
+	  \end{figure}
+      \item \textbf{B\&B Il giglio bianco} (fig. \ref{fig:bebGiglio}):
+	\begin{itemize}
+	 \item Pro:
+	  \begin{itemize}
+	   \item Home page: contiene tutto quello che serve ad un sito vetrina. Risulta essere gradevole alla vista richiamando inoltre il nome del B\&B avendo il 
+	   tema sul bianco
+	   \item home page risulta essere leggera con solamente 721Kb caricati in 22 sec, attraverso 85 HTTP Request.
+	   \item Grafica sicuramente curata da un professionista del settore mostra scelte ben curate.
+	   \item Navigazione presenta due barre una orizzontale ed una verticale che permettono di navigare con facilità il sito.
+	   \item il widget booking-online presente in alto a destra nell'header include una funzionalità utilissima per le richieste di prenotazioni
+	  \end{itemize}
+	 \item Contro:
+	  \begin{itemize}
+	   \item Le due barre di navigazione non rendono ben comprensibile quale sia la principale e quale la secondaria. A primo impatto il sottoscritto è stato reso in inganno
+	   dalla barra verticale pensando fosse una barra di secondo livello per la navigazione nelle sezioni di secondarie
+	   \item Non è presente un breadcrump il che rende difficoltosa la navigazione ad un utente non esperto che potrebbe non ricordare il suo percorso di navigazione
+	  \end{itemize}
+	\end{itemize}
+	\begin{figure}[h!]%
+	    \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/bebGiglio}
+	    \centering
+	    \caption{Screenshot sito: \url{http://www.bbgigliobiancosorrento.it/}}%
+	    \label{fig:bebGiglio}%
+	  \end{figure}
+    \end{itemize}
+  \end{itemize}
+  Riassumendo ciò che si è notato analizzando nel dettaglio i siti proposti e altri non riportati in questo documento, risulta evidente che nella maggioranze dei siti internet
+  non è posta l'attenzione sulla navigazione di utente con handicap. Infatti nessuno sito propone un controllo del font lasciando all'utente la sola scelta di utilizzare 
+  lo zoom del browser che ovviamente comporta un malfunzionamento dei temi grafici. 
+  Anche per quanto riguarda problemi di daltonismi in molti siti sembra esserci poca attenzione, per non parlare della non curanza nell'utilizzo di attributi ALT significativi
+  per rendere il sito navigabile tramite browser vocali.
+  
 \section{Appendice B}
 In questa sezione saranno riportate tutte le informazioni recuprate dal servizio Analitycs di Google inc.\footnote{\url{https://www.google.com/analytics/}}
 \begin{figure}[h!]%
@@ -489,6 +569,6 @@ analizzato il template del tema e non la versione finale.
   \caption{Daltonismo: tritanopia}%
   \label{fig:daltonismoTritanopia}%
 \end{figure}
-Come si può notare dagli screenshot l'effetto di contrasto è comunque mantenuto non portando gravi anomalie che renderebbero il sito non navigabile da daltonici. 
-Sono state analizzate solamente le tre più comuni forme di daltonismo e soprattutto quelle legate maggiormente ai colori scelte nel tema.
+Come si può notare dagli screenshot l'effetto di contrasto è comunque mantenuto non portando gravi anomalie che renderebbero il sito non navigabile dai daltonici. 
+\\Sono state analizzate solamente le tre più comuni forme di daltonismo e soprattutto quelle legate maggiormente ai colori scelte nel tema.
 \end{document}
