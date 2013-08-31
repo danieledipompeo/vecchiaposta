@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-09 17:01:40
+<?php /* Smarty version Smarty-3.1.13, created on 2013-08-30 12:10:47
          compiled from "skins/theme/dtml/it/header.html" */ ?>
 <?php /*%%SmartyHeaderCode:5426164365205045469b072-95420365%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8ef0824f6f94011256731838a831bee68c21d8da' => 
     array (
       0 => 'skins/theme/dtml/it/header.html',
-      1 => 1375699381,
+      1 => 1377857367,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
   'unifunc' => 'content_5205045469f429_94741120',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5205045469f429_94741120')) {function content_5205045469f429_94741120($_smarty_tpl) {?><div id="header-google-map" style="display:none;">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -67,7 +67,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="title-wrapper">
     <h1>
         <div class="title-dec-left"></div>
-        <a href="index.html">Nice Hotel <span>A HTML Template</span></a>
+        <a href="index.html"><img src="\skins\theme\img\logo.gif"></a>
         <div class="title-dec-right">test</div></h1>
     <!-- END .title-wrapper -->
 </div><?php }} ?>

@@ -32,62 +32,62 @@ body {
 #navigation, #main-menu ul, blockquote, .page-content table, .ui-tabs .ui-tabs-nav li.ui-tabs-selected, .booknow, .booknow-accompage,
 .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
 .ui-datepicker .ui-widget-header .ui-state-default:hover {
-	border-color: #a1b543;
+	border-color: #16B06A;
 }
 
 .title-end, .blog-title .comment-count, .blog-title-single .comment-count, .event-prev .event-prev-date, #ui-datepicker-div .ui-datepicker-header,
 .widget .widget-title h5 {
-	background: #a1b543;
+	background: #16B06A;
 }
 
 .button1, .bookbutton {
-	background: url(../../img/gradient1.png) #a1b543 bottom left repeat-x;
+	background: url(../../img/gradient1.png) #16B06A bottom left repeat-x;
 }
 
 .button1:hover, .bookbutton:hover {
-	background: url(../../img/gradient1h.png) #a1b543 left bottom repeat-x;
+	background: url(../../img/gradient1h.png) #16B06A left bottom repeat-x;
 }
 
 .blog-title .comment-count .comment-point,
 .blog-title-single .comment-count .comment-point {
-	background: url(../../img/comment-point.png) #a1b543 no-repeat;
+	background: url(../../img/comment-point.png) #16B06A no-repeat;
 }
 
 #slides .prev, #slides1 .prev, #slides .next, #slides1 .next, #twitter_icon:hover, #facebook_icon:hover, #googleplus_icon:hover, #skype_icon:hover, 
 #flickr_icon:hover, #linkedin_icon:hover, #vimeo_icon:hover, #youtube_icon:hover, #rss_icon:hover  {
-	background-color: #a1b543;
+	background-color: #16B06A;
 }
 
 .accordion h4.ui-state-active, .toggle .active, .page-content a, .page-full a, .sidebar a:hover, .blog-title-single h2 a,
 .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
 .ui-datepicker .ui-widget-header .ui-state-default:hover, #footer a:hover, #footer-bottom a:hover {
-	color: #a1b543;
+	color: #16B06A;
 }
 
 .widget .widget-title h5:before {
-	border-color: #a1b543 transparent;
+	border-color: #16B06A transparent;
 }
 
 /* Main colour in rgba format @ 70% transparency */
 .caption {
-	background: rgba(161, 181, 67, 0.7);
+	background: rgba(22, 176, 106, 0.7);
 }
 
 /* Main colour in format for IE, "80E26143" is the colour #e26143, the "80" added to the front give 80% */
 .ie8 .caption {
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80A1B543,endColorstr=#80A1B543);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8016B06A,endColorstr=#8016B06A);
 }
 
 /* A darker shade of the main colour */
 .corner-left { 
 	border-top: 20px solid;
-	border-color: #838f49;
+	border-color: #3B8953;
 	border-left: 20px solid transparent; 
 }
 
 .corner-right { 
 	border-top: 20px solid; 
-	border-color: #838f49;
+	border-color: #3B8953;
 	border-right: 20px solid transparent;
 }
 

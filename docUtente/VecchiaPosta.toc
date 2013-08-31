@@ -23,8 +23,8 @@
 \contentsline {subsection}{\numberline {2.3.2}Base di dati}{12}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Sicurezza e privacy}{12}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Requisiti di contenuto}{12}{section.2.4}
-\contentsline {section}{\numberline {2.5}Requisiti di gestione}{12}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Infrastruttura per l'esercizio del sito}{12}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.5}Requisiti di gestione}{13}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Infrastruttura per l'esercizio del sito}{13}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Gestione dei sistemi}{13}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Gestione del sito}{13}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Gestione dei contenuti}{13}{subsection.2.5.4}
@@ -49,5 +49,5 @@
 \contentsline {chapter}{\numberline {4}Appendice}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Appendice A}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Appendice B}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}Appendice C}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Appendice D}{24}{section.4.4}
+\contentsline {section}{\numberline {4.3}Appendice C}{25}{section.4.3}
+\contentsline {section}{\numberline {4.4}Appendice D}{28}{section.4.4}

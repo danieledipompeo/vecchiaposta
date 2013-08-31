@@ -15,6 +15,7 @@
 % \usepackage[utf8x]{inputenc}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{usecases}
 %-------------------------------------------
 
 % \title{Progettazione sito web\\ ''B\&B La Vecchia Posta''}
@@ -97,7 +98,7 @@
   \begin{figure}[h!]%
     \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/googleAnalyticsDoc1}
     \centering
-    \caption{Dati Google Analitycs Home Page}%
+    \caption{Dati statistici navigazione home page}%
     \label{fig:googleHomePage}%
   \end{figure}
   Dall'immagine fig.\ref{fig:googleHomePage} risulta evidente che la barra di navigazione posta sopra il logo rende difficoltosa all'utente medio comprendere quale sia il vero link alla home page.
@@ -309,7 +310,7 @@
   \par Le sezioni in lingua straniera (inglese, spagnolo) saranno redatte dal sottoscritto coadiuvato da Antonietta, laureata in lingue straniere (inglese e spagnolo).
   \\Le due lingue straniere scelte sono dovute dal fatto che molte delle visite al sito internet provengono oltre che dall'Italia, dagli Stati Uniti dall'Inghilterra e dal Brasile 
   come viene mostrato dalla figura \ref{fig:googleAnalyticsPaesi} nella sezione ``Appendice B''.
-
+\newpage
 \section{Requisiti di gestione}
 
   \subsection{Infrastruttura per l'esercizio del sito}
@@ -468,6 +469,7 @@
 	    raggiungerlo;
 	    \item Header e Menu sono presenti due menu uno laterale in verticale e l'altro appena sotto l'header con il logo/motto del B\&B. Anche in questo caso forse la scelta 
 	    grafica non è risultata ottimale, infatti utilizza un font serif per il logo rendendolo quasi illeggibile;
+	    \item La cosa più sconvolgente che si riscontra navigando su questo sito è che risulta essere incompleto in molte sue parti
 	  \end{itemize}
 	  \begin{figure}[h!]%
 	    \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/bebCamaga}
@@ -515,7 +517,7 @@
 	  \end{itemize}
 	\end{itemize}
 	\begin{figure}[h!]%
-	    \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/bebGiglio}
+	    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/bebGiglio}
 	    \centering
 	    \caption{Screenshot sito: \url{http://www.bbgigliobiancosorrento.it/}}%
 	    \label{fig:bebGiglio}%
@@ -529,22 +531,53 @@
   per rendere il sito navigabile tramite browser vocali.
   
 \section{Appendice B}
-In questa sezione saranno riportate tutte le informazioni recuprate dal servizio Analitycs di Google inc.\footnote{\url{https://www.google.com/analytics/}}
-\begin{figure}[h!]%
-	\includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/googleAnalyticsPaesi}
-	\centering
-	\caption{Provenienza degli accessi al sito internet}%
-	\label{fig:googleAnalyticsPaesi}%
-\end{figure}
-\begin{figure}[h!]%
-	\includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/googleAnalyticsBrowser}
-	\centering
-	\caption{Principali browser che accedono al sito}%
-	\label{fig:googleAnalyticsBrowser}%
-\end{figure}
+  In questa sezione saranno riportate tutte le informazioni recuprate dal servizio Analitycs di Google inc.\footnote{\url{https://www.google.com/analytics/}}
+  \par Dalla figura \ref{fig:googleFlusso} si nota come su quasi 300 accessi circa il 70\% abbandoni il sito dopo la navigazione della prima pagina. Ovviamente in quel 70\% una 
+  percentuale sarà costituita dai non interessati, a chi non piace la struttura ma risulta una percentuale troppo alta. Questa considerazione è avvalorata dal fatto che 
+  non viene mai preso in considerazione il link ``prenota'' della barra di navigazione principale (fig. \ref{fig:googleHomePage}), il che ci porta ad auspicarci un netto aumento delle richieste di
+  disponibilità con l'inserimento di una scorciatoia su tutte le pagine.
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleFlusso}
+    \centering
+    \caption{Flusso dei visitatori sul sito \url{www.vecchiaposta.it}}%
+    \label{fig:googleFlusso}%
+  \end{figure}
+  \par I due screenshot successivi (fig.\ref{fig:googleAnalyticsPaesi} e fig.\ref{fig:googleAnalyticsBrowser}) mostrano i dati statici che riguardano i paesi di provenenzia
+  delle visite e dei browser maggiormanete utilizzati. Sono dati utili per lo sviluppo del nuovo sito, sia per le versioni in lingua straniera sia per verificare
+  la completa compatibilità con i vari browser sul mercato.
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleAnalyticsPaesi}
+    \centering
+    \caption{Provenienza degli accessi al sito internet}%
+    \label{fig:googleAnalyticsPaesi}%
+  \end{figure}
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleAnalyticsBrowser}
+    \centering
+    \caption{Principali browser che accedono al sito}%
+    \label{fig:googleAnalyticsBrowser}%
+  \end{figure}
+  \par In questa ultima immagine, fig.\ref{fig:googleTecnologia}, si porta in evidenza come sia importante rendere il sito maggiormanete usabile da \textit{dispositivi mobile} (tablet, smartphone,
+  padfone). 
+  \\Infatti dall'analisi dei dati statistici e dalla proiezione dei dati, funzionalità offerta dal servizio di Google Analitycs, si nota come sono in costante 
+  aumento le visite tramite l'utilizzo di questi dispositivi.
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleTecnologia}
+    \centering
+    \caption{Visite per tipologia di device}%
+    \label{fig:googleTecnologia}%
+  \end{figure}
+  
 \newpage
 \section{Appendice C}
-Appendice dei casi d'uso
+In questa sezione del documento verranno riportati i principali casi d'uso riscontrati nella prima fase di analisi.
+\\Il primo caso d'uso analizzato è quello che vede l'amministratore come utente principale ed è nella fase di dover aggiornare le informazioni presenti nel sito internet.
+  \input{uc1}
+Il secondo ed ultimo caso d'uso preso in esame è quello che vede il cliente alle prese con una richiesta di prenotazione.
+  \input{uc5}
+\par I due casi d'uso mostrati precedentemente risultano essere i casi d'uso più comuni e di maggiore rilevanza per quanto riguarda questo documento. Gli altri casi d'uso 
+elencati precedentemente risultano essere meno significativi e più banali di quelli dettagliati.
+
 \section{Appendice D}
 Gli screenshot riportati sono stati prelevati dal risultato ottenuto dall'analisi effettuata tramite il servizio offerto dal sito \url{http://colorfilter.wickline.org/}. 
 \par La mancanza delle immagini è dovuta dal fatto che il servizio non è riuscito ad analizzare i file di immagine presenti nello slider. Si fa inoltre presente che è stato 

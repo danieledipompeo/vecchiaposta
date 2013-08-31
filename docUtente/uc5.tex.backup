@@ -1,0 +1,74 @@
+
+%Sometimes it is a good idea to put domain objects in \texttt{}
+%The template and the descriptions are based on the book Applying UML and Patterns: 
+%An Introduction to Object-Oriented Analysis and Design and Iterative Development
+%(3rd Edition) by Craig Larman.
+\begin{usecase}
+
+\addtitle{Caso d'uso:}{UC5 - Effettuare una richiesta di prenotazione} 
+
+%Scope: the system under design
+\addfield{Scopo:}{Utente}
+
+%Level: "user-goal" or "subfunction"
+\addfield{Livello:}{Utente}
+
+%Primary Actor: Calls on the system to deliver its services.
+\addfield{Attore primario:}{Cliente}
+
+%Stakeholders and Interests: Who cares about this use case and what do they want?
+
+%Preconditions: What must be true on start and worth telling the reader?
+% \addfield{Preconditions:}{}
+%when multiple
+\additemizedfield{Precondizioni:}{
+  \item Il sito web è navigabile
+} 
+
+%Postconditions: What must be true on successful completion and worth telling the reader
+\addfield{Postcondizioni:}{La richiesta è avvenuta con successo}
+%when multiple
+%\additemizedfield{Preconditions:}{}
+
+%Main Success Scenario: A typical, unconditional happy path scenario of success.
+\addscenario{Scenario principale di successo:}{
+	\item il cliente accede alla pagina web
+	\item Il sistema mostra all'utente la pagina home page
+	\item l'utente richiede la pagine per le prenotazioni
+	\item il sistema mostra correttamente la sezione richiesta
+	\item il sistema carica il \textit{form} per l'invio dei dati
+	\item l'utente compila i dati del \textit{form} mostrato
+	\item l'utente invia i dati
+	\item il sistema salva i dati
+	\item il sistema invia email all'utente per la corretta ricezione della richiesta
+	\item il sistema notifica all'amministratore la richiesta avvenuta
+	\item il sistema mostra all'utente la home page
+	\item l'utente abbandona il sito
+}
+
+%Extensions: Alternate scenarios of success or failure.
+\addscenario{Estensioni:}{
+	\item[4.a] Pagina richiesta non disponibile:
+		\begin{enumerate}
+		\item[1.] il sistema non riesce a mostrare la sezione richiesta
+		\item[2.] il sistema invia una email al progettista con il report del bug
+		\item[3.] il sistema torna al punto 2
+		\end{enumerate}
+	\item[7.a] Invio errato:
+		\begin{enumerate}
+		\item[1.] il sistema non esegue l'invio
+		\item[2.] il sistema mostra l'eventuale errore all'utente
+		\item[3.] il sistema invia una mail al progettista con il report del bug
+		\item[4.] il sistema mostra all'utente la pagina di provenienza
+		\end{enumerate}
+}
+
+%Frequency of Occurrence: Influences investigation, testing and timing of implementation.
+\addfield{Frequenza:}{ alta nella fase iniziale, bassa nelle fasi successive
+}
+
+%Miscellaneous: Such as open issues/questions
+%\addfield{Open Issues:}{}
+
+\end{usecase}
+

@@ -15,6 +15,7 @@
 % \usepackage[utf8x]{inputenc}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{usecases}
 %-------------------------------------------
 
 % \title{Progettazione sito web\\ ''B\&B La Vecchia Posta''}
@@ -44,7 +45,7 @@
 %----------------------------------------------------
 \begin{abstract}
   In questo documento verranno descritti nel dettaglio tutti i requisiti funzionali e non funzionali individuati per la realizzazione del sito web del B\&B La Vecchia Posta.
-  Per la realizzazione del nuovo sito web sono state utilizzate le informazioni sul traffico dati utilizzando ``google analytics''. Sono stati presi in visione i siti web di altre strutture
+  Per la realizzazione del nuovo sito web sono state utilizzate le informazioni sul traffico dati utilizzando ``Google Analytics''. Sono stati presi in visione i siti web di altre strutture
   locali e nazionali per rendere la versione 2.0 del sito del B\&B La Vecchia Posta utilizzando tutte le nuove tecniche del web 2.0.
   \par Nella prima parte di questo documento si riporta una descrizione dell'attività del committente ponendo l'attenzione sui dati statici raccolti.
   \par Nella seconda parte vengono descritti in maniera puntuale i requisiti funzionali per la realizzazione del nuovo sito web.
@@ -92,7 +93,7 @@
 \subsection{Principali difetti}
   I principali difetti sono legati dalla difficoltà nel raggiungere il collegamento per effettuare una richiesta di prenotazione, accessibile 
   solamente tramite la barra di nabigazione o tramite il link nascosto dietro il testo dell'ultimo articolo inserito, che nel nostro caso sono le ultime news.
-  \par Questo è visibile anche dai dati statistici raccolti da google analytics che mostrano come l'utente navighi nel sito 
+  \par Questo è visibile anche dai dati statistici raccolti da Google Analytics che mostrano come l'utente navighi nel sito 
   poco meno di 2 minuti e lo abbandona prima di inviare una richiesta di prenotazione. Evidente dal fatto che il link prenota non risulta mai essere cliccato.
   \begin{figure}[h!]%
     \includegraphics[width=0.95\textwidth,keepaspectratio=true]{img/googleAnalyticsDoc1}
@@ -309,7 +310,7 @@
   \par Le sezioni in lingua straniera (inglese, spagnolo) saranno redatte dal sottoscritto coadiuvato da Antonietta, laureata in lingue straniere (inglese e spagnolo).
   \\Le due lingue straniere scelte sono dovute dal fatto che molte delle visite al sito internet provengono oltre che dall'Italia, dagli Stati Uniti dall'Inghilterra e dal Brasile 
   come viene mostrato dalla figura \ref{fig:googleAnalyticsPaesi} nella sezione ``Appendice B''.
-
+\newpage
 \section{Requisiti di gestione}
 
   \subsection{Infrastruttura per l'esercizio del sito}
@@ -370,14 +371,14 @@
     un ottimo posizionamento\footnote{Informazioni disponibili al sito \url{https://support.google.com/webmasters/answer/35769}}.
     
   \subsection{Compatibilità con i browser}
-    Dal'analisi dei dati raccolti da google analytics si nota che i principali browser che accedono al sito web sono
+    Dal'analisi dei dati raccolti da Google Analytics si nota che i principali browser che accedono al sito web sono
     \begin{itemize}
     \item Chrome
     \item Internet Explorer
     \item Firefox
     \item Safari
     \end{itemize}
-    L'elenco è stato posto in ordine decrescente. Il risultato che poteva essere immaginato anche senza i risultati di google analytics.
+    L'elenco è stato posto in ordine decrescente. Il risultato che poteva essere immaginato anche senza i risultati di Google Analytics.
     \par Si rimanda alla fig \ref{fig:googleAnalyticsBrowser}, nella sezione Appendice C, per avere una visione più dettagliata dei browser utilizzati.
   
   \subsection{Accessibilità da parte di utenti disabili}
@@ -398,7 +399,7 @@
   Per quanto riguarda i requisiti di usabilità durante questa prima analisi non stati individuati particolari requisiti, quindi si rimanda a versioni successive. 
   \par L'obiettivo della nuova versione è di eliminare alcuni problemi legati all'ambiguità della vecchia versione, come ad esempio la barra del menu ed i click nella zona di spazio
   negativo per ritornare alla home. 
-  \par Il feedback sarà costituito dai nuovi risultati che google analytics riporterà post pubblicazione della nuova versione.
+  \par Il feedback sarà costituito dai nuovi risultati che Google Analytics riporterà post pubblicazione della nuova versione.
   \\ Un altro obiettivo della nuova versione è quello di ottenere più richieste di prenotazioni inserendo in tutte le pagine una scorciatoia alla pagina di richiesta,
   cosa che nella vecchia versione non è presente.
 
@@ -534,7 +535,16 @@
   \par Dalla figura \ref{fig:googleFlusso} si nota come su quasi 300 accessi circa il 70\% abbandoni il sito dopo la navigazione della prima pagina. Ovviamente in quel 70\% una 
   percentuale sarà costituita dai non interessati, a chi non piace la struttura ma risulta una percentuale troppo alta. Questa considerazione è avvalorata dal fatto che 
   non viene mai preso in considerazione il link ``prenota'' della barra di navigazione principale (fig. \ref{fig:googleHomePage}), il che ci porta ad auspicarci un netto aumento delle richieste di
-  disponibilità.
+  disponibilità con l'inserimento di una scorciatoia su tutte le pagine.
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleFlusso}
+    \centering
+    \caption{Flusso dei visitatori sul sito \url{www.vecchiaposta.it}}%
+    \label{fig:googleFlusso}%
+  \end{figure}
+  \par I due screenshot successivi (fig.\ref{fig:googleAnalyticsPaesi} e fig.\ref{fig:googleAnalyticsBrowser}) mostrano i dati statici che riguardano i paesi di provenenzia
+  delle visite e dei browser maggiormanete utilizzati. Sono dati utili per lo sviluppo del nuovo sito, sia per le versioni in lingua straniera sia per verificare
+  la completa compatibilità con i vari browser sul mercato.
   \begin{figure}[h!]%
     \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleAnalyticsPaesi}
     \centering
@@ -547,15 +557,26 @@
     \caption{Principali browser che accedono al sito}%
     \label{fig:googleAnalyticsBrowser}%
   \end{figure}
-   \begin{figure}[h!]%
-    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleFlusso}
+  \par In questa ultima immagine, fig.\ref{fig:googleTecnologia}, si porta in evidenza come sia importante rendere il sito maggiormanete usabile da \textit{dispositivi mobile} (tablet, smartphone,
+  padfone). 
+  \\Infatti dall'analisi dei dati statistici e dalla proiezione dei dati, funzionalità offerta dal servizio di Google Analitycs, si nota come sono in costante 
+  aumento le visite tramite l'utilizzo di questi dispositivi.
+  \begin{figure}[h!]%
+    \includegraphics[width=0.80\textwidth,keepaspectratio=true]{img/googleTecnologia}
     \centering
-    \caption{Flusso dei visitatori sul sito \url{www.vecchiaposta.it}}%
-    \label{fig:googleFlusso}%
+    \caption{Visite per tipologia di device}%
+    \label{fig:googleTecnologia}%
   \end{figure}
   
 \newpage
 \section{Appendice C}
+In questa sezione del documento verranno riportati i principali casi d'uso riscontrati nella prima fase di analisi.
+\\Il primo caso d'uso analizzato è quello che vede l'amministratore come utente principale ed è nella fase di dover aggiornare le informazioni presenti nel sito internet.
+  \input{uc1}
+Il secondo ed ultimo caso d'uso preso in esame è quello che vede il cliente alle prese con una richiesta di prenotazione.
+  \input{uc5}
+\par I due casi d'uso mostrati precedentemente risultano essere i casi d'uso più comuni e di maggiore rilevanza per quanto riguarda questo documento. Gli altri casi d'uso 
+elencati precedentemente risultano essere meno significativi e più banali di quelli dettagliati.
 
 \section{Appendice D}
 Gli screenshot riportati sono stati prelevati dal risultato ottenuto dall'analisi effettuata tramite il servizio offerto dal sito \url{http://colorfilter.wickline.org/}. 
