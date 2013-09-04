@@ -1,0 +1,12 @@
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Piano di qualit\IeC {\`a}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Analisi dei rischi}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Organizzazione del gruppo di progetto}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Responsabile del committente}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Piano di progetto}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Controlli di avanzamento e rapporti}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Documentazione prevista}{3}{section.1.6}
+\contentsline {section}{\numberline {1.7}Verifiche e convalide}{3}{section.1.7}
+\contentsline {section}{\numberline {1.8}Consegna finale e pubblicazione del sito}{3}{section.1.8}
+\contentsline {section}{\numberline {1.9}Ambiente di sviluppo}{4}{section.1.9}
+\contentsline {section}{\numberline {1.10}Gestione della configurazione}{4}{section.1.10}
