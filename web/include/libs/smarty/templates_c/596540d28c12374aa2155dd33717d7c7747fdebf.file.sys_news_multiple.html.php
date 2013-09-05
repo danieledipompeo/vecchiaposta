@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-09 17:01:40
+<?php /* Smarty version Smarty-3.1.13, created on 2013-09-04 19:20:11
          compiled from "skins/theme/dtml/it/multiple/sys_news_multiple.html" */ ?>
 <?php /*%%SmartyHeaderCode:12476218652050454598ac4-79261421%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '596540d28c12374aa2155dd33717d7c7747fdebf' => 
     array (
       0 => 'skins/theme/dtml/it/multiple/sys_news_multiple.html',
-      1 => 1375710115,
+      1 => 1378300435,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_520504545e5a90_93094146',
   'variables' => 
   array (
     'instances' => 0,
     'instance' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_520504545e5a90_93094146',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_520504545e5a90_93094146')) {function content_520504545e5a90_93094146($_smarty_tpl) {?><div id="liveReport">
 	<!-- MODIFICA QUESTE LINEE-->

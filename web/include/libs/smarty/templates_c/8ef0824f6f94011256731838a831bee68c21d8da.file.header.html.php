@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-30 12:10:47
+<?php /* Smarty version Smarty-3.1.13, created on 2013-09-04 19:26:19
          compiled from "skins/theme/dtml/it/header.html" */ ?>
 <?php /*%%SmartyHeaderCode:5426164365205045469b072-95420365%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8ef0824f6f94011256731838a831bee68c21d8da' => 
     array (
       0 => 'skins/theme/dtml/it/header.html',
-      1 => 1377857367,
+      1 => 1378315574,
       2 => 'file',
     ),
   ),
@@ -66,8 +66,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <!-- BEGIN .title-wrapper -->
 <div id="title-wrapper">
     <h1>
-        <div class="title-dec-left"></div>
-        <a href="index.html"><img src="\skins\theme\img\logo.gif"></a>
-        <div class="title-dec-right">test</div></h1>
+        <div class="title-dec-left" style="display: none"></div>
+        <a href="index.html"><img src="\skins\theme\img\logo.png"></a>
+        <div class="title-dec-right" style="display: none">test</div></h1>
     <!-- END .title-wrapper -->
 </div><?php }} ?>

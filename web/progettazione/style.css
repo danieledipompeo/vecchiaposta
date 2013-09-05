@@ -1,0 +1,44 @@
+body{
+    width: 1200px;
+    margin: 5px auto 0 auto;
+}
+
+#socialBar{
+    background-color: red;
+    height: 40px;
+}
+
+#header{
+    background-color: indianred;
+    height: 143px;
+}
+
+#menuBar{
+    background-color: darkred;
+    height: 66px;
+}
+
+#slider{
+    background-color: mediumvioletred;
+    height: 420px;
+}
+
+#slogan{
+    background-color: orangered;
+    height: 112px;
+}
+
+#threeColumns{
+    background-color: palevioletred;
+    height: 374px;
+}
+
+#twoColumns{
+    background-color: orangered;
+    height: 208px;
+}
+
+#footer{
+    background-color: lightcoral;
+    height: 377px;
+}

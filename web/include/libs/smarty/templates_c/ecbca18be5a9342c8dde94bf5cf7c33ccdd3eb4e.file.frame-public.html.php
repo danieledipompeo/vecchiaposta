@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-09 17:01:40
+<?php /* Smarty version Smarty-3.1.13, created on 2013-09-04 19:20:11
          compiled from "skins/theme/dtml/it/frame-public.html" */ ?>
 <?php /*%%SmartyHeaderCode:1375675466520504546ff889-91633911%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ecbca18be5a9342c8dde94bf5cf7c33ccdd3eb4e' => 
     array (
       0 => 'skins/theme/dtml/it/frame-public.html',
-      1 => 1376056424,
+      1 => 1378300435,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_5205045471a722_71913301',
   'variables' => 
   array (
     'head' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'footer' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_5205045471a722_71913301',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5205045471a722_71913301')) {function content_5205045471a722_71913301($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if lt IE 7]> <html dir="ltr" lang="en-US" class="ie6"> <![endif]-->
