@@ -1,44 +1,211 @@
 body{
-    width: 1200px;
-    margin: 5px auto 0 auto;
+    background-color: #D8D8D8;
+    margin: 0px;
+}
+
+#wrapper-content{
+    width: 968px;
+    margin: 0 auto 0 auto;
 }
 
 #socialBar{
-    background-color: red;
+    background-color: #4B3B30;
     height: 40px;
 }
 
+#socialBar #left-social-bar{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+}
+
+#socialBar #left-social-bar .logo-social{
+    margin: 0 10px 0;
+}
+
+#socialBar #left-social-bar, #socialBar #right-social-bar, #socialBar #marker-map{
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+
+
+#socialBar #marker-map{
+    position: relative;
+    left: 60px;
+
+}
+
+#socialBar #right-social-bar{
+    float: right;
+    width: 40%;
+    text-align: right;
+    margin-right: 30px;
+}
+
 #header{
-    background-color: indianred;
+    background-color: #fff;
     height: 143px;
 }
 
+#logo{
+    float: left;
+    width: 50%;
+    font-size: 40px;
+    position: relative;
+    top: 25%;
+}
+
+#offerta{
+    float: right;
+    width: 40%;
+    border-left: 1px solid;
+    height: 100%;
+    padding-left: 10px;
+}
+
+#offerta #titolo-offerta{
+    display: block;
+    font-size: 20px;
+}
+
+#offerta #testo-offerta{
+    display: block;
+    font-size: 14px;
+}
+
 #menuBar{
-    background-color: darkred;
+    background-color: #4B3B30;
     height: 66px;
 }
 
-#slider{
-    background-color: mediumvioletred;
-    height: 420px;
+#menuBar >div{
+    position: relative;
+    top: 24px;
+}
+
+#menuBar ul{
+    list-style: none;
+    display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#menuBar li{
+    text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+    line-height: 1;
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+    border-right: 1px solid;
+    color: #fff;
+}
+
+#menuBar #contact{
+    float: right;
+}
+
+#wrapper-slider{
+    background: #f5f5f5;
+    position: relative;
+}
+
+#wrapper-slider #slider{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    min-height: 420px;
+}
+
+#wrapper-slider #booknow{
+    width: 235px;
+    height: 110px;
+    position: absolute;
+    bottom: 30px;
+    left: -20px;
+    z-index: 101;
+    padding: 20px;
+    background-color: #4B3B30;
+    color: #fff;
 }
 
 #slogan{
-    background-color: orangered;
+    background-color:  #fff;
     height: 112px;
 }
 
+hr{
+    border: none;
+    background: #e4e4e4;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+}
+
 #threeColumns{
-    background-color: palevioletred;
+    background-color:  #fff;
     height: 374px;
 }
 
+#threeColumns > div {
+    width: 33%;
+    float: left;
+    border-right: #e4e4e4 1px solid;
+    text-align: center;
+    height: 100%;
+}
+
 #twoColumns{
-    background-color: orangered;
+    background-color:  #fff;
     height: 208px;
 }
 
+#twoColumns > div {
+    width: 49%;
+    float: left;
+    border-right: #e4e4e4 1px solid;;
+    text-align: center;
+    height: 100%;
+}
+
 #footer{
-    background-color: lightcoral;
-    height: 377px;
+    background-color: #4B3B30;;
+    color: #fff;
+}
+
+#footer #main-footer{
+    height: 285px;
+}
+
+#footer #main-footer #first-footer-column{
+    float: left;
+    width: 45%;
+    text-align: center;
+    border-right: #e4e4e4 1px solid;
+    height: 100%;
+}
+
+#footer #main-footer #second-footer-column{
+    float: left;
+    width: 29%;
+    text-align: center;
+    border-right: #e4e4e4 1px solid;
+    height: 100%;
+}
+
+#footer #main-footer #third-footer-column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-right: #e4e4e4 1px solid;
+    height: 100%;
+}
+
+#footer #second-footer{
+    height: 52px;
+    background-color: #311807;
 }
