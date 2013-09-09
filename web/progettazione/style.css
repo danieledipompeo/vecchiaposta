@@ -3,6 +3,17 @@ body{
     margin: 0px;
 }
 
+.clearfix{clear: both; zoom:1;height: 0;}
+
+a{
+    text-decoration: none;
+
+}
+
+a:visited{
+    color:  inherit;
+}
+
 #wrapper-content{
     width: 968px;
     margin: 0 auto 0 auto;
@@ -146,6 +157,19 @@ hr{
     margin: 0;
 }
 
+.twoColumns{
+    background-color:  #fff;
+    height: 374px;
+}
+
+.twoColumns > div{
+    width: 48%;
+    float: left;
+    border-right: #e4e4e4 1px solid;
+    text-align: center;
+    height: 100%;
+}
+
 #threeColumns{
     background-color:  #fff;
     height: 374px;
@@ -208,4 +232,79 @@ hr{
 #footer #second-footer{
     height: 52px;
     background-color: #311807;
+}
+
+.page-header{
+    height: 145px;
+    overflow: hidden;
+    background-color: #fff;
+    opacity: 0.4;
+
+}
+
+.page-full{
+    background-color: #fff;
+}
+
+.page-full h2{
+    margin: 0px;
+}
+
+.block-img1{
+    height: 180px;
+    width: 200px;
+    margin: 0 auto 0 auto;
+}
+
+.block-img1 > a{
+    height: 180px;
+}
+
+#slides1{
+    width: 450px;
+    height: 324px;
+    background-color: #d3d3d3;
+    opacity: 0.4;
+    margin: 0 0 30px 10px;
+}
+
+#testo-camera{
+    height: 105px;
+    background-color: #d3d3d3;
+    opacity: 0.4;
+}
+
+#book-camera{
+    width: 450px;
+    height: 154px;
+    background-color: #4B3B30;
+    color: #fff;
+    margin: 0 auto 0 auto;
+    border-bottom: 6px solid #4B3B30;
+}
+
+.booknow-accompage .book-price {
+    width: 151px;
+    height: 109px;
+    float: left;
+}
+
+.booking-form-accompage {
+    width: 240px;
+    float: right;
+}
+
+.last-col{
+    border: none!important;
+}
+
+h3{
+    margin: 0px;
+    background-color: #fff;
+}
+
+.one-third{
+    width: 33%;
+    float: left;
+    background-color: #fff;
 }

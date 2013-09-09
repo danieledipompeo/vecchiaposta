@@ -5,8 +5,10 @@
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378315574543" ignored="false" />
-    <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378460165776" ignored="false" />
-    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378460266833" ignored="false" />
+    <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378712650875" ignored="false" />
+    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378721098077" ignored="false" />
+    <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
+    <file path="/gabbiaLogicaCamera.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720701309" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +72,36 @@
       <file leaf-file-name="gabbiaLogica.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="26" selection-start="2320" selection-end="2320" vertical-scroll-proportion="-30.875">
+            <state line="56" column="28" selection-start="1766" selection-end="1789" vertical-scroll-proportion="-18.125">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gabbiaLogicaCamere.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="48" selection-start="2576" selection-end="2576" vertical-scroll-proportion="-19.875">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gabbiaLogicaCamera.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.0">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +110,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/progettazione/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="65" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.54385966">
+            <state line="303" column="56" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.78313255">
               <folding />
             </state>
           </provider>
@@ -103,6 +130,8 @@
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
         <option value="$PROJECT_DIR$/gabbiaLogica.html" />
         <option value="$PROJECT_DIR$/progettazione/gabbiaLogica.html" />
+        <option value="$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html" />
+        <option value="$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html" />
         <option value="$PROJECT_DIR$/progettazione/style.css" />
       </list>
     </option>
@@ -323,7 +352,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="2" width="1280" height="1022" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -338,11 +367,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20016207" sideWeight="0.9750284" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988655" sideWeight="0.9750284" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -413,16 +442,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/frame-public.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="58" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -485,18 +504,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="26" selection-start="2320" selection-end="2320" vertical-scroll-proportion="-30.875">
+        <state line="56" column="28" selection-start="1766" selection-end="1789" vertical-scroll-proportion="-18.125">
           <folding>
             <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="48" selection-start="2576" selection-end="2576" vertical-scroll-proportion="-19.875">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.0">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progettazione/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="65" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.54385966">
+        <state line="303" column="56" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.78313255">
           <folding />
         </state>
       </provider>

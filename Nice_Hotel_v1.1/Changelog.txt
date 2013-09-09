@@ -1,0 +1,5 @@
+= V1.0 - 07.07.2012 =
+* Initial Release
+
+= V1.1 - 17.10.2012 =
+* Fixed Google Maps bug on contact page in IE9
