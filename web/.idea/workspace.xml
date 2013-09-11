@@ -5,10 +5,17 @@
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378315574543" ignored="false" />
-    <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378712650875" ignored="false" />
-    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378721098077" ignored="false" />
+    <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806843096" ignored="false" />
+    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378816162289" ignored="false" />
     <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
     <file path="/gabbiaLogicaCamera.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720701309" ignored="false" />
+    <file path="/navCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806378691" ignored="false" />
+    <file path="/navCamera.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806407368" ignored="false" />
+    <file path="/navAttivita.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806351813" ignored="false" />
+    <file path="/navAttivitaSingola.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806364926" ignored="false" />
+    <file path="/navEvento.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378813572124" ignored="false" />
+    <file path="/navEventi.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378815100813" ignored="false" />
+    <file path="/navEventoSagre.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378816087756" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,40 +76,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gabbiaLogica.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogica.html">
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="28" selection-start="1766" selection-end="1789" vertical-scroll-proportion="-18.125">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="-5.2040815">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gabbiaLogicaCamere.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html">
+      <file leaf-file-name="navEventi.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/navEventi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="48" selection-start="2576" selection-end="2576" vertical-scroll-proportion="-19.875">
+            <state line="125" column="55" selection-start="5562" selection-end="5562" vertical-scroll-proportion="-8.5">
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gabbiaLogicaCamera.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html">
+      <file leaf-file-name="navEventoSagre.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/navEventoSagre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.0">
+            <state line="171" column="41" selection-start="6464" selection-end="6464" vertical-scroll-proportion="-23.625">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navEvento.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/navEvento.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="42" selection-start="0" selection-end="7740" vertical-scroll-proportion="-6.102041">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navCamere.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/navCamere.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="44" selection-start="6455" selection-end="6455" vertical-scroll-proportion="-3.4166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navCamera.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progettazione/navCamera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="34" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +140,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/progettazione/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="303" column="56" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.78313255">
+            <state line="440" column="24" selection-start="7119" selection-end="7119" vertical-scroll-proportion="0.67445743">
               <folding />
             </state>
           </provider>
@@ -129,19 +159,27 @@
         <option value="$PROJECT_DIR$/skins/theme/css/colours/green-brown.css" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
         <option value="$PROJECT_DIR$/gabbiaLogica.html" />
-        <option value="$PROJECT_DIR$/progettazione/gabbiaLogica.html" />
         <option value="$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html" />
         <option value="$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html" />
+        <option value="$PROJECT_DIR$/progettazione/gabbiaLogica.html" />
+        <option value="$PROJECT_DIR$/progettazione/navAttivita.html" />
+        <option value="$PROJECT_DIR$/progettazione/navAttivitaSingola.html" />
+        <option value="$PROJECT_DIR$/progettazione/navCamere.html" />
+        <option value="$PROJECT_DIR$/progettazione/navCamera.html" />
+        <option value="$PROJECT_DIR$/progettazione/nav.html" />
+        <option value="$PROJECT_DIR$/progettazione/navEvento.html" />
+        <option value="$PROJECT_DIR$/progettazione/navEventi.html" />
+        <option value="$PROJECT_DIR$/progettazione/navEventoSagre.html" />
         <option value="$PROJECT_DIR$/progettazione/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="y" value="2" />
-    <option name="width" value="1280" />
-    <option name="height" value="1022" />
+    <option name="x" value="49" />
+    <option name="y" value="34" />
+    <option name="width" value="1317" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,7 +209,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,6 +243,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -351,11 +389,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="2" width="1280" height="1022" extended-state="6" />
+    <frame x="49" y="34" width="1317" height="766" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -371,7 +409,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988655" sideWeight="0.9750284" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20377655" sideWeight="0.9750284" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -413,7 +451,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -442,21 +480,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/frame-public.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="65" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" />
@@ -502,41 +525,58 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogica.html">
+    <entry file="file://$PROJECT_DIR$/progettazione/navCamera.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="28" selection-start="1766" selection-end="1789" vertical-scroll-proportion="-18.125">
+        <state line="41" column="34" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progettazione/navCamere.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="44" selection-start="6455" selection-end="6455" vertical-scroll-proportion="-3.4166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progettazione/navEvento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="42" selection-start="0" selection-end="7740" vertical-scroll-proportion="-6.102041">
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamere.html">
+    <entry file="file://$PROJECT_DIR$/progettazione/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="48" selection-start="2576" selection-end="2576" vertical-scroll-proportion="-19.875">
+        <state line="17" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="-5.2040815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progettazione/navEventi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="55" selection-start="5562" selection-end="5562" vertical-scroll-proportion="-8.5">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progettazione/gabbiaLogicaCamera.html">
+    <entry file="file://$PROJECT_DIR$/progettazione/navEventoSagre.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.0">
+        <state line="171" column="41" selection-start="6464" selection-end="6464" vertical-scroll-proportion="-23.625">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progettazione/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="56" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.78313255">
+        <state line="440" column="24" selection-start="7119" selection-end="7119" vertical-scroll-proportion="0.67445743">
           <folding />
         </state>
       </provider>
