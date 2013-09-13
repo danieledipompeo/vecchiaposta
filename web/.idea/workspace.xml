@@ -4,7 +4,7 @@
     <list default="true" id="79e42fad-fc6f-4c34-854c-4e8425552d51" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378971778283" ignored="false" />
+    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379079951718" ignored="false" />
     <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806843096" ignored="false" />
     <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378994737911" ignored="false" />
     <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
@@ -21,22 +21,22 @@
     <file path="/navDoveSiamo.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378889602497" ignored="false" />
     <file path="/admin-image-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378971389321" ignored="false" />
     <file path="/ImageForm.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378971062631" ignored="false" />
-    <file path="/footer.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378999772392" ignored="false" />
+    <file path="/footer.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379087772422" ignored="false" />
     <file path="/nav.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378990767680" ignored="false" />
     <file path="/slider_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379062575689" ignored="false" />
     <file path="/frame-private-head.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378997081008" ignored="false" />
-    <file path="/menu_admin.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378999051384" ignored="false" />
-    <file path="/InitGraphic.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379061805254" ignored="false" />
-    <file path="$PROJECT_DIR$/include/libs/smarty/templates_c/b55987e2af00644d159d782c18523fadb42483f0.file.menu_admin.html.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378998211200" ignored="false" />
+    <file path="/menu_admin.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379084923597" ignored="false" />
+    <file path="/InitGraphic.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379079869138" ignored="false" />
+    <file path="$PROJECT_DIR$/include/libs/smarty/templates_c/b55987e2af00644d159d782c18523fadb42483f0.file.menu_admin.html.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379084876150" ignored="false" />
     <file path="/sys_user_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379001397758" ignored="false" />
-    <file path="/Form.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379003766215" ignored="false" />
+    <file path="/Form.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379087385303" ignored="false" />
     <file path="/sys_group_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379001386333" ignored="false" />
     <file path="/sys_news_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379001380220" ignored="false" />
     <file path="/sys_page_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379063040199" ignored="false" />
-    <file path="/layout.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379003379253" ignored="false" />
+    <file path="/layout.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379087508212" ignored="false" />
     <file path="/TextField.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379003346461" ignored="false" />
     <file path="/EditorField.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379003394369" ignored="false" />
-    <file path="/form.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379004083520" ignored="false" />
+    <file path="/form.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379085806947" ignored="false" />
     <file path="/frame-private.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379004444812" ignored="false" />
     <file path="/admin-slider-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379006550623" ignored="false" />
     <file path="/relationImageSlider.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379005428453" ignored="false" />
@@ -106,91 +106,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sys_log_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_log_report.html">
+      <file leaf-file-name="InitGraphic.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/view/template/InitGraphic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="88" column="20" selection-start="2852" selection-end="2852" vertical-scroll-proportion="3.4166667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_menu_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_menu_report.html">
+      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="929" selection-end="929" vertical-scroll-proportion="-4.75">
+            <state line="19" column="10" selection-start="641" selection-end="641" vertical-scroll-proportion="0.49222797">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_news_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_news_report.html">
+      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="401" selection-end="401" vertical-scroll-proportion="-0.625">
+            <state line="7" column="23" selection-start="172" selection-end="172" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_page_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_page_report.html">
+      <file leaf-file-name="PasswordField.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/PasswordField.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-13.75">
+            <state line="5" column="9" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_section_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_section_report.html">
+      <file leaf-file-name="Form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/control/form/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="818" column="16" selection-start="20891" selection-end="20891" vertical-scroll-proportion="-10.428572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_service_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_service_report.html">
+      <file leaf-file-name="TextField.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/TextField.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="31" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-11.375">
+            <state line="9" column="25" selection-start="474" selection-end="474" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_service_sys_group_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_service_sys_group_report.html">
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="607" column="0" selection-start="11217" selection-end="11243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_servicecategory_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_servicecategory_report.html">
+      <file leaf-file-name="menu_admin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/menu_admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="823" selection-end="823" vertical-scroll-proportion="-7.5">
+            <state line="42" column="57" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-9.75">
+              <folding>
+                <element signature="n#style#0;n#aside#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="42" selection-start="326" selection-end="326" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_user_report.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_user_report.html">
+      <file leaf-file-name="RelationManager.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/RelationManager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="402" selection-end="402" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sys_user_sys_group_report.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_user_sys_group_report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -206,22 +208,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entitySlider.php" />
-        <option value="$PROJECT_DIR$/contents/system/entities/core.php" />
-        <option value="$PROJECT_DIR$/contents/system/entities/entityImage.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/relationImageSlider.php" />
-        <option value="$PROJECT_DIR$/admin-slider-manager.php" />
-        <option value="$PROJECT_DIR$/include/view/template/InitGraphic.php" />
-        <option value="$PROJECT_DIR$/include/settings.inc.php" />
-        <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_news_report.html" />
-        <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_user_report.html" />
-        <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_service_report.html" />
-        <option value="$PROJECT_DIR$/skins/system/dtml/it/report/slider_report.html" />
-        <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_group_report.html" />
         <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_image_report.html" />
         <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_menu_report.html" />
         <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_page_report.html" />
         <option value="$PROJECT_DIR$/skins/system/dtml/it/report/sys_servicecategory_report.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/frame-private-head.html" />
+        <option value="$PROJECT_DIR$/include/view/template/InitGraphic.php" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/header.html" />
+        <option value="$PROJECT_DIR$/include/settings.inc.php" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/menu_admin.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/widget/TextField.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/widget/PasswordField.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/form.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/widget/RelationManager.html" />
+        <option value="$PROJECT_DIR$/include/control/form/Form.php" />
+        <option value="$PROJECT_DIR$/skins/system/css/layout.css" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/footer.html" />
       </list>
     </option>
   </component>
@@ -260,7 +262,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,58 +360,6 @@
               <option name="myItemId" value="dtml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -435,13 +385,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="contents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,8 +424,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -484,6 +452,19 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -514,19 +495,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -540,13 +508,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -568,6 +529,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -611,6 +579,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,7 +598,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -695,114 +663,118 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin-slider-manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="34" selection-start="789" selection-end="789" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/slider_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-18.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_entities_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_file_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_group_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_image_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="45" selection-start="1314" selection-end="1314" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_log_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_menu_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="929" selection-end="929" vertical-scroll-proportion="-4.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_news_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="401" selection-end="401" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_page_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_section_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_service_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-11.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_service_sys_group_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_servicecategory_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="823" selection-end="823" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_user_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="402" selection-end="402" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/report/sys_user_sys_group_report.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4770318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="716" selection-end="716" vertical-scroll-proportion="0.38330495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/frame-private-head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="394" selection-end="394" vertical-scroll-proportion="-0.8943782">
+          <folding>
+            <marker date="1379077392585" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/settings.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="43" selection-start="246" selection-end="246" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="172" selection-end="172" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/RelationManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/TextField.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="474" selection-end="474" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/widget/PasswordField.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/control/form/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="818" column="16" selection-start="20891" selection-end="20891" vertical-scroll-proportion="-10.428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="607" column="0" selection-start="11217" selection-end="11243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/menu_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="57" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-9.75">
+          <folding>
+            <element signature="n#style#0;n#aside#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="326" selection-end="326" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/view/template/InitGraphic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="20" selection-start="2852" selection-end="2852" vertical-scroll-proportion="3.4166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="641" selection-end="641" vertical-scroll-proportion="0.49222797">
           <folding />
         </state>
       </provider>

@@ -7,56 +7,53 @@
         <h3>{$category->name} <a href="#" class="toggleLink">Hide</a></h3>
         <ul class="toggle">
             {foreach from=$category->sys_service item=service}
-            <li>
-                <a href="{$service->script}?action=report">{$service->entry} </a>
-            </li>
+
+            {if $service->name == 'User Management'}
+                <li class="icn_view_users">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'News'}
+                <li class="icn_new_article">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Image'}
+                <li class="icn_photo">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Menu Management'}
+                <li class="icn_categories">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'slider'}
+                <li class="icn_slider">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Group Management'}
+                <li class="icn_folder">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Page Management'}
+                <li class="icn_page">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Service Management'}
+                <li class="icn_settings">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else if $service->name == 'Service Category Management'}
+                <li class="icn_settings">
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {else}
+                <li>
+                    <a href="{$service->script}?action=report">{$service->entry} </a>
+                </li>
+            {/if}
             {/foreach}
-            <!--li class="icn_new_article"><a href="#">New Article</a></li>
-            <li class="icn_edit_article"><a href="#">Edit Articles</a></li>
-            <li class="icn_categories"><a href="#">Categories</a></li>
-            <li class="icn_tags"><a href="#">Tags</a></li-->
         </ul>
     {/foreach}
-    <!--
-    <h3>Users <a href="#" class="toggleLink">Hide</a></h3>
-    <ul class="toggle">
-        <li class="icn_add_user"><a href="#">Add New User</a></li>
-        <li class="icn_view_users"><a href="#">View Users</a></li>
-        <li class="icn_profile"><a href="#">Your Profile</a></li>
-    </ul>
-    <h3>Media <a href="#" class="toggleLink">Hide</a></h3>
-    <ul class="toggle">
-        <li class="icn_folder"><a href="#">File Manager</a></li>
-        <li class="icn_photo"><a href="#">Gallery</a></li>
-        <li class="icn_audio"><a href="#">Audio</a></li>
-        <li class="icn_video"><a href="#">Video</a></li>
-    </ul>
-    <h3>Admin <a href="#" class="toggleLink">Hide</a></h3>
-    <ul class="toggle">
-        <li class="icn_settings"><a href="#">Options</a></li>
-        <li class="icn_security"><a href="#">Security</a></li>
-        <li class="icn_jump_back"><a href="#">Logout</a></li>
-    </ul>    -->
-
     <footer>
         <hr />
             {$footer}
-        <!--hr>
-        <p><strong>Copyright © 2011 Website Admin</strong></p>
-        <p>Theme by <a href="http://www.medialoot.com">MediaLoot</a></p-->
     </footer>
 </aside>
-<!--div id="menu_admin">
-	<div id="sidemenu">
-	{foreach from=$instances item=category}
-		<h3> {$category->name}</h3>
-		<ul id="sub-menu">
-			{foreach from=$category->sys_service item=service}
-				<li>
-					<a href="{$service->script}?action=report">{$service->entry} </a>
-				</li>
-			{/foreach}
-		</ul>
-	{/foreach}
-	</div>
-</div-->

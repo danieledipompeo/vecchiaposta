@@ -773,6 +773,7 @@ function emitHTML($operation, $page, $preload) {
 					}
 
 					$closing .= '<input class="mr10" type="submit" value="'.$label.'" />';
+
 				} else {
 					if (!isset($this->labels[ADD])) {
 						$label = Message::getInstance()->getMessage(BUTTON_ADD);
@@ -781,6 +782,7 @@ function emitHTML($operation, $page, $preload) {
 					}
 
 					$closing .= '<input class="mr10" type="submit" value="'.$label.'" />';
+                    $closing .= '<input type="reset" value="Azzera i campi" />';
 				}
 				break;
 			case "edit":

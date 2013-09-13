@@ -88,6 +88,8 @@ class InitGraphic{
 
     public function createSystemGraphic($skin)
     {
+        $actualUser =  $_SESSION['user']['username'];
+
         $newsEntity = $GLOBALS['sys_news'];
         $pageEntity = $GLOBALS['sys_page'];
 
@@ -95,11 +97,12 @@ class InitGraphic{
         $servicesEntity = $GLOBALS['sys_service'];
         $servicesGroupsRelation = $GLOBALS['sys_service_sys_group'];
         $groupsEntity = $GLOBALS['sys_group'];
+        $userEntity = $GLOBALS['sys_user'];
         $usersGroupsRelation = $GLOBALS['sys_user_sys_group'];
         $menuTemplate = new Skinlet("menu_admin");
         $menu = new Content($servicecategoryEntity, $servicesEntity, $servicesGroupsRelation, $groupsEntity, $usersGroupsRelation);
         $menu->setOrderFields("position");
-        $menu->setFilter("username_sys_user", $_SESSION['user']['username']);
+        $menu->setFilter("username_sys_user", $actualUser);
 
         $footer = new Skinlet("footer");
         $menuTemplate->setContent("footer", $footer->get());
@@ -112,6 +115,10 @@ class InitGraphic{
 
         $skin->setContent("head", $head->get());
         $header = new Skinlet("header");
+        $loggedUser = new Content($userEntity);
+        $loggedUser->setFilter('username', $actualUser);
+        $loggedUser->forceSingle();
+        $loggedUser->apply($header);
 
         //$header->setContent("footer", footer->get());
         $skin->setContent("header", $header->get());
