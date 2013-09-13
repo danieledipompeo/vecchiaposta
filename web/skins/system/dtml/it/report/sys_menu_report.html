@@ -1,22 +1,46 @@
-<h1 class="inl_blk mb15 mt15">Menu Manager</h1>
-<a class="addLink" href="{$service_link}?action=emit" title="aggiungi un nuovo servizio">aggiungi</a>
-{if $instances != null || $instance != null}
-{foreach from=$instances item=instance}
-	<ul>
-		<li class="border_bm">
-			<h2>
-				{$instance->entry}
-			</h2>
-			<h6 class="inl_blk mr10">
-				<a href="{$service_link}?action=emit&preload=1&value={$instance->id}" title="modifica il servizio">Modifica</a>
-			</h6>
-			<h6 class="inl_blk mr10">
-				<a href="{$service_link}?action=delete&value={$instance->id}" title="cancellazione rapida">Rimuovi</a>
-			</h6>
-		</li>
-	</ul>
-{/foreach}
-{else}
-	<h1>NON CI SONO menu</h1>
-{/if}
+<article class="module width_full">
+    <header><h3 class="tabs_involved">Content Manager</h3>
+        <ul class="tabs">
+            <li class="active"><a href="#tab1">Service</a></li>
+            <li>
+                <a href="{$service_link}?action=emit">
+                    <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
+                </a>
+            </li>
+        </ul>
+    </header>
+    {if $instances != null || $instance != null}
+    <div class="tab_container">
+        <div id="tab1" class="tab_content" style="display: block;">
+            <table class="tablesorter" cellspacing="0">
+                <thead>
+                <tr>
+                    <th class="header"></th>
+                    <th class="header">Entry Name</th>
+                    <th class="header">Padre</th>
+                    <th class="header">Page Linked</th>
+                    <th class="header">Azione</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach from=$instances item=instance}
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>{$instance->entry}</td>
+                    <td>{$instance->parent->entry}</td>
+                    <td>{$instance->linked_page->title}</td>
+                    <td>
+                        <input type="image" src="skins/system/images/icn_edit.png" title="Modifica">
+                        <input type="image" src="skins/system/images/icn_trash.png" title="Rimuovi">
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+        </div><!-- end of #tab1 -->
 
+    </div><!-- end of .tab_container -->
+</article>
+{else}
+<h1>NON CI SONO servizi</h1>
+{/if}

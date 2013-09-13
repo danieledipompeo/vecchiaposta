@@ -11,7 +11,7 @@ $main = new Skin("system");
 
 InitGraphic::getInstance()->createSystemGraphic($main);
 
-$form = new Form("dataEntry",$sliderEntity);
+$form = new Form("dataEntry", $sliderEntity);
 
 $form->addTitleForm("Slider Management");
 $form->addSection('slider details');
@@ -19,6 +19,10 @@ $form->addText("titolo", "Titolo", 40, MANDATORY);
 $form->addText("descrizione", "Descrizione", 40);
 $form->addText("width", "Largezza", 40, MANDATORY);
 $form->addText("height", "Altezza",40);
+
+$relationForm = new RelationForm("dataEntry3", $imageSliderRelation);
+$relationForm->addRelationManager("id_sys_image", "Immagine");
+$form->triggers($relationForm);
 
 $main->setContent("body", $form->requestAction());
 

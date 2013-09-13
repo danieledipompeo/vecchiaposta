@@ -1,29 +1,44 @@
-<a class="addLink tooltip" href="{$service_link}?action=emit" title="aggiungi una nuova news">aggiungi</a>
-{if $instances != null || $instance != null}
-<ul>
-    {foreach from=$instances item=instance}
-    <li class="border_bm">
-        <h2>
-            {$instance->titolo}
-        </h2>
-			<span>
-				<h6 class="inl_blk">
-                    <a class="tooltip" href="{$service_link}?action=emit&value={$instance->id}&preload=1" title="modifica {$instance->name}">Modifica</a>
-                </h6>
-			</span>
-			<span>
-				<h6 class="inl_blk ml10">
-                    <a class="tooltip" href="{$service_link}?action=delete&value={$instance->id}&preload=1" title="elimina {$instance->name}">Rimuovi</a>
-                </h6>
-			</span>
-    </li>
-    {/foreach}
-</ul>
+<article class="module width_full">
+    <header><h3 class="tabs_involved">Content Manager</h3>
+        <ul class="tabs">
+            <li class="active"><a href="#tab1">Service</a></li>
+            <li>
+                <a href="{$service_link}?action=emit">
+                    <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
+                </a>
+            </li>
+        </ul>
+    </header>
+    {if $instances != null || $instance != null}
+    <div class="tab_container">
+        <div id="tab1" class="tab_content" style="display: block;">
+            <table class="tablesorter" cellspacing="0">
+                <thead>
+                <tr>
+                    <th class="header"></th>
+                    <th class="header">Titolo</th>
+                    <th class="header">Effetto</th>
+                    <th class="header">&nbsp;</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach from=$instances item=instance}
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>{$instance->titolo}</td>
+                    <td>{$instance->effetto}</td>
+                    <td>
+                        <input type="image" src="skins/system/images/icn_edit.png" title="Modifica">
+                        <input type="image" src="skins/system/images/icn_trash.png" title="Rimuovi">
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+        </div><!-- end of #tab1 -->
+
+    </div><!-- end of .tab_container -->
+</article>
 {else}
 <h1>NON CI SONO slider</h1>
 {/if}
-
-<!-- MODIFICA QUESTA LINEA-->
-
-</div>
-

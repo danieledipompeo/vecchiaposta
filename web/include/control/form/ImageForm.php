@@ -66,7 +66,9 @@ class ImageForm extends Form
 
 	public function add($entity=null)
 	{
-		$baseEntityPrimaryKeyName=$entity->fields[0]->name;
+        var_dump($entity->fields[0]->name);
+
+		$baseEntityPrimaryKeyName = $entity->fields[0]->name;
 		$baseEntityPrimaryKeyValue=$_REQUEST[$entity->fields[0]->name];
 		$where_conditions=array($entity->fields[0]->name => $baseEntityPrimaryKeyValue);
 		

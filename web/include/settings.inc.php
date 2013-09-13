@@ -6,7 +6,7 @@ class Settings
 	private static $config_path="contents";
 	
 	//Enhanches performances if disabled, disable after debugging
-	private static  $modmode=true;
+	private static  $modmode=false;
 	
 	private static $operative_mode="release";
 	

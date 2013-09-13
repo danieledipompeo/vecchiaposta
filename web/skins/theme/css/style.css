@@ -200,7 +200,7 @@ a {
 	padding: 10px 20px 10px 20px;
 	color: #fff;
 	height: 20px;
-	margin: 0 0 50px 0;
+	margin: 0 0 30px 0;
 }
 
 .top-bar a {
@@ -261,7 +261,7 @@ a {
 	position: relative;
 	display: table;
 	max-width: 350px;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 20px auto;
 }
 
 #title-wrapper h1 {
@@ -2134,6 +2134,25 @@ span.zoom-wrapper span.zoom {
 
 
 /*MIO*/
+
+#title-wrapper{
+    width: 960px;
+}
+
+#title-wrapper #logo, #title-wrapper #last-offert{
+    float: left;
+}
+
+#title-wrapper #logo{
+    width: 50%;
+    margin-left: 50px;
+}
+
+#title-wrapper #last-offert{
+    width: 40%;
+}
+
+
 /*
 #CDSWIDWRL {
     font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;

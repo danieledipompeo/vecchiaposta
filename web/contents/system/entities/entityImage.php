@@ -1,6 +1,5 @@
 <?php
 
-require_once(realpath(dirname(__FILE__)).'/entitySlider.php');
 
 class EntityImage extends EntityFile
 {
@@ -17,4 +16,4 @@ class EntityImage extends EntityFile
 }
 
 $imageEntity = new EntityImage($database,"sys_image");
-$imageEntity->addReference($sliderEntity, 'slider');
+//$imageEntity->addReference($sliderEntity, 'slider');

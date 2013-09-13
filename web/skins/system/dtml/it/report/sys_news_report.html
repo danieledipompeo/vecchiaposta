@@ -1,4 +1,51 @@
- <h1 class="inl_blk mb15 mt15">News Manager</h1>
+<article class="module width_3_quarter">
+    <header><h3 class="tabs_involved">Content Manager</h3>
+        <ul class="tabs">
+            <li class="active"><a href="#tab1">News</a></li>
+            <li>
+                <a href="{$service_link}?action=emit">
+                    <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
+                </a>
+            </li>
+        </ul>
+    </header>
+    {if $instances != null || $instance != null}
+    <div class="tab_container">
+        <div id="tab1" class="tab_content" style="display: block;">
+            <table class="tablesorter" cellspacing="0">
+                <thead>
+                <tr>
+                    <th class="header"></th>
+                    <th class="header">Titolo</th>
+                    <th class="header">Autore</th>
+                    <th class="header">Data</th>
+                    <th class="header">Azione</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach from=$instances item=instance}
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>{$instance->title}</td>
+                    <td>{$instance->owner}</td>
+                    <td>{$instance->date}</td>
+                    <td>
+                        <input type="image" src="skins/system/images/icn_edit.png" title="Modifica">
+                        <input type="image" src="skins/system/images/icn_trash.png" title="Rimuovi">
+                    </td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+        </div><!-- end of #tab1 -->
+
+    </div><!-- end of .tab_container -->
+    {else}
+    <h1>NON CI SONO {$instance->name}</h1>
+    {/if}
+</article>
+
+<!-- <h1 class="inl_blk mb15 mt15">News Manager</h1>
  <a class="addLink tooltip" href="{$service_link}?action=emit" title="aggiungi una nuova news">aggiungi</a>
 {if $instances != null || $instance != null}
 <ul>
@@ -22,4 +69,4 @@
 </ul>
 {else}
 <h1>NON CI SONO news</h1>
-{/if}
+{/if}          -->

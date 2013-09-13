@@ -11,14 +11,14 @@ $main = new Skin("system");
 
 InitGraphic::getInstance()->createSystemGraphic($main);
 
-$form = new Form("dataEntry",$imageEntity);
+$form = new ImageForm("dataEntry",$imageEntity);
 
 $form->addTitleForm("Image Management");
 $form->addSection('image details');
-$form->addImage("filename", "Titolo");
+$form->addImage("filename", "Titolo",'off',$imageEntity);
 $form->addText('test', 'titolo');
 
-$form->addSelectFromReference($sliderEntity, 'slider', 'slider');
+//$form->addSelectFromReference($sliderEntity, 'slider', 'slider');
 
 $main->setContent("body", $form->requestAction());
 

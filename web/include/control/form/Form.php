@@ -127,7 +127,7 @@ Class Form extends Skinlet{
 
 		if(!empty($reportAsString))
 		{
-			$content = "<div id=\"becontent\">\n\n".$reportAsString."\n</div>\n";
+			$content = '<section id="main" class="column" >'.$reportAsString.'</section>';
 		}
 		else
 		{
@@ -735,11 +735,11 @@ function emitHTML($operation, $page, $preload) {
 	*/
 	foreach($this->elements as $k => $v) {
 
-		$content .= '<div class="mt15 mb15">';
+		$content .= '';
 			
 		$content .= $v->build($preload);
 			
-		$content .= '</div>';
+		$content .= '';
 	}
 
 	/**

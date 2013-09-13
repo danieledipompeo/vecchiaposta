@@ -100,13 +100,20 @@ class InitGraphic{
         $menu = new Content($servicecategoryEntity, $servicesEntity, $servicesGroupsRelation, $groupsEntity, $usersGroupsRelation);
         $menu->setOrderFields("position");
         $menu->setFilter("username_sys_user", $_SESSION['user']['username']);
+
+        $footer = new Skinlet("footer");
+        $menuTemplate->setContent("footer", $footer->get());
+
         $menu->apply($menuTemplate);
+
         $head = new Skinlet("frame-private-head");
 
         $skin->setContent("menu", $menuTemplate->get());
 
         $skin->setContent("head", $head->get());
         $header = new Skinlet("header");
+
+        //$header->setContent("footer", footer->get());
         $skin->setContent("header", $header->get());
 
         /*$sitemap = new Skinlet("sitemap");
@@ -123,8 +130,6 @@ class InitGraphic{
 
         $skin->setContent("sitemap", $sitemap->get());
         */
-        $footer = new Skinlet("footer");
-        $skin->setContent("footer", $footer->get());
     }
 
 }
