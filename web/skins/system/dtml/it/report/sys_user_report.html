@@ -1,13 +1,11 @@
 <article class="module width_3_quarter">
     <header><h3 class="tabs_involved">Content Manager</h3>
         <ul class="tabs">
-            <li class="active"><a href="#tab1">Users</a></li>
-            <li>
-                <a href="{$service_link}?action=emit">
-                    <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
-                </a>
-            </li>
+            <li class="active">Users</li>
         </ul>
+        <a class="service-link" href="{$service_link}?action=emit">
+            <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
+        </a>
     </header>
     {if $instances != null || $instance != null}
     <div class="tab_container">
@@ -40,32 +38,9 @@
         </div><!-- end of #tab1 -->
 
     </div><!-- end of .tab_container -->
-
+    {else}
+    <h1>NON CI SONO {$instance->name}</h1>
+    {/if}
 </article>
 
-<!--
- <h1 class="inl_blk mb15 mt15">Users Manager</h1>
- <a class="addLink tooltip" href="{$service_link}?action=emit" title="aggiungi una nuova news">aggiungi</a>
 
-<ul>
-	{foreach from=$instances item=instance}
-		<li class="border_bm">
-			<h2>
-
-			</h2>
-			<span>
-				<h6 class="inl_blk">
-					<a class="tooltip" href="{$service_link}?action=emit&value={$instance->username}&preload=1" title="modifica {$instance->name}">Modifica</a>
-				</h6>
-			</span>
-			<span>
-				<h6 class="inl_blk ml10">
-					<a class="tooltip" href="{$service_link}?action=delete&value={$instance->username}&preload=1" title="elimina {$instance->name}">Rimuovi</a>
-				</h6>
-			</span>
-		</li>
-	{/foreach}
-</ul-->
-{else}
-<h1>NON CI SONO {$instance->name}</h1>
-{/if}

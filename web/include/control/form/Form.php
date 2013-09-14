@@ -132,7 +132,7 @@ Class Form extends Skinlet{
 		else
 		{
 			$emptyReportTemplate = new Skinlet("empty-report");
-			$content = "<div id=\"becontent\">\n\n".$emptyReportTemplate->get()."\n</div>\n";
+			$content = '<div>'.$emptyReportTemplate->get().'</div>';
 		}
 		return $content;
 	}
@@ -157,8 +157,6 @@ Class Form extends Skinlet{
 					$query_conditions=array("id_users"=>$_REQUEST['auth-value']);
 				else
 					$query_conditions=array($this->entity->fields[0]->name=>$_REQUEST['value']);
-
-
 				/**
 				 * retrieves $this->entity instances
 				 * @var unknown_type
@@ -830,4 +828,3 @@ function display($operation,$page,$preload = "") {
 	return $content;
 }
 }
-?>

@@ -534,7 +534,7 @@ ul.tabs {
 ul.tabs li {
 	float: left;
 	margin: 0;
-	padding: 0;
+	padding: 0 5px 0 5px;
 	line-height: 24px;
 }
 ul.tabs li a {
@@ -938,4 +938,11 @@ input:-webkit-autofill {
 .title-section{
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.service-link{
+    float: right;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
 }
