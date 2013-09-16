@@ -1,3 +1,4 @@
+<!--ITALIANO -->
 <div id="navigation" class="clearfix">
 
     <!-- BEGIN #main-menu -->
@@ -5,7 +6,7 @@
     <ul id="main-menu" class="fl clearfix">
         {foreach from=$instances item=instance}
             {if $instance->parent == null}
-                <li class="current-menu-item"><a href="{$instance->link}">{$instance->entry}<span>start here</span></a>
+                <li class="current-menu-item"><a href="{$instance->link}">{$instance->entry}</a>
                     {if $instance->sys_menu != null}
                         <ul>
                             {foreach from=$instance->sys_menu item=child_menu}
@@ -26,8 +27,8 @@
     </ul>
     {/if}
     <ul class="main-menu-contact-info fr">
-        <li class="info-phone">+39 3479749101</li>
-        <li class="info-email">info [at] vecchiaposta [dot] it</li>
+        <li class="info-phone"><a href="callto:+393479749101">+39 3479749101</a></li>
+        <li class="info-email"><a href="mailto:info@vecchiaposta.it">info [at] vecchiaposta [dot] it</a></li>
     </ul>
     <div class="corner-left"></div>
     <div class="corner-right"></div>

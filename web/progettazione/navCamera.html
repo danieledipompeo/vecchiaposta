@@ -91,7 +91,17 @@
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
 
-    <h2 class="page-title" id="slogan">Camera Singola</h2>
+    <div style="float: left; width: 40%;"><h2 class="page-title" id="slogan">Camera Singola</h2></div>
+    <div class="one-half last-col" style="height: 112px;background-color: #fff;text-align: right;">
+        <h3 class="title1">Menu Attività<span class="title-end"></span></h3>
+        <nav>
+            <ul>
+                <li><a href="navCamera.html">Doppia</a></li>
+                <li><a href="navCamera.html">Tripla</a></li>
+                <li><a href="navCamera.html">Quadrupla</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
@@ -121,18 +131,20 @@
                         <h2 class="price">Prezzo <span class="price-detail">camera</span></h2>
                     </div>
 
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.html" method="post">
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="navPrenota.php" method="post">
 
-                        <input type="text" value="Hotel Room #1" class="text-input" disabled="disabled">
-
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker hasDatepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker hasDatepicker">
-                        </div>
-
-                        <input class="bookbutton" type="submit" value="Book Now">
-
-                    </form>
+                            <select name="room" disabled="disabled">
+                                <option value="">scegli la tua camera</option>
+                                <option value="single" selected="selected">Camera singola</option>
+                                <option value="single">Camera doppia</option>
+                                <option value="single">Camera tripla</option>
+                                <option value="single">Camera quadrupla</option>
+                            </select>
+                            <input type="hidden" name="room" value="single" />
+                            <input type="date" name="from"/>
+                            <input type="text" name="for-night" />
+                            <input type="submit" value="prenota" />
+                       </form>
 
                 </div>
 
@@ -190,7 +202,7 @@
             </div>
             <div id="second-footer-column">
                 Sitemap
-                <nav>
+                <nav id="sidemenu">
                     <ul>
                         <li><a href="index.html">home</a></li>
                         <li><a href="navCamere.html">camere</a></li>

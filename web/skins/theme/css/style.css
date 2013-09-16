@@ -154,6 +154,7 @@ a {
 	transition: all 0.3s ease-in-out;
 	outline: none;
 	text-decoration: none;
+    color: #fff;
 }
 
 .fl {
@@ -214,7 +215,6 @@ a {
 
 .top-menu li {
 	display: inline;
-	text-transform: uppercase;
 	font-size: 12px;
 }
 
@@ -400,6 +400,7 @@ a {
 
 #main-menu {
 	max-width: 740px;
+    height: 60px;
 }
 
 #main-menu li {
@@ -410,6 +411,7 @@ a {
 	margin: 0 15px 0 0;
 	padding: 0 15px 0 0;
 	border-right: 1px solid;
+    height: 100%;
 }
 
 #main-menu li:last-child {
@@ -418,7 +420,7 @@ a {
 
 #main-menu li a {
 	color: #fff;
-	padding: 16px 0 16px 0;
+	padding: 20px 0 20px 0;
 }
 
 #main-menu li span {
@@ -502,7 +504,8 @@ a {
 }
 
 #main-menu a.sf-with-ul {
-	padding-right: 2.25em;
+	/*padding-right: 2.25em;*/
+    height: inherit;
 	min-width: 1px;
 }
 .sf-sub-indicator {

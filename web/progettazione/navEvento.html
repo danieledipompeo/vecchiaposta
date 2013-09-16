@@ -122,7 +122,18 @@
                     </div>
                     <span class="clearfix">&nbsp;</span>
                     <div class="one-half last-col booknow-wrapper" id="booknow2">
-                        scorciatoia per la prenotazione
+                        <form action="navPrenota.php" method="post">
+                            <select name="room">
+                                <option value="">scegli la tua camera</option>
+                                <option value="single">Camera singola</option>
+                                <option value="single">Camera doppia</option>
+                                <option value="single">Camera tripla</option>
+                                <option value="single">Camera quadrupla</option>
+                            </select>
+                            <input type="date" name="from" value="dd/mm/yyyy"/>
+                            <input type="text" name="for-night" value="notti"/>
+                            <input type="submit" value="prenota" />
+                        </form>
 
                     </div>
                 </div>

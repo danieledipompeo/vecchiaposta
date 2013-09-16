@@ -42,7 +42,7 @@
                 <li><a href="navAttivita.html">attività</a></li>
                 <li><a href="navEventi.html">eventi</a></li>
                 <li><a href="navDintorni.html.html">dintorni</a></li>
-                <li><a href="navCamere.html">dove siamo</a></li>
+                <li><a href="navDoveSiamo.html">dove siamo</a></li>
             </ul>
             <ul id="contact">
                 <li>0862/xxxxx</li>
@@ -53,7 +53,21 @@
     </nav>
     <div id="wrapper-slider">
         <div id="slider">qui le foto</div>
-        <div id="booknow">scorciatoia per la prenotazione</div>
+        <div id="booknow">
+            <p>prenota la tua camera</p>
+            <form action="navPrenota.php" method="post">
+                <select name="room">
+                    <option value="">scegli la tua camera</option>
+                    <option value="single">Camera singola</option>
+                    <option value="single">Camera doppia</option>
+                    <option value="single">Camera tripla</option>
+                    <option value="single">Camera quadrupla</option>
+                </select>
+                <input type="date" name="from" value="dd/mm/yyyy"/>
+                <input type="text" name="for-night" value="notti" />
+                <input type="submit" value="prenota" />
+            </form>
+        </div>
     </div>
     <div id="slogan">slogan</div>
     <hr />

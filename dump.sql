@@ -192,7 +192,7 @@ CREATE TABLE `sys_log` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `ip` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -201,7 +201,7 @@ CREATE TABLE `sys_log` (
 
 LOCK TABLES `sys_log` WRITE;
 /*!40000 ALTER TABLE `sys_log` DISABLE KEYS */;
-INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
+INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(46,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
 /*!40000 ALTER TABLE `sys_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -220,7 +220,7 @@ CREATE TABLE `sys_menu` (
   `linked_page` int(10) unsigned NOT NULL,
   `parent` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -229,7 +229,7 @@ CREATE TABLE `sys_menu` (
 
 LOCK TABLES `sys_menu` WRITE;
 /*!40000 ALTER TABLE `sys_menu` DISABLE KEYS */;
-INSERT INTO `sys_menu` VALUES (1,'Home','index.php',1,0,0),(2,'Camere','camere.php',2,0,0),(3,'Attività','attivita.php',3,0,0),(4,'Eventi','eventi.php',4,0,0),(5,'Dintorni','dintorni.php',5,0,0),(6,'Dove SIamo','dove-siamo.php',6,0,0);
+INSERT INTO `sys_menu` VALUES (1,'Home','index.php',1,0,0),(2,'Camere','camere.php',2,0,0),(3,'Attività','attivita.php',3,0,0),(4,'Eventi','eventi.php',4,0,0),(5,'Dintorni','dintorni.php',5,0,0),(6,'Dove SIamo','dove-siamo.php',6,0,0),(8,'Camera singola','camera-singola.php',1,0,2),(9,'Camera doppia','camera-doppia.php',2,0,2),(10,'Camera tripla','camera-tripla.php',3,0,2),(11,'Camera quadrupla','camera-quadrupla.php',4,0,2),(12,'Ippovia del Gran Sasso','ippovia-del-gran-sasso.php',1,0,3),(13,'L\'anello del Lago','anello-del-lago-campotosto.php',2,0,3),(14,'Da cagnano al Gran Sasso','cagnano-gran-sasso.php',3,0,3),(15,'Perdonanza Celestiniana','perdonanza-celestiniana.php',1,0,4),(16,'Sagre e feste','sagre-feste.php',2,0,4),(17,'Festa del Cioccolato','festa-cioccolato.pph',3,0,4),(18,'Amatrice','amatrice.php',1,0,5),(19,'L\'Aquila','aquila.php',2,0,5),(20,'Lago di Campotosto','lago-campotosto.php',3,0,5);
 /*!40000 ALTER TABLE `sys_menu` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -282,7 +282,7 @@ CREATE TABLE `sys_page` (
   `father` int(10) unsigned NOT NULL,
   `foto` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -291,7 +291,7 @@ CREATE TABLE `sys_page` (
 
 LOCK TABLES `sys_page` WRITE;
 /*!40000 ALTER TABLE `sys_page` DISABLE KEYS */;
-INSERT INTO `sys_page` VALUES (1,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(2,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(3,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(4,NULL,'prova',NULL,'prova','sdasdasx',0,'sdasda',0,0,0);
+INSERT INTO `sys_page` VALUES (1,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(2,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(3,NULL,NULL,NULL,NULL,NULL,0,NULL,0,0,0),(4,NULL,'prova',NULL,'prova','sdasdasx',0,'sdasda',0,0,0),(5,NULL,'Il B&B',NULL,'','In una splendita villa immersa nel verde a circa 15 minuti dall’Aquila, il Bed & Breakfast La Vecchia Posta è lieto di ospitarvi in camere con servizi privati e tv.\r\nE’ a vostra disposizione l’ampio spazio verde di proprietà e un parcheggio riservato.\r\nPer i pasti vi consigliamo di assaggiare le offerte culinarie del ristorante la monachina, a circa 10km dal B&B, oppure se vi trovate a L’Aquila vi consigliamo le fregnacce del ristorante la rupe.\r\nIl B&B vi offre inoltre la possibilità di noleggiare gratuitamente mountainbike disponibili nella struttura e a vostra completa disposizione.\r\nSe desiderate fare passeggiate a cavallo vi indichiamo due maneggi nelle vicinanze:\r\nShenandoah Ranch Western Riding\r\nCentro Ippico Saint Just\r\nSu richiesta è fruibile il servizio di lavanderia e trasporto da e verso la stazione dei treni e il terminal dei bus.\r\nTi aspettiamo al Bed & Breakfast La Vecchia Posta,  prenota ora la tua vacanza da noi',0,'',0,0,0);
 /*!40000 ALTER TABLE `sys_page` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -465,4 +465,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-14 16:18:58
+-- Dump completed on 2013-09-16 22:29:00
