@@ -97,6 +97,7 @@ $form1->triggers($form2);
 
 $main->setContent("body",$form1->requestAction());
 
+
 $main->close();
 
 ?>

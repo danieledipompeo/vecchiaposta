@@ -16,7 +16,7 @@ class SectionField extends FormWidget {
 	 * @ParamType preload
 	 */
 	public function build($preload) {
-		$content = '<div class="mt15 mb15 border_bm title-section">'.$this->name.'</div>';
+		$content = '<!--section widget--><div class="title-section">'.$this->name.'</div>';
 		return $content;
 	}
 }

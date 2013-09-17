@@ -17,10 +17,6 @@ class RelationManagerField extends FormWidget {
 	 */
 	public function build($preload) {
 		$content="";
-		/**
-		 * Daniele Di Pompeo
-		 * imposta l'ordine delle entity della relazione
-		 */
 		switch ($this->orientation) {
 			case RIGHT:
 				$mainEntity = $this->form->entity->entity_1;
@@ -85,12 +81,12 @@ class RelationManagerField extends FormWidget {
 				}
 			}
 				
-			$content .= '<fieldset class="border ml5_100 flt_lft ptotal4">';
+			$content .= '<!--relation manager widget --><fieldset class="">';
 				
 			$content .= '<div id="ck-button">';
 			$content .= '<label class="tooltip" title="clicca per selezionare/desselezionare">';
 
-			$content .= '<input class="mt7 flt_lft" id="'.$name.'" type="checkbox" name="'.  $name.'" value="'.$instance->getKeyFieldValue().'"  '.$checked.' />';
+			$content .= '<input class="" id="'.$name.'" type="checkbox" name="'.  $name.'" value="'.$instance->getKeyFieldValue().'"  '.$checked.' />';
 
 			$content .= '<span>'.$text.'</span>';
 			$content .= '</label>';
@@ -102,10 +98,6 @@ class RelationManagerField extends FormWidget {
 			// 			$content .= '<label class="flt_lft line_height23 w150 right_align mr20" for="'.$name.'">'.$text.'</label>';
 			// 			$content .= '<div class="clear">&nbsp;</div>';
 				
-			/**
-			 * Daniele Di Pompeo
-			 * controllo sulla presenza dell'attributo
-			 */
 			for($i=3;$i<sizeof($this->form->entity->fields);$i++)
 			{
 				$value="";

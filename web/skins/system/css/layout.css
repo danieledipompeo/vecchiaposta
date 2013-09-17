@@ -5,7 +5,7 @@ html, div, map, dt, isindex, form, header, aside, section, section, article, foo
 } 
 
 html, body {
-height: 100%;
+min-height: 700px;
 margin: 0;
 padding: 0;
 font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
@@ -196,7 +196,7 @@ aside#sidebar {
 width: 23%;
 background: #E0E0E3 url(../images/sidebar.png) repeat;
 float: left;
-min-height: 500px;
+min-height: 100%;
 margin-top: -4px;
 }
 
@@ -363,7 +363,7 @@ margin-top: 20%;
 
 section#main {
 width: 77%;
-min-height: 500px;
+min-height: 100%;
 background: url(../images/sidebar_shadow.png) repeat-y left top;
 float: left;
 margin-top: -2px;
@@ -945,4 +945,49 @@ input:-webkit-autofill {
     position: relative;
     top: 5px;
     margin-right: 5px;
+}
+
+/*MIO*/
+#form-login{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 14%;
+    background-color: #E0E0E3;
+    border: 2px solid;
+    background-clip: border-box;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 0px 4px #e0e0e3;
+}
+
+.bc-logo{
+    background: url(../img/beContent.jpg) no-repeat;
+    height: 134px;
+    margin: auto;
+    width: 284px;
+}
+
+#form-login form{
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+}
+
+#form-login .closing{
+    width: 51%;
+    margin: auto;
+}
+
+#menu-admin-wrapper{
+    min-height: 400px;
+}
+
+.child-item{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.title-section-menu{
+    display: none;
 }

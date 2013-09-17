@@ -6,17 +6,15 @@
 	var oldText = $("#entry").val();
 	var first = true;
 	
-	//Function to recognize if the result is an array
-if (typeof window.is_array === 'undefined') {
-    	function is_array(input) {
-    		return typeof (input) == 'object' && (input instanceof Array);
-    	}
-}
-	
-	
+        //Function to recognize if the result is an array
+    if (typeof window.is_array === 'undefined') {
+            function is_array(input) {
+                return typeof (input) == 'object' && (input instanceof Array);
+            }
+    }
+
 	function updateEditingItem()
 	{
-		
 		//Retrieving the childs list dom element
 		var childs_list = $("#childs_list").sortable();
 		
@@ -31,12 +29,11 @@ if (typeof window.is_array === 'undefined') {
 			var child = document.createElement('div');
 	
 			child.id = "child_" + editingId;
-			child.className = "mb10 mt10 pb10 pt10";
+			child.className = "";
 			var spanItem = document.createElement("span");
 			spanItem.innerHTML = $("#mainEntry").val();
 			child.appendChild(spanItem);
 
-			
 			var hiddenInput = document.createElement("input");
 			hiddenInput.name="position";
 			hiddenInput.hidden="hidden";
@@ -47,9 +44,6 @@ if (typeof window.is_array === 'undefined') {
 		}
 		refreshPositions();
 	}
-	
-	
-	
 
 	function HierPositionRequestInstances(parent_name, entity_name) {
 		//Retrieving the select element from dom
@@ -85,7 +79,7 @@ if (typeof window.is_array === 'undefined') {
 					var child = document.createElement('div');
 
 					child.id = "child_" + result[i].id;
-					child.className = "mb10 mt10 pb10 pt10";
+					child.className = "child-item";
 
 					//imposing the entity presentation text in html of div
 					var spanItem = document.createElement("span");
@@ -162,18 +156,18 @@ if (typeof window.is_array === 'undefined') {
 			}
 	);
 </script>
-
-<div class=" mb20">
-	<label for="{$parent_name}">{$label}</label> 
-	<select class="" name="{$parent_name}" id="{$parent_name}">
-		{$parents_list}
-	</select>
-	<div class="">
+<!-- hierarchical position widget-->
+<div class="">
+	<fieldset>
+        <label for="{$parent_name}">{$label}</label>
+	    <select class="" name="{$parent_name}" id="{$parent_name}">
+		    {$parents_list}
+	    </select>
+    </fieldset>
+	<div class="title-section-menu">
 		<span>{$entity_name} childs </span>
-		<img class="info_action tooltip" src="skins/handling/css/images/info.png" original-title="utilizza il drag and drop per ordinare gli elementi" alt="help"/>
+		<!--img class="info_action tooltip" src="skins/handling/css/images/info.png" original-title="utilizza il drag and drop per ordinare gli elementi" alt="help"/-->
 	</div>
-	<div id="childs_list"></div>
-
+	<fieldset id="childs_list"></fieldset>
 </div>
-
 <div id="ids_list" hidden="">{$new_child}</div>

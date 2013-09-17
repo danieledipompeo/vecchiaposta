@@ -2,10 +2,12 @@
     <header><h3 class="tabs_involved">Content Manager</h3>
         <ul class="tabs">
             <li class="active">Users</li>
+            <li>
+                <a href="{$service_link}?action=emit">
+                    <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
+                </a>
+            </li>
         </ul>
-        <a class="service-link" href="{$service_link}?action=emit">
-            <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
-        </a>
     </header>
     {if $instances != null || $instance != null}
     <div class="tab_container">
@@ -28,8 +30,8 @@
                             <td></td>
                             <td>{$instance->active}</td>
                             <td>
-                                <input type="image" src="skins/system/images/icn_edit.png" title="Modifica">
-                                <input type="image" src="skins/system/images/icn_trash.png" title="Rimuovi">
+                                <a href="{$service_link}?action=emit&preload=1&value={$instance->username}" title="Modifica"><img src="skins/system/images/icn_edit.png" alt="modifica elemento"/> </a>
+                                <a href="{$service_link}?action=delete&value={$instance->username}" title="Rimuovi"><img src="skins/system/images/icn_trash.png" alt="elimina elemento"/> </a>
                             </td>
                         </tr>
                     {/foreach}

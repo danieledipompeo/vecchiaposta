@@ -14,7 +14,6 @@ class HierarchicalPositionForm extends Form
 		$newField->mandatory = $mandatory;
 		$newField->entity=$entity;
 		$this->elements[] = $newField;
-	
 	}
 	
 	function edit($entity=null)

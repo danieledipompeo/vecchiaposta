@@ -225,7 +225,7 @@ Class Form extends Skinlet{
 		}
 		if(!$this->debugmode)
 			header("Location:{$_SERVER['SCRIPT_NAME']}?action=report");
-		
+		var_dump($content);
 		return $content;
 	}
 
@@ -307,10 +307,6 @@ Class Form extends Skinlet{
 
 		$form->triggered = true;
 	}
-
-
-
-
 
 	function setLabel($operation, $label) {
 		$this->labels[$operation] = $label;
@@ -770,7 +766,7 @@ function emitHTML($operation, $page, $preload) {
 						$label = $this->labels[EDIT];
 					}
 
-					$closing .= '<input class="mr10" type="submit" value="'.$label.'" />';
+					$closing .= '<input type="submit" value="'.$label.'" />';
 
 				} else {
 					if (!isset($this->labels[ADD])) {
@@ -779,13 +775,13 @@ function emitHTML($operation, $page, $preload) {
 						$label = $this->labels[ADD];
 					}
 
-					$closing .= '<input class="mr10" type="submit" value="'.$label.'" />';
+					$closing .= '<input type="submit" value="'.$label.'" />';
                     $closing .= '<input type="reset" value="Azzera i campi" />';
 				}
 				break;
 			case "edit":
 				if (!$this->moderationMode) {
-					$closing .= '<input class="mr10" type="submit" value="'.Message::getInstance()->getMessage(BUTTON_EDIT).'" />'; //onClick=\"submit_{$this->name}();\">";
+					$closing .= '<input type="submit" value="'.Message::getInstance()->getMessage(BUTTON_EDIT).'" />'; //onClick=\"submit_{$this->name}();\">";
 
 					/* if (!$this->noDelete) {
 
