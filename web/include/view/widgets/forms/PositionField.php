@@ -43,17 +43,16 @@ class PositionField extends FormWidget {
 				foreach($presentation as $a=>$v)
 					$text=$instance->getFieldValue($v);
 				
-				$content.="<div class=\"cells mb10 mt10 pb10 pt10\"><label  for=\"{$this->name}_{$key}\">{$text}</label><input type=\"hidden\" id=\"{$this->name}_{$key}\" name=\"{$this->name}_{$key}\" value=\"{$instance->getFieldValue($this->name)}\" >  </input></div>";
-				$hiddenIds.="<input class=\"inl_blks cells mb20\"type=\"hidden\" name=\"{$this->form->entity->name}_{$this->form->entity->fields[0]->name}_{$key}\" value=\"{$instance->getFieldValue($this->name)}\"></input>";
-			}
-			
-			
+				$content.='<div class="child-item">
+				            <span>'.$text.'</span>
+				            <input type="hidden" id="'.$this->name.'_'.$key.'" name="'.$this->name.'_'.$key.'" value="'.$instance->getFieldValue($this->name).'" >  </input>
+				            </div>';
+				$hiddenIds.='<input type="hidden" name="'.$this->form->entity->name.'_'.$this->form->entity->fields[0]->name.'_'.$key.'" value="'.$instance->getFieldValue($this->name).'"></input>';
 		}
-		
 		if(!$this->form->entity->loaded || !$preload)
 		{
 			$newPosition = sizeof($this->form->entity->instances)+1;
-			$content.= "<br><input type=\"hidden\" name=\"{$this->name}\" value=\"{$newPosition}\" > Nuovo Valore </input>";
+			$content.= '<div class="editing-item"> <span id="editing-item-name">Nuovo Valore</span> <input type="hidden" name="'.$this->name.'" value="'.$newPosition.'" />';
 		}
 		
 		$positionSkinlet = new Skinlet("widget/Position");
@@ -64,6 +63,7 @@ class PositionField extends FormWidget {
 		$positionSkinlet->setContent("ids",$hiddenIds);
 		return $positionSkinlet->get();
 	}
+}
 }
 
 /**
@@ -79,4 +79,3 @@ class PositionFieldFactory implements FormWidgetFactory
 		return new PositionField($form);
 	}
 }
-?>

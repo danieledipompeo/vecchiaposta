@@ -21,6 +21,10 @@ $form->addText("link", "Link", 60);
 $form->addSelectFromReference($pageEntity, "linked_page", "Page") ;
 $form->addHierarchicalPosition("parent", "Menu padre");
 
+$content = new Content($menuEntity, $menuEntity);
+$content->setOrderFields("sys_menu_entry","sys_menu0_entry");
+$form->setReportContent($content);
+
 if (!isset($_REQUEST['action'])) {
 	$_REQUEST['action'] = "report";
 }

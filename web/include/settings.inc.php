@@ -6,8 +6,10 @@ class Settings
 	private static $config_path="contents";
 	
 	//Enhanches performances if disabled, disable after debugging
-	private static  $modmode=false;
-	
+    /*set to true to create new tables in db*/
+	private static  $modmode=true;
+
+    /*set to debug to show html error*/
 	private static $operative_mode="release";
 	
 	public static function getOperativeMode()
@@ -54,4 +56,3 @@ class Settings
 		self::$modmode=$modMode;
 	}
 }
-?>

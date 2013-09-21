@@ -3,7 +3,7 @@ $(document).ready(function() {
 			.datepicker(
 					{
 						showOn : "button",
-						buttonImage : "skins/handling/css/images/Calendar-icon18x18.png",
+						buttonImage : "skins/system/img/Calendar-icon18x18.png",
 						buttonImageOnly : true,
 						dateFormat : "dd/mm/yy",
 						monthNames : [ "Gennaio", "Febbraio", "Marzo",

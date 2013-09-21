@@ -2,7 +2,7 @@
 require_once realpath(dirname(__FILE__)) .'/core.php';
 /**
  * plural naming schema only for retro-compatibility changing candidate
- * @author nicola
+ * @author dipompeodaniele@gmail.com, n.sacco.dev@gmail.com
  *
  */
 class EntityGroup extends Entity
@@ -17,4 +17,3 @@ class EntityGroup extends Entity
 }
 
 $groupsEntity=new EntityGroup($database,"sys_group");
-?>

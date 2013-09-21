@@ -1,5 +1,6 @@
 <?php
 require_once ("Form.php");
+
 class RelationForm extends Form
 {
 	public $attributesNames;
@@ -15,7 +16,7 @@ class RelationForm extends Form
 	}
 
 	function setAttributeLabel($attributeName,$attributeLabel)
-	{
+    {
 		$this->attributesNames[$attributeName]=$attributeLabel;
 	}
 	
@@ -25,7 +26,6 @@ class RelationForm extends Form
 	 */
 	protected function saveRelations($baseEntity)
 	{
-
 		$baseEntityPrimaryKeyName=$baseEntity->fields[0]->name;
 		$baseEntityPrimaryKeyValue=$_REQUEST[$baseEntity->fields[0]->name];
 
@@ -33,7 +33,6 @@ class RelationForm extends Form
 		 * if the main entity was correctly updated it's time to update her relations included in the requested
 		 * triggered forms (subforms).
 		 */
-
 
 		/**
 		 * preparing update conditions, first of all the primary key of the base entity

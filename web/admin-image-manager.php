@@ -11,14 +11,13 @@ $main = new Skin("system");
 
 InitGraphic::getInstance()->createSystemGraphic($main);
 
-$form = new ImageForm("dataEntry",$imageEntity);
-
+$form = new Form("dataEntry",$imageEntity);
 $form->addTitleForm("Image Management");
+$form->addText('title', 'titolo', 255);
+$form->addText('caption', 'caption', 255);
+$form->addText('alt', 'alt text', 255);
 $form->addSection('image details');
-$form->addImage("filename", "Titolo",'off',$imageEntity);
-$form->addText('test', 'titolo');
-
-//$form->addSelectFromReference($sliderEntity, 'slider', 'slider');
+$form->addFile("file", "Scegli il file");
 
 $main->setContent("body", $form->requestAction());
 

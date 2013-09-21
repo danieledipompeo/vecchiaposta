@@ -1,19 +1,22 @@
-<label class="flt_lft w230 right_align mr20 ">{$label}</label>
-<input class="mb20 file_uploader" id="{$name}" type="file" name="{$name}"  />
+<!-- Image field widget -->
+<fieldset id="image-widget">
+    <div id="input-file">
+        <p>Scegli il file</p>
+        <input id="{$name}" type="file" name="{$formHash}_{$name}" />
+    </div>
+    <div class="clear"></div>
+    <h3 id="photos_list" class=""> Altre foto caricate da te </h3>
+    <!-- <div id="{$formHash}_images_list" class="h150 mr20 right_align " ></div> -->
+    <div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
+      <div id="{$formHash}_images_list" class="scroll-content">
+      </div>
+      <div class="clear"></div>
+      <div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
+        <div class="scroll-bar"></div>
+      </div>
+    </div>
+</fieldset>
 <div class="clear"></div>
-<div id="photos_list" class="flt_lft w230 right_align mr20"> Altre foto caricate da te </div>
-<!-- <div id="{$formHash}_images_list" class="h150 mr20 right_align " ></div> -->
-<div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
-  <div id="{$formHash}_images_list" class="scroll-content">
-  </div>
-  <div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
-    <div class="scroll-bar"></div>
-  </div>
-</div>
-
-<div class="clear"></div>
-
-<link rel="stylesheet" href="skins/handling/css/cssDISIM/style.css" />
   <script>
   $(function() {
     //scrollpane parts
@@ -94,10 +97,8 @@
 
 	function selectionImage(img_id){
 		console.log(img_id);
-			console.log("bingo");
 			$("#"+img_id).click(function(){
-			 console.log("bingo");
-			}); 
+			});
 	}
 
 
@@ -132,7 +133,7 @@ if (typeof window.retrieveImagesList === 'undefined')
 					}, 
 					function(result)
 					{
-						buildImage(images_list,result[0]);
+                        buildImage(images_list,result[0]);
 						selectionImage(result[0].id);
 					});
 				}
@@ -147,37 +148,39 @@ if (typeof window.retrieveImagesList === 'undefined')
 
 if (typeof window.buildImage === 'undefined')
 {
+
 	function buildImage(images_list,result)
 	{
 		var preloadedImageId={$preloadedImageId};
-		var div = 
-			$('<div/>')
-				.appendTo(
-						$("#{$formHash}_images_list"))
-				.addClass("wrapper_item ovrflwHide ml20 mr20 flt_lft")
+
+        var div =
+			$('<div>')
+				.appendTo($("#{$formHash}_images_list"))
+				.addClass("preview-single-image-wrapper")
 				.hide();
-		
+
 		var imgWrapper = $('<div/>')
 			.addClass("img_wrapper")
 			.appendTo(div);
-		
 		var img = $('<img/>')
 			.attr({
 				'id': "image_" + result.id,
 				'src': "data:image/png;base64,"+result.data })
 			.appendTo(imgWrapper);
+
 		img_id.push(img);
-		checked="";
+
+        checked="";
 		if(preloadedImageId == result.id)
 		{
 			checked="checked";
 		}
 		
-		var subdiv = $('<div/>').appendTo(div).addClass("img_selector text_center");
+		var subdiv = $('<div/>').appendTo(div).addClass("img_selector");
 		
-		var radio = $("<input "+checked+"></input>")
+		var radio = $("<input "+checked+" />")
 		.attr({
-			'type': "radio", 
+			'type': "checkbox",
 			'value' : result.id, 
 			'name': "{$name}" })
 		.appendTo(subdiv);
@@ -190,8 +193,7 @@ var img_id = new Array();
 
 $(document).ready(function()
 {
-	retrieveImagesList("{$loggedUsername}",selectionImage());
-	//selectionImage();
+	retrieveImagesList("{$loggedUsername}");
 });
 
 </script>

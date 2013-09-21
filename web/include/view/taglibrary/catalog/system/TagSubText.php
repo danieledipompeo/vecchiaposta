@@ -11,17 +11,16 @@ class TagSubText extends Tag {
 	 * @param aExtrinsicState
 	 * @ParamType aExtrinsicState 
 	 */
-	public function doIt($parameters) {
+	public function doIt($tagRoute, $parameters) {
 		
 		$length_default = 50;
-		
 		/*
 		 * Inseriamo un default nel caso non venga esplicitata la length del taglio,
 		 * ovvero nel caso in cui venga passata SOLO la stringa da tagliare. 
 		 */ 
-		if(!is_array($parameters)){
+		if(!isset($parameters[1])){
 			$length = $length_default;
-			$string_to_cut = $parameters;
+			$string_to_cut = $parameters[0];
 		}else{
 			$length = $parameters[1];
 			$string_to_cut = $parameters[0];

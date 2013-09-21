@@ -13,6 +13,9 @@ require_once realpath(dirname(__FILE__)) .'/entityImage.php';
 require_once realpath(dirname(__FILE__)) .'/entityPage.php';
 require_once realpath(dirname(__FILE__)) .'/entityMenu.php';
 require_once realpath(dirname(__FILE__)) .'/entityNews.php';
+require_once realpath(dirname(__FILE__)) .'/entitySlider.php';
+require_once realpath(dirname(__FILE__)) .'/relationImageSlider.php';
+require_once realpath(dirname(__FILE__)) .'/relationSliderPage.php';
 
 $groupsEntity->connect();
 $entitiesEntity->connect();
@@ -28,5 +31,9 @@ $menuEntity->connect();
 $newsEntity->connect();
 $fileEntity->connect();
 $imageEntity->connect();
+$sliderEntity->connect();
+
+$imageSliderRelation->connect();
+$sliderPageRelation->connect();
 
 require_once realpath(dirname(__FILE__)) .'/init.php';

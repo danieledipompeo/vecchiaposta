@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author dipompeodaniele@gmail.com, n.sacco.dev@gmail.com
+ */
+
 DEFINE("SINGLE", "SINGLE");
 DEFINE("FILTER", "FILTER");
 #DEFINE("ALL", "ALL");
@@ -55,45 +59,38 @@ Class Content {
 		require_once 'include/content.inc.php';
 	}
 
-	function __construct($entity) {
+    /**
+     * @param $entity
+     * @property base_entity, joined_entity.
+     * * For relation n-m use
+     * * @property base_entity, relation_entity, joined_entity.
+     */
+    function __construct($entity) {
 
 		$args = func_get_args();
 
 		if (count($args)>1) {
 
 			for($i=1; $i<count($args); $i++) {
-
 				$item = $args[$i];
 				$this->join_entities[] = $item;
 				$this->join_entities_2[] = $item->name;
-
 				$this->join_rules[$item->name] = "";
 				$this->join_rules_2[$item->name][] = "";
 			}
-
-
 		}
 			
 		$this->entities = func_get_args();
-			
 		$this->entity_name = $entity->entityName;
-
 		$this->template_single = "single/".$entity->entityName."_single";
 		$this->template_multiple = "multiple/".$entity->entityName."_multiple";
-		
 		$this->template = false;
 		$this->template_alt = false;
-		
 		$this->limit = false;
-
 		$this->triggers = false;
-		
 		$this->presentation = false;
-		
 		$this->pager = false;
-		
 		$this->debug = false;
-
 		$this->order_fields = $this->detectOrderFields();
 		$languages=Config::getInstance()->getConfigurations()['languages'];
 		if (isset($languages)) {
@@ -146,7 +143,7 @@ Class Content {
 			}
 			else
 				$skin->setContent("instance",null);
-			
+
 			$skin->setContent("instances",null);
 		}
 		else
@@ -472,7 +469,11 @@ Class Content {
 		return $result;
 	}
 
-	function setOrderFields() {
+    /**
+     * @param
+     * setOrderFields("campo sul quale ordinare <DESC se necessario>
+     */
+    function setOrderFields() {
 		$this->order_fields = func_get_args();
 	}
 
@@ -563,9 +564,6 @@ Class Content {
 			return $result;
 		}
 	}
-
-
-	
 	/**
 	 * This method finds all required fields of the entire join for this request
 	 * and creates a $where_conditions compatible array in order to be used with entities
@@ -622,15 +620,11 @@ Class Content {
 	}
 
 	function getValue($name) {
-
-
-
 		if (isset($this->buffer[0][$name])) {
 			return $this->buffer[0][$name];
 		} else {
 			return false;
 		}
-
 	}
 
 	/**
@@ -676,16 +670,11 @@ Class Content {
 			if (is_array($this->join_entities)) {
 
 				foreach($this->join_entities as $name=>$entity) {
-
-
 					foreach($entity->fields as $f) {
-
 						if ("{$entity->name}_{$f->name}" == $field) {
-
 							$trovato = true;
 							$token['entity'] = $entity->name;
 							$token['field'] = $f->name;
-				
 						}
 					}
 				}

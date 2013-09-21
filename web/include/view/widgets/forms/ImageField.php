@@ -3,7 +3,7 @@ require_once(realpath(dirname(__FILE__)) . '/../../../../include/view/widgets/Fo
 
 /**
  * @access public
- * @author Di Pompeo Sacco
+ * @author dipompeodaniele@gmail.com, n.sacco.dev@gmail.com
  * @package include.view.widgets.forms
  */
 class ImageField extends FormWidget {
@@ -11,8 +11,7 @@ class ImageField extends FormWidget {
 	/**
 	 * @access public
 	 * @param preload
-	 * @ParamType v 
-	 * @ParamType preload 
+	 * @ParamType string
 	 */
 	public function build($preload) {
 
@@ -22,9 +21,13 @@ class ImageField extends FormWidget {
 		if($this->form->entity->loaded && $preload==PRELOAD)
 		{
 			$entityInstance=$this->form->entity->instances[0];
-			$preloadedId=$entityInstance->getFieldValue($this->name);
-		} 
-		
+			$preloadedId = $entityInstance->getFieldValue($this->name);
+
+            if(Settings::getOperativeMode() == 'debug'){
+                echo '<br />ImageField debugmode';
+                var_dump($preloadedId);
+            }
+		}
 		$key = $this->form->formHash;
 		$widget = new Skinlet("widget/ImageField");
 		$widget->setContent("label", $this->label);
@@ -38,7 +41,7 @@ class ImageField extends FormWidget {
 
 /**
  * Factory for the checkbox widget
- * @author nicola
+ * @author nicola, daniele
  *
  */
 class ImageFieldFactory implements FormWidgetFactory
@@ -48,4 +51,3 @@ class ImageFieldFactory implements FormWidgetFactory
 		return new ImageField($form);
 	}
 }
-?>

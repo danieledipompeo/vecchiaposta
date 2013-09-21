@@ -2148,14 +2148,21 @@ span.zoom-wrapper span.zoom {
 
 #title-wrapper #logo{
     width: 50%;
-    margin-left: 50px;
 }
 
 #title-wrapper #last-offert{
-    width: 40%;
+    width: 50%;
 }
 
+.blog-title a {
+    color: #16B06A;
+}
 
+#last-offert-content{
+    width: 70%;
+    margin: auto;
+    text-align: right
+}
 /*
 #CDSWIDWRL {
     font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;
@@ -2186,3 +2193,4 @@ span.zoom-wrapper span.zoom {
     float: none;
     margin: 0;
 } */
+

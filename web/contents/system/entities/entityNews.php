@@ -13,6 +13,7 @@ class EntityNews extends Entity
 		$this->addField("date", LONGDATE, MANDATORY);
 		$this->addField("active", VARCHAR, 1);
 		$this->addField("body", TEXT);
+        //search functionality
 		$this->setTextSearchFields("title", "body");
 		$this->setTextSearchScript("news.php?sys_news_id=");
 		$this->setSearchPresentationHead("title");

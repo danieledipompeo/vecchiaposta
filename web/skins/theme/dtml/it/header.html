@@ -17,9 +17,9 @@
     </ul>
 
     <!-- BEGIN .gmap-btn-wrapper -->
-    <div class="gmap-btn-wrapper">
+    <div class="gmap-btn-wrapper" style="border-radius: 50%;">
         <a href="#" class="gmap-btn"></a>
-        <div class="gmap-curve"></div>
+        <!--div class="gmap-curve"></div-->
         <!-- END .gmap-btn-wrapper -->
     </div>
 
@@ -41,8 +41,13 @@
 <div id="title-wrapper">
     <div id="logo">
         <a href="index.html">
-            <img src="\skins\theme\img\logo.png"></a>
+            <img src="\skins\theme\img\logo.png" />
+        </a>
     </div>
-    <div id="last-offert">ultima offerta</div>
+    <div id="last-offert">
+        <div id="last-offert-content">
+            {$offerta}
+        </div>
+    </div>
     <!-- END .title-wrapper -->
 </div>

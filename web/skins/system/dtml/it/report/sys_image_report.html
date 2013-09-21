@@ -1,7 +1,7 @@
 <article class="module width_full">
     <header><h3 class="tabs_involved">Content Manager</h3>
         <ul class="tabs">
-            <li class="active"><a href="#tab1">Service</a></li>
+            <li class="active"><a href="#tab1">Imagine</a></li>
             <li>
                 <a href="{$service_link}?action=emit">
                     <img class="add_entities" src="skins/system/images/icn_plus.png" title="Aggiungi"/>
@@ -16,6 +16,7 @@
                 <thead>
                 <tr>
                     <th class="header"></th>
+                    <th class="header">Titolo</th>
                     <th class="header">Nome file</th>
                     <th class="header">Propetario</th>
                     <th class="header">Bytes</th>
@@ -26,12 +27,13 @@
                 {foreach from=$instances item=instance}
                 <tr>
                     <td><input type="checkbox"></td>
+                    <td>{$instance->title}</td>
                     <td>{$instance->filename}</td>
                     <td>{$instance->owner->username}</td>
                     <td>{$instance->size}</td>
                     <td>
                         <a href="{$service_link}?action=emit&preload=1&value={$instance->id}" title="Modifica"><img src="skins/system/images/icn_edit.png" alt="modifica elemento"/> </a>
-                        <a href="{$service_link}?action=delete&value={$instance->username}" title="Rimuovi"><img src="skins/system/images/icn_trash.png" alt="elimina elemento"/> </a>
+                        <a href="{$service_link}?action=delete&value={$instance->id}" title="Rimuovi"><img src="skins/system/images/icn_trash.png" alt="elimina elemento"/> </a>
                     </td>
                 </tr>
                 {/foreach}
@@ -42,5 +44,5 @@
     </div><!-- end of .tab_container -->
 </article>
 {else}
-<h1>NON CI SONO servizi</h1>
+<h1>NON CI SONO immagini</h1>
 {/if}

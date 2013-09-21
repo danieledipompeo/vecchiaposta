@@ -203,7 +203,7 @@ class Config{
 	{
 		if(!isset(self::$instance))
 		{
-			self::$instance=new Config();
+			self::$instance = new Config();
 		}
 		return self::$instance;
 	}
@@ -223,10 +223,8 @@ class Config{
 			$file_data = json_decode(file_get_contents(realpath(dirname(__FILE__))."/../contents/config.cfg"),JSON_PRETTY_PRINT);
 
 			$this->configurations['database'] = Array(
-					($file_data["database_config"]["host"])=> $file_data["database_config"]
-					/**
-					 * Insert other hosts in here
-			*/
+					$file_data["database_config"]["host"]=> $file_data["database_config"]
+					/* Insert other hosts in here */
 			);
 			$this->configurations['defaultuser'] = $file_data["admin_config"];
 		}
@@ -239,27 +237,17 @@ class Config{
 			$this->configurations["installed"]=true;
 		}
 
-
-
 		$this->configurations['language'] = ITALIANO;
-
-
-
 		$this->configurations['website'] = Array(
 				"name" 		=> "Disim",
 				"payoff"	=> "",
-				"email"		=> "info@nidasoft.it",
+				"email"		=> "info@nbecontent.org",
 				"domain" 	=> "disim.univaq.it",
 				"fulldomain" => "http://ricerca.disim.univaq.it",
 				"keywords"	=> "Disim",
 				"description" => "Dipartimento di Ingegneria e Scienze dell'Informazione e Matematica"
 
 		);
-
-
-
-
-
 
 		$this->configurations['upload_folder'] = "upload";		// Upload directory to be used by the FILE2FOLDER types, it must
 
@@ -306,5 +294,3 @@ class Config{
 }
 
 $config=Config::getInstance()->getConfigurations();
-
-?>

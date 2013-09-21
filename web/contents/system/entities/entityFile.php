@@ -1,4 +1,8 @@
 <?php
+/**
+ * Class EntityFile
+ * @author dipompeodaniele@gmail.com, n.sacco.dev@gmail.com
+ */
 
 class EntityFile extends Entity
 {
@@ -12,4 +16,3 @@ class EntityFile extends Entity
 	}
 }
 $fileEntity=new EntityFile($database,"sys_file");
-?>

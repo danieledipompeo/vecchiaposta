@@ -34,9 +34,6 @@ class PositionForm extends Form
 		 * if the main entity was correctly updated it's time to update her relations included in the requested
 		 * triggered forms (subforms).
 		 */
-		
-		
-		
 		/**
 		 * Searching for request hashtags in the scheme
 		 * attributename_hash
@@ -105,4 +102,3 @@ class PositionForm extends Form
 		}
 	}
 }
-?>

@@ -74,7 +74,7 @@ spl_autoload_register(function ($class) {
 		 * @ParamType aKey
 		 */
 		public function tag($tagKey,$parameters) {
-			$pars=get_object_vars(json_decode($parameters));
+			$pars=json_decode($parameters);
 			$tagRoute= explode(":", $tagKey);
 			$thisNodeKey=$tagRoute[0];
 			unset($tagRoute[0]);

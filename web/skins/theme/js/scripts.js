@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-    
+
 	// Drop Down Menu
 	$("ul#main-menu").superfish({ 
         delay:       0,
@@ -36,25 +36,25 @@ $(document).ready(function() {
 	$(document).ready(function(){
 		$("a[rel^='prettyPhoto']").prettyPhoto();
 	});
-	
+
 	// Slides Loader
 	$("#slides").removeClass("slide-loader");
 	
 	// Slider
-	$("#slides").slides({
-		effect: 'slide',
-		preload: false,
-		generatePagination: false,
-		autoHeight: false,
-		next: 'next',
-		prev: 'prev',
-		play: false,
-		pause: 2500,
-		slideSpeed: 600,
-		hoverPause: true,
-		slideEasing: "easeOutQuad",
-		slidesLoaded: function () { $("#slides a.prev, #slides a.next").fadeIn(300);  }
-	});
+    $("#slides").slides({
+        effect: 'slide',
+        preload: false,
+        generatePagination: false,
+        autoHeight: false,
+        next: 'next',
+        prev: 'prev',
+        play: false,
+        pause: 2500,
+        slideSpeed: 600,
+        hoverPause: true,
+        slideEasing: "easeOutQuad",
+        slidesLoaded: function () { $("#slides a.prev, #slides a.next").fadeIn(300);  }
+    });
 	
 	// Slider
 	$("#slides1").slides({

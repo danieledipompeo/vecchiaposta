@@ -29,7 +29,7 @@
 			var child = document.createElement('div');
 	
 			child.id = "child_" + editingId;
-			child.className = "";
+			child.className = "editing-item";
 			var spanItem = document.createElement("span");
 			spanItem.innerHTML = $("#mainEntry").val();
 			child.appendChild(spanItem);
@@ -71,7 +71,6 @@
 			//Cleaning the ids list
 			ids_list.empty();
 
-			
 			// If the result is an array start to construct hidden inputs in dom in childs_list
 			if (is_array(result)) {
 				for ( i = 0 ; i < result.length ; i++) {
@@ -119,7 +118,7 @@
 				}
 			}
 			
-			updateEditingItem()
+			updateEditingItem();
 		});
 	}
 	
@@ -132,35 +131,36 @@
 	}
 	
 	
-	$(document).ready(function()
-			{
-				//Executes the function for first time in order to retrieve the actual selected 
-				HierPositionRequestInstances('{$parent_name}', '{$entity_name}');
-				
-				
-				$("#{$parent_name}").change(function(){
-					HierPositionRequestInstances('{$parent_name}', '{$entity_name}')
-					}
-				);
-				
-				$("#childs_list").sortable({
-					// is started after the sortable function is finished
-					stop: function(event, ui) { 
-						refreshPositions();
-					}
-				});
-				
-				$("#mainEntry").focusout(function(){
-					updateEditingItem();
-				});
-			}
-	);
+	$(document).ready(function(){
+        //Executes the function for first time in order to retrieve the actual selected
+        HierPositionRequestInstances('{$parent_name}', '{$entity_name}');
+
+
+        $("#{$parent_name}").change(function(){
+            HierPositionRequestInstances('{$parent_name}', '{$entity_name}')
+            }
+        );
+
+        $("#childs_list").sortable({
+            // is started after the sortable function is finished
+            stop: function(event, ui) {
+                refreshPositions();
+            }
+        });
+
+        $("#mainEntry").focusout(function(){
+            updateEditingItem();
+            $('.column').equalHeight();
+        });
+
+    });
 </script>
 <!-- hierarchical position widget-->
 <div class="">
 	<fieldset>
         <label for="{$parent_name}">{$label}</label>
 	    <select class="" name="{$parent_name}" id="{$parent_name}">
+            <option value="0">Nessuna categoria</option>
 		    {$parents_list}
 	    </select>
     </fieldset>
@@ -170,4 +170,4 @@
 	</div>
 	<fieldset id="childs_list"></fieldset>
 </div>
-<div id="ids_list" hidden="">{$new_child}</div>
+<div id="ids_list" class="hidden">{$new_child}</div>

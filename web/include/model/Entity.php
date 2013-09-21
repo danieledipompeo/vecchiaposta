@@ -130,11 +130,17 @@ class Entity {
 		$field_values_subquery.=")";
 		$query.=$field_names_subquery.$field_values_subquery.";";
 
-        var_dump($query_conditions);
+
+        if(Settings::getOperativeMode() == 'debug')  {
+            echo '<br />method save in fileEntity: ';
+            echo'<br />var_dump query';
+            var_dump($query);
+        }
 
 		$oid = mysql_query($query);
 
 		$last_created_conditions=array();
+
 		if(isset($query_conditions[$this->fields[0]->name]))
 			$last_created_conditions[$this->fields[0]->name]=$query_conditions[$this->fields[0]->name];
 		else
@@ -612,11 +618,17 @@ class Entity {
 	 * @access private
 	 * @param order_conditions
 	 * @ParamType order_conditions
+     *
 	 */
 	private function orderGenerator($order_conditions,$join_entities) {
 		$id = uniqid(time());
 		$order_clause = "";
-			
+
+        if($this->debugmode){
+            echo '<br />Entity->orderGenerator: ';
+            var_dump($order_conditions);
+        }
+
 		if (count($order_conditions) > 0) {
 
 			foreach($order_conditions as $k=>$v) {
@@ -625,10 +637,10 @@ class Entity {
 				$addCondition=false;
 
 
-				if(preg_match("/DESC/",$v))
+				if(preg_match("/ DESC/",$v))
 				{
 					$direction="DESC";
-					$v=preg_replace("/DESC/", "", $v);
+					$v=preg_replace("/ DESC/", "", $v);
 				}
 				else
 				{
@@ -636,10 +648,15 @@ class Entity {
 				}
 
 				$filteredKey=preg_replace("/{$this->name}./", "", $v);
+
+                if($this->debugmode){
+                    echo '<br />filteredKey';
+                    var_dump($filteredKey);
+                }
+
 				if($this->existsField($filteredKey))
 				{
 					$addCondition=true;
-
 					$entityName=$this->name;
 				}
 				else
@@ -657,6 +674,10 @@ class Entity {
 
 				if($addCondition)
 					$order_clause .= Parser::first_comma($id, ", ")."{$entityName}.{$filteredKey} {$direction}";
+                if($this->debugmode){
+                    echo '<br />Entity->orderGenerator $order_clause: ';
+                    var_dump($addCondition);
+                }
 
 			}
 		}
@@ -664,7 +685,6 @@ class Entity {
 			$order_clause="ORDER BY ".$order_clause;
 		else
 			$order_clause="";
-
 		return $order_clause;
 	}
 

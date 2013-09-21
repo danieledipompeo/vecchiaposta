@@ -1,0 +1,83 @@
+<!--Camera singola-->
+<!--ITALIANO-->
+<!-- BEGIN .page-header -->
+<div class="page-header">
+    <img src="../../img/page-head.png" alt="" />
+    <!-- END .page-header -->
+</div>
+<!-- BEGIN .section -->
+<div class="section page-full clearfix">
+    <h2 class="page-title">{$instance->nome}</h2>
+    <!-- BEGIN .page-content -->
+    <div class="page-content page-content-full">
+        <div class="even-cols clearfix">
+            <div class="one-half">
+                <!-- BEGIN #slides -->
+
+                <div id="slides1" class="slide-loader">
+                    <!-- BEGIN .slides_container -->
+                    <div class="slides_container">
+                        {foreach from=$instance->vp_room_sys_image item=image}
+                        <div class="slide">
+                            <a href="#">
+                                <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
+                            </a>
+                            <div class="caption">{$image->id_sys_image->caption}</div>
+                        </div>
+                        {/foreach}
+                        <!-- END .slides_container -->
+                    </div>
+                    <a href="#" class="prev">Previous</a>
+                    <a href="#" class="next">Next</a>
+                    <!-- END #slides -->
+                </div>
+            </div>
+            <div class="one-half last-col">
+                <h3 class="title1">Serivizi<span class="title-end"></span></h3>
+                <div class="clearfix">
+                    <div class="one-third">
+                        <ul class="list3">
+                            {foreach from=$instance->vp_room_vp_servizi item=servizi}
+                            <li>{$servizi->id_vp_servizi->nome}</li>
+                            {/foreach}
+                        </ul>
+                    </div>
+                    <!--div class="one-third">
+                        <ul class="list3">
+                            {for $i=1 to ($limit_second)}
+                            {$i+$limit_first}
+                            <li>{$instance->vp_room_vp_servizi[$i+$limit_first]->id_vp_servizi->id}</li>
+                            {/for}
+                        </ul>
+                    </div>
+
+                    <div class="one-third last-col">
+                        <ul class="list3">
+                            {for $i=1 to $limit_third}
+                            {$i+$limit_second+$limit_first}
+                            <li>{$instance->vp_room_vp_servizi[$i+$limit_second+$limit_first]->id_vp_servizi->id}</li>
+                            {/for}
+                        </ul>
+                    </div-->
+                </div>
+                <div class="booknow-accompage">
+                    <div class="book-price">
+                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                    </div>
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.html" method="post">
+                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                        <div class="clearfix">
+                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
+                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
+                        </div>
+                        <input class="bookbutton" type="submit" value="Prenota" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <h3 class="title1">Descrizione<span class="title-end"></span></h3>
+        <p>{$instance->descrizione}</p>
+        <!-- END .page-content -->
+    </div>
+    <!-- END .section -->
+</div>

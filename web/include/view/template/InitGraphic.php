@@ -1,10 +1,9 @@
 <?php
-/* 
-require_once (realpath(dirname(__FILE__)).'/../../skin.inc.php');
-require_once (realpath(dirname(__FILE__)).'/../../skinlet.inc.php');
-require_once (realpath(dirname(__FILE__)).'/../../beContent.inc.php');
-require_once (realpath(dirname(__FILE__)).'/../../content.inc.php');
-require_once (realpath(dirname(__FILE__)).'/../../entities.inc.php"'); 
+/**
+ * Class InitGraphic
+ * Permette la costruzione della struttura della pagina.
+ * Type: Singleton
+ *
  */
 
 class InitGraphic{
@@ -12,8 +11,11 @@ class InitGraphic{
 	private static $instance;
 	
 	private function __construct(){}
-	
-	public static function getInstance()
+
+    /**
+     * @return InitGraphic
+     */
+    public static function getInstance()
 	{
 		if(! isset($instance) )
 			self::$instance = new InitGraphic();
@@ -23,75 +25,84 @@ class InitGraphic{
 	/**
 	 * 
 	 * @param Skin $skin
-	 * @param boolean $backEnd
+	 * @param boolean $hasNews
+     * Costruisce la struttura del front-end.
+     * Utilizza:
+     * frame-public-head: tag html <head>
+     * header e footer: header e footer del tema
+     * news: devono essere esplicitamente volute altrimenti non vengono caricate nel tema
+     *
 	 */
-	public function createGraphic($skin, $backEnd = false, $news = true)
+	public function createGraphic($skin, $hasNews = true)
 	{
 		$newsEntity = $GLOBALS['sys_news'];
 		$pageEntity = $GLOBALS['sys_page'];
-        $sliderEntity = $GLOBALS['slider'];
 
-		if(!$backEnd)
-		{
-			$menuEntity = $GLOBALS['sys_menu'];
-            $menuTemplate = new Skinlet('menu');
-			$menu = new Content($menuEntity,$menuEntity);
-			$menu->setFilter("parent_id", 0);
-			$menu->setOrderFields("sys_menu_position",'sys_menu_parent',"sys_menu0_position");
-            $menu->apply($menuTemplate);
-			if($news){
-				$news = new Content($newsEntity);
-				$skin->setContent("news", $news->get());
-			}
-			$head = new Skinlet("frame-public-head");
-            $slider = new Content($sliderEntity);
-            $skin->setContent('slider', $slider->get());
-		}
-		else 
-		{
-			$servicecategoryEntity = $GLOBALS['sys_servicecategory'];
-			$servicesEntity = $GLOBALS['sys_service'];
-			$servicesGroupsRelation = $GLOBALS['sys_service_sys_group'];
-			$groupsEntity = $GLOBALS['sys_group'];
-			$usersGroupsRelation = $GLOBALS['sys_user_sys_group'];
-			$menuTemplate = new Skinlet("menu_admin");
-			$menu = new Content($servicecategoryEntity, $servicesEntity, $servicesGroupsRelation, $groupsEntity, $usersGroupsRelation);
-			$menu->setOrderFields("position");
-			$menu->setFilter("username_sys_user", $_SESSION['user']['username']);
-			$menu->apply($menuTemplate);
-			$head = new Skinlet("frame-private-head");
-		}
-		
-		$skin->setContent("menu", $menuTemplate->get());
-		
-		$skin->setContent("head", $head->get());
+        $menuEntity = $GLOBALS['sys_menu'];
+
+        $menuTemplate = new Skinlet('menu');
+        $menu = new Content($menuEntity,$menuEntity);
+        $menu->setFilter("parent_id", 0);
+        $menu->setOrderFields("sys_menu_position",'sys_menu_parent',"sys_menu0_position");
+        $menu->apply($menuTemplate);
+
+        if($hasNews){
+            $newsContent = new Content($newsEntity);
+            $newsContent->setLimit(1);
+            $newsContent->setOrderFields("id DESC");
+            $newsContent->forceSingle();
+        }
+
+        /*skinlet frame-public-head: skins/theme/header.html*/
+        $head = new Skinlet("frame-public-head");
+
+        /*skinlet header: skins/theme/header.html*/
 		$header = new Skinlet("header");
-		$skin->setContent("header", $header->get());
+        $header->setContent("offerta", $newsContent->get());
 
-		/*$sitemap = new Skinlet("sitemap");
-		$sitemapContent = new Content($pageEntity, $pageEntity, $pageEntity);
-		$sitemapContent->forceMultiple();
-		$sitemapContent->apply($sitemap);
+        /*skinlet footer: skins/theme/footer.html*/
+        $footer = new Skinlet("footer");
 
-		$actual_script=str_replace("/", "", $_SERVER['SCRIPT_NAME']);
+        /*funzionalità breadcrump*/
+		/*
+            $breadcrump = new Skinlet("sitemap");
+            $breadcrumpContent = new Content($pageEntity, $pageEntity, $pageEntity);
+            $breadcrumpContent->forceMultiple();
+            $breadcrumpContent->apply($breadcrump);
 
-		if($actual_script!="page.php")
-			$sitemap->setContent('actual_script', $actual_script);
-		else
-			$sitemap->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
+            $actual_script=str_replace("/", "", $_SERVER['SCRIPT_NAME']);
 
-		$skin->setContent("sitemap", $sitemap->get());
+            if($actual_script!="page.php")
+                $breadcrump->setContent('actual_script', $actual_script);
+            else
+                $breadcrump->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
+
+            $skin->setContent("sitemap", $breadcrump->get());
 		*/
-		$footer = new Skinlet("footer");
-		$skin->setContent("footer", $footer->get());
+
+        /*creazione della struttura*/
+        $skin->setContent("menu", $menuTemplate->get());
+        $skin->setContent("head", $head->get());
+        $skin->setContent("header", $header->get());
+        $skin->setContent("footer", $footer->get());
 	}
 
+    /**
+     *
+     * @param Skin $skin
+     * @param boolean $login
+     * Costruisce la struttura del back-end.
+     * Utilizza:
+     * frame-private-head: tag html <head>
+     * header e footer: header e footer del tema
+     *
+     */
     public function createSystemGraphic($skin, $login = false)
     {
+        /*
+         * entity necessarie per il funzionamento del back-end
+         */
         $actualUser =  $_SESSION['user']['username'];
-
-        $newsEntity = $GLOBALS['sys_news'];
-        $pageEntity = $GLOBALS['sys_page'];
         $servicecategoryEntity = $GLOBALS['sys_servicecategory'];
         $servicesEntity = $GLOBALS['sys_service'];
         $servicesGroupsRelation = $GLOBALS['sys_service_sys_group'];
@@ -100,50 +111,60 @@ class InitGraphic{
         $usersGroupsRelation = $GLOBALS['sys_user_sys_group'];
 
         /*
-         * html head back-end
+         * skinlet frame-private-head: skins/system/header.html
          */
         $head = new Skinlet("frame-private-head");
-        $skin->setContent("head", $head->get());
 
         /*
-         * header back-end
+         * skinlet header: skins/system/header.html
          */
-
         $header = new Skinlet("header");
         $loggedUser = new Content($userEntity);
         $loggedUser->setFilter('username', $actualUser);
         $loggedUser->forceSingle();
         $loggedUser->apply($header);
-        $skin->setContent("header", $header->get());
+
         /*
-         * menu back-end
+         * skinlet menu_admin: skins/system/menu_admin.html
          */
         $menuTemplate = new Skinlet("menu_admin");
         $menu = new Content($servicecategoryEntity, $servicesEntity, $servicesGroupsRelation, $groupsEntity, $usersGroupsRelation);
         $menu->setOrderFields("position");
         $menu->setFilter("username_sys_user", $actualUser);
         $menu->apply($menuTemplate);
+
         /*
-         * footer back-end
+         * skinlet footer: skins/system/footer.html
          */
         $footer = new Skinlet("footer");
         $menuTemplate->setContent("footer", $footer->get());
+
+        /*
+         * funzionalità breadcrump
+         */
+        /*
+            $breadcrump = new Skinlet("sitemap");
+            $breadcrumpContent = new Content($pageEntity, $pageEntity, $pageEntity);
+            $breadcrumpContent->forceMultiple();
+            $breadcrumpContent->apply($breadcrump);
+
+            $actual_script=str_replace("/", "", $_SERVER['SCRIPT_NAME']);
+
+            if($actual_script!="page.php")
+                $breadcrump->setContent('actual_script', $actual_script);
+            else
+                $breadcrump->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
+
+            $skin->setContent("sitemap", $breadcrump->get());
+        */
+
+        /*
+         * creazione della struttura
+         */
+        $skin->setContent("head", $head->get());
+        $skin->setContent("header", $header->get());
         $skin->setContent("menu", $menuTemplate->get());
 
-        /*$sitemap = new Skinlet("sitemap");
-        $sitemapContent = new Content($pageEntity, $pageEntity, $pageEntity);
-        $sitemapContent->forceMultiple();
-        $sitemapContent->apply($sitemap);
-
-        $actual_script=str_replace("/", "", $_SERVER['SCRIPT_NAME']);
-
-        if($actual_script!="page.php")
-            $sitemap->setContent('actual_script', $actual_script);
-        else
-            $sitemap->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
-
-        $skin->setContent("sitemap", $sitemap->get());
-        */
     }
 
 }

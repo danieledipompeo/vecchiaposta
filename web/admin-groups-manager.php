@@ -19,10 +19,12 @@ $form->addText("name", "Name", 40, MANDATORY);
 $form->addEditor("description", "Description", 17, 60);
 
 $form_services = new RelationForm("dataEntry2", $servicesGroupsRelation);
+$form_services->addSection("Services");
 $form_services->addRelationManager("services", "Services", LEFT);
 $form->triggers($form_services);
 
 $form_users = new RelationForm("dataEntry3", $usersGroupsRelation);
+$form_users->addSection('Users');
 $form_users->addRelationManager("users", "Users", LEFT);
 $form->triggers($form_users);
 

@@ -16,7 +16,11 @@ class TitleField extends FormWidget {
 	 * @ParamType preload
 	 */
 	public function build($preload) {
-		$content = '<div class="page_heading no_tm mb20">';
+        if(Settings::getOperativeMode() == 'debug'){
+            echo '<br />debug TitleField widget';
+            var_dump($this->name);
+        }
+        $content = '<div class="page_heading">';
 		$content .='<h1 class="text_uppercase">'.$this->name.'</h1></div>';
 		return $content;
 	}

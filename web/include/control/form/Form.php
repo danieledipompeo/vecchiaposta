@@ -189,14 +189,18 @@ Class Form extends Skinlet{
 		/**
 		 * retrieving all form elements in $_REQUEST
 		 */
-
 		foreach($this->elements as $k => $v) {
 			if ($v->type == CHECKBOX) {
 				$token = explode(":", $v->values[1]);
 				if (!isset($_REQUEST[$token[1]])) {
 					$_REQUEST[$token[1]] = '';
 				}
-			}
+			}else if($v->type == FILE){
+                foreach($_FILES as $key => $value){
+                    $_REQUEST[$key] = $value;
+                    var_dump($_REQUEST);
+                }
+            }
 		}
 
 		/**
@@ -218,14 +222,12 @@ Class Form extends Skinlet{
 			echo Message::getInstance()->getMessage(MSG_ERROR_DATABASE_GENERIC)." (".basename(__FILE__).":".__LINE__.")";
 		} else {
 			
-			foreach($this->triggeredForms as $formKey=>$form)
-			{
+			foreach($this->triggeredForms as $formKey=>$form){
 				$form->edit($baseEntity);
 			}
 		}
 		if(!$this->debugmode)
 			header("Location:{$_SERVER['SCRIPT_NAME']}?action=report");
-		var_dump($content);
 		return $content;
 	}
 
@@ -242,8 +244,11 @@ Class Form extends Skinlet{
 
 		/**
 		 * retrieving all form elements in $_REQUEST
+         *
+         * la condizione    if($v->type == FILE)
+         * potrebbe essere spostata nell'entity utilizzando l'array $_FILES nel
+         * metodo save e update
 		 */
-
 		foreach($this->elements as $k => $v) {
 			if ($v->type == CHECKBOX) {
 				$token = explode(":", $v->values[1]);
@@ -251,6 +256,11 @@ Class Form extends Skinlet{
 					$_REQUEST[$token[1]] = '';
 				}
 			}
+            else if($v->type == FILE){
+                foreach($_FILES as $key => $value){
+                    $_REQUEST[$key] = $value;
+                }
+            }
 		}
 
 		/**
@@ -278,10 +288,18 @@ Class Form extends Skinlet{
 				$form->add($baseEntity);
 			}
 		}
-		if(!$this->debugmode)
+
+        if (Settings::getOperativeMode() == "debug"){
+            echo '<br />Form add debug';
+            echo '<br />$_request ';
+            var_dump($_REQUEST);
+            echo '<br />$_file ';
+            var_dump($_FILES);
+        }
+
+        if(!$this->debugmode)
 			header("Location:{$_SERVER['SCRIPT_NAME']}?action=report");
 		return $content;
-
 	}
 
 	/**
@@ -455,9 +473,9 @@ Class Form extends Skinlet{
 
 	function addFile($name,$label,$mandatory = "off")
 	{
-		$factory=new FileFieldFactory();
-		$newField=$factory->create($this);
-		$newField->name= $name;
+		$factory = new FileFieldFactory();
+		$newField = $factory->create($this);
+		$newField->name = $name;
 		$newField->type = FILE;
 		$newField->label = $label;
 		$newField->mandatory = $mandatory;
@@ -697,15 +715,15 @@ function emitHTML($operation, $page, $preload) {
 				if (!isset($_REQUEST[$this->entity->fields[0]->name])) {
 					$_REQUEST[$this->entity->fields[0]->name] =$_REQUEST["value"];
 				}
-				$actionHeader .= " <input type=\"hidden\" name=\"{$this->entity->fields[0]->name}\" value=\"{$_REQUEST[$this->entity->fields[0]->name]}\">\n
-				<input type=\"hidden\" name=\"value\" value=\"{$_REQUEST[$this->entity->fields[0]->name]}\">\n";
+				$actionHeader .= '<input type="hidden" name="'.$this->entity->fields[0]->name.'" value="'.$_REQUEST[$this->entity->fields[0]->name].'" />';
+				$actionHeader .= '<input type="hidden" name="value" value="'.$_REQUEST[$this->entity->fields[0]->name].'"/>';
 				if (!$this->moderationMode) {
-					$actionHeader .= "  <input type=\"hidden\" name=\"action\" value=\"edit\">\n";
+					$actionHeader .= '<input type="hidden" name="action" value="edit" />';
 				} else {
-					$actionHeader .= "  <input type=\"hidden\" name=\"action\" value=\"validate\">\n";
+					$actionHeader .= '<input type="hidden" name="action" value="validate" />';
 				}
 				if ($this->entity->owner) {
-					$actionHeader .= "  <input type=\"hidden\" name=\"username\" value=\"{$_REQUEST['username']}\">\n";
+					$actionHeader .= '<input type="hidden" name="username" value="'.$_REQUEST['username'].'" />';
 				}
 				break;
 		}
@@ -752,7 +770,7 @@ function emitHTML($operation, $page, $preload) {
 	 */
 	if (!$this->triggered) {
 
-		$closing .= '<div class="closing">';
+		$closing .= '<div class="clear"></div><div class="closing">';
 
 		switch ($operation) {
 			case "add":
@@ -806,9 +824,10 @@ function emitHTML($operation, $page, $preload) {
 				break;
 		}
 
-		$closing .= "</div>\n";
-		$closing .= "</form>\n";
-		$closing .= "<!-- MAIN FORM END -->\n";
+		$closing .= '</div>';
+		$closing .= '</form>';
+        $closing .= '<div class="clear"></div>';
+		$closing .= '<!-- MAIN FORM END -->';
 	}
 	
 	$this->setContent('closing', $closing);

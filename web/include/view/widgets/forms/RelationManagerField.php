@@ -1,5 +1,7 @@
 <?php
 require_once(realpath(dirname(__FILE__)) . '/../../../../include/view/widgets/FormWidget.php');
+require_once(realpath(dirname(__FILE__)) . '/../../../../include/settings.inc.php');
+
 
 /**
  * @access public
@@ -10,10 +12,8 @@ class RelationManagerField extends FormWidget {
 
 	/**
 	 * @access public
-	 * @param v
 	 * @param preload
-	 * @ParamType v
-	 * @ParamType preload
+	 * @ParamType preload  string
 	 */
 	public function build($preload) {
 		$content="";
@@ -31,11 +31,19 @@ class RelationManagerField extends FormWidget {
 				$secondaryEntityRoleName=$this->form->entity->roleName1;
 				break;
 		}
-		
+
+        if(Settings::getOperativeMode() == 'debug'){
+            echo '<br />Relation Manager Field';
+            echo ' entity_1';
+            var_dump($mainEntity->name);
+            echo ' entity_2';
+            var_dump($secondaryEntity->name);
+            echo '<br />Orientation';
+            echo $this->orientation;
+        }
+
 
 		$relAttributes=$this->form->entity->fields;
-
-
 		/**
 		 * Retrieving all instances for this entity
 		 * (Observation, at this point a query filter as to be added)
@@ -81,10 +89,11 @@ class RelationManagerField extends FormWidget {
 				}
 			}
 				
-			$content .= '<!--relation manager widget --><fieldset class="">';
+			$content .= '<!--relation manager fields -->';
+            $content .='<fieldset class="items">';
 				
 			$content .= '<div id="ck-button">';
-			$content .= '<label class="tooltip" title="clicca per selezionare/desselezionare">';
+			$content .= '<label>';
 
 			$content .= '<input class="" id="'.$name.'" type="checkbox" name="'.  $name.'" value="'.$instance->getKeyFieldValue().'"  '.$checked.' />';
 
@@ -105,9 +114,9 @@ class RelationManagerField extends FormWidget {
 				{
 					$value=$foundRelation->getFieldValue($this->form->entity->fields[$i]->name);
 				}
-				$content .= '<div class="mt10">';
-				$content .= '<label class="flt_lft line_height23 w150 right_align mr20">'.$this->form->attributesNames[$relAttributes[$i]->name].'</label>';
-				$content .= '<input class="flt_left tooltip w50"  type="text" name="'. $relAttributes[$i]->name.'_'.$key.'" value="'. $value.'" />';
+				$content .= '<div class="">';
+				$content .= '<label class="">'.$this->form->attributesNames[$relAttributes[$i]->name].'</label>';
+				$content .= '<input class=""  type="text" name="'. $relAttributes[$i]->name.'_'.$key.'" value="'. $value.'" />';
 				$content .= '</div>';
 				$content .= '<div class="clear">&nbsp;</div>';
 

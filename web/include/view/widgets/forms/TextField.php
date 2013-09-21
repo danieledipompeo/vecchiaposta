@@ -43,8 +43,7 @@ class TextField extends FormWidget {
 		/**
 		 * Max length of text
 		 */
-		if ($this->maxlength != null)
-		{
+		if ($this->maxlength != null){
 			$maxLength = 'maxlength="'.$this->maxlength.'"';
 		}
 		else
@@ -55,17 +54,17 @@ class TextField extends FormWidget {
 		 * Deprecating the use of everywhere queries, limit use to Entity class in order to add multi-dbms support
 		 */
 		$value="";
-		if ($preload && $this->form->entity->loaded==true) {
-			
+		if ($preload && $this->form->entity->loaded==true)
+        {
 			$field_to_modify=$this->form->entity->instances[0]->getFieldValue($this->name);
-			
-			if (($this->form->entity->addslashes) && (isset($field_to_modify))) {
+			if (($this->form->entity->addslashes) && (isset($field_to_modify))){
 				$value = stripslashes($field_to_modify);
 			}
-			else
+			else{
 				$value=$field_to_modify;
+            }
 		}
-		
+
 		$widget = new Skinlet("widget/TextField");
 		$widget->setContent("label", $this->label);
 		$widget->setContent("name",$this->name);

@@ -54,6 +54,10 @@ class FileType extends baseType {
 	 * @ParamType commaId 
 	 */
 	public function save($commaId) {
+
+        if(Settings::getOperativeMode() == 'release'){
+            echo '<br />debug save FileType';
+        }
 		if (is_uploaded_file($_FILES[$this->name]['tmp_name'])) {
 			$filename = $_FILES[$this->name]['name'];
 			$filesize = $_FILES[$this->name]['size'];

@@ -27,10 +27,10 @@
                     <tr>
                         <td><input type="checkbox"></td>
                         <td>{$instance->title}</td>
-                        <td>{$instance->owner}</td>
+                        <td>{$instance->owner->username}</td>
                         <td></td>
                         <td>
-                            <a href="emit&preload=1&value={$instance->id}" title="Modifica"><img src="skins/system/images/icn_edit.png" alt="modifica elemento"/> </a>
+                            <a href="{$service_link}?action=emit&preload=1&value={$instance->id}" title="Modifica"><img src="skins/system/images/icn_edit.png" alt="modifica elemento"/> </a>
                             <a href="{$service_link}?action=delete&value={$instance->id}" title="Rimuovi"><img src="skins/system/images/icn_trash.png" alt="elimina elemento"/> </a>
                         </td>
                     </tr>
@@ -41,7 +41,7 @@
         </div><!-- end of .tab_container -->
     {else}
         <h1>NON CI SONO {$instance->name}</h1>
-
+    {/if}
 </article>
-{/if}
+
 

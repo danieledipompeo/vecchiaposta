@@ -94,6 +94,7 @@ body {
 /* Feature background colour */
 .top-bar, .gmap-btn-wrapper, #navigation, .booknow-accompage, .booknow, #footer {
 	background: url(../../img/bgd.png) #311807;
+
 }
 
 #footer-bottom {

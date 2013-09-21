@@ -19,26 +19,23 @@
 <!-- BEGIN .content-body -->
 <div class="content-body">
 
-<!-- BEGIN #header-google-map -->
-{$header}
+    <!-- BEGIN #header-google-map -->
+    {$header}
 
-<!-- BEGIN #navigation -->
-{$menu}
-<!-- END #navigation -->
+    <!-- BEGIN #navigation -->
+    {$menu}
+    <!-- END #navigation -->
 
-<!-- BEGIN #slides -->
-    <div id="slides" class="slide-loader">
+    <!-- BEGIN #slides -->
+    {$slider}
+    <!-- END #slides -->
 
-        <!-- BEGIN .slides_container -->
-        {$slider}
-    </div>
-<!-- END #slides -->
-   {$body}
+    {$body}
 
     <!-- BEGIN #footer -->
-<div id="footer" class="clearfix">
-    {$footer}
-</div>
+    <div id="footer" class="clearfix">
+        {$footer}
+    </div>
 
 <!-- END .content-body -->
 </div>

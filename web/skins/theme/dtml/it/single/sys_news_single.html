@@ -1,22 +1,13 @@
-<div id="liveReport">
-	<!-- MODIFICA QUESTE LINEE-->
-SINGLE TEMPLATE STANDARD; <h1>sys_news</h1>
-{if $instances != null || $instance != null}
-<ul>
-<li>id: {$instance->id}</li>
-<li>owner: {$instance->owner}</li>
-<li>title: {$instance->title}</li>
-<li>lastmod: {$instance->lastmod}</li>
-<li>creation: {$instance->creation}</li>
-<li>date: {$instance->date}</li>
-<li>active: {$instance->active}</li>
-<li>body: {$instance->body}</li>
-</ul>
-{else}
-<h1>NON CI SONO sys_news</h1>
-{/if}
-
-<!-- MODIFICA QUESTE LINEE-->
-
+<div class="blog-title clearfix">
+    <div class="fl">
+        <h3>
+            <a href="prenota.php">{$instance->title}</a></h3>
+    </div>
+    <!-- END .blog-title -->
+</div>
+<div class="blog-content clearfix">
+    {$sys->tag("system:TagSubText", json_encode(array($instance->body,150)) )}
+    <p><a href="blog-single.html" class="button2">Prenota</a></p>
+    <!-- END .blog-content -->
 </div>
 
