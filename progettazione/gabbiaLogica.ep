@@ -302,7 +302,7 @@
             <use xlink:href="#c9f1ed50879e4b46a86b9d1552e0e6d5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ec1ecd636b1e4c3095bde41655493f50" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6edadf85e63b4400913843b96ce04983" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#c9f1ed50879e4b46a86b9d1552e0e6d5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="db2239a9522f4e40b9c2499034c00368" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="db2239a9522f4e40b9c2499034c00368" dx="0"/>
                 </textPath>
             </text>
 
@@ -377,7 +377,7 @@
             <use xlink:href="#e29fdb155dcc4f11b5f404e0d1c7b982" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c458caf2b2c24f408a24c8606540e245" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7cf8ac2ba4644953977a57e563874125" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e29fdb155dcc4f11b5f404e0d1c7b982" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ca74bd522774423dbbd69c244406d0c5" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ca74bd522774423dbbd69c244406d0c5" dx="0"/>
                 </textPath>
             </text>
 
@@ -392,7 +392,7 @@
             <use xlink:href="#f7980836ea6048ccbc89d1af71b8cf2f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c38a1dae447544f9a5ecafc59912693d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="73bd6bb1b2154f2ca00c753073baedd7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#f7980836ea6048ccbc89d1af71b8cf2f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="901c3180ca2a4d98b1d6ba65bf09dc4c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="901c3180ca2a4d98b1d6ba65bf09dc4c" dx="0"/>
                 </textPath>
             </text>
 
@@ -422,7 +422,7 @@
             <use xlink:href="#bbbe1fb0740249a888abdcbbc17ded77" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1395a36510784342928f048d58de6df6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="5dadc019f7654ce1bc3ade8f176e97d1" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#bbbe1fb0740249a888abdcbbc17ded77" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f9e3307b1db041f3b78cd431c4a3ce42" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f9e3307b1db041f3b78cd431c4a3ce42" dx="0"/>
                 </textPath>
             </text>
 
@@ -437,7 +437,7 @@
             <use xlink:href="#c3abc697e84a478da778e3a7fd2878a4" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="78089c495b59469d9c3d5e40042e8d62" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="5c674b7fcea84375be79410beb359ecf" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#c3abc697e84a478da778e3a7fd2878a4" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2a1b1cc1aab94fd9b8c4fa9e1146bf8e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2a1b1cc1aab94fd9b8c4fa9e1146bf8e" dx="0"/>
                 </textPath>
             </text>
 
@@ -473,7 +473,7 @@
             <use xlink:href="#a32af57cab714a5dbee1e967b0a9f29c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="503d6c530b3d4f46ab64592d2db7cd71" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="66a0a531ba854f31ac7cc97e65b25a11" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a32af57cab714a5dbee1e967b0a9f29c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d24b76a577a64da2876c37f5d31642d0" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d24b76a577a64da2876c37f5d31642d0" dx="0"/>
                 </textPath>
             </text>
 
@@ -563,7 +563,7 @@
             <use xlink:href="#2e77eea221e441e8acf91c185505e200" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a60d945e635747f58801c0fc099e6b29" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="47e7163456754dae97aa79bd25e629ec" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2e77eea221e441e8acf91c185505e200" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5468e27acfe8496586c25b09bd62c1ca" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5468e27acfe8496586c25b09bd62c1ca" dx="0"/>
                 </textPath>
             </text>
 
@@ -578,7 +578,7 @@
             <use xlink:href="#ebbff30fc47e448e80be709796f881b3" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1010fbaaeadb4307ba0f45d7d236f4c4" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f37838da0e204381ac5497244a209c3d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ebbff30fc47e448e80be709796f881b3" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="52fc176902f7439caaac7bf5434096f4" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="52fc176902f7439caaac7bf5434096f4" dx="0"/>
                 </textPath>
             </text>
 
@@ -615,7 +615,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#269d8e9b5b1e46b294549ff5c2019f84" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="46aed7b75a934589958d3d83db590010" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="692dab2d9a4d4afd8da2b59380614343" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#269d8e9b5b1e46b294549ff5c2019f84" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c39594fdedce48abaf1587cfab0604ed" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c39594fdedce48abaf1587cfab0604ed" dx="0"/>
                 </textPath>
             </text>
 
@@ -630,7 +630,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#152ad1d9c84a411da784ca5a2ad197c8" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6bc29671228e49d18080082d83f322e5" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4b73cee637934a94b672b315c6296197" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#152ad1d9c84a411da784ca5a2ad197c8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c45699c1614c4052a35613f24c85f69b" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c45699c1614c4052a35613f24c85f69b" dx="0"/>
                 </textPath>
             </text>
 
@@ -645,7 +645,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b0bd179639af49a2832a323322634f68" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e3e88bc1a5fc402c8614fc8b39109879" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="00a0c0af25f74d5e99c08454a0fee9d8" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b0bd179639af49a2832a323322634f68" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9a3afde927884a2ca527c1e9b163cc03" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9a3afde927884a2ca527c1e9b163cc03" dx="0"/>
                 </textPath>
             </text>
 
@@ -663,7 +663,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#96ed45b2e9494aa68fd397000ca805a1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6792ecc447014377acc1fca7be1d4073" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="26497d8a946a4555b88933bf400d8c0b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#96ed45b2e9494aa68fd397000ca805a1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="3cce64e32372448ba0a1e5620892290c" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="3cce64e32372448ba0a1e5620892290c" dx="0"/>
                 </textPath>
             </text>
 
@@ -845,7 +845,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#4b7d9d4c2f1a41b19844efc3937eb0ac" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="746862fff3a94e888eaecc60ecf3b61a" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="84ceb08de4344552945fa416ddbb1270" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4b7d9d4c2f1a41b19844efc3937eb0ac" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9f9e39b97333471f9517316fd8562383" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9f9e39b97333471f9517316fd8562383" dx="0"/>
                 </textPath>
             </text>
 
@@ -896,7 +896,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#25701268946f4ac8b931736d85ee5c41" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="272e9c6a80a84471ac9b6a1f43fd289e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="1bb5afc8d5c3496ca8478a947f5bd07b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#25701268946f4ac8b931736d85ee5c41" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="0faf0111db094877a22a5f58768a463f" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="0faf0111db094877a22a5f58768a463f" dx="0"/>
                 </textPath>
             </text>
 
@@ -932,7 +932,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#38aad32adc264b86a57b309b3329af84" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1b1125304b54465e9231e644a8e8b8b8" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="c268a32e6d9b4dbc96185499bdbe0dba" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#38aad32adc264b86a57b309b3329af84" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="856035515d0d4a4687d95463d2f3d40f" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="856035515d0d4a4687d95463d2f3d40f" dx="0"/>
                 </textPath>
             </text>
 
@@ -947,7 +947,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#9fcb7380239b4b5399c71d5378f08626" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9478bed6785a46c7b21a9a309570cfc9" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7e22913a131249f5a792aef0edaffc9c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9fcb7380239b4b5399c71d5378f08626" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e06df51ed11546738fc48f3631e2f77b" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e06df51ed11546738fc48f3631e2f77b" dx="0"/>
                 </textPath>
             </text>
 
@@ -965,7 +965,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#100cd12b707c497797c91a6f56776ebf" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c15854df9b514adea889e9b9f4727a16" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f0eaeec8313a4089b586062fe1dc8f8e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#100cd12b707c497797c91a6f56776ebf" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6e6fce3001bc49b1b4bbab816e620398" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6e6fce3001bc49b1b4bbab816e620398" dx="0"/>
                 </textPath>
             </text>
 
@@ -980,7 +980,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#3a1c638e9d7a49beb9171412c080cca0" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f0d066a53c4e430e8b5650c5abfabd7d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="222760ef49664366a482abae8ef7057c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#3a1c638e9d7a49beb9171412c080cca0" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f1026233e12646bcbaf594c6ccdf93c6" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f1026233e12646bcbaf594c6ccdf93c6" dx="0"/>
                 </textPath>
             </text>
 
@@ -1013,7 +1013,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#24a19564485f499381d5bde8033f2fa4" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="49f2f337cfb24a3785be97c2e6df0a07" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a81e405e74a74cdc80262cfff3343763" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#24a19564485f499381d5bde8033f2fa4" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a72c95fd7b5945bcbb9727b62f4b8642" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a72c95fd7b5945bcbb9727b62f4b8642" dx="0"/>
                 </textPath>
             </text>
 
@@ -1046,7 +1046,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#a2b3f70c5b88461eafd4054e77c1d74b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="41463e571f534c3886fdd4c11091e1f4" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="56cd60483c9c44ac8f454b73e92bf0b0" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a2b3f70c5b88461eafd4054e77c1d74b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="767f0a93a4b44955a274f751e09df538" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="767f0a93a4b44955a274f751e09df538" dx="0"/>
                 </textPath>
             </text>
 
@@ -1067,7 +1067,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#aab4807332364a3486a647ff410fb427" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="883a3ac339e240ada057e219247fe2a7" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f8ef27cb89d34606b1085505abc7e64a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#aab4807332364a3486a647ff410fb427" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d11e54751db745e2a41e1dee0d2d8aed" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d11e54751db745e2a41e1dee0d2d8aed" dx="0"/>
                 </textPath>
             </text>
 
@@ -1130,7 +1130,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#eccda78a72884f638e30e7e38f315d86" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2101d84a64e646a19e470e2302a945fb" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="bc82f760b27a41c79f04830e20f83c11" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#eccda78a72884f638e30e7e38f315d86" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bda03d71de4347adb78006b8d58f26d0" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bda03d71de4347adb78006b8d58f26d0" dx="0"/>
                 </textPath>
             </text>
 
@@ -1148,7 +1148,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#2dc89bdc9e6b4b65b7010714ae661019" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="409c6a475d64403f834911037fc9e1e6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="8e904821abbc4782a62d1c4fd4e8e951" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2dc89bdc9e6b4b65b7010714ae661019" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e45c3c3c46bb425393da4f85abbe34ec" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e45c3c3c46bb425393da4f85abbe34ec" dx="0"/>
                 </textPath>
             </text>
 
@@ -1163,7 +1163,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#33c5bc072c1b4b5992a9333ccefa0483" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1ebebcbe2d3d43899d01b1dfd39a4c91" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a1110bf2194f4fdfb423cb9fafd4e977" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#33c5bc072c1b4b5992a9333ccefa0483" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a31053d3cca94131be12992c1ab65517" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a31053d3cca94131be12992c1ab65517" dx="0"/>
                 </textPath>
             </text>
 
@@ -1181,7 +1181,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#9e623d309b2b4ce1b84e25aedc5fbe4a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="324fc3863c564ad989a00433c39b0d84" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="8b9757b8b00d4bee8ed47842bdc64f70" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9e623d309b2b4ce1b84e25aedc5fbe4a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="28709b9ff1c24f8fa4d67ce0ea3cc3d3" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="28709b9ff1c24f8fa4d67ce0ea3cc3d3" dx="0"/>
                 </textPath>
             </text>
 
@@ -1200,7 +1200,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#6bddfc9b733b411384daa554ebb7ed45" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="3e8e8c03d07f46f3990144d95e735e21" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="dd17cc8acdfc495998cf62ac5747ba7c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#6bddfc9b733b411384daa554ebb7ed45" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aa452c1de1b242d4b6fceb310895803b" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aa452c1de1b242d4b6fceb310895803b" dx="0"/>
                 </textPath>
             </text>
 
@@ -1388,7 +1388,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#d177522c38f84a4cb8a13edcfa349dea" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="42624e50f7a34e6b8e1df674b93bbfa6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3fd810c57b844cab90302e195505c43e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#d177522c38f84a4cb8a13edcfa349dea" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ff71be116aea407688b520c0a6b01dae" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ff71be116aea407688b520c0a6b01dae" dx="0"/>
                 </textPath>
             </text>
 
@@ -1431,9 +1431,9 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
         </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="59a10eb0fb044ee09e5da396708b4f13" transform="matrix(1,0,0,1,50,554)" p:sizing-ox="0" p:sizing-oy="0" p:sizing-ow="600" p:sizing-oh="443"><p:metadata><p:property name="box"><![CDATA[600,443]]></p:property><p:property name="textPadding"><![CDATA[30,29.533333333333335]]></p:property><p:property name="fillColor"><![CDATA[#FF99FFB8]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Slides]]></p:property><p:property name="textFont"><![CDATA[Comic Sans MS|normal|normal|31px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <path style="stroke-linejoin: round; fill: rgb(255, 153, 255); fill-opacity: 0.721569; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="8ab86dc43ef0414bba96cc678e68e6a6" transform="translate(0.5,0.5)" d="M 0 0 C 200 2 400 2 600 0 C 600 148 600 295 600 443 C 400 442 200 442 0 443 C -1 295 -1 148 0 0 z"/>
             <text p:name="text" id="3a141f6177b64ef89896dcded40dd972" style="font-family: Comic Sans MS; font-size: 31px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(30,234)"><tspan x="226.0546875" y="0">Slides</tspan></text>
-        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="1658cdf27ad1445aa06c973182441584" transform="matrix(1,0,0,1,48,995)" p:sizing-ox="0" p:sizing-oy="0" p:sizing-ow="1200" p:sizing-oh="352"><p:metadata><p:property name="box"><![CDATA[960.7421875,384]]></p:property><p:property name="textPadding"><![CDATA[48.037109375,25.6]]></p:property><p:property name="fillColor"><![CDATA[#00CCCC82]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Optional camera]]></p:property><p:property name="textFont"><![CDATA[Comic Sans MS|normal|normal|39px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="1658cdf27ad1445aa06c973182441584" transform="matrix(1,0,0,1,48,995)" p:sizing-ox="0" p:sizing-oy="0" p:sizing-ow="1200" p:sizing-oh="352"><p:metadata><p:property name="box"><![CDATA[960.7421875,384]]></p:property><p:property name="textPadding"><![CDATA[48.037109375,25.6]]></p:property><p:property name="fillColor"><![CDATA[#00CCCC82]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Attività consiglaite]]></p:property><p:property name="textFont"><![CDATA[Comic Sans MS|normal|normal|39px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <path style="stroke-linejoin: round; fill: rgb(0, 204, 204); fill-opacity: 0.509804; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="8ad1f7bfc2a24e38b280f7a9eb2e6177" transform="translate(0.5,0.5)" d="M 0 0 C 320 1 640 1 960.7421875 0 C 962 128 962 256 960.7421875 384 C 640 384 320 384 0 384 C 0 256 0 128 0 0 z"/>
-            <text p:name="text" id="52b6fee2fdc345239751c6737297adbb" style="font-family: Comic Sans MS; font-size: 39px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(48,208)"><tspan x="285.849609375" y="0">Optional camera</tspan></text>
+            <text p:name="text" id="52b6fee2fdc345239751c6737297adbb" style="font-family: Comic Sans MS; font-size: 39px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(48,209)"><tspan x="252.255859375" y="0">Attività consiglaite</tspan></text>
         </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="28ebb92a4a5e493cb416b61fad6e2f52" transform="matrix(1,0,0,1,34,831)" p:sizing-ox="0" p:sizing-oy="0" p:sizing-ow="15" p:sizing-oh="143"><p:metadata><p:property name="startPin"><![CDATA[3,191]]></p:property><p:property name="endPin"><![CDATA[6,539]]></p:property><p:property name="withStartArrow"><![CDATA[true]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <defs>
                 <path style="stroke-linejoin: round; fill: none;" p:name="path" id="54f3879f41d74951803109164bd93a71" d="M -3 197 L 3 191 L 9 197 M 3 191 C 3 251 5 479 6 539 M 12 533 L 6 539 L 0 533"/>
@@ -1442,7 +1442,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#54f3879f41d74951803109164bd93a71" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="615f6afbb30f4ffe83f59035d0ae1496" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="bc16054059f541d0b4e7cb7a34178a45" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#54f3879f41d74951803109164bd93a71" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f40580d65c0e4ccf950f0f78740606ba" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f40580d65c0e4ccf950f0f78740606ba" dx="0"/>
                 </textPath>
             </text>
 
@@ -1478,7 +1478,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#8b48429a90244ae88cf3bd4a581f2d6e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ccb6d4f3e41240da90fde7ad2f52d9ff" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f99250c9473942fa957c32d99e91c74b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#8b48429a90244ae88cf3bd4a581f2d6e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="887b003d29b14d41b5c766ae5ff752e9" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="887b003d29b14d41b5c766ae5ff752e9" dx="0"/>
                 </textPath>
             </text>
 
@@ -1493,7 +1493,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#f4eeffe75f5c463e8d28ade4bbc30d9d" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="61cd86112c484a5383930f0b0b2b7546" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7d24efd2b54144d38e9cf4ced732c254" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#f4eeffe75f5c463e8d28ade4bbc30d9d" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9fa618be6e7642c7adac4f6142eb2a38" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9fa618be6e7642c7adac4f6142eb2a38" dx="0"/>
                 </textPath>
             </text>
 
@@ -1511,7 +1511,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#51b3d3d0234440478ceda368273b65d7" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9b2b37c6c72f4f798000141a62aeecad" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6f7e1b4556d343b4bc07649750fdce56" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#51b3d3d0234440478ceda368273b65d7" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8572dfa0694849b7a1d8d1bc82a6f0c4" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8572dfa0694849b7a1d8d1bc82a6f0c4" dx="0"/>
                 </textPath>
             </text>
 
@@ -1526,7 +1526,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#2747cfd81c30453aa68c23042e94b38b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ce9fede326734b109e9a47c1a745e392" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="fac9805e14f44249adf970aeadc5a5a8" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2747cfd81c30453aa68c23042e94b38b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4041b54ed50748d799f53df81b09d1f3" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4041b54ed50748d799f53df81b09d1f3" dx="0"/>
                 </textPath>
             </text>
 
@@ -1559,16 +1559,16 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#e0f8331e504f4e4a95ea050c58da6069" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="fc8db8e7da444dd8ae6501bf0c979170" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a4981d5757d94f23a5820e2d91d4d9c7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e0f8331e504f4e4a95ea050c58da6069" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ca74ca10604d4116a4fae63520db7bee" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ca74ca10604d4116a4fae63520db7bee" dx="0"/>
                 </textPath>
             </text>
 
         </g><g p:type="Shape" p:def="Evolus.Common:PlainTextV2" id="f05d7170c135415f972fe8cd7a056546" transform="matrix(1,2.4492937051703357e-16,-2.4492937051703357e-16,1,65.1875,33.828125)" p:sizing-ox="65.1875" p:sizing-oy="11.953125" p:sizing-ow="54.6875" p:sizing-oh="28.125"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[52px]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|24px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
             <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="98c885045d384126aa4ee3dd823e697e" width="0" height="0"/>
             <text xml:space="preserve" p:name="text" id="69cbf0b7f6f7407aa5903ebacef8b586" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 24px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">52px</tspan></text>
-        </g></g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="a267cf084b4c4a6fba1e70601d7d0965" transform="matrix(1,0,0,1,653.328125,556.1875)"><p:metadata><p:property name="box"><![CDATA[597.265625,174.0625]]></p:property><p:property name="textPadding"><![CDATA[29.863281249999996,11.604166666666666]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Descrizione della camera]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|27px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+        </g></g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="a267cf084b4c4a6fba1e70601d7d0965" transform="matrix(1,0,0,1,653.328125,556.1875)"><p:metadata><p:property name="box"><![CDATA[597.265625,174.0625]]></p:property><p:property name="textPadding"><![CDATA[29.863281249999996,11.604166666666666]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Descrizione dell'evento]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|27px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="262a27004e16412b8f23964fa8247bbc" transform="translate(0.5,0.5)" d="M 0 0 C 199 1 398 1 597.265625 0 C 596 58 596 116 597.265625 174.0625 C 398 172 199 172 0 174.0625 C 0 116 0 58 0 0 z"/>
-            <text p:name="text" id="b8950aeaefee43868900ac39b2d525a6" style="font-family: 'Comic Sans MS'; font-size: 27px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(30,98)"><tspan x="110.56640625" y="0">Descrizione della camera</tspan></text>
+            <text p:name="text" id="b8950aeaefee43868900ac39b2d525a6" style="font-family: 'Comic Sans MS'; font-size: 27px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(30,98)"><tspan x="122.28515625" y="0">Descrizione dell'evento</tspan></text>
         </g><g xmlns="http://www.w3.org/2000/svg" p:type="Group" xmlns:p="http://www.evolus.vn/Namespace/Pencil" transform="matrix(1,0,0,1,675.3203125,567)" id="d3c88868dd78425ebe161a0c3a67e14b" p:sizing-gow="34.6796875" p:sizing-goh="160"><g p:type="Shape" p:def="Evolus.Common:arrow" id="226d77ef83474496864ed904512f5110" transform="matrix(1,0,0,1,20.6796875,-9)" p:sizing-ox="21.6796875" p:sizing-oy="0" p:sizing-ow="13" p:sizing-oh="160"><p:metadata><p:property name="startPin"><![CDATA[7,9]]></p:property><p:property name="endPin"><![CDATA[8,169]]></p:property><p:property name="withStartArrow"><![CDATA[true]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
             <defs>
                 <path style="stroke-linejoin: round; fill: none;" p:name="path" id="559f1a9419b442a888baab89a497f72a" d="M 1 15 L 7 9 L 13 15 M 7 9 C 7 69 8 109 8 169 M 14 163 L 8 169 L 2 163"/>
@@ -1592,7 +1592,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#2e00f8714e974342905ae318d400423c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2056a3f5fa8941248ab2ab170266395b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f429e2c1639c44279a26ce558e66d6ad" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2e00f8714e974342905ae318d400423c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5279512efb01406bb2925c60a964c8dc" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5279512efb01406bb2925c60a964c8dc" dx="0"/>
                 </textPath>
             </text>
 
@@ -1613,7 +1613,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#2249cc6496764d19b810845dae8d3d18" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e747a24be0eb42459cd7c12c8bfab605" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="0cda460df0eb40a780a6537c14fe7166" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2249cc6496764d19b810845dae8d3d18" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b0ebe6e4dea44f8ca237f8290e76855a" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b0ebe6e4dea44f8ca237f8290e76855a" dx="0"/>
                 </textPath>
             </text>
 
@@ -1643,7 +1643,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#24aae6d7a90e4edb84c72eb80675fb0f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b3079b667fc24ba78a18f9e24d6dccbb" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="82a7cbed1f024063b731b69d396e58e6" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 15px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#24aae6d7a90e4edb84c72eb80675fb0f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-5" p:name="textSpan" id="fdf179bb2faa404893995c7ddca39531" dx="-16"></tspan>
+                    <tspan dy="-5" p:name="textSpan" id="fdf179bb2faa404893995c7ddca39531" dx="-16"/>
                 </textPath>
             </text>
 
@@ -1676,7 +1676,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#a77f9afa773944e8bf67f108ca8b99a9" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="fc38a7fb6408428180ac4f872a6d7eb4" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="847bd59d08f9405b967b5682a176cfb7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a77f9afa773944e8bf67f108ca8b99a9" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fa66808fcea14caea4e41063cea6bbb2" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fa66808fcea14caea4e41063cea6bbb2" dx="0"/>
                 </textPath>
             </text>
 
@@ -1694,7 +1694,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#79a006d79b80449daea5809b465b89cc" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c652a141053144c98acf3ebd071a450e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="5f0f17f7e62e419894b4c7c775a85f4f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#79a006d79b80449daea5809b465b89cc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="12f03f6d4b144bdea11d27c1347a0cc5" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="12f03f6d4b144bdea11d27c1347a0cc5" dx="0"/>
                 </textPath>
             </text>
 
@@ -1709,7 +1709,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#9e6f67f0e1314baa817dfad294f9972f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="56bfe851b4d349f6b6ea07b2e2411c8c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7ce9418bc0494f19878ca906aee2385a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9e6f67f0e1314baa817dfad294f9972f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3083ba01031f4b08a789de4b8f372fd4" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3083ba01031f4b08a789de4b8f372fd4" dx="0"/>
                 </textPath>
             </text>
 
@@ -1727,7 +1727,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#db6c802e055d4067bf4b2dc7860ff944" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="045111f73cf141679857f4bb94f5fb92" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7baf2a48cf1b498ea4ba1b9a56949705" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#db6c802e055d4067bf4b2dc7860ff944" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b94fc32ced59462897ed0890fc3e85ec" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b94fc32ced59462897ed0890fc3e85ec" dx="0"/>
                 </textPath>
             </text>
 
@@ -1746,7 +1746,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#309eb66d8cc44958a90a634a504e0a7d" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="5d7b4ea284524a8caa3bc02747ee2547" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4964aa15e7d94fc197608c9e3e71cf62" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#309eb66d8cc44958a90a634a504e0a7d" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ac9c9467d5c5476ebc20d4af98c7374e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ac9c9467d5c5476ebc20d4af98c7374e" dx="0"/>
                 </textPath>
             </text>
 
@@ -1764,7 +1764,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#0d5d82f012204feca5050f70c9b07391" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9db9c99ed21844ab9b56b619324a33ed" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="34aae21886e24019bc5eef86f13b43b0" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0d5d82f012204feca5050f70c9b07391" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="031bdb65e7674c049a70df6b8f6ed595" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="031bdb65e7674c049a70df6b8f6ed595" dx="0"/>
                 </textPath>
             </text>
 
@@ -1931,7 +1931,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#fbafd1e719c34e7e9dba120316af25a7" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="15340fdab7a841589c4de29748c85cec" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3b94ac90c8384b45b2e432709de9833c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#fbafd1e719c34e7e9dba120316af25a7" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c7cd66a22e274a7cb2adb5a278a98e15" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c7cd66a22e274a7cb2adb5a278a98e15" dx="0"/>
                 </textPath>
             </text>
 
@@ -1985,7 +1985,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#dd4d1c42e0b94bc2bd106248bed2615a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ebee07f6a64f451fb6763f29e7284f1f" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a0b4121b9add4d42a32b946fbbc2ddbf" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#dd4d1c42e0b94bc2bd106248bed2615a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="05f0272eb1f646e4b4c79ea11c1b84c8" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="05f0272eb1f646e4b4c79ea11c1b84c8" dx="0"/>
                 </textPath>
             </text>
 
@@ -2021,7 +2021,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#c191229f5b534d92920d7212f088602e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2629f333926047cbab8ec0202b03b17c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="d43d805cc4fd4d12ac370ad6eee3c449" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#c191229f5b534d92920d7212f088602e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bb772ad5d08841c4840fe7e19ad1bbc8" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bb772ad5d08841c4840fe7e19ad1bbc8" dx="0"/>
                 </textPath>
             </text>
 
@@ -2036,7 +2036,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#ab6e13415b254c3e9553805ae22f312c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b8487f9ca85a48e8aa61a10cc7418a82" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="c338e629c5524297b17b81fa3a17b678" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ab6e13415b254c3e9553805ae22f312c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="74cbcfe35c2b4ef9a00c72f8403d9587" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="74cbcfe35c2b4ef9a00c72f8403d9587" dx="0"/>
                 </textPath>
             </text>
 
@@ -2069,7 +2069,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#2babaca11a0a47bc918c97a393c95d8a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9df879ae6a3f400ca0eb2276bd979b3c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3315054f870f48a1a901be5a3b466785" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2babaca11a0a47bc918c97a393c95d8a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d5ec756448174c7e8949e23f4372a3cf" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d5ec756448174c7e8949e23f4372a3cf" dx="0"/>
                 </textPath>
             </text>
 
@@ -2090,7 +2090,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b7e421179c784560ac2cd7c40ee32c05" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="eb0cd37de8c34a0ebca4e79c4551ae61" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6fd06e0e61d940729893b85138730880" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b7e421179c784560ac2cd7c40ee32c05" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="cb36fea68b0842b585e8ec2b53a403ce" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="cb36fea68b0842b585e8ec2b53a403ce" dx="0"/>
                 </textPath>
             </text>
 
@@ -2120,7 +2120,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#9fed96fc08bb482087739cce48cecd82" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="480a2b824a6c46ed82406584540e1bc3" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7c0220db6c974307b8cf3190abcb27c9" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 15px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9fed96fc08bb482087739cce48cecd82" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-5" p:name="textSpan" id="25cb7fc0fafc406a80bd78845b02485d" dx="-16"></tspan>
+                    <tspan dy="-5" p:name="textSpan" id="25cb7fc0fafc406a80bd78845b02485d" dx="-16"/>
                 </textPath>
             </text>
 
@@ -2156,7 +2156,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b95ed67ade5f435c97910ee4dcb024bd" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="729d7ee62283441b93aa12109dae0595" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="b97a1c31979d47b68437a258675efe76" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b95ed67ade5f435c97910ee4dcb024bd" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ad701b8684184bad96393d9a7df38c90" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ad701b8684184bad96393d9a7df38c90" dx="0"/>
                 </textPath>
             </text>
 
@@ -2174,7 +2174,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#06c9f84201ae4514a5dbcbb67b9f6280" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="67a1fddb138e4b7297884811ff685b9e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="280d86b325f54ed1be79f0624ae6eb99" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#06c9f84201ae4514a5dbcbb67b9f6280" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a79622a7dbca42579bb7f305f701d466" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a79622a7dbca42579bb7f305f701d466" dx="0"/>
                 </textPath>
             </text>
 
@@ -2189,7 +2189,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#ce86e805a8a346cd9b5cba228597aec5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="bf89eac2450945dda84672ffd5262a57" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ca1a3e112c2d4d148ee2b736d47993ab" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ce86e805a8a346cd9b5cba228597aec5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5db5d12f0108421e8ee3784859f28519" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="5db5d12f0108421e8ee3784859f28519" dx="0"/>
                 </textPath>
             </text>
 
@@ -2207,7 +2207,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#0718f809dd8a432abf09cbe7106b5cf5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="71e0c4def24140d0a77dec05e504d78e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="05be8df1f9794d7c8bc23778435fea4d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0718f809dd8a432abf09cbe7106b5cf5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9ab7d3ec4bc146b5ae0bfec4b830cd90" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9ab7d3ec4bc146b5ae0bfec4b830cd90" dx="0"/>
                 </textPath>
             </text>
 
@@ -2226,7 +2226,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b53ac31b8faf4bd19a6faa65c3bb207e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1e7af107139d4d17af39f9db2eb5b4bc" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ce0a32239af44eeaabd298b973c8a785" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b53ac31b8faf4bd19a6faa65c3bb207e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f7795c0ee2ce4934a9df736263922921" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f7795c0ee2ce4934a9df736263922921" dx="0"/>
                 </textPath>
             </text>
 
@@ -2378,7 +2378,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#68ec6f7ffba04dd082c0c670ab4b719f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f9be498f6c66459ea8ed050046fae314" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="75ae9a9e876a4963830a800394c357ae" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#68ec6f7ffba04dd082c0c670ab4b719f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4e8e6dd2e122428baafba4f928047544" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4e8e6dd2e122428baafba4f928047544" dx="0"/>
                 </textPath>
             </text>
 
@@ -2450,7 +2450,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#3623a84a056348b0a40886a19b9855fc" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="05064173b3d34c5a968ea1103c24a403" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="8ddacac60e6e4a5fb2eb04ec1f704eb0" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#3623a84a056348b0a40886a19b9855fc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3c6ba74d8dbb444e8e5c6f6b3120963b" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3c6ba74d8dbb444e8e5c6f6b3120963b" dx="0"/>
                 </textPath>
             </text>
 
@@ -2486,7 +2486,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#01ca7f1c657b41769493eb712b6e68e5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="abe666d9be784b7ea73d9893bd55f58e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="92e4ef1ba3254d519b713d8b4d1bb422" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#01ca7f1c657b41769493eb712b6e68e5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ba57c1ff52644798aed4c2a3eed7cb82" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ba57c1ff52644798aed4c2a3eed7cb82" dx="0"/>
                 </textPath>
             </text>
 
@@ -2528,7 +2528,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#0fba2576ed3b4f26a7e1e38e63086e81" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="bc51767a0544486d9cd5532047e1be7e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="78a36f0b64524efc8fa30fd88c641499" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0fba2576ed3b4f26a7e1e38e63086e81" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d020a29c3a2b48c1b9faa758f623eb6e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d020a29c3a2b48c1b9faa758f623eb6e" dx="0"/>
                 </textPath>
             </text>
 
@@ -2546,7 +2546,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#5a7893b9a5eb435db6ba05209818f320" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="45b29bb223e94a55b614fcef6828e435" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="44c4034f798d4c6a98d7d6e8e852d118" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5a7893b9a5eb435db6ba05209818f320" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b6ed5a8f59814bc291ef04236a5e17d5" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b6ed5a8f59814bc291ef04236a5e17d5" dx="0"/>
                 </textPath>
             </text>
 
@@ -2561,7 +2561,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#84c8316b0d2442489a723bffae07b38f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f7295e12d5d14089a8f7697796e66e97" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6aa99e45828945f48dd75f55a8582e28" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#84c8316b0d2442489a723bffae07b38f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fed27451d0db46ecb4810aa917bb049f" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fed27451d0db46ecb4810aa917bb049f" dx="0"/>
                 </textPath>
             </text>
 
@@ -2579,7 +2579,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#5d33af09f64c408b9bb21c521ae7e125" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="777545734fbb44da9f3a5455f475b791" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4a295bc5b6fb4906b37f8db9fd6f5b81" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5d33af09f64c408b9bb21c521ae7e125" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bc0524db57db4a908eea7f357e1082be" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bc0524db57db4a908eea7f357e1082be" dx="0"/>
                 </textPath>
             </text>
 
@@ -2598,7 +2598,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#a60b0b86173e41ea8b9951a89e69e596" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="54c7a82ab50845e78794f32fabd81889" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2dc75136d0434aefb01970c13994d1a4" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a60b0b86173e41ea8b9951a89e69e596" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e8706ceefeb243cea32a8d49b15aa747" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e8706ceefeb243cea32a8d49b15aa747" dx="0"/>
                 </textPath>
             </text>
 
@@ -2691,7 +2691,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#5c871862aae348bc99cd818cc9de0649" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="01bacb39da4a4962bbcb69391fe57c52" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="b0eacb957a7e4465b04ca06c67ac8de7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5c871862aae348bc99cd818cc9de0649" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="5dd0a91fb09b46d0bd5f8689e7cd633b" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="5dd0a91fb09b46d0bd5f8689e7cd633b" dx="0"/>
                 </textPath>
             </text>
 
@@ -2703,7 +2703,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#3383060d8c3b4a6d99fddee0c491df35" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2634db9f66aa48919b5b948ef32bf35a" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2c5a62a4adf7415bbc07fc15f760e77a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#3383060d8c3b4a6d99fddee0c491df35" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="8cdf4359d22c452bb4beb78fd9cc3e92" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="8cdf4359d22c452bb4beb78fd9cc3e92" dx="0"/>
                 </textPath>
             </text>
 
@@ -2929,7 +2929,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#168217e8a04442e0860a694a6acc6557" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a5f933301c8f40ebba5b42f332283880" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2b313fe3da0f43328a90ac629a049c27" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#168217e8a04442e0860a694a6acc6557" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="29ee4693caf2418faca27c0080f88e1d" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="29ee4693caf2418faca27c0080f88e1d" dx="0"/>
                 </textPath>
             </text>
 
@@ -2998,7 +2998,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#8a2aa46f41574aa58b10d1d793991ccd" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="0c7d149f392242fe8bb5c24d62ead451" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="bb30ae43e9404d3fa60917f5df3a1099" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#8a2aa46f41574aa58b10d1d793991ccd" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e3bf75f822e343af8892ac0050ea1b20" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e3bf75f822e343af8892ac0050ea1b20" dx="0"/>
                 </textPath>
             </text>
 
@@ -3046,7 +3046,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#7d3baa07db914af69bc7df62cd73cdd6" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="98c0da48a9884053b88f18f3591be954" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="04c6e6e91e0c4f9198c083b6099c47ce" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#7d3baa07db914af69bc7df62cd73cdd6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ee90e8da689241bc9fb465f974fc39a4" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ee90e8da689241bc9fb465f974fc39a4" dx="0"/>
                 </textPath>
             </text>
 
@@ -3064,7 +3064,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#468e8baf16bb4babb7cf48706b00c8bf" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="358c0263daea44448cc6c4be16b37449" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="e0af5e5fe65449e39e34799910610b08" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#468e8baf16bb4babb7cf48706b00c8bf" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="74dff50eb14b468d8535ac43a39c81c7" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="74dff50eb14b468d8535ac43a39c81c7" dx="0"/>
                 </textPath>
             </text>
 
@@ -3079,7 +3079,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#7203c175c79b447b94a4bbf267489b6d" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1ca9b63e7eae42c3940d9b3b1528eedf" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="584232f2c77f4b5a8cb81f2f7ea0ff09" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#7203c175c79b447b94a4bbf267489b6d" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ac276d8f3e1649c786d906d167f3c1ba" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ac276d8f3e1649c786d906d167f3c1ba" dx="0"/>
                 </textPath>
             </text>
 
@@ -3097,7 +3097,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#ed0aed42913c46fc84dcd4aba76d26ec" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1c0eafdeb35e41a398ca29cc75ab2005" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="da0fc52e59ef486c9a7f43ddbec62652" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ed0aed42913c46fc84dcd4aba76d26ec" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8827606222784f258a15d29755b3cba8" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8827606222784f258a15d29755b3cba8" dx="0"/>
                 </textPath>
             </text>
 
@@ -3116,7 +3116,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#bf8869c926ec4161b1c5c4781a6904db" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1d34d317124849f988a28001dab81e19" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4c86e9bbeca14520b6a4fbcf603e0d0b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#bf8869c926ec4161b1c5c4781a6904db" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bf888b3ba6fd4ec6ab5c48bf833d6df3" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bf888b3ba6fd4ec6ab5c48bf833d6df3" dx="0"/>
                 </textPath>
             </text>
 
@@ -3134,7 +3134,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#89a91cfb51c84f039193413b56566d7b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1ea165b49b7549bc9094762e48e53ac2" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4cbff08e42394ae0bda5b2634a37129f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#89a91cfb51c84f039193413b56566d7b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="60262d96ec5d4a1aa9d349d597a83c39" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="60262d96ec5d4a1aa9d349d597a83c39" dx="0"/>
                 </textPath>
             </text>
 
@@ -3190,7 +3190,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#ec52cc7985154656ac7d9646337332b5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="fa0fc0b6e07b40b9ac7d0a568557d91b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="caaa0cfe7dfe4504b08e91f2e9abd2c4" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ec52cc7985154656ac7d9646337332b5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ea0806c9cee34967b4dc65ef7fdfe93f" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ea0806c9cee34967b4dc65ef7fdfe93f" dx="0"/>
                 </textPath>
             </text>
 
@@ -3246,7 +3246,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#2f5e82b0deff40cab0bb72a71085f601" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="41b8c2bb36ce4019b73b3781c9d09645" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="9a8468cd417e49308c42370d41bc7eae" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#2f5e82b0deff40cab0bb72a71085f601" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a20e459d1fc14d3cbd9e51fb13143cfb" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a20e459d1fc14d3cbd9e51fb13143cfb" dx="0"/>
                 </textPath>
             </text>
 
@@ -3275,7 +3275,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#15193660a2ef482d8b0297c8e64b0b01" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1f188f2cc22a4322ad8ea167ef88a659" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="675d40e5aeed42a996eb2fb2c725122b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#15193660a2ef482d8b0297c8e64b0b01" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="d9e7a5db67024923a2840b823703efc3" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="d9e7a5db67024923a2840b823703efc3" dx="0"/>
                 </textPath>
             </text>
 
@@ -3287,7 +3287,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#248e982628e349b9b660911b41643441" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a12448ce4d9a4057a1fcf0efa331163d" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="cfb50efd2ec0465dae1f32225e62964c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#248e982628e349b9b660911b41643441" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="43567a79f3a34cb384229dec2ed3a57a" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="43567a79f3a34cb384229dec2ed3a57a" dx="0"/>
                 </textPath>
             </text>
 
@@ -3320,7 +3320,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#e801db58244047babf6dc0e0922a2ce8" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="728d8d60e1a042daaa3051bd566373ed" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="9c923dfb77d5436d993ace62889ae20f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e801db58244047babf6dc0e0922a2ce8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="481b9f115985464c9ecc9fb3e40e6a78" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="481b9f115985464c9ecc9fb3e40e6a78" dx="0"/>
                 </textPath>
             </text>
 
@@ -3517,7 +3517,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#897a20fc8d7a4034afe4c389c08485ec" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a94ea61206f94f378dc71792141bb757" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="b2e4441ea06f41e9b983bfd0fa0db244" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#897a20fc8d7a4034afe4c389c08485ec" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="21081a2efb544e1faaa7e670c9db7b0c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="21081a2efb544e1faaa7e670c9db7b0c" dx="0"/>
                 </textPath>
             </text>
 
@@ -3586,7 +3586,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#adf6efd9e25348f09322ddf25cfb3e32" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e95945ddd38546fb81bc4dd167e4fcd8" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2b1bdda1f0964f49a9c7eee70e5e9870" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#adf6efd9e25348f09322ddf25cfb3e32" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8b2b591d2b874ff88494ddb3cce0d3c4" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8b2b591d2b874ff88494ddb3cce0d3c4" dx="0"/>
                 </textPath>
             </text>
 
@@ -3634,7 +3634,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#5d5f84f4af34453a88802d4d08c64ffc" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="567ad6ca81cc43409d3bb396f8ac1655" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3c490dc5fb684ca9a2c7b7d8244776d5" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5d5f84f4af34453a88802d4d08c64ffc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1ec666cc46dd4c9b896eef5a25050512" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1ec666cc46dd4c9b896eef5a25050512" dx="0"/>
                 </textPath>
             </text>
 
@@ -3652,7 +3652,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#7bec06fcb4a84041971a9ff4eae55702" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6c023c5e85f54dd886653e63bd6c031b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f9d313ec397b4ee99ee741b17f57d77b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#7bec06fcb4a84041971a9ff4eae55702" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="564af5d72cc54acd9b86061bd591bb20" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="564af5d72cc54acd9b86061bd591bb20" dx="0"/>
                 </textPath>
             </text>
 
@@ -3667,7 +3667,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#44743f46262f4571b83135c20af98a77" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="d2681107573e49db8548e29372f229a4" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2dc3204764d34b59ad3fda2bd2a2fef5" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#44743f46262f4571b83135c20af98a77" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f16bebb68b3a4a699783c2d8deddf263" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f16bebb68b3a4a699783c2d8deddf263" dx="0"/>
                 </textPath>
             </text>
 
@@ -3685,7 +3685,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#e53fc1f12a704311aabf45f34496e35a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="0799a76b692f46c88c04a30f568b68f1" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f0302a5ffa60475a83c37c6f19df4475" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e53fc1f12a704311aabf45f34496e35a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="db8fcf61d2fe42b9af4133f908fffb00" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="db8fcf61d2fe42b9af4133f908fffb00" dx="0"/>
                 </textPath>
             </text>
 
@@ -3704,7 +3704,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#3d2b8fac42ad4adc9bf676661c9a4ae8" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="fa9d5d49eef4439fa7af15bec7a0933c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="72e0193b8133420b97e02943df1de21d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#3d2b8fac42ad4adc9bf676661c9a4ae8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="53da8d5b99f645cba119eb3fd5eb11dd" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="53da8d5b99f645cba119eb3fd5eb11dd" dx="0"/>
                 </textPath>
             </text>
 
@@ -3722,7 +3722,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#439e174b244c4dafa59197070bf5f7a9" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e65b1aee99a44f4fbd894bf19d6f16ec" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3cd21640749c4bd2aaf2d5a17afcf967" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#439e174b244c4dafa59197070bf5f7a9" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f405366b12574a379256cae97ac501e8" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f405366b12574a379256cae97ac501e8" dx="0"/>
                 </textPath>
             </text>
 
@@ -3778,7 +3778,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#fbf737177c18405aa6ba7e4a6db6fde6" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b6bf22b59b8e40f3a6324e9736892d10" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2c5591b8346349379336d8b45ffe74b7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#fbf737177c18405aa6ba7e4a6db6fde6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="70420beb357040bea7008672c149829c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="70420beb357040bea7008672c149829c" dx="0"/>
                 </textPath>
             </text>
 
@@ -3834,7 +3834,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#91328bf5ddde4dd58bb71d81c20cbac5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c8966d42a27249cbb97d08ebf872f24c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="c8f78b2e81634085b5655532b646b142" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#91328bf5ddde4dd58bb71d81c20cbac5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="36ab1a3294c94b0d9fdd6838ca462fe8" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="36ab1a3294c94b0d9fdd6838ca462fe8" dx="0"/>
                 </textPath>
             </text>
 
@@ -3863,7 +3863,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#d15fb8237a444f779d10d5a3aceaf9f2" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="afa60326922f4856ba59ce986cf22077" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a4fd5462603f461a8a83026a218af20b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#d15fb8237a444f779d10d5a3aceaf9f2" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="d9c9e138ca444596a4af7b1496d3683f" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="d9c9e138ca444596a4af7b1496d3683f" dx="0"/>
                 </textPath>
             </text>
 
@@ -3875,7 +3875,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#0e7c274e7f7d484a9747feab760aa3c4" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9adc697802c241969def78b9aa97a642" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="d08b48e24c9a4bf2a93821462a69e55e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0e7c274e7f7d484a9747feab760aa3c4" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="8caa47afe2bd4e02aac9edb40fc04c23" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="8caa47afe2bd4e02aac9edb40fc04c23" dx="0"/>
                 </textPath>
             </text>
 
@@ -3908,7 +3908,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#7d045ea2dcb04e428dabc32d81faacb1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e2404da8d93646b3b67c45c76f00ae38" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="5408cc5f10c04fa080ff29af1c34e4ec" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#7d045ea2dcb04e428dabc32d81faacb1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="d76f4c26751b42408ea981a5cc18da99" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="d76f4c26751b42408ea981a5cc18da99" dx="0"/>
                 </textPath>
             </text>
 
@@ -4105,7 +4105,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#aa919a66c53e4cffa39ef260a6059c3e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="bbeb6d1992234d7682182c93ec9b61a2" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="d9d24811f05144578da7d126a5d3c115" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#aa919a66c53e4cffa39ef260a6059c3e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b97df5ed660b4631b94940a13fc178a5" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b97df5ed660b4631b94940a13fc178a5" dx="0"/>
                 </textPath>
             </text>
 
@@ -4174,7 +4174,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#a2ea6ba3c5fd4b2fa76494da8adfbe75" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ca8c381697a845c7a7ee4747e53f6597" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3e37d69f8fa34da497d952a19d989de9" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a2ea6ba3c5fd4b2fa76494da8adfbe75" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7db530ec687a4db98aa63d76c6292c9e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7db530ec687a4db98aa63d76c6292c9e" dx="0"/>
                 </textPath>
             </text>
 
@@ -4222,7 +4222,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#4297b639b24f463384057a96b12725f6" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="3f367f62e7114c979e9e6b7da463dc4b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="c1c33e4803fe4567bcd4e63b6c1d6724" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4297b639b24f463384057a96b12725f6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6036a2b86b344ab088de156495099f24" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6036a2b86b344ab088de156495099f24" dx="0"/>
                 </textPath>
             </text>
 
@@ -4240,7 +4240,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#ee38f815ac6f4a1693b76c61612e2677" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f928eaef8e144c908a400bc787563c15" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="524e8101a1d042c6826b02579cd170d7" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#ee38f815ac6f4a1693b76c61612e2677" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="17770982ce82403ea6a815e501f3a191" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="17770982ce82403ea6a815e501f3a191" dx="0"/>
                 </textPath>
             </text>
 
@@ -4255,7 +4255,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#050a0fdf4e0e4cdda915ecb8f6875b7e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="5e8df6ac624a410e8d3c16f15729b3de" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="64908c54bfa947b0b7bfd2d1380c0fed" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#050a0fdf4e0e4cdda915ecb8f6875b7e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e483eac6c2c64dac94e48404cdd11c14" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e483eac6c2c64dac94e48404cdd11c14" dx="0"/>
                 </textPath>
             </text>
 
@@ -4273,7 +4273,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#05605912ffb044989b663817add28e13" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6aeae988c1f04791a6f24fdc1ed98633" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="f5f30f3cb21a46ebba473739f4c39196" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#05605912ffb044989b663817add28e13" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1067b426815c4eb38b877c0ca82de350" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1067b426815c4eb38b877c0ca82de350" dx="0"/>
                 </textPath>
             </text>
 
@@ -4292,7 +4292,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#685514c16edb48b1ab49e6d4e2e06b8b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="ad37e57991694909afbc4605c2f1545d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2aa94ab5fbc44586b0754a84eb90851e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#685514c16edb48b1ab49e6d4e2e06b8b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b2ad7e64812a44369c0ad00fe981b061" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="b2ad7e64812a44369c0ad00fe981b061" dx="0"/>
                 </textPath>
             </text>
 
@@ -4310,7 +4310,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#0bd8a39c12b14688bfdfa3fbe9aee742" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="d7bd353165ba4f43b7d0eb9bebec8539" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7c1ed924e67a4d2fa198128320529115" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0bd8a39c12b14688bfdfa3fbe9aee742" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2ec25ee5685745f48e88297d3774d593" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2ec25ee5685745f48e88297d3774d593" dx="0"/>
                 </textPath>
             </text>
 
@@ -4366,7 +4366,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#02d8b574b83a4a2abce655bb77edfaa9" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="55d1164c79cf4d6eaf2b65283efa9969" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="0cf495d810b343be9324163095a37cae" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#02d8b574b83a4a2abce655bb77edfaa9" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7e7ad95f75ee4243b7bdcfaf87017671" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7e7ad95f75ee4243b7bdcfaf87017671" dx="0"/>
                 </textPath>
             </text>
 
@@ -4422,7 +4422,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#e802ccce3be04a8b8460e312c87b1a34" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="57a07bde61e64c0c9c6a81cd171429c7" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="22a99fe551e545cbb51070c0f07ac158" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e802ccce3be04a8b8460e312c87b1a34" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="268f7c0c096c4ddbb47d757bd97e353e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="268f7c0c096c4ddbb47d757bd97e353e" dx="0"/>
                 </textPath>
             </text>
 
@@ -4451,7 +4451,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#7079d4a7c7244c4986e0138feb2eb68d" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="75b4778350ee4524b958f6dd9036b055" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6fd13c137b244e7da180452b9c3809e1" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#7079d4a7c7244c4986e0138feb2eb68d" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="5dac8362015c496bb4bd544cb7a17638" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="5dac8362015c496bb4bd544cb7a17638" dx="0"/>
                 </textPath>
             </text>
 
@@ -4463,7 +4463,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#95858457aeda4916bd571978aea20e34" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="af18d58e18af4de9a9e4a3be709f51a4" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="e47534c321554781b72b3ce722e28a6b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#95858457aeda4916bd571978aea20e34" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="f07ef99a9f684101801cafa34d42b76e" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="f07ef99a9f684101801cafa34d42b76e" dx="0"/>
                 </textPath>
             </text>
 
@@ -4697,7 +4697,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#5d94f2b3e39243f4b96c758f5e4ba382" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="943f60040f6f428ab03f805af54427b3" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="e1d160e2a8474a0c8b38aeb9fa219337" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#5d94f2b3e39243f4b96c758f5e4ba382" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ebdfa60c02004e5ebc1b0e0bc6945c9c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="ebdfa60c02004e5ebc1b0e0bc6945c9c" dx="0"/>
                 </textPath>
             </text>
 
@@ -4751,7 +4751,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#a88963ba115644848f564df40cb7574c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f87ae9aef5404a0fbd7b8b3cca87f920" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="48198c1d55a946a1a4e39efd4aebed89" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a88963ba115644848f564df40cb7574c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f669845dbac84b41afe53d57f24411e5" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f669845dbac84b41afe53d57f24411e5" dx="0"/>
                 </textPath>
             </text>
 
@@ -4787,7 +4787,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#8140a61933db4d26bc61d55802de3075" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="7b1be0125dde4e00ab4bebb203c7f89d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="0b9710b033cf4e2f9331a731b017bc90" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#8140a61933db4d26bc61d55802de3075" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8b299fcd7b4d4965b8a4901550a9749c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8b299fcd7b4d4965b8a4901550a9749c" dx="0"/>
                 </textPath>
             </text>
 
@@ -4802,7 +4802,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#e6016eab820c441188db2c9518b4b3c2" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e55eb56bdd53494dbfd10ed789e4f29d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ffa53a6d230a45379dd91f8c8bc6be95" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#e6016eab820c441188db2c9518b4b3c2" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fd2555dde8db460ba36267f2966e8fe3" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fd2555dde8db460ba36267f2966e8fe3" dx="0"/>
                 </textPath>
             </text>
 
@@ -4835,7 +4835,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#05ae050ea47c457a8188d61bf96e69af" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e9f0debe78f04560a48c7352d2ddbb9a" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4b32fc54c1a4443fae01d082f7faf01d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#05ae050ea47c457a8188d61bf96e69af" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8a8e137db35e48398dbc80f562ba737d" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8a8e137db35e48398dbc80f562ba737d" dx="0"/>
                 </textPath>
             </text>
 
@@ -4856,7 +4856,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#66d84665e2a34132b3d802314470c497" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="407aba4235d44b79a236d0777510b517" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="27e8a08d82754075ac9a978bc6e63822" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#66d84665e2a34132b3d802314470c497" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d17bffd643b64b4a9e4ede674f614768" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d17bffd643b64b4a9e4ede674f614768" dx="0"/>
                 </textPath>
             </text>
 
@@ -4886,7 +4886,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#6d25832db3cc4e6f9ac68e7a55e5cbbc" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="30be1dd4b3484324bfbe76c864984cd8" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="36ca9c5c5c46406fb3ef483fe5251863" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 15px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#6d25832db3cc4e6f9ac68e7a55e5cbbc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-5" p:name="textSpan" id="e69e4cae35474acb942648d06221361b" dx="-16"></tspan>
+                    <tspan dy="-5" p:name="textSpan" id="e69e4cae35474acb942648d06221361b" dx="-16"/>
                 </textPath>
             </text>
 
@@ -4922,7 +4922,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#fa6c8d82bb4a4b73932c2fc721b9d1c2" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="cd80bd3fa1d5459487ee06857efafce8" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="9e142de2806d4ba68ee9383ee6e942cd" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#fa6c8d82bb4a4b73932c2fc721b9d1c2" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d596e0632f9c433b8898730165fc8482" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d596e0632f9c433b8898730165fc8482" dx="0"/>
                 </textPath>
             </text>
 
@@ -4940,7 +4940,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#fb8fc8f23bcb4aa6b4616e4847d819ab" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6143fdb74d2a4113bfe2296fb6ef8813" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="8d1f5272196b4ff9883745230646c80b" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#fb8fc8f23bcb4aa6b4616e4847d819ab" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e9f5635783834b10b3563a023070067d" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="e9f5635783834b10b3563a023070067d" dx="0"/>
                 </textPath>
             </text>
 
@@ -4955,7 +4955,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#0dce75b93daf4c3e8ecaa04163e93f6e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c27c1b4750e2406cb75bd80c7440f38b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="b14a40c42eae439bbc2775c395071f0d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0dce75b93daf4c3e8ecaa04163e93f6e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="245681d21e5e4a37a5deb836c6a51d43" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="245681d21e5e4a37a5deb836c6a51d43" dx="0"/>
                 </textPath>
             </text>
 
@@ -4973,7 +4973,7 @@ Descrizione]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|
             <use xlink:href="#3567e2aff9754e7a84587e0e927801cb" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="7ba85a757b614ddf9443e570ff4d711b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="905877a735ca4a2a8c30685e59615f17" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#3567e2aff9754e7a84587e0e927801cb" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6481fe7ff3c649a4a749dab431001821" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6481fe7ff3c649a4a749dab431001821" dx="0"/>
                 </textPath>
             </text>
 
@@ -4992,7 +4992,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#203c99099c5b4527b602ead7265163fb" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="43d29c54b4214d4f920b15c1046bacec" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="e7c78df38c3f43c78b5061e2adfb00b8" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#203c99099c5b4527b602ead7265163fb" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9a23b8ebf3a04244b87377f3e3a35de7" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="9a23b8ebf3a04244b87377f3e3a35de7" dx="0"/>
                 </textPath>
             </text>
 
@@ -5144,7 +5144,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b3341441690849ecba218cf7fe9b2815" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6623ad0e08ae48349886958a5974bb6f" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2e073c88495740a5a4baad94aae064ee" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b3341441690849ecba218cf7fe9b2815" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f402512a15a34fefaeafd28ed2ef18fd" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="f402512a15a34fefaeafd28ed2ef18fd" dx="0"/>
                 </textPath>
             </text>
 
@@ -5198,7 +5198,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#b511668eeb094a669b3e9e75a9167e07" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="7e119061eebc4cd5a1385de675b62e55" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="451b1e76bf9b461194f8e64529ae4683" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#b511668eeb094a669b3e9e75a9167e07" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3ff1dc493892403ea551e4161c493551" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="3ff1dc493892403ea551e4161c493551" dx="0"/>
                 </textPath>
             </text>
 
@@ -5234,7 +5234,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#265b5bdfd7494aabb64fb00f70f526e5" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e55d2d45b82a45148f7f5eeb6ed96185" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7e7eb6e11efb4cc596ae17384478e127" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#265b5bdfd7494aabb64fb00f70f526e5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a16407629277403c8e390b6881d0576c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a16407629277403c8e390b6881d0576c" dx="0"/>
                 </textPath>
             </text>
 
@@ -5249,7 +5249,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#93d8db87815842baa79c8e280222dc4a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="dcf27a317cf944a89be20199f70664e7" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="dc82805648ee4f5083a582bb7a4b1b45" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#93d8db87815842baa79c8e280222dc4a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4ca84a6a7d59493fb7cd14c24985e04d" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4ca84a6a7d59493fb7cd14c24985e04d" dx="0"/>
                 </textPath>
             </text>
 
@@ -5282,7 +5282,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#a3284e4fa70b4b9c86c2d0dab1a6141a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="31180eabab9445d3a22c6779f0f15b86" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="56f7bd5a89fe460a867d28f3bf75ba66" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#a3284e4fa70b4b9c86c2d0dab1a6141a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4266e6aaa8dc40ad8c5e9ba44f62da42" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4266e6aaa8dc40ad8c5e9ba44f62da42" dx="0"/>
                 </textPath>
             </text>
 
@@ -5303,7 +5303,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#88b32d0d0d1f46b0a8b8cf12753251e1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="261aa9e2639544e4b447204afc1bbde8" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="8a4839ced444407495467aefec7d1e22" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#88b32d0d0d1f46b0a8b8cf12753251e1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7ee858bf5a294ba9b5c6a2de77532004" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="7ee858bf5a294ba9b5c6a2de77532004" dx="0"/>
                 </textPath>
             </text>
 
@@ -5333,7 +5333,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#4aea93e4052246c5be0522a812ffcf92" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="5e12a51c6aa8499e821a87eff2dcb875" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="a5a181c1776441eb9b21a0ab58cc4bba" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 15px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4aea93e4052246c5be0522a812ffcf92" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-5" p:name="textSpan" id="28773c42abd145e9a8a6de12e1ea5ce2" dx="-16"></tspan>
+                    <tspan dy="-5" p:name="textSpan" id="28773c42abd145e9a8a6de12e1ea5ce2" dx="-16"/>
                 </textPath>
             </text>
 
@@ -5366,7 +5366,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#0f26e30f25dd4de0b1ac42c99d0bd8a1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="05b930f0894b41c7887a944bf2b70f67" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="9f9304a89e5d4cafbff19d4a95cc3f03" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#0f26e30f25dd4de0b1ac42c99d0bd8a1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1117fa5bf9c94e009effdae6707f6dca" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1117fa5bf9c94e009effdae6707f6dca" dx="0"/>
                 </textPath>
             </text>
 
@@ -5384,7 +5384,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#31586e0543724eae8b6af6463c0a6351" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="0f18655feecc420c8c1a1b6b790359bd" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="3e76bb3c8ccd4672a82820d099897483" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#31586e0543724eae8b6af6463c0a6351" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d3ce27ff5b384e26884000e9c43fd06b" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d3ce27ff5b384e26884000e9c43fd06b" dx="0"/>
                 </textPath>
             </text>
 
@@ -5399,7 +5399,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#1567696a4f264dac8a67cdd5f846d27f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e2a248defd224ef8868206f2b4d82521" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="b04e251d3b4c40baaa3073992547c548" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#1567696a4f264dac8a67cdd5f846d27f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c484a7e6b122407d9a99c07cef47c4cc" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c484a7e6b122407d9a99c07cef47c4cc" dx="0"/>
                 </textPath>
             </text>
 
@@ -5417,7 +5417,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#80b04594decd40c0bd93ee5c181d4717" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="34d7854c81254d90aab433fb3c1e4c11" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="839b6820d44a4a3e8822dd8fca9360b4" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#80b04594decd40c0bd93ee5c181d4717" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1cbd8fdeabf04f83bc6b1627fc094f41" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1cbd8fdeabf04f83bc6b1627fc094f41" dx="0"/>
                 </textPath>
             </text>
 
@@ -5436,7 +5436,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#44130f7936284e1180a156c454fb9881" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e8ea2762426d4cf1b5f7306ba26eb4a0" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="c7bc7a4fe9b74ea4ba40a4166d5e803d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#44130f7936284e1180a156c454fb9881" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="071a81544d3343ab958f7f20c5a7939c" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="071a81544d3343ab958f7f20c5a7939c" dx="0"/>
                 </textPath>
             </text>
 
@@ -5591,7 +5591,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#9bfbfd6de5024aac81620b35b8f52fb9" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="767d954965444ab88f9e748af2afb337" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="2c3c14b8a24c4307923ff403a6b16571" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#9bfbfd6de5024aac81620b35b8f52fb9" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aba18160a40246978c75188adf2518c3" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aba18160a40246978c75188adf2518c3" dx="0"/>
                 </textPath>
             </text>
 
@@ -5642,7 +5642,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#4baf703c36fb476ba4a66e9c492cdf7e" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="07804e9ef36b4274914ed2c751ded935" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="e466449cfd4446ff8b0041ffa5aea272" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#4baf703c36fb476ba4a66e9c492cdf7e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8db8e78d4af1488ba1987ff5c3a844a6" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="8db8e78d4af1488ba1987ff5c3a844a6" dx="0"/>
                 </textPath>
             </text>
 
@@ -5663,7 +5663,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#aea53186bc394a2ab99c9315d8ca83d1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="7528a457bb0347058e9fa6869d1454d1" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="6c2951ab7b4b48fd869a3bd333f91769" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#aea53186bc394a2ab99c9315d8ca83d1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="40d17ac344534c6ea2647fd3dc543777" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="40d17ac344534c6ea2647fd3dc543777" dx="0"/>
                 </textPath>
             </text>
 
@@ -5720,7 +5720,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#263167aa7b9f412091b4903c4ae0798c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="7cdb9180466249218daa4b64b2de2e19" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="472b787d0c204def938bc21a131da22f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#263167aa7b9f412091b4903c4ae0798c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="cf2ad88e839b4e71bb840bb473dcb12e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="cf2ad88e839b4e71bb840bb473dcb12e" dx="0"/>
                 </textPath>
             </text>
 
@@ -5738,7 +5738,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#97b998fac45744a298033b945dcc3167" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="5210fa2042be46b99f0c5511b8de4e90" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4cc38c6bd0e641fd80628a5173f87f68" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#97b998fac45744a298033b945dcc3167" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bef9548c92cb49c1bb9552ec52ff842a" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="bef9548c92cb49c1bb9552ec52ff842a" dx="0"/>
                 </textPath>
             </text>
 
@@ -5753,7 +5753,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#35102bfd3a19476d8dbef5cbca6b26bf" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="fa25bde88d804a39a316199dd6aed2eb" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="1b3f4505bd974897938cc8a502544146" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#35102bfd3a19476d8dbef5cbca6b26bf" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="513e18706bc24016b7a62619599775f1" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="513e18706bc24016b7a62619599775f1" dx="0"/>
                 </textPath>
             </text>
 
@@ -5771,7 +5771,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#684c2ac7d69f41deb7a34d4d4d8a921f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="1d211f546d0a4d65ba2188b28442db37" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="318544f0e69247798510c4c3f551a961" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#684c2ac7d69f41deb7a34d4d4d8a921f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aa77da894f2f4adf83f384779765c72e" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="aa77da894f2f4adf83f384779765c72e" dx="0"/>
                 </textPath>
             </text>
 
@@ -5790,7 +5790,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#eeb5f76e83c9404aa5afe0850b215776" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="89ff1be56d874f2ca0c586c7e7d887d4" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="7457573da4d744609b1be039fef77b41" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#eeb5f76e83c9404aa5afe0850b215776" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4147aa458af9432d8f84e0cca67aa802" dx="0"></tspan>
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4147aa458af9432d8f84e0cca67aa802" dx="0"/>
                 </textPath>
             </text>
 
@@ -5805,7 +5805,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#1a0ad210e908408991a3f7c36e76e602" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="28edd0987a7d4813b56ecaa1aa17ed41" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="4c3d6bef31e44af68cc96ad0d86e5b17" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#1a0ad210e908408991a3f7c36e76e602" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="4182e6ab98cd46a29c1524ee61e0a2dc" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="4182e6ab98cd46a29c1524ee61e0a2dc" dx="0"/>
                 </textPath>
             </text>
 
@@ -5820,7 +5820,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#8229cc4d9596445d814e3facff66219c" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="0d287d0ce1db47bd939857a9c6fabf49" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="98f2c695a23c4343b19d9af2ad1d03be" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#8229cc4d9596445d814e3facff66219c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-4" p:name="textSpan" id="ad4a9e1dcfb54afa92043d38e6e839ef" dx="0"></tspan>
+                    <tspan dy="-4" p:name="textSpan" id="ad4a9e1dcfb54afa92043d38e6e839ef" dx="0"/>
                 </textPath>
             </text>
 
@@ -5838,7 +5838,7 @@ gestione immagini]]></p:property><p:property name="textFont"><![CDATA['Comic San
             <use xlink:href="#dc1592cf7a124669a3fd57761e9e5057" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e7d95bd259ba4e66bfd5cfe3e3a251c0" style="stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-width: 2;"/>
             <text p:name="text" id="ecab47a2bc204a379d906758773854d0" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: Helvetica; font-size: 15px; font-weight: normal; font-style: normal; text-decoration: none;">
                 <textPath xlink:href="#dc1592cf7a124669a3fd57761e9e5057" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
-                    <tspan dy="-5" p:name="textSpan" id="2271d63e6dfe405b8359e52058bd84d7" dx="-16"></tspan>
+                    <tspan dy="-5" p:name="textSpan" id="2271d63e6dfe405b8359e52058bd84d7" dx="-16"/>
                 </textPath>
             </text>
 

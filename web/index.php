@@ -10,6 +10,7 @@ $sliderEntity = $GLOBALS['sys_slider'];
 $imageEntity = $GLOBALS['sys_image'];
 $imageSliderRelation = $GLOBALS['sys_image_sys_slider'];
 $offertaEntity = $GLOBALS['sys_news'];
+$cameraEntity = $GLOBALS['vp_room'];
 
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
@@ -38,14 +39,16 @@ $homeTemplate->setContent("welcomePage", $welcomePage->get());
 $homeTemplate->setContent("servicePage", $servicePage->get());
 $homeTemplate->setContent("offertaPage", $offertaPage->get());
 
-/*
- * skinlet slider: skins/theme/sliderHome.html
- */
+/*skinlet slider: skins/theme/sliderHome.html*/
 $sliderTemplate = new Skinlet('sliderHome');
 $slider = new Content($sliderEntity, $imageSliderRelation, $imageEntity);
 $slider->forceSingle();
 $slider->setFilter('titolo', 'sliderHome');
-$slider->apply($sliderTemplate);
+$slider->apply($sliderTemplate, 'slider');
+
+/*retrieve all room*/
+$cameraContent = new Content($cameraEntity);
+$cameraContent->apply($sliderTemplate,'room');
 
 $main->setContent('slider', $sliderTemplate->get());
 $main->setContent("body", $homeTemplate->get());

@@ -47,12 +47,7 @@ Class beContent {
  */
 if (basename($_SERVER['SCRIPT_FILENAME']) != "error.php")
 {
-	$mysql = new mysqli(
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['host'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['username'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['password'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['database']
-    );
+	$mysql = new mysqli(Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['host'], Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['username'], Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['password'], Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['database']);
 	$mysql->set_charset('unicode');
 	foreach ($_REQUEST as $k => $v) {
 		$_REQUEST[$k] = $mysql->real_escape_string($v);

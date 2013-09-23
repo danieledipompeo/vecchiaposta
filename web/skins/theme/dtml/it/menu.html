@@ -11,8 +11,9 @@
                         <ul>
                             {foreach from=$instance->sys_menu item=child_menu}
                                 {if $child_menu->linked_page == 0}
-                                    <li class="text_capitalize"><a href="{$child_menu->link}">{$child_menu->entry}
-                                    </a></li>
+                                    <li class="text_capitalize">
+                                        <a href="{$child_menu->link}">{$child_menu->entry}</a>
+                                    </li>
                                     {else}
                                     <li class="text_capitalize"><a href="page.php?sys_page_id={$child_menu->linked_page}">{$child_menu->entry}
                                     </a></li>

@@ -8,10 +8,15 @@ require_once(realpath(dirname(__FILE__)) . '/contents/vecchiaposta/entities/enti
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
+if(isset($_REQUEST['vp_room_id'])){
 $cameraContent = new Content($cameraEntity, $serviziCameraRelation, $serviziCameraEntity,
     $serviziCameraRelation, $cameraEntity, $cameraImageRelation, $imageEntity);
 //$cameraContent->setFilter('id','1');
 //$cameraContent->forceSingle();
+}
+else{
+    $cameraContent = new Content($cameraEntity);
+}
 
 $main->setContent("body", $cameraContent->get());
 

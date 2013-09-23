@@ -2163,6 +2163,20 @@ span.zoom-wrapper span.zoom {
     margin: auto;
     text-align: right
 }
+
+#logo a img{
+    margin-left: 25%;
+}
+
+.fourty-five{
+    width: 45%;
+    padding: 30px 20px 30px 20px;
+    float: left;
+}
+
+.my-booknow{
+    width: auto !important;
+}
 /*
 #CDSWIDWRL {
     font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;

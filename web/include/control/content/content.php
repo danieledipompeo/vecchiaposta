@@ -231,33 +231,43 @@ Class Content {
 	 * content in a page and for using a template different from the standard entityName_single / entityName_multiple
 	 * it operates on the $skin and compiles fields related to this content for that skin
 	 * it uses getRaw to retrieve data
-	 * @param unknown_type $skin
-	 * @param unknown_type $prefix
+	 * @param Skin $skin
+	 * @param String $prefix
+     *
+     * usa il prefix per due apply differenti nella stessa skin
 	 */
 	function apply($skin, $prefix = "")
     {
+
 		$entity = DB::getInstance()->getEntityByName($this->entity_name);
-		
+
+
 		$data = $this->getRaw();
 		
-	/**
-		 * passing retrieved instances to smarty
-		 */
+	    /*passing retrieved instances to smarty*/
 		if($this->mode==SINGLE)
 		{	
 			if(isset($entity->instances))
 			{
-				$skin->setContent("instance",$entity->instances[0]);
+                if( $prefix != ''){
+                    $skin->setContent($prefix.'_instance',$entity->instances[0]);
+                }
+                else
+				    $skin->setContent("instance",$entity->instances[0]);
 			}
-			else
+			else{
 				$skin->setContent("instance",null);
-			
+            }
 			$skin->setContent("instances",null);
 		}
 		else
 		{
 			if(isset($entity->instances))
 			{
+                if( $prefix != ''){
+                    $skin->setContent($prefix.'_instances',$entity->instances);
+                }
+                else
 				$skin->setContent("instances",$entity->instances);
 			}
 			else

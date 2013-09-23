@@ -73,8 +73,8 @@ $(document).ready(function() {
 	});
 	
 	// Datepicker
-	$(".datepicker").datepicker();
-	
+    $(".datepicker").datepicker();
+
 	var map_toggle  = "closed";
 	
 	// Google Map

@@ -7,7 +7,7 @@
 </div>
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
-    <h2 class="page-title">{$instance->nome}</h2>
+    <h2 class="page-title">{$eventi_instance->nome}</h2>
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
         <div class="even-cols clearfix">
@@ -17,7 +17,7 @@
                 <div id="slides1" class="slide-loader">
                     <!-- BEGIN .slides_container -->
                     <div class="slides_container">
-                        {foreach from=$instance->vp_room_sys_image item=image}
+                        {foreach from=$eventi_instance->vp_room_sys_image item=image}
                         <div class="slide">
                             <a href="#">
                                 <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="one-half last-col">
-                <h3 class="title1">Serivizi<span class="title-end"></span></h3>
+                <h3 class="title1">Attivit&agrave; consigliata<span class="title-end"></span></h3>
                 <div class="clearfix">
                     <div class="one-third">
                         <ul class="list3">
@@ -43,23 +43,42 @@
                         </ul>
                     </div>
                 </div>
-                <div class="booknow-accompage">
-                    <div class="book-price">
-                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                <div class="booknow-sidebar">
+
+                    <!-- BEGIN .booknow -->
+                    <div class="booknow my-booknow">
+
+                        <form class="booking-form" name="bookroom" action="booking.php" method="post">
+
+                            <div class="select-wrapper">
+                                <select id="room" name="id_room">
+                                    <option omitted>Seleziona una camera</option>
+                                    {foreach from=$room_instances item=camera}
+                                    <option value="{$camera->id}">{$camera->nome}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
+
+                            <div class="clearfix">
+                                <input type="text" id="datefrom" name="from" placeholder="from" class="input-half datepicker">
+                                <input type="text" id="dateto" name="to" placeholder="to" class="input-half input-half-last datepicker">
+                            </div>
+
+                            <input class="bookbutton" type="submit" value="Book Now">
+
+                        </form>
+
+                        <div class="corner-left"></div>
+
+                        <!-- END .booknow -->
                     </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.html" method="post">
-                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
-                        </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
-                    </form>
+
+                    <!-- END . booknow-sidebar -->
                 </div>
             </div>
         </div>
         <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-        <p>{$instance->descrizione}</p>
+        <p>{$eventi_instance->descrizione}</p>
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

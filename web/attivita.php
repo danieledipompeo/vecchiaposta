@@ -8,12 +8,8 @@ require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
-$eventiTemplate = new Skinlet('eventi');
-$eventiContent = new Content($sliderEntity, $sliderPageRelation, $pageEntity);
-$eventiContent->setFilter('sys_slider_titolo', 'sliderEventi');
-$eventiContent->forceSingle();
-$eventiContent->apply($eventiTemplate);
+$attivitaContent = new Content($attivitaEntity);
 
-$main->setContent("body", $eventiTemplate->get());
+$main->setContent("body", $attivitaContent->get());
 
 $main->close();
