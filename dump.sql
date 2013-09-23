@@ -68,7 +68,7 @@ CREATE TABLE `sys_entities` (
 
 LOCK TABLES `sys_entities` WRITE;
 /*!40000 ALTER TABLE `sys_entities` DISABLE KEYS */;
-INSERT INTO `sys_entities` VALUES ('slider','slider','','',0,0,0),('sys_entities','sys_entities','','',0,0,0),('sys_file','sys_file','','',0,0,0),('sys_group','sys_group','','',0,0,0),('sys_image','sys_image','1','',0,0,0),('sys_image_slider','sys_image_slider','','',0,0,0),('sys_image_sys_slider','sys_image_sys_slider','','',0,0,0),('sys_log','sys_log','','',0,0,0),('sys_menu','sys_menu','','',0,0,0),('sys_news','sys_news','1','',0,0,0),('sys_page','sys_page','1','',0,0,0),('sys_section','sys_section','','',0,0,0),('sys_service','sys_service','','',0,0,0),('sys_servicecategory','sys_servicecategory','','',0,0,0),('sys_service_sys_group','sys_service_sys_group','','',0,0,0),('sys_slider','sys_slider','','',0,0,0),('sys_slider_sys_page','sys_slider_sys_page','','',0,0,0),('sys_user','sys_user','','',0,0,0),('sys_user_sys_group','sys_user_sys_group','','',0,0,0),('vp_room','vp_room','','',0,0,0),('vp_room_sys_image','vp_room_sys_image','','',0,0,0),('vp_room_vp_servizi','vp_room_vp_servizi','','',0,0,0),('vp_servizi','vp_servizi','','',0,0,0);
+INSERT INTO `sys_entities` VALUES ('slider','slider','','',0,0,0),('sys_entities','sys_entities','','',0,0,0),('sys_file','sys_file','','',0,0,0),('sys_group','sys_group','','',0,0,0),('sys_image','sys_image','1','',0,0,0),('sys_image_slider','sys_image_slider','','',0,0,0),('sys_image_sys_slider','sys_image_sys_slider','','',0,0,0),('sys_log','sys_log','','',0,0,0),('sys_menu','sys_menu','','',0,0,0),('sys_news','sys_news','1','',0,0,0),('sys_page','sys_page','1','',0,0,0),('sys_section','sys_section','','',0,0,0),('sys_service','sys_service','','',0,0,0),('sys_servicecategory','sys_servicecategory','','',0,0,0),('sys_service_sys_group','sys_service_sys_group','','',0,0,0),('sys_slider','sys_slider','','',0,0,0),('sys_slider_sys_page','sys_slider_sys_page','','',0,0,0),('sys_user','sys_user','','',0,0,0),('sys_user_sys_group','sys_user_sys_group','','',0,0,0),('vp_dintorni','vp_dintorni','','',0,0,0),('vp_eventi','vp_eventi','','',0,0,0),('vp_room','vp_room','','',0,0,0),('vp_room_sys_image','vp_room_sys_image','','',0,0,0),('vp_room_vp_servizi','vp_room_vp_servizi','','',0,0,0),('vp_servizi','vp_servizi','','',0,0,0);
 /*!40000 ALTER TABLE `sys_entities` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -197,7 +197,7 @@ CREATE TABLE `sys_log` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `ip` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -206,7 +206,7 @@ CREATE TABLE `sys_log` (
 
 LOCK TABLES `sys_log` WRITE;
 /*!40000 ALTER TABLE `sys_log` DISABLE KEYS */;
-INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(46,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(47,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(48,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(49,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(50,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(51,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(52,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(53,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(54,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(55,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(56,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(57,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(58,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(59,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(60,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(61,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(62,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(63,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(64,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(65,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(66,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(67,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(68,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(69,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(70,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(71,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(72,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(73,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(74,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
+INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(46,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(47,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(48,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(49,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(50,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(51,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(52,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(53,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(54,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(55,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(56,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(57,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(58,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(59,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(60,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(61,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(62,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(63,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(64,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(65,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(66,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(67,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(68,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(69,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(70,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(71,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(72,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(73,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(74,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(75,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(76,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(77,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(78,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(79,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(80,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(81,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(82,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(83,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(84,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(85,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(86,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
 /*!40000 ALTER TABLE `sys_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -234,7 +234,7 @@ CREATE TABLE `sys_menu` (
 
 LOCK TABLES `sys_menu` WRITE;
 /*!40000 ALTER TABLE `sys_menu` DISABLE KEYS */;
-INSERT INTO `sys_menu` VALUES (1,'Home','index.php',1,0,0),(2,'Camere','camere.php',2,0,0),(3,'Attività','attivita.php',3,0,0),(4,'Eventi','evento.php',5,0,0),(5,'Dintorni','dintorni.php',4,0,0),(6,'Dove SIamo','dove-siamo.php',6,0,0),(8,'Camera singola','camere.php?vp_room_id=1',1,0,2),(9,'Camera doppia','camera-doppia.php',2,0,2),(10,'Camera tripla','camera-tripla.php',3,0,2),(11,'Camera quadrupla','camera-quadrupla.php',4,0,2),(12,'Ippovia del Gran Sasso','ippovia-del-gran-sasso.php',1,0,3),(13,'L\'anello del Lago','anello-del-lago-campotosto.php',2,0,3),(14,'Da cagnano al Gran Sasso','cagnano-gran-sasso.php',3,0,3),(15,'Perdonanza Celestiniana','perdonanza-celestiniana.php',1,0,4),(16,'Sagre e feste','sagre-feste.php',2,0,4),(17,'Festa del Cioccolato','festa-cioccolato.pph',3,0,4),(18,'Amatrice','amatrice.php',1,0,5),(19,'L\'Aquila','aquila.php',2,0,5),(20,'Lago di Campotosto','lago-campotosto.php',3,0,5);
+INSERT INTO `sys_menu` VALUES (1,'Home','index.php',1,0,0),(2,'Camere','camere.php',2,0,0),(3,'Attività','attivita.php',3,0,0),(4,'Eventi','eventi.php',5,0,0),(5,'Dintorni','dintorni.php',4,0,0),(6,'Dove SIamo','dove-siamo.php',6,0,0),(8,'Camera singola','camere.php?vp_room_id=1',1,0,2),(9,'Camera doppia','camere.php?vp_room_id=2',2,0,2),(10,'Camera tripla','camere.php?vp_room_id=3',3,0,2),(11,'Camera quadrupla','camere.php?vp_room_id=4',4,0,2),(12,'Ippovia del Gran Sasso','ippovia-del-gran-sasso.php',1,0,3),(13,'L\'anello del Lago','anello-del-lago-campotosto.php',2,0,3),(14,'Da cagnano al Gran Sasso','cagnano-gran-sasso.php',3,0,3),(15,'Perdonanza Celestiniana','eventi.php?vp_eventi_id=1',1,0,4),(16,'Fiera della befana','eventi.php?vp_eventi_id=3',2,0,4),(17,'Festa del Cioccolato','eventi.php?vp_eventi_id=2',3,0,4),(18,'Amatrice','amatrice.php',1,0,5),(19,'L\'Aquila','aquila.php',2,0,5),(20,'Lago di Campotosto','lago-campotosto.php',3,0,5);
 /*!40000 ALTER TABLE `sys_menu` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -343,7 +343,7 @@ CREATE TABLE `sys_service` (
   `entities` varchar(50) DEFAULT NULL,
   `superuser_group` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -352,7 +352,7 @@ CREATE TABLE `sys_service` (
 
 LOCK TABLES `sys_service` WRITE;
 /*!40000 ALTER TABLE `sys_service` DISABLE KEYS */;
-INSERT INTO `sys_service` VALUES (1,'Login','login.php','Login','*','<p>Login service</p>',2,0,'',0),(2,'Logout','logout.php','Logout','*','<p>Logout service</p>',1,0,'',0),(3,'User Management','admin-users-manager.php','Users','*','',1,1,'',0),(4,'Group Management','admin-groups-manager.php','Groups','*','',2,1,'',0),(5,'Service Management','admin-services-manager.php','Services','*','',3,1,'',0),(6,'Service Category Management','admin-servicecategory-manager.php','Service Categories','*','',4,1,'',0),(7,'Page Management','admin-pages-manager.php','Pages','*','',1,2,'',0),(8,'Menu Management','admin-menu-manager.php','Menu','*','',2,2,'',0),(10,'News','admin-news-manager.php','News','*','',3,2,'',0),(11,'Image','admin-image-manager.php','Image',NULL,'',4,2,NULL,0),(12,'Slider','admin-slider-manager.php','Slider',NULL,'',5,2,NULL,0),(13,'Admin Room','vp-admin-camera-manager.php','Camere',NULL,'',1,3,NULL,0),(14,'Servizi Camera','vp-admin-servizi-manager.php','Servizi Camera',NULL,'<p>gestione dei servizi in camera</p>',2,3,NULL,0);
+INSERT INTO `sys_service` VALUES (1,'Login','login.php','Login','*','<p>Login service</p>',2,0,'',0),(2,'Logout','logout.php','Logout','*','<p>Logout service</p>',1,0,'',0),(3,'User Management','admin-users-manager.php','Users','*','',1,1,'',0),(4,'Group Management','admin-groups-manager.php','Groups','*','',2,1,'',0),(5,'Service Management','admin-services-manager.php','Services','*','',3,1,'',0),(6,'Service Category Management','admin-servicecategory-manager.php','Service Categories','*','',4,1,'',0),(7,'Page Management','admin-pages-manager.php','Pages','*','',1,2,'',0),(8,'Menu Management','admin-menu-manager.php','Menu','*','',2,2,'',0),(10,'News','admin-news-manager.php','News','*','',3,2,'',0),(11,'Image','admin-image-manager.php','Image',NULL,'',4,2,NULL,0),(12,'Slider','admin-slider-manager.php','Slider',NULL,'',5,2,NULL,0),(13,'Admin Room','vp-admin-camera-manager.php','Camere',NULL,'',1,3,NULL,0),(14,'Servizi Camera','vp-admin-servizi-manager.php','Servizi Camera',NULL,'<p>gestione dei servizi in camera</p>',2,3,NULL,0),(15,'Eventi','vp-admin-eventi-manager.php','Eventi',NULL,'',3,3,NULL,0),(16,'Dintorni','vp-admin-dintorni-manager.php','Dintorni',NULL,'',4,3,NULL,0);
 /*!40000 ALTER TABLE `sys_service` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -368,7 +368,7 @@ CREATE TABLE `sys_service_sys_group` (
   `id_sys_service` int(10) unsigned NOT NULL,
   `id_sys_group` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -377,7 +377,7 @@ CREATE TABLE `sys_service_sys_group` (
 
 LOCK TABLES `sys_service_sys_group` WRITE;
 /*!40000 ALTER TABLE `sys_service_sys_group` DISABLE KEYS */;
-INSERT INTO `sys_service_sys_group` VALUES (3,3,1),(4,4,1),(5,5,1),(7,7,1),(8,8,1),(9,9,1),(10,10,1),(17,11,1),(19,12,1),(20,6,1),(24,2,1),(25,1,1),(27,13,1),(28,14,1);
+INSERT INTO `sys_service_sys_group` VALUES (3,3,1),(4,4,1),(5,5,1),(7,7,1),(8,8,1),(9,9,1),(10,10,1),(17,11,1),(19,12,1),(20,6,1),(24,2,1),(25,1,1),(27,13,1),(28,14,1),(30,15,1),(31,16,1);
 /*!40000 ALTER TABLE `sys_service_sys_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -517,6 +517,60 @@ INSERT INTO `sys_user_sys_group` VALUES (1,'admin',1),(2,'test',1);
 UNLOCK TABLES;
 
 --
+-- Table structure for table `vp_dintorni`
+--
+
+DROP TABLE IF EXISTS `vp_dintorni`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `vp_dintorni` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `descrizione` text,
+  `nome` varchar(255) NOT NULL,
+  `latitudine` varchar(255) DEFAULT NULL,
+  `longitudine` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `vp_dintorni`
+--
+
+LOCK TABLES `vp_dintorni` WRITE;
+/*!40000 ALTER TABLE `vp_dintorni` DISABLE KEYS */;
+INSERT INTO `vp_dintorni` VALUES (1,'<p>Intorno la 1250 i feudatari della&nbsp;<strong>Valle Aterno</strong>&nbsp;chiesero l&rsquo;appoggio del Papa per fondare una citt&agrave; fortificata per liberarsi dall&rsquo;egemonia di Federico II.</p>\r\n<p>Il nome Aquila deriva probabilmente da Acquili castello del territorio dove fu fondata la citt&agrave;. Distrutta nel 1254 e successivamente ricostruita per volont&agrave; del re Carlo d&rsquo;Angi&ograve;. La ricostruzione permise di suddividere la citt&agrave; in 4 quarti, per tener conto della provenienza degli abitanti. Il quarto di San Giovanni ospit&ograve; gli abitanti provenienti da Amiterno. Le cinte murarie della citt&agrave; risalgono al 1316 quando divenne una vera e propria citt&agrave; incastellata.</p>\r\n<p>Lungo il fiume Aterno fu costruito il monumento della&nbsp;<strong>Fontana delle 99 cannelle</strong>, che inizialmente aveva soltanto 15 mascheroni raffiguranti uomini e donne, forse a simboleggiare i signori del circondario. Nell&rsquo; ultimo intervento nel 1871 il numero delle cannelle fu portato a 99 in ricordo dei castelli che fondarono la citt&agrave; costruendovi 99 chiese, 99 piazze e 99 fontana.</p>\r\n<p>Durante la dominazione spagnola nell&rsquo;Italia meridionale, nella seconda met&agrave; del 1500 fu costruito nel cuore della citt&agrave; il castello&nbsp;<strong>Forte Spagnolo</strong>&nbsp;per accrescere la potenza militare spagnola nel territorio. Mai utilizzato per scopi bellici fu sede sia del governatore spagnola, sia nella seconda guerra mondiale delle truppe tedesche. Ad oggi &egrave; sede del museo nazionale d&rsquo;abruzzo, il pi&ugrave; importante in regione.</p>\r\n<p>La citt&agrave; si &egrave; sviluppata nella conca del fiume aterno ad 721 metri di altitudine. Il paesaggio &egrave; caratterizzato dalle catene montuose degli Appennini e dal Velino Sirente. Ad oggi la citt&agrave; &egrave; capoluogo di Regione e Provincia.</p>\r\n<p>Ferita dal terremoto del 2009, la citt&agrave; cerca di tornare al suo antico splendore.<br />Sono stati restituiti ai cittadini alcuni monumenti simbolo, come la fontana delle 99 cannelle; il centro storico &egrave; tornato ad essere il centro del divertimento notturno con l&rsquo;apertura di diversi locali nella piazzetta &ldquo;del boss&rdquo;.</p>','L\'Aquila','42.354485','13.399147');
+/*!40000 ALTER TABLE `vp_dintorni` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `vp_eventi`
+--
+
+DROP TABLE IF EXISTS `vp_eventi`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `vp_eventi` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `descrizione` text,
+  `nome` varchar(255) NOT NULL,
+  `data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `luogo` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `vp_eventi`
+--
+
+LOCK TABLES `vp_eventi` WRITE;
+/*!40000 ALTER TABLE `vp_eventi` DISABLE KEYS */;
+INSERT INTO `vp_eventi` VALUES (1,'<p>Da quasi 720 anni il&nbsp;<strong>28 di agosto</strong>&nbsp;si celebra la Perdonanza Celestiniana.</p>\r\n<p>Il corteo della bolla, composto da quasi 1000 comparse in abiti medievali raffiguranti i quattro quarti della citt&agrave;, accompagna solennemente la&nbsp;<strong>bolla del perdono</strong>, donata dal Papa Celestino V, da Palazzo di Margherita d&rsquo;Austria, sede attuale del Comune, fino alla Basilica di Santa Maria di Collemaggio. Rito comune &egrave; entrare nella Porta Santa della basilica per ricevere l&rsquo;indulgenza.</p>\r\n<p>Per volont&agrave; del Papa Celestino V fu costruita la Basilica Santa Maria di Collemaggio, caratterizzata da uno spendido e particolare rosone e dalla&nbsp;<strong>Porta Santa</strong>, aperta un volta l&rsquo;anno, in occasione della Perdonanza. Nel 1295 Pietro da Morrone fu consacrato Papa proprio nella Basilica.</p>\r\n<p>La&nbsp;<strong>settimana della Perdonanza</strong>&nbsp;&egrave; inaugurata dalla solenne accensione del braciere del morrone, sulla torre del palazzo cittadino e da un suggestivo gioco di fuochi pirotecnici. Durante la settimana nella citt&agrave; eventi ecclesiastici si alternano a spettacoli musicale e culturali. Le notti i pi&ugrave; giovani possono ballare sotto le stelle grazie a concerti gratuiti.<br />Per maggiori informazioni sull&rsquo;evento:&nbsp;<a href=\"http://www.perdonanza-celestiniana.it/\">perdonanza-celestiniana.it</a>,<br />oppure il sito del&nbsp;<a href=\"http://www.comune.laquila.gov.it/pagina27_la-perdonanza-celestiniana.html\">comune.laquila.gov.it</a></p>','Perdonanza Celestiniana','2013-08-22 22:00:00','L\'Aquila'),(2,'','Festa del Cioccolato','2013-04-24 22:00:00','L\'Aquila'),(3,'','Fiera della befana','2014-01-04 23:00:00','L\'Aquila');
+/*!40000 ALTER TABLE `vp_eventi` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `vp_room`
 --
 
@@ -627,4 +681,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-23 15:01:06
+-- Dump completed on 2013-09-23 18:58:34
