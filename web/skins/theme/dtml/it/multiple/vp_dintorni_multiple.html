@@ -1,6 +1,6 @@
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img src="../../img/page-head.png" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt="" />
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
@@ -11,20 +11,19 @@
         {foreach from=$instances item=dintorni}
         <div class="one-third-full">
             <p><div class="block-img1">
-            <a href="eventi.php?vp_eventi_id={$dintorni->id}">
-                <img src="../../img/image4.png" alt="" />
+            <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">
+                <img src="skins/theme/img/beb/99cannelle.jpg" alt="" />
             </a></div></p>
             <h3 class="title1">
-                <a href="eventi.php?vp_eventi_id={$dintorni->id}">{$dintorni->nome}</a>
+                <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">{$dintorni->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <p>{$dintorni->descrizione}</p>
-            <p><a href="vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></p>
+            <p>{$dintorni->descrizione|truncate: 200:'...'}</p>
+            <p><a href="dintorni.php?vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></p>
         </div>
         {/foreach}
         <!-- END .section -->
     </div>
-    <hr>
     <div class="page-pagination page-pagination-full">
         <p class="clearfix">
             <span class="fl"><a href="#">&larr; Previous</a></span>

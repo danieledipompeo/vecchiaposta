@@ -18,13 +18,15 @@ $main = new Skin("system");
 
 InitGraphic::getInstance()->createSystemGraphic($main);
 
-$form = new Form("dataEntry", $dintorniEntity);
+$form = new Form("dataEntry", $attivitaEntity);
 
 $form->addTitleForm("Attività Management");
 $form->addSection('Attività details');
 $form->addText("nome", "Nome", 255, MANDATORY);
 $form->addEditor("descrizione", "Descrizione");
 $form->addText('luogo', 'Luogo', 255);
+$form->addEditor('suggest', 'Suggerimenti');
+
 
 /*
 $relationForm = new RelationForm("dataEntry3", $serviziCameraRelation);

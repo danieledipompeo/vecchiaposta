@@ -930,6 +930,10 @@ font-size: 14px;}
     background: url(../images/icn_page.png) no-repeat center left;
 }
 
+#sidebar li.icn_bed a {
+    background: url(../images/bed.png) no-repeat center left;
+}
+
 input:-webkit-autofill {
     background-color: #fff !important;
     background-image: none;

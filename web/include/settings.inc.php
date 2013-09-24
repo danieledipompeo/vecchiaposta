@@ -7,7 +7,7 @@ class Settings
 	
 	//Enhanches performances if disabled, disable after debugging
     /*set to true to create new tables in db*/
-	private static  $modmode=true;
+	private static  $modmode=false;
 
     /*set to debug to show html error*/
 	private static $operative_mode="release";

@@ -79,15 +79,17 @@ $(document).ready(function() {
 	
 	// Google Map
 	$(".gmap-btn").click(function(){
-		
+
 		$('#header-google-map').slideToggle('slow');
-		
+
 		if (!map) {
 			initialize();
 		}
-		
+
 		$('.gmap-btn').toggleClass('gmap-btn-hover');
-		
-	});	
+
+	});
+
+    initializeMap();
 	
 });

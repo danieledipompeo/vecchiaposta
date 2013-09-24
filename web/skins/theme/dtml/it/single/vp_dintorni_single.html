@@ -2,7 +2,7 @@
 <!--ITALIANO-->
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img src="../../img/page-head.png" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt="" />
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
@@ -12,30 +12,14 @@
     <div class="page-content page-content-full">
         <div class="even-cols clearfix">
             <div class="one-half">
-                <!-- BEGIN #slides -->
+                <!-- BEGIN #map-widget-wrapper -->
+                   {$widget_map}
 
-                <div id="slides1" class="slide-loader">
-                    <!-- BEGIN .slides_container -->
-                    <div class="slides_container">
-                        {foreach from=$instance->vp_room_sys_image item=image}
-                        <div class="slide">
-                            <a href="#">
-                                <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
-                            </a>
-                            <div class="caption">{$image->id_sys_image->caption}</div>
-                        </div>
-                        {/foreach}
-                        <!-- END .slides_container -->
-                    </div>
-                    <a href="#" class="prev">Previous</a>
-                    <a href="#" class="next">Next</a>
-                    <!-- END #slides -->
-                </div>
             </div>
             <div class="one-half last-col">
                 <h3 class="title1">Serivizi<span class="title-end"></span></h3>
                 <div class="clearfix">
-                    <div class="one-third">
+                    <div class="one-third servizi-wrapper">
                         <ul class="list3">
                             {foreach from=$instance->vp_room_vp_servizi item=servizi}
                             <li>{$servizi->id_vp_servizi->nome}</li>
@@ -45,10 +29,17 @@
                 </div>
                 <div class="booknow-accompage">
                     <div class="book-price">
-                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
                     </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.html" method="post">
-                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.php" method="post">
+                        <div class="select-wrapper">
+                            <select id="room" name="id_room">
+                                <option>Prenota una camera</option>
+                                {foreach from=$room_instances item=room}
+                                <option value="{$room->id}">{$room->nome}</option>
+                                {/foreach}
+                            </select>
+                        </div>
                         <div class="clearfix">
                             <input type="text" id="datefrom" value="From" class="input-half datepicker">
                             <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">

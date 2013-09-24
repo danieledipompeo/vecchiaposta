@@ -6,7 +6,7 @@
  * @author dipompeodaniele@gmail.com
  */
 
-class EntityEventi extends Entity
+class EntityAttivita extends Entity
 {
     public function __construct($database, $name,$owner="")
     {
@@ -19,5 +19,5 @@ class EntityEventi extends Entity
     }
 }
 
-$eventiEntity = new EntityEventi($database,
-    Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['prefix'].'eventi');
+$attivitaEntity = new EntityAttivita($database,
+    Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['prefix'].'attivita');

@@ -1,27 +1,25 @@
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img class="page-header-img" src="skins/theme/img/beb/eventi.jpg" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/attivita.jpg" alt="" />
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
 <div class="section accommodation-page page-full clearfix">
-
-    <h2 class="page-title page-title-full">Eventi</h2>
-
+    <h2 class="page-title page-title-full">Attivit&agrave;</h2>
     <!-- BEGIN .section -->
     <div class="section clearfix">
-        {foreach from=$instances item=evento}
+        {foreach from=$instances item=attivita}
         <div class="one-third-full">
             <p><div class="block-img1">
-                <a href="eventi.php?vp_eventi_id={$evento->id}">
-                    <img src="skins/theme/img/beb/perdonanza_celestiniana.jpg" alt="" />
-                </a></div></p>
+            <a href="attivita.php?vp_attivita_id={$attivita->id}">
+                <img src="skins/theme/img/beb/perdonanza_celestiniana.jpg" alt="" />
+            </a></div></p>
             <h3 class="title1">
-                <a href="eventi.php?vp_eventi_id={$evento->id}">{$evento->nome}</a>
+                <a href="attivita.php?vp_attivita_id={$attivita->id}">{$attivita->nome}</a>
                 <span class="title-end"></span>
             </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc.</p>
-            <p><a href="vp_eventi.php?vp_eventi_id={$evento->id}" class="button2">Maggiori informazioni &raquo;</a></p>
+            <p><a href="vp_attivita.php?vp_attivita_id={$attivita->id}" class="button2">Maggiori informazioni &raquo;</a></p>
         </div>
         {/foreach}
         <!-- END .section -->

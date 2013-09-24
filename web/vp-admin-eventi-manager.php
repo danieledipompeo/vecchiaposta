@@ -26,7 +26,7 @@ $form->addText("nome", "Nome", 255, MANDATORY);
 $form->addEditor("descrizione", "Descrizione");
 $form->addLongDate('data', 'Data');
 $form->addText('luogo', 'Luogo', 255);
-
+$form->addEditor("suggest", "Consigliati");
 /*
 $relationForm = new RelationForm("dataEntry3", $serviziCameraRelation);
 $relationForm->addSection('Servizi da legare');

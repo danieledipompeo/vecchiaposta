@@ -1,6 +1,6 @@
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img src="../../img/page-head.png" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/booking.jpg" alt="" />
 <!-- END .page-header -->
 </div>
 
@@ -42,11 +42,11 @@
                                 <input type="text" id="dateto" name="to" value="{$to}" class="input-half input-half-last datepicker" disabled="disabled" />
                             {/if}
                         </div>
-                        <input type="text" onblur="if(this.value=='')this.value='Full Name';" onfocus="if(this.value=='Full Name')this.value='';" value="Full Name" name="book--name" class="text-input" />
-                        <input type="text" onblur="if(this.value=='')this.value='Number of People';" onfocus="if(this.value=='Number of People')this.value='';" value="Number of People" name="book-num-people" class="text-input" />
-                        <input type="text" onblur="if(this.value=='')this.value='Email Address';" onfocus="if(this.value=='Email Address')this.value='';" value="Email Address" name="book-email" class="text-input" />
-                        <input type="text" onblur="if(this.value=='')this.value='Phone Number';" onfocus="if(this.value=='Phone Number')this.value='';" value="Phone Number" name="book-phone" class="text-input" />
-                        <textarea class="text-input" onblur="if(this.value=='')this.value='Phone Number';" onfocus="if(this.value=='Phone Number')this.value='';" rows="6"></textarea>
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Full Name';" onfocus="if(this.placeholder=='Full Name')this.placeholder='';" placeholder="Full Name" name="book-name" class="text-input" />
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Number of People';" onfocus="if(this.placeholder=='Number of People')this.placeholder='';" placeholder="Number of People" name="book-num-people" class="text-input" />
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Email Address';" onfocus="if(this.placeholder=='Email Address')this.placeholder='';" placeholder="Email Address" name="book-email" class="text-input" />
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Phone Number';" onfocus="if(this.placeholder=='Phone Number')this.placeholder='';" placeholder="Phone Number" name="book-phone" class="text-input" />
+                        <textarea class="text-input" onblur="if(this.placeholder=='')this.placeholder='Optional Messager';" onfocus="if(this.placeholder=='Optional Message')this.placeholder='';" placeholder="Oprional Message" rows="6"></textarea>
                         <input class="bookbutton" type="submit" value="Prenota ora" />
                     </form>
                 </div>

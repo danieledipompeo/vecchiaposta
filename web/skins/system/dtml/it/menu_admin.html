@@ -43,6 +43,10 @@
                     <li class="icn_settings">
                         <a href="{$service->script}?action=report">{$service->entry} </a>
                     </li>
+                {else if $service->name == 'Admin Room'}
+                    <li class="icn_bed">
+                        <a href="{$service->script}?action=report">{$service->entry} </a>
+                    </li>
                 {else}
                     <li>
                         <a href="{$service->script}?action=report">{$service->entry} </a>

@@ -1,4 +1,5 @@
 var map = null;
+var mapWidget = null;
 
 function initialize() {
 	var latlng = new google.maps.LatLng(42.457787,13.232897);
@@ -26,5 +27,4 @@ function initialize() {
 	google.maps.event.addListener(marker, 'click', function() {
 		infowindow.open(map,marker);
 	});
-
 }
