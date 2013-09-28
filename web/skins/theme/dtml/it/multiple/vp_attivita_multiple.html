@@ -10,16 +10,17 @@
     <div class="section clearfix">
         {foreach from=$instances item=attivita}
         <div class="one-third-full">
-            <p><div class="block-img1">
-            <a href="attivita.php?vp_attivita_id={$attivita->id}">
-                <img src="skins/theme/img/beb/perdonanza_celestiniana.jpg" alt="" />
-            </a></div></p>
+            <div class="block-img1">
+                <a href="attivita.php?vp_attivita_id={$attivita->id}">
+                    <img src="data:image/jpg;base64,{$attivita->foto->data}" alt="{$attivita->foto->alt}" />
+                </a>
+            </div>
             <h3 class="title1">
                 <a href="attivita.php?vp_attivita_id={$attivita->id}">{$attivita->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc.</p>
-            <p><a href="vp_attivita.php?vp_attivita_id={$attivita->id}" class="button2">Maggiori informazioni &raquo;</a></p>
+            <div class="section-long-body-preview">{$attivita->descrizione|truncate:300:"...":true}</div>
+            <a href="vp_attivita.php?vp_attivita_id={$attivita->id}" class="button2">Maggiori informazioni &raquo;</a>
         </div>
         {/foreach}
         <!-- END .section -->

@@ -12,14 +12,14 @@
         <div class="one-third-full">
             <p><div class="block-img1">
             <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">
-                <img src="skins/theme/img/beb/99cannelle.jpg" alt="" />
+                <img src="data:image/jpg;base64,{$dintorni->foto->data}" alt="" />
             </a></div></p>
             <h3 class="title1">
                 <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">{$dintorni->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <p>{$dintorni->descrizione|truncate: 200:'...'}</p>
-            <p><a href="dintorni.php?vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></p>
+            <div class="section-long-body-preview">{$dintorni->descrizione|truncate: 300:'...'}</div>
+            <div><a href="dintorni.php?vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></div>
         </div>
         {/foreach}
         <!-- END .section -->

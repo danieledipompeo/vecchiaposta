@@ -16,7 +16,7 @@ $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
 $welcomePage = new Skinlet('welcome');
-$page = new Content($pageEntity);
+$page = new Content($pageEntity, $imageEntity);
 $page->setFilter('title', 'Il B&B');
 $page->forceSingle();
 $page->apply($welcomePage);
@@ -29,9 +29,8 @@ $offertaContent->forceSingle();
 $offertaContent->apply($offertaPage);
 
 $servicePage = new Skinlet('servizi_offerti');
-$page2 = new Content($pageEntity);
-$page2->setFilter('title', 'Alcuni servizi offerti del B&B');
-$page2->forceSingle();
+$page2 = new Content($serviziCameraEntity);
+$page2->setLimit(7);
 $page2->apply($servicePage);
 
 $homeTemplate = new Skinlet("home");

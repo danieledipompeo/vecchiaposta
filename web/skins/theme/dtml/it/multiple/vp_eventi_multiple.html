@@ -14,13 +14,15 @@
         <div class="one-third-full">
             <p><div class="block-img1">
                 <a href="eventi.php?vp_eventi_id={$evento->id}">
-                    <img src="skins/theme/img/beb/perdonanza_celestiniana.jpg" alt="" />
+                    <img src="data:image/jpg;base64,{$evento->foto->data}" alt="" />
                 </a></div></p>
             <h3 class="title1">
                 <a href="eventi.php?vp_eventi_id={$evento->id}">{$evento->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc.</p>
+            <div class="section-long-body-preview">
+                    {$evento->descrizione|truncate:300:"...":true}
+            </div>
             <p><a href="vp_eventi.php?vp_eventi_id={$evento->id}" class="button2">Maggiori informazioni &raquo;</a></p>
         </div>
         {/foreach}

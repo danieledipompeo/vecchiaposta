@@ -21,6 +21,7 @@ class InstallerInitState extends InstallerState {
 
 		if(! $this->validData ){
 			$this->nextState = $this;
+			$file_return = file_put_contents(realpath(dirname(__FILE__)).'/../../contents/config.cfg',"");
 		}
 		else{
 			$next_state = array('actualState' => $this->getNextState()->getStateName());
@@ -62,12 +63,12 @@ class InstallerInitState extends InstallerState {
 	}
 
 	public function setInput($arrayInput){
-
-		if( !file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg') && !isset($arrayInput['stateComplete']) )
+		
+		if( !file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg') && !isset($arrayInput['stateComplete']) )		
 			$this->validData = false;
 		else 
 			$this->validData = true;
-				
+
 	}
 }
 ?>

@@ -201,7 +201,7 @@ a {
 	padding: 10px 20px 10px 20px;
 	color: #fff;
 	height: 20px;
-	margin: 0 0 30px 0;
+	margin: 0 0 10px 0;
 }
 
 .top-bar a {
@@ -258,10 +258,7 @@ a {
 
 /* 3.1 - Title */
 #title-wrapper {
-	position: relative;
-	display: table;
-	max-width: 350px;
-	margin: 0 auto 20px auto;
+    margin-bottom: 10px;
 }
 
 #title-wrapper h1 {
@@ -499,8 +496,9 @@ a {
 	z-index: 9999;
 }
 
-#main-menu li.sfHover a span, #main-menu li.current-menu-item span, #main-menu li.current_page_item span {
+#main-menu li.sfHover a span, #main-menu li.current-menu-item> a, #main-menu li.current_page_item span {
 	color: #fff;
+    font-weight: bold;
 }
 
 #main-menu a.sf-with-ul {
@@ -1231,6 +1229,7 @@ hr {
 .page-header {
 	height: 145px;
 	overflow: hidden;
+    display: none;
 }
 
 /* 8.6 - Blog */
@@ -2138,19 +2137,16 @@ span.zoom-wrapper span.zoom {
 
 /*MIO*/
 
-#title-wrapper{
-    width: 960px;
-}
-
-#title-wrapper #logo, #title-wrapper #last-offert{
+#logo{
     float: left;
 }
 
-#title-wrapper #logo{
+#logo{
     width: 50%;
 }
 
-#title-wrapper #last-offert{
+#last-offert{
+    float: left;
     width: 50%;
 }
 
@@ -2161,11 +2157,10 @@ span.zoom-wrapper span.zoom {
 #last-offert-content{
     width: 70%;
     margin: auto;
-    text-align: right
 }
 
 #logo a img{
-    margin-left: 25%;
+   margin-left: 25%;
 }
 
 .fourty-five{
@@ -2200,6 +2195,89 @@ span.zoom-wrapper span.zoom {
     display: block;
     margin: -16px 0 20px 0;
 }
+
+.block-img1 img{
+    width: 278px;
+}
+
+#last-offert .title1{
+    margin: 0 0 10px 0;
+}
+
+.one-third-full .section-body-preview{
+    max-height: 126px;
+    min-height: 126px;
+}
+
+.one-third-full .section-body-preview p{
+    margin-bottom: 0;
+}
+
+.featured-wrapper .section-body-preview{
+    min-height: 216px;
+    max-height: 216px;
+}
+
+.featured-wrapper .section-body-preview ul{
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+
+.one-third-full .section-long-body-preview{
+    min-height: 168px;
+    max-height: 168px;
+}
+
+.one-third-full .section-long-body-preview p{
+    text-align: justify;
+}
+
+.one-third-full .info-button{
+   margin-top: 10px;
+}
+
+.block-img1 img{
+    height: 80px;
+}
+
+.logo-partner-footer{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.logo-partner-footer .TA_rated div{
+    margin: 0px !important;
+}
+
+.logo-partner-footer #bbforyoubadge{
+    background: transparent url(http://badges.bedandbreakfast4you.it/big.png) no-repeat !important;
+    width:170px !important;
+    height:55px !important;
+    margin:0;
+    padding: 50px 5px 0px 5px !important;
+    text-align:center !important;
+    line-height:16px !important;
+    overflow: hidden !important;
+}
+
+.logo-partner-footer #bbforyoubadge >div {
+    width:170px;
+}
+
+.logo-partner-footer #bbforyoubadge >div >a {
+    color:#000;
+    font-size:11px;
+    font-family:Arial;
+    font-weight:normal;
+    text-decoration:underline;
+    text-transform:none;
+    display: block;
+    float:none;
+    clear:both;
+    line-height:12px !important;
+}
+
 /*
 #CDSWIDWRL {
     font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;

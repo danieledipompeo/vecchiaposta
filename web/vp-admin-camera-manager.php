@@ -26,6 +26,10 @@ $form->addText("nome", "Nome", 255, MANDATORY);
 $form->addEditor("descrizione", "Descrizione");
 $form->addText("prezzo", "Prezzo", 40);
 
+$imageForm = new ImageForm('imageEntry',$cameraEntity);
+$imageForm->addImage('foto','Foto');
+$form->triggers($imageForm);
+
 $relationForm = new RelationForm("dataEntry3", $serviziCameraRelation);
 $relationForm->addSection('Servizi da legare');
 $relationForm->addRelationManager("vp_servizi_nome", "Servizi");

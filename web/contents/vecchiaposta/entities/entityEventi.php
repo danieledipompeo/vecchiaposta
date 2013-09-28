@@ -15,9 +15,13 @@ class EntityEventi extends Entity
         $this->addField('nome', VARCHAR, 255, MANDATORY);
         $this->addField('data', LONGDATE);
         $this->addField('luogo', VARCHAR, 255);
+        $this->addField('latitudine', VARCHAR, 255);
+        $this->addField('longitudine', VARCHAR, 255);
         $this->addField('suggest', TEXT);
     }
 }
 
 $eventiEntity = new EntityEventi($database,
-    Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['prefix'].'eventi');
+    Config::getInstance()->getConfigurations()['database']['prefix'].'eventi');
+
+$eventiEntity->addReference($imageEntity, 'foto');

@@ -102,13 +102,12 @@ Class Auth {
 		
 		$sys_user_group_Relation=$GLOBALS["sys_user_sys_group"];
 		$sys_service_group_Relation=$GLOBALS["sys_service_sys_group"];
-		
+
 		$join_entities=array();
 		$join_entities[]=$sys_user_group_Relation;
 		$join_entities[]=$sys_group_Entity;
 		$join_entities[]=$sys_service_group_Relation;
 		$join_entities[]=$sys_service_Entity;
-		
 		
 		$where_conditions=array();
 		if(isset($_POST['username'])&&isset($_POST['password']))
@@ -370,5 +369,3 @@ Class Auth {
 }
 
 Auth::doLogin();
-
-?>

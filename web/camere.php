@@ -15,7 +15,7 @@ $cameraContent = new Content($cameraEntity, $serviziCameraRelation, $serviziCame
 //$cameraContent->forceSingle();
 }
 else{
-    $cameraContent = new Content($cameraEntity);
+    $cameraContent = new Content($cameraEntity, $imageEntity);
 }
 
 $main->setContent("body", $cameraContent->get());

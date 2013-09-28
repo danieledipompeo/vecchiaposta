@@ -18,3 +18,4 @@ class EntityCamera extends Entity
 }
 
 $cameraEntity = new EntityCamera($database,"vp_room");
+$cameraEntity->addReference($imageEntity, 'foto');

@@ -168,9 +168,7 @@ Class Form extends Skinlet{
 		}
 		else
 		{
-			/**
-			 * If the data preload isn't requested we emit an add form
-			 */
+			/*If the data preload isn't requested we emit an add form*/
 			$content = $this->display(ADD,1);
 		}
 		return $content;
@@ -198,27 +196,18 @@ Class Form extends Skinlet{
 			}else if($v->type == FILE){
                 foreach($_FILES as $key => $value){
                     $_REQUEST[$key] = $value;
-                    var_dump($_REQUEST);
                 }
             }
 		}
 
-		/**
-		 * the entity that is related to the main form
-		 */
+		/*the entity that is related to the main form*/
 		$baseEntity = $this->entity;
 
-		/**
-		 * selecting the one that was choosed from the report @see report()
-		 */
+		/*selecting the one that was choosed from the report @see report()*/
 		$where_conditions=array($this->entity->fields[0]->name=>$_REQUEST[$this->entity->fields[0]->name]);
-		/**
-		 * Trying to update
-		*/
-		if (!$baseEntity->update($where_conditions,$_REQUEST)) {
-			/**
-			 * problems updating
-			 */
+		/*Trying to update*/
+		if (!$baseEntity->update($where_conditions, $_REQUEST)) {
+			/* problems updating */
 			echo Message::getInstance()->getMessage(MSG_ERROR_DATABASE_GENERIC)." (".basename(__FILE__).":".__LINE__.")";
 		} else {
 			
@@ -277,9 +266,7 @@ Class Form extends Skinlet{
 			 */
 			echo Message::getInstance()->getMessage(MSG_ERROR_DATABASE_GENERIC)." (".basename(__FILE__).":".__LINE__.")";
 		} else {
-			/**
-			 * passing the key value for the just inserted entity
-			 */
+			/*passing the key value for the just inserted entity*/
 			
 			$_REQUEST[$this->entity->fields[0]->name] = $baseEntity->instances[0]->getKeyFieldValue();
 			

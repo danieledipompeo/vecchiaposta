@@ -52,18 +52,14 @@ class ImageForm extends Form
         }
         else
         {
-            /**
-             * If foto was uploaded a new foto entity is created
-             */
+            /*If foto was uploaded a new foto entity is created*/
             if(isset($_REQUEST["{$this->formHash}_{$this->attributeName}"]))
             {
                 $set_values=array($this->attributeName => $_REQUEST["{$this->formHash}_{$this->attributeName}"]);
             }
             else
             {
-                /**
-                 * otherwise everything is removed
-                 */
+                /*otherwise everything is removed*/
                 $set_values=array($this->attributeName => 0);
             }
         }

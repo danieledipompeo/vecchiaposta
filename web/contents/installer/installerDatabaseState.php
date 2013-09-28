@@ -29,9 +29,9 @@ class InstallerDatabaseState extends InstallerState {
 		$this->request_config['actual_state'] = $next_state;
 
 		$this->request_config['database_config'] = $this->database_config;
-
-		$file_return = file_put_contents(
-				realpath(dirname(__FILE__)).'/../../contents/config.cfg',
+		
+echo 'bingo';
+		$file_return = file_put_contents(realpath(dirname(__FILE__)).'/../../contents/config.cfg',
 				json_encode($this->request_config,JSON_PRETTY_PRINT)
 		);
 
@@ -68,10 +68,9 @@ class InstallerDatabaseState extends InstallerState {
 		
 		$this->validData = false;
 		if( file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg')){
-
+			var_dump($arry_input);
 			$this->request_config = json_decode(
-					file_get_contents(
-							realpath(dirname(__FILE__)).'/../../contents/config.cfg'), true);
+					file_get_contents(realpath(dirname(__FILE__)).'/../../contents/config.cfg'), true);
 			
 			if( ( isset($arrayInput["usernameMysql"]) && $arrayInput["usernameMysql"] != '')
 				&& isset($arrayInput["host"]) 
@@ -83,7 +82,7 @@ class InstallerDatabaseState extends InstallerState {
 				$this->database = $arrayInput["database"];
 				$this->prefix = $arrayInput['prefix'];
 
-				if(DB::testConnection($this->host, $this->database, $this->username, $this->password))
+				if( DB::testConnection($this->host, $this->database, $this->username, $this->password))
 				{
 					$this->validData = true;
 					$this->database_config = array (

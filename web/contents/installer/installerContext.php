@@ -3,7 +3,7 @@
 //require_once realpath(dirname(__FILE__))."/../../include/settings.inc.php";
 //require_once realpath(dirname(__FILE__))."/../../include/skin.inc.php";
 //require_once realpath(dirname(__FILE__))."/../../include/skinlet.inc.php";
-require_once realpath(dirname(__FILE__))."/../../include/beContent.inc.php";
+//require_once realpath(dirname(__FILE__))."/../../include/beContent.inc.php";
 
 require_once realpath(dirname(__FILE__)).'/installerInitState.php';
 
@@ -29,33 +29,25 @@ class InstallerContext {
 		$this->states[$becontentInstalled->getStateName()] = $becontentInstalled;
 
 		$actualState = null;
-		if( file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg') ){
+		if( file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg')){
 
-			$request_config = json_decode(
-					file_get_contents(
-							realpath(dirname(__FILE__)).'/../../contents/config.cfg'), true);
+			$request_config = json_decode(file_get_contents(realpath(dirname(__FILE__)).'/../../contents/config.cfg'));
 
-// 			if( isset($request_config['install_config']) && $request_config['install_config']['installComplete'] == 'install_complete'){
-// 				header('Location: install_complete.php');
-// 			}
-// 			else
-// 			{
-				if ( isset($request_config["actual_state"]) &&  isset($this->states[$request_config['actual_state']['actualState']]) ){
-					$actualState= $this->states[$request_config['actual_state']['actualState']];
+			if ( isset($request_config->actual_state) && isset($this->states[$request_config->actual_state->actualState]) ){
+
+					$actualState= $this->states[$request_config->actual_state->actualState];
 				}
 				else{
 					$actualState = $this->states[$initState->getStateName()];
 				}
-// 			}
 		}
 		else{
 			$actualState= $this->states[$initState->getStateName()];
 		}
-		$actualState->setInput($_REQUEST);
+		$actualState->setInput($_POST);
 		$actualState->updateState();
 		$actualState->updateOutput();
 	}
 }
-
 $install = new InstallerContext();
-?>
+

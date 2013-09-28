@@ -222,10 +222,7 @@ class Config{
 		{
 			$file_data = json_decode(file_get_contents(realpath(dirname(__FILE__))."/../contents/config.cfg"),JSON_PRETTY_PRINT);
 
-			$this->configurations['database'] = Array(
-					$file_data["database_config"]["host"]=> $file_data["database_config"]
-					/* Insert other hosts in here */
-			);
+			$this->configurations['database'] =$file_data["database_config"];
 			$this->configurations['defaultuser'] = $file_data["admin_config"];
 		}
 		if(!file_exists ( realpath(dirname(__FILE__))."/../contents/installation_info.cfg") && basename($_SERVER["SCRIPT_NAME"])!= "install_complete.php")

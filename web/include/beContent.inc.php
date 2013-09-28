@@ -47,11 +47,12 @@ Class beContent {
  */
 if (basename($_SERVER['SCRIPT_FILENAME']) != "error.php")
 {
+
 	$mysql = new mysqli(
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['host'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['username'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['password'],
-        Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['database']
+        Config::getInstance()->getConfigurations()['database']['host'],
+        Config::getInstance()->getConfigurations()['database']['username'],
+        Config::getInstance()->getConfigurations()['database']['password'],
+        Config::getInstance()->getConfigurations()['database']['database']
     );
 	$mysql->set_charset('unicode');
 	foreach ($_REQUEST as $k => $v) {
@@ -63,10 +64,10 @@ if (basename($_SERVER['SCRIPT_FILENAME']) != "error.php")
  * Instantiates the database
  * @var unknown
  */
-$database = new DB(Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['host'],
-		Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['database'],
-		Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['username'],
-		Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['password']);
+$database = new DB(Config::getInstance()->getConfigurations()['database']['host'],
+		Config::getInstance()->getConfigurations()['database']['database'],
+		Config::getInstance()->getConfigurations()['database']['username'],
+		Config::getInstance()->getConfigurations()['database']['password']);
 
 require_once realpath(dirname(__FILE__))."/entity.inc.php";
 require_once realpath(dirname(__FILE__))."/skin.inc.php";

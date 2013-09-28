@@ -8,9 +8,10 @@ require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
-$dintorniContent = new Content($dintorniEntity);
+
 
 if (isset ($_REQUEST['vp_dintorni_id'])){
+    $dintorniContent = new Content($dintorniEntity);
     $dintorniTemplate = new Skinlet('single/vp_dintorni_single');
 
     $mapWidget = new Skinlet('widget/widget_map');
@@ -25,6 +26,7 @@ if (isset ($_REQUEST['vp_dintorni_id'])){
     $dintorniContent->apply($dintorniTemplate);
     $main->setContent("body", $dintorniTemplate->get());
 }else{
+    $dintorniContent = new Content($dintorniEntity, $imageEntity);
     $main->setContent("body", $dintorniContent->get());
 }
 

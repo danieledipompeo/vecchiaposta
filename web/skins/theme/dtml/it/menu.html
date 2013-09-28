@@ -6,7 +6,13 @@
     <ul id="main-menu" class="fl clearfix">
         {foreach from=$instances item=instance}
             {if $instance->parent == null}
-                <li class="current-menu-item"><a href="{$instance->link}">{$instance->entry}</a>
+                {if $instance->link == $smarty.server.SCRIPT_NAME|replace:'/':''}
+                    <li class="current-menu-item">
+                        <a href="{$instance->link}">{$instance->entry}</a>
+                {else}
+                    <li>
+                        <a href="{$instance->link}">{$instance->entry}</a>
+                {/if}
                     {if $instance->sys_menu != null}
                         <ul>
                             {foreach from=$instance->sys_menu item=child_menu}

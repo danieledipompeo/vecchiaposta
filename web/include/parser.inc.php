@@ -402,7 +402,9 @@ Class Parser {
 			$newtext = wordwrap(strip_tags(html_entity_decode($text)), $length, "<interrupt>");
 
 			$pos = strpos($newtext, "<interrupt>");
-			$result = substr($newtext, 0, $pos);
+
+			$result = substr($newtext, 0, $pos).' ...';
+
 		}
 			
 		return $result;

@@ -267,8 +267,9 @@ Class Content {
                 if( $prefix != ''){
                     $skin->setContent($prefix.'_instances',$entity->instances);
                 }
-                else
-				$skin->setContent("instances",$entity->instances);
+                else {
+				    $skin->setContent("instances",$entity->instances);
+                }
 			}
 			else
 				$skin->setContent("instances",null);

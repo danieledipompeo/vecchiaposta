@@ -26,16 +26,23 @@ $form->addText("nome", "Nome", 255, MANDATORY);
 $form->addEditor("descrizione", "Descrizione");
 $form->addLongDate('data', 'Data');
 $form->addText('luogo', 'Luogo', 255);
+$form->addText('latitudine', 'Latitudine', 255);
+$form->addText('longitudine', 'Longitudine', 255);
 $form->addEditor("suggest", "Consigliati");
+
+$imageForm = new ImageForm('imageEntry',$eventiEntity);
+$imageForm->addImage('foto','Foto');
+$form->triggers($imageForm);
+
+$relationForm = new RelationForm("dataEntry4", $eventiImageRelation);
+$relationForm->addSection('Immagini da legare');
+$relationForm->addRelationManager("id_sys_image", "Immagini");
+$form->triggers($relationForm);
+
 /*
 $relationForm = new RelationForm("dataEntry3", $serviziCameraRelation);
 $relationForm->addSection('Servizi da legare');
 $relationForm->addRelationManager("vp_servizi_nome", "Servizi");
-$form->triggers($relationForm);
-
-$relationForm = new RelationForm("dataEntry4", $cameraImageRelation);
-$relationForm->addSection('Immagini da legare');
-$relationForm->addRelationManager("id_sys_image", "Immagini");
 $form->triggers($relationForm); */
 
 $main->setContent("body", $form->requestAction());

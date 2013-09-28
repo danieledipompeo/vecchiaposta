@@ -19,4 +19,6 @@ class EntityDintorni extends Entity
 }
 
 $dintorniEntity = new EntityDintorni($database,
-    Config::getInstance()->getConfigurations()['database'][$_SERVER['SERVER_NAME']]['prefix'].'dintorni');
+    Config::getInstance()->getConfigurations()['database']['prefix'].'dintorni');
+
+$dintorniEntity->addReference($imageEntity, 'foto');

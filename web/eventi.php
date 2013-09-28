@@ -19,6 +19,7 @@ if(isset($_REQUEST['vp_eventi_id'])){
     $cameraContent->apply($eventiTemplate, "room");
     $main->setContent("body", $eventiTemplate->get());
 }else{
+    $eventiContent = new Content($eventiEntity, $imageEntity);
     $main->setContent("body", $eventiContent->get());
 }
 
