@@ -19,10 +19,10 @@ class CreateTemplate {
 	}
 	
 	/**
-	 *
 	 * autogenazione del file report per le entity
 	 *
 	 * @access private
+     * @param Entity $entity
 	 */
 	private function presentationFieldToArray($entity) {
 		$fieldPresentation;
@@ -81,8 +81,7 @@ class CreateTemplate {
 	
 	/**
 	 * 
-	 * @param unknown $entity
-	 * @param string $multiple
+	 * @param Entity $entity
 	 * @return string
 	 */
 	private function searchFieldsEntity($entity)
@@ -103,20 +102,14 @@ class CreateTemplate {
 
 	/**
 	 * Default building multiple template
-	 * @param string $multiple
-	 * @param string $report
+     *
+     * @param Entity $entity
 	 */
 	static function createTemplateMultiple($entity)
 	{
-		/**
-		 * CREAZIONE MULTIPLE
-		 */
 		$multipleTemplate = new Skinlet("autotemplate");
 		$templateAsString = $multipleTemplate->get();
 
-        /**
-         * create a multiple folder
-         */
         if(! is_dir(Settings::getSkin()."/multiple/") ) {
             mkdir(Settings::getSkin().'/multiple/', 0777);
         }
@@ -134,13 +127,10 @@ class CreateTemplate {
 	
 	/**
 	 * Default building single template
-	 * @param string $multiple
-	 * @param string $report
+     *
+	 * @param Entity $entity
 	 */
 	static function createTemplateSingle($entity){
-		/**
-		 * CREAZIONE SINGLE
-		 */
 		$singleTemplate = new Skinlet("autotemplate");
 		$templateAsString = $singleTemplate->get();
 
@@ -161,8 +151,8 @@ class CreateTemplate {
 	
 	/**
 	 * Default building report template
-	 * @param string $multiple
-	 * @param string $report
+     *
+	 * @param Entity $entity
 	 */
 	static function createTemplateReport($entity){
 		/**
@@ -171,11 +161,11 @@ class CreateTemplate {
 		$reportTemplate = new Skinlet("autotemplate");
 		$templateAsString = $reportTemplate->get();
 
-        if(! is_dir(Settings::getSkin()."/report/") ) {
-            mkdir(Settings::getSkin().'/report/', 0777);
+        if(! is_dir(Settings::getSystemSkin()."/report/") ) {
+            mkdir(Settings::getSystemSkin().'/report/', 0777);
         }
 
-		$filename = Settings::getSkin()."/report/".$entity->name."_report.html";
+		$filename = Settings::getSystemSkin()."/report/".$entity->name."_report.html";
 		
 		if(!file_exists($filename)){
 			$templateAsString = preg_replace("~\[(?!entity_content\d+_\d+).+\]~Us",
@@ -187,21 +177,19 @@ class CreateTemplate {
 	}
 	
 	/**
-	 * 
-	 * @param unknown $entity
+     * Default building search template
+     *
+	 * @param Entity $entity
 	 */
 	static function createTemplateSearch($entity){
-		/**
-		 * CREAZIONE TEMPLATE PER LA RICERCA
-		 */
 		$searchTemplate = new Skinlet("autotemplate");
 		$templateAsString = $searchTemplate->get();
 
-        if(! is_dir(Settings::getSkin()."/search/") ) {
-            mkdir(Settings::getSkin().'/search/', 0777);
+        if(! is_dir(Settings::getSystemSkin().'/search/') ) {
+            mkdir(Settings::getSystemSkin().'/search/', 0777);
         }
 
-        $filename = Settings::getSkin()."/search/".$entity->name."_search.html";
+        $filename = Settings::getSystemSkin()."/search/".$entity->name."_search.html";
 		
 		if(!file_exists($filename)){
 			$templateAsString = preg_replace("~\[(?!entity_content\d+_\d+).+\]~Us",

@@ -1241,12 +1241,6 @@ class Entity {
 	}
 
 	/**
-	 * @access private
-	 */
-	private function createTemplates() {
-	}
-
-	/**
 	 * @access public
 	 */
 	public function connect() {

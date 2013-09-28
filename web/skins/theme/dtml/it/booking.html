@@ -16,21 +16,28 @@
             <div class="one-half">
                 <div class="booknow-accompage full-booking-form">
                     <div class="book-price">
-                        <h2 class="price">&euro;{$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                        {if $offerta_instance != null}
+                            <h2 class="price">&euro;{$offerta_instance->prezzo}<span class="price-detail">totale</span></h2>
+                        {else if $room_instance != null}
+                            <h2 class="price">&euro;{$room_instance->prezzo}<span class="price-detail">per notte</span></h2>
+                        {else}
+                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
+                        {/if}
                     </div>
                     <form class="booking-form booking-form-accompage" name="bookroom" action="booking_complete.php" method="post">
-                        {if $instance->nome != null}
-                            <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                        {if $room_instance->nome != null}
+                            <input type="text" value="{$room_instance->nome}" class="text-input" disabled="disabled">
                         {else}
-                        <div class="select-wrapper"><select id="room" name="id_room">
-                            <option>Prenota una camera</option>
-                            {foreach from=$instances item=room}
-                                <option value="{$room->id}">{$room->nome}</option>
-                            {/foreach}
-                        </select></div>
+                            <div class="select-wrapper">
+                                <select id="room" name="id_room">
+                                    <option>Prenota una camera</option>
+                                    {foreach from=$room_instances item=room}
+                                    <option value="{$room->id}">{$room->nome}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
                         {/if}
                         <div class="clearfix">
-
                             {if $from == null}
                                 <input type="text" id="datefrom" placeholder="from" name="from" class="input-half datepicker" />
                             {else}
@@ -52,15 +59,32 @@
                 </div>
             </div>
             <div class="one-half last-col">
-                <p>
-                    Riceverete una conferma via email nelle prossime ore. In caso di urgenza si prega di contattarci telefonicamente. Il prezzo mostrato è puramente indicativo,
-                    ricevere via email la nostra migliore offerta per le vostre esigenze. Vi chiediamo di specificare eventuali esigenze (orario particolare di arrivo e/o partenza,
-                    particolari allergie, etc..).
-                </p>
-                <ul>
-                    <li>Per modifiche ad una prenotazione contattare <a href="skype:+393479749101?call">+393479749101</a></li>
-                    <li>Per cancellare una prenotazione contattare <a href=""skype:+393479749101?call"">+393479749101</a></li>
-                </ul>
+                {if $offerta_instance != null}
+                    <div class="offert-wrapper">
+                        <h3 class="title1">
+                            {$offerta_instance->title}
+                            <span class="title-end"></span>
+                        </h3>
+                        <div class="section-body-preview">
+                            {$offerta_instance->body}
+                        </div>
+                    </div>
+                {/if}
+                <div class="booking-tutorial">
+                    <h3 class="title1">
+                        Istruzioni
+                        <span class="title-end"></span>
+                    </h3>
+                    <p>
+                        Riceverete una conferma via email nelle prossime ore. In caso di urgenza si prega di contattarci telefonicamente. Il prezzo mostrato è puramente indicativo,
+                        ricevere via email la nostra migliore offerta per le vostre esigenze. Vi chiediamo di specificare eventuali esigenze (orario particolare di arrivo e/o partenza,
+                        particolari allergie, etc..).
+                    </p>
+                    <ul>
+                        <li>Per modifiche ad una prenotazione contattare <a href="skype:+393479749101?call">+393479749101</a></li>
+                        <li>Per cancellare una prenotazione contattare <a href=""skype:+393479749101?call"">+393479749101</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     <!-- END .page-content -->

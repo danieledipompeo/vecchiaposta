@@ -33,6 +33,20 @@
                 </div>
             </div>
             <div class="one-half last-col">
+                <div class="booknow-accompage">
+                    <div class="book-price">
+                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                    </div>
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.php" method="post">
+                        <input type="hidden" name="vp_room_id" value="{$instance->id}"/>
+                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                        <div class="clearfix">
+                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
+                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
+                        </div>
+                        <input class="bookbutton" type="submit" value="Prenota" />
+                    </form>
+                </div>
                 <h3 class="title1">Serivizi<span class="title-end"></span></h3>
                 <div class="clearfix">
                     <div class="one-third servizi-wrapper">
@@ -42,19 +56,6 @@
                             {/foreach}
                         </ul>
                     </div>
-                </div>
-                <div class="booknow-accompage">
-                    <div class="book-price">
-                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
-                    </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.html" method="post">
-                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
-                        </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
-                    </form>
                 </div>
             </div>
         </div>

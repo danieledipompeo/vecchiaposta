@@ -24,7 +24,7 @@ $page->apply($welcomePage);
 $offertaPage = new Skinlet("offerta_home");
 $offertaContent = new Content($offertaEntity);
 $offertaContent->setLimit(1);
-$offertaContent->setOrderFields("id");
+$offertaContent->setOrderFields("id DESC");
 $offertaContent->forceSingle();
 $offertaContent->apply($offertaPage);
 

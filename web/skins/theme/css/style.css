@@ -2146,8 +2146,10 @@ span.zoom-wrapper span.zoom {
 }
 
 #last-offert{
-    float: left;
-    width: 50%;
+    width: 40%;
+    padding: 0 10px;
+    margin: 0 0 0 51px;
+    display: inline-block;
 }
 
 .blog-title a {
@@ -2276,6 +2278,10 @@ span.zoom-wrapper span.zoom {
     float:none;
     clear:both;
     line-height:12px !important;
+}
+
+.offert-wrapper{
+    margin-bottom: 60px;
 }
 
 /*

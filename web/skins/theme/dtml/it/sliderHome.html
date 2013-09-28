@@ -24,7 +24,7 @@
 
         <form class="booking-form" name="bookroom" action="booking.php" method="post">
             <div class="select-wrapper">
-                <select id="room" name="id_room">
+                <select id="room" name="vp_room_id">
                     <option omitted value="">Prenota una camera</option>
                     {foreach from=$room_instances item=room}
                     <option value="{$room->id}">{$room->nome}</option>

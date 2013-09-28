@@ -30,15 +30,15 @@ class InitGraphic{
      * Utilizza:
      * frame-public-head: tag html <head>
      * header e footer: header e footer del tema
-     * news: devono essere esplicitamente volute altrimenti non vengono caricate nel tema
      *
 	 */
-	public function createGraphic($skin, $hasNews = true)
+	public function createGraphic($skin, $hasNews = false)
 	{
-		$newsEntity = $GLOBALS['sys_news'];
+
 		$pageEntity = $GLOBALS['sys_page'];
 
         $menuEntity = $GLOBALS['sys_menu'];
+        $offertaEntity = $GLOBALS['vp_offerta'];
 
         $menuTemplate = new Skinlet('menu');
         $menu = new Content($menuEntity,$menuEntity);
@@ -47,6 +47,7 @@ class InitGraphic{
         $menu->apply($menuTemplate);
 
         if($hasNews){
+            $newsEntity = $GLOBALS['sys_news'];
             $newsContent = new Content($newsEntity);
             $newsContent->setLimit(1);
             $newsContent->setOrderFields("id DESC");
@@ -58,7 +59,11 @@ class InitGraphic{
 
         /*skinlet header: skins/theme/header.html*/
 		$header = new Skinlet("header");
-        $header->setContent("offerta", $newsContent->get());
+        $offertaContent = new Content($offertaEntity);
+        $offertaContent->setLimit(1);
+        $offertaContent->setOrderFields("id DESC");
+        $offertaContent->forceSingle();
+        $offertaContent->apply($header, 'offerta');
 
         /*skinlet footer: skins/theme/footer.html*/
         $footer = new Skinlet("footer");

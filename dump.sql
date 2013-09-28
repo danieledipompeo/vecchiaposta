@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.27, for Linux (i686)
+-- MySQL dump 10.13  Distrib 5.6.12, for Linux (x86_64)
 --
 -- Host: localhost    Database: vecchiaposta
 -- ------------------------------------------------------
--- Server version	5.5.27
+-- Server version	5.6.12
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -227,7 +227,7 @@ CREATE TABLE `sys_entities` (
 
 LOCK TABLES `sys_entities` WRITE;
 /*!40000 ALTER TABLE `sys_entities` DISABLE KEYS */;
-INSERT INTO `sys_entities` VALUES ('attivita','attivita','','',0,0,0),('attivita_sys_image','attivita_sys_image','','',0,0,0),('dintorni','dintorni','','',0,0,0),('dintorni_sys_image','dintorni_sys_image','','',0,0,0),('eventi','eventi','','',0,0,0),('eventi_sys_image','eventi_sys_image','','',0,0,0),('slider','slider','','',0,0,0),('sys_entities','sys_entities','','',0,0,0),('sys_file','sys_file','','',0,0,0),('sys_group','sys_group','','',0,0,0),('sys_image','sys_image','1','',0,0,0),('sys_image_slider','sys_image_slider','','',0,0,0),('sys_image_sys_slider','sys_image_sys_slider','','',0,0,0),('sys_log','sys_log','','',0,0,0),('sys_menu','sys_menu','','',0,0,0),('sys_news','sys_news','1','',0,0,0),('sys_page','sys_page','1','',0,0,0),('sys_section','sys_section','','',0,0,0),('sys_service','sys_service','','',0,0,0),('sys_servicecategory','sys_servicecategory','','',0,0,0),('sys_service_sys_group','sys_service_sys_group','','',0,0,0),('sys_slider','sys_slider','','',0,0,0),('sys_slider_sys_page','sys_slider_sys_page','','',0,0,0),('sys_user','sys_user','','',0,0,0),('sys_user_sys_group','sys_user_sys_group','','',0,0,0),('vp_attivita','vp_attivita','','',0,0,0),('vp_attivita_sys_image','vp_attivita_sys_image','','',0,0,0),('vp_dintorni','vp_dintorni','','',0,0,0),('vp_dintorni_sys_image','vp_dintorni_sys_image','','',0,0,0),('vp_eventi','vp_eventi','','',0,0,0),('vp_eventi_sys_image','vp_eventi_sys_image','','',0,0,0),('vp_room','vp_room','','',0,0,0),('vp_room_sys_image','vp_room_sys_image','','',0,0,0),('vp_room_vp_servizi','vp_room_vp_servizi','','',0,0,0),('vp_servizi','vp_servizi','','',0,0,0);
+INSERT INTO `sys_entities` VALUES ('attivita','attivita','','',0,0,0),('attivita_sys_image','attivita_sys_image','','',0,0,0),('dintorni','dintorni','','',0,0,0),('dintorni_sys_image','dintorni_sys_image','','',0,0,0),('eventi','eventi','','',0,0,0),('eventi_sys_image','eventi_sys_image','','',0,0,0),('slider','slider','','',0,0,0),('sys_entities','sys_entities','','',0,0,0),('sys_file','sys_file','','',0,0,0),('sys_group','sys_group','','',0,0,0),('sys_image','sys_image','1','',0,0,0),('sys_image_slider','sys_image_slider','','',0,0,0),('sys_image_sys_slider','sys_image_sys_slider','','',0,0,0),('sys_log','sys_log','','',0,0,0),('sys_menu','sys_menu','','',0,0,0),('sys_news','sys_news','1','',0,0,0),('sys_page','sys_page','1','',0,0,0),('sys_section','sys_section','','',0,0,0),('sys_service','sys_service','','',0,0,0),('sys_servicecategory','sys_servicecategory','','',0,0,0),('sys_service_sys_group','sys_service_sys_group','','',0,0,0),('sys_slider','sys_slider','','',0,0,0),('sys_slider_sys_page','sys_slider_sys_page','','',0,0,0),('sys_user','sys_user','','',0,0,0),('sys_user_sys_group','sys_user_sys_group','','',0,0,0),('vp_attivita','vp_attivita','','',0,0,0),('vp_attivita_sys_image','vp_attivita_sys_image','','',0,0,0),('vp_dintorni','vp_dintorni','','',0,0,0),('vp_dintorni_sys_image','vp_dintorni_sys_image','','',0,0,0),('vp_eventi','vp_eventi','','',0,0,0),('vp_eventi_sys_image','vp_eventi_sys_image','','',0,0,0),('vp_offerta','vp_offerta','','',0,0,0),('vp_room','vp_room','','',0,0,0),('vp_room_sys_image','vp_room_sys_image','','',0,0,0),('vp_room_vp_servizi','vp_room_vp_servizi','','',0,0,0),('vp_servizi','vp_servizi','','',0,0,0);
 /*!40000 ALTER TABLE `sys_entities` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -315,6 +315,31 @@ INSERT INTO `sys_image` VALUES (7,'admin','IMG_6630.jpg','/9j/4AAQSkZJRgABAQEASA
 UNLOCK TABLES;
 
 --
+-- Table structure for table `sys_image_slider`
+--
+
+DROP TABLE IF EXISTS `sys_image_slider`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sys_image_slider` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_sys_image` int(10) unsigned NOT NULL,
+  `id_slider` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `sys_image_slider`
+--
+
+LOCK TABLES `sys_image_slider` WRITE;
+/*!40000 ALTER TABLE `sys_image_slider` DISABLE KEYS */;
+INSERT INTO `sys_image_slider` VALUES (1,0,1);
+/*!40000 ALTER TABLE `sys_image_slider` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `sys_image_sys_slider`
 --
 
@@ -356,7 +381,7 @@ CREATE TABLE `sys_log` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `ip` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -365,7 +390,7 @@ CREATE TABLE `sys_log` (
 
 LOCK TABLES `sys_log` WRITE;
 /*!40000 ALTER TABLE `sys_log` DISABLE KEYS */;
-INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(46,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(47,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(48,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(49,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(50,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(51,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(52,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(53,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(54,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(55,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(56,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(57,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(58,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(59,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(60,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(61,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(62,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(63,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(64,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(65,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(66,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(67,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(68,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(69,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(70,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(71,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(72,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(73,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(74,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(75,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(76,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(77,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(78,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(79,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(80,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(81,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(82,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(83,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(84,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(85,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(86,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(87,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(88,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(89,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(90,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(91,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(92,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(93,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(94,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
+INSERT INTO `sys_log` VALUES (1,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(2,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','localhost'),(3,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(4,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.it'),(5,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(6,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(7,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(8,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(9,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(10,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(11,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(12,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(13,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(14,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(15,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(16,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(17,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(18,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(19,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(20,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(21,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(22,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(23,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(24,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(25,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(26,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(27,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(28,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(29,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(30,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(31,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(32,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(33,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(34,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(35,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(36,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(37,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(38,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(39,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(40,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(41,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(42,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(43,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(44,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(45,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(46,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(47,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(48,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(49,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(50,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(51,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(52,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(53,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(54,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(55,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(56,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(57,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(58,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(59,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(60,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(61,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(62,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(63,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(64,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(65,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(66,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(67,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(68,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(69,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(70,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(71,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(72,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(73,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(74,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(75,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(76,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(77,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(78,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(79,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(80,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(81,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(82,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(83,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(84,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(85,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(86,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(87,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(88,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(89,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(90,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(91,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(92,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(93,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(94,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(95,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo'),(96,'LOGIN','','','login.php','admin','0000-00-00 00:00:00','vecchiaposta.lo');
 /*!40000 ALTER TABLE `sys_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -502,7 +527,7 @@ CREATE TABLE `sys_service` (
   `entities` varchar(50) DEFAULT NULL,
   `superuser_group` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -511,7 +536,7 @@ CREATE TABLE `sys_service` (
 
 LOCK TABLES `sys_service` WRITE;
 /*!40000 ALTER TABLE `sys_service` DISABLE KEYS */;
-INSERT INTO `sys_service` VALUES (1,'Login','login.php','Login','*','<p>Login service</p>',2,0,'',0),(2,'Logout','logout.php','Logout','*','<p>Logout service</p>',1,0,'',0),(3,'User Management','admin-users-manager.php','Users','*','',1,1,'',0),(4,'Group Management','admin-groups-manager.php','Groups','*','',2,1,'',0),(5,'Service Management','admin-services-manager.php','Services','*','',3,1,'',0),(6,'Service Category Management','admin-servicecategory-manager.php','Service Categories','*','',4,1,'',0),(7,'Page Management','admin-pages-manager.php','Pages','*','',1,2,'',0),(8,'Menu Management','admin-menu-manager.php','Menu','*','',2,2,'',0),(10,'News','admin-news-manager.php','News','*','',3,2,'',0),(11,'Image','admin-image-manager.php','Image',NULL,'',4,2,NULL,0),(12,'Slider','admin-slider-manager.php','Slider',NULL,'',5,2,NULL,0),(13,'Admin Room','vp-admin-camera-manager.php','Camere',NULL,'',1,3,NULL,0),(14,'Servizi Camera','vp-admin-servizi-manager.php','Servizi Camera',NULL,'<p>gestione dei servizi in camera</p>',2,3,NULL,0),(15,'Eventi','vp-admin-eventi-manager.php','Eventi',NULL,'',3,3,NULL,0),(16,'Dintorni','vp-admin-dintorni-manager.php','Dintorni',NULL,'',4,3,NULL,0),(17,'Attività Managment','vp-admin-attivita-manager.php','Attività',NULL,'',5,3,NULL,0);
+INSERT INTO `sys_service` VALUES (1,'Login','login.php','Login','*','<p>Login service</p>',2,0,'',0),(2,'Logout','logout.php','Logout','*','<p>Logout service</p>',1,0,'',0),(3,'User Management','admin-users-manager.php','Users','*','',1,1,'',0),(4,'Group Management','admin-groups-manager.php','Groups','*','',2,1,'',0),(5,'Service Management','admin-services-manager.php','Services','*','',3,1,'',0),(6,'Service Category Management','admin-servicecategory-manager.php','Service Categories','*','',4,1,'',0),(7,'Page Management','admin-pages-manager.php','Pages','*','',1,2,'',0),(8,'Menu Management','admin-menu-manager.php','Menu','*','',2,2,'',0),(10,'News','admin-news-manager.php','News','*','',3,2,'',0),(11,'Image','admin-image-manager.php','Image',NULL,'',4,2,NULL,0),(12,'Slider','admin-slider-manager.php','Slider',NULL,'',5,2,NULL,0),(13,'Admin Room','vp-admin-camera-manager.php','Camere',NULL,'',1,3,NULL,0),(14,'Servizi Camera','vp-admin-servizi-manager.php','Servizi Camera',NULL,'<p>gestione dei servizi in camera</p>',2,3,NULL,0),(15,'Eventi','vp-admin-eventi-manager.php','Eventi',NULL,'',3,3,NULL,0),(16,'Dintorni','vp-admin-dintorni-manager.php','Dintorni',NULL,'',4,3,NULL,0),(17,'Attività Managment','vp-admin-attivita-manager.php','Attività',NULL,'',5,3,NULL,0),(18,'Offerta','vp-admin-offerta-manager.php','Offerta',NULL,'',6,3,NULL,0);
 /*!40000 ALTER TABLE `sys_service` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -527,7 +552,7 @@ CREATE TABLE `sys_service_sys_group` (
   `id_sys_service` int(10) unsigned NOT NULL,
   `id_sys_group` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -536,7 +561,7 @@ CREATE TABLE `sys_service_sys_group` (
 
 LOCK TABLES `sys_service_sys_group` WRITE;
 /*!40000 ALTER TABLE `sys_service_sys_group` DISABLE KEYS */;
-INSERT INTO `sys_service_sys_group` VALUES (3,3,1),(4,4,1),(5,5,1),(7,7,1),(8,8,1),(9,9,1),(10,10,1),(17,11,1),(19,12,1),(20,6,1),(24,2,1),(25,1,1),(27,13,1),(28,14,1),(30,15,1),(31,16,1),(32,17,1);
+INSERT INTO `sys_service_sys_group` VALUES (3,3,1),(4,4,1),(5,5,1),(7,7,1),(8,8,1),(9,9,1),(10,10,1),(17,11,1),(19,12,1),(20,6,1),(24,2,1),(25,1,1),(27,13,1),(28,14,1),(30,15,1),(31,16,1),(32,17,1),(33,18,1);
 /*!40000 ALTER TABLE `sys_service_sys_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -841,6 +866,37 @@ INSERT INTO `vp_eventi_sys_image` VALUES (1,1,1),(2,1,4),(3,1,9),(4,1,10),(5,2,1
 UNLOCK TABLES;
 
 --
+-- Table structure for table `vp_offerta`
+--
+
+DROP TABLE IF EXISTS `vp_offerta`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `vp_offerta` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(68) NOT NULL,
+  `lastmod` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `creation` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `active` varchar(1) DEFAULT NULL,
+  `body` text,
+  `suggest` text,
+  `prezzo` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `vp_offerta`
+--
+
+LOCK TABLES `vp_offerta` WRITE;
+/*!40000 ALTER TABLE `vp_offerta` DISABLE KEYS */;
+INSERT INTO `vp_offerta` VALUES (1,'Festa della liberazione','2013-09-28 13:52:50','2013-09-27 22:00:00','2014-04-24 22:00:00','','<p><span>Vi proponiamo soggiorno&nbsp;</span><span>due persone+prima colazione&nbsp;</span><span>per&nbsp;</span><span>tre giorni</span><span>&nbsp;a&nbsp;</span><span>&euro; 120</span><span>!!! Il soggiorno si riferisce al pernotto in camera matrimoniale con servizi esclusivi e tutti i confort inclusi!</span></p>','<p>Soggiorno 2 persone con colazione weekend</p>',120);
+/*!40000 ALTER TABLE `vp_offerta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `vp_room`
 --
 
@@ -952,4 +1008,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-26 19:10:59
+-- Dump completed on 2013-09-28 16:22:00

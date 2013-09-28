@@ -3,6 +3,7 @@
 class Settings
 {
 	private static $template_name="theme";
+	private static $system_template_name="system";
 	private static $config_path="contents";
 	
 	//Enhanches performances if disabled, disable after debugging
@@ -34,6 +35,10 @@ class Settings
 	public static function getSkin()
 	{
 		return "skins/".self::$template_name."/dtml/".Config::getInstance()->getConfigurations()["currentlanguage"];
+	}
+    public static function getSystemSkin()
+	{
+		return "skins/".self::$system_template_name."/dtml/".Config::getInstance()->getConfigurations()["currentlanguage"];
 	}
 	
 	public static function setSkinName($template_name)

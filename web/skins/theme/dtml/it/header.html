@@ -45,7 +45,20 @@
         </a>
     </div>
     <div id="last-offert">
-            {$offerta}
+        <div class="clearfix">
+            <h3 class="title1">
+                <a href="prenota.php">{$offerta_instance->title}</a>
+                <span class="title-end"></span>
+            </h3>
+            <!-- END .blog-title -->
+        </div>
+        <div class="clearfix">
+            {$offerta_instance->suggest|truncate:300:'...'}
+            <div>
+                <a href="booking.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
+            </div>
+            <!-- END .blog-content -->
+        </div>
     </div>
     <!-- END .title-wrapper -->
 </div>

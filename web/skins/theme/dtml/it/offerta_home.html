@@ -6,8 +6,8 @@
         <img src="skins/theme/img/beb/lastminute.jpg" alt="" />
     </div>
 <div class="section-body-preview">
-    {$instance->body}
+    {$instance->body|truncate:300:'...'}
 </div>
 <div class="info-button">
-    <a href="booking.php" class="button2">Maggiori Informazioni &raquo;</a>
+    <a href="booking.php?offerta_id={$instance->id}" class="button2">Maggiori Informazioni &raquo;</a>
 </div>
