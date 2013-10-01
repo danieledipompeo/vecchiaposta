@@ -32,40 +32,40 @@ body {
 #navigation, #main-menu ul, blockquote, .page-content table, .ui-tabs .ui-tabs-nav li.ui-tabs-selected, .booknow, .booknow-accompage,
 .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
 .ui-datepicker .ui-widget-header .ui-state-default:hover {
-	border-color: #16B06A;
+	border-color: #19B16B;
 }
 
 .title-end, .blog-title .comment-count, .blog-title-single .comment-count, .event-prev .event-prev-date, #ui-datepicker-div .ui-datepicker-header,
 .widget .widget-title h5 {
-	background: #16B06A;
+	background: #19B16B;
 }
 
 .button1, .bookbutton {
-	background: url(../../img/gradient1.png) #16B06A bottom left repeat-x;
+	background: url(../../img/gradient1.png) #19B16B bottom left repeat-x;
 }
 
 .button1:hover, .bookbutton:hover {
-	background: url(../../img/gradient1h.png) #16B06A left bottom repeat-x;
+	background: url(../../img/gradient1h.png) #19B16B left bottom repeat-x;
 }
 
 .blog-title .comment-count .comment-point,
 .blog-title-single .comment-count .comment-point {
-	background: url(../../img/comment-point.png) #16B06A no-repeat;
+	background: url(../../img/comment-point.png) #19B16B no-repeat;
 }
 
 #slides .prev, #slides1 .prev, #slides .next, #slides1 .next, #twitter_icon:hover, #facebook_icon:hover, #googleplus_icon:hover, #skype_icon:hover, 
 #flickr_icon:hover, #linkedin_icon:hover, #vimeo_icon:hover, #youtube_icon:hover, #rss_icon:hover  {
-	background-color: #16B06A;
+	background-color: #19B16B;
 }
 
 .accordion h4.ui-state-active, .toggle .active, .page-content a, .page-full a, .sidebar a:hover, .blog-title-single h2 a,
 .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default:hover, .ui-datepicker .ui-widget-content .ui-state-default:hover, 
 .ui-datepicker .ui-widget-header .ui-state-default:hover, #footer a:hover, #footer-bottom a:hover {
-	color: #16B06A;
+	color: #19B16B;
 }
 
 .widget .widget-title h5:before {
-	border-color: #16B06A transparent;
+	border-color: #19B16B transparent;
 }
 
 /* Main colour in rgba format @ 70% transparency */
@@ -75,7 +75,7 @@ body {
 
 /* Main colour in format for IE, "80E26143" is the colour #e26143, the "80" added to the front give 80% */
 .ie8 .caption {
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8016B06A,endColorstr=#8016B06A);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8019B16B,endColorstr=#8019B16B);
 }
 
 /* A darker shade of the main colour */

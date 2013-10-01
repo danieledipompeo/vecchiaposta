@@ -47,14 +47,16 @@
                         <input class="bookbutton" type="submit" value="Prenota" />
                     </form>
                 </div>
-                <h3 class="title1">Serivizi<span class="title-end"></span></h3>
-                <div class="clearfix">
-                    <div class="one-third servizi-wrapper">
-                        <ul class="list3">
-                            {foreach from=$instance->vp_room_vp_servizi item=servizi}
-                            <li>{$servizi->id_vp_servizi->nome}</li>
-                            {/foreach}
-                        </ul>
+                <div class="service-wrapper">
+                    <h3 class="title1">Serivizi<span class="title-end"></span></h3>
+                    <div class="clearfix">
+                        <div class="one-third servizi-wrapper">
+                            <ul class="list3">
+                                {foreach from=$instance->vp_room_vp_servizi item=servizi}
+                                <li>{$servizi->id_vp_servizi->nome}</li>
+                                {/foreach}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

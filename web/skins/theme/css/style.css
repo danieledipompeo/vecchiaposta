@@ -2284,6 +2284,27 @@ span.zoom-wrapper span.zoom {
     margin-bottom: 60px;
 }
 
+.service-wrapper{
+    margin-top: 27px;
+    max-height: 145px;
+    overflow: hidden;
+}
+
+.block-img1{
+    text-align: center;
+}
+
+.fourty-five .button2{
+    color: #424242;
+}
+
+.fourty-five .button2:HOVER{
+    color: #19B16B;
+}
+
+.camere-desc-wrapper p{
+    text-align: justify;
+}
 /*
 #CDSWIDWRL {
     font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;

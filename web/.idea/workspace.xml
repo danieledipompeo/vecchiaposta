@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380377572599" ignored="false" />
     <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806843096" ignored="false" />
-    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380376619287" ignored="false" />
+    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380640655442" ignored="false" />
     <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
     <file path="/gabbiaLogicaCamera.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720701309" ignored="false" />
     <file path="/navCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379325814838" ignored="false" />
@@ -116,7 +116,7 @@
     <file path="/vp_room_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379759962852" ignored="false" />
     <file path="/camere.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380205225647" ignored="false" />
     <file path="/accommodation-single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379760908519" ignored="false" />
-    <file path="/vp_room_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380377786187" ignored="false" />
+    <file path="/vp_room_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380543167699" ignored="false" />
     <file path="/vp_servizi_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379762344830" ignored="false" />
     <file path="/vp-admin-servizi-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379762367813" ignored="false" />
     <file path="/booking.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380377881788" ignored="false" />
@@ -182,6 +182,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -218,7 +219,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -228,55 +228,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="booking.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="61" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.22031824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2283" column="17" selection-start="39034" selection-end="39034" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sliderHome.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="26" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-20.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="vp_room_single.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="22" selection-start="2474" selection-end="2474" vertical-scroll-proportion="-30.0">
+            <state line="49" column="43" selection-start="2518" selection-end="2518" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/settings.inc.php">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="296" selection-end="296" vertical-scroll-proportion="-6.25">
+            <state line="685" column="9" selection-start="12148" selection-end="12148" vertical-scroll-proportion="0.13139932">
               <folding />
             </state>
           </provider>
@@ -295,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vp-admin-news-manager.php" />
         <option value="$PROJECT_DIR$/offerta.php" />
         <option value="$PROJECT_DIR$/skins/system/dtml/it/report/vp_offerta_report.html" />
         <option value="$PROJECT_DIR$/include/view/template/InitGraphic.php" />
@@ -305,12 +268,13 @@
         <option value="$PROJECT_DIR$/vp-admin-offerta-manager.php" />
         <option value="$PROJECT_DIR$/admin-news-manager.php" />
         <option value="$PROJECT_DIR$/include/settings.inc.php" />
-        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
         <option value="$PROJECT_DIR$/booking.php" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/booking.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html" />
+        <option value="$PROJECT_DIR$/skins/theme/css/colours/green-brown.css" />
+        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
       </list>
     </option>
   </component>
@@ -319,9 +283,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1277" />
-    <option name="width" value="1286" />
-    <option name="height" value="1026" />
+    <option name="x" value="49" />
+    <option name="y" value="2" />
+    <option name="width" value="1317" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -416,6 +381,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -565,6 +531,32 @@
               <option name="myItemId" value="skins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -652,49 +644,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vecchiaposta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vecchiaposta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -891,11 +842,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1277" y="0" width="1286" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="2" width="1317" height="766" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -911,13 +863,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2828201" sideWeight="0.6704" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28245476" sideWeight="0.6704" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -988,18 +939,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="908" selection-end="908" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
+        <state line="26" column="40" selection-start="908" selection-end="908" vertical-scroll-proportion="-16.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/offerta_home.html">
@@ -1011,55 +953,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityCamera.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityOfferta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="343" selection-end="343" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
+        <state line="14" column="39" selection-start="343" selection-end="343" vertical-scroll-proportion="-5.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-news-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="92" selection-end="92" vertical-scroll-proportion="0.10843374">
-          <folding>
-            <element signature="e#7#74#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="30" selection-start="92" selection-end="92" vertical-scroll-proportion="0.10843374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vp-admin-offerta-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.4698795">
-          <folding>
-            <element signature="e#7#51#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="26" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.4698795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vp-admin-camera-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="623" selection-end="662" vertical-scroll-proportion="0.3893696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/settings.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="296" selection-end="296" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="623" selection-end="662" vertical-scroll-proportion="0.3893696" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
@@ -1076,30 +990,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2283" column="17" selection-start="39034" selection-end="39034" vertical-scroll-proportion="0.0">
+        <state line="56" column="7" selection-start="4074" selection-end="4074" vertical-scroll-proportion="0.7740213">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-20.0">
+        <state line="32" column="26" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.46619216">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/settings.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="296" selection-end="296" vertical-scroll-proportion="0.026690392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.29565218" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="2474" selection-end="2474" vertical-scroll-proportion="-30.0">
+        <state line="49" column="43" selection-start="2518" selection-end="2518" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
+    <entry file="file://$PROJECT_DIR$/skins/theme/css/colours/green-brown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="61" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.22031824">
+        <state line="71" column="1" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.36177474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="685" column="9" selection-start="12148" selection-end="12148" vertical-scroll-proportion="0.13139932">
           <folding />
         </state>
       </provider>
