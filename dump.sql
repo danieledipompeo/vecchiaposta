@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.12, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.27, for Linux (i686)
 --
 -- Host: localhost    Database: vecchiaposta
 -- ------------------------------------------------------
--- Server version	5.6.12
+-- Server version	5.5.27
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -1008,4 +1008,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-28 16:22:00
+-- Dump completed on 2013-10-02 15:02:22
