@@ -1,0 +1,69 @@
+<!--Camera singola-->
+<!--ITALIANO-->
+<!-- BEGIN .page-header -->
+<div class="page-header">
+    <img class="page-header-img" src="skins/theme/img/beb/camere.jpg" alt="" />
+    <!-- END .page-header -->
+</div>
+<!-- BEGIN .section -->
+<div class="section page-full clearfix">
+    <h2 class="page-title">{$instance->nome}</h2>
+    <!-- BEGIN .page-content -->
+    <div class="page-content page-content-full">
+        <div class="even-cols clearfix">
+            <div class="one-half">
+                <!-- BEGIN #slides -->
+
+                <div id="slides1" class="slide-loader">
+                    <!-- BEGIN .slides_container -->
+                    <div class="slides_container">
+                        {foreach from=$instance->vp_room_sys_image item=image}
+                        <div class="slide">
+                            <a href="#">
+                                <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
+                            </a>
+                            <div class="caption">{$image->id_sys_image->caption}</div>
+                        </div>
+                        {/foreach}
+                        <!-- END .slides_container -->
+                    </div>
+                    <a href="#" class="prev">Previous</a>
+                    <a href="#" class="next">Next</a>
+                    <!-- END #slides -->
+                </div>
+            </div>
+            <div class="one-half last-col">
+                <div class="booknow-accompage">
+                    <div class="book-price">
+                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                    </div>
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.php" method="post">
+                        <input type="hidden" name="vp_room_id" value="{$instance->id}"/>
+                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                        <div class="clearfix">
+                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
+                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
+                        </div>
+                        <input class="bookbutton" type="submit" value="Prenota" />
+                    </form>
+                </div>
+                <div class="service-wrapper">
+                    <h3 class="title1">Serivizi<span class="title-end"></span></h3>
+                    <div class="clearfix">
+                        <div class="one-third servizi-wrapper">
+                            <ul class="list3">
+                                {foreach from=$instance->vp_room_vp_servizi item=servizi}
+                                <li>{$servizi->id_vp_servizi->nome}</li>
+                                {/foreach}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="title1">Descrizione<span class="title-end"></span></h3>
+        <p>{$instance->descrizione}</p>
+        <!-- END .page-content -->
+    </div>
+    <!-- END .section -->
+</div>

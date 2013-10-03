@@ -68,8 +68,8 @@ class InitGraphic{
         /*skinlet footer: skins/theme/footer.html*/
         $footer = new Skinlet("footer");
 
-        /*funzionalità breadcrump*/
-		/*
+        /*funzionalità breadcrump
+
             $breadcrump = new Skinlet("sitemap");
             $breadcrumpContent = new Content($pageEntity, $pageEntity, $pageEntity);
             $breadcrumpContent->forceMultiple();
@@ -82,8 +82,8 @@ class InitGraphic{
             else
                 $breadcrump->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
 
-            $skin->setContent("sitemap", $breadcrump->get());
-		*/
+            $skin->setContent("sitemap", $breadcrump->get());  */
+
 
         /*creazione della struttura*/
         $skin->setContent("menu", $menuTemplate->get());

@@ -9,7 +9,7 @@ require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php
 $sliderEntity = $GLOBALS['sys_slider'];
 $imageEntity = $GLOBALS['sys_image'];
 $imageSliderRelation = $GLOBALS['sys_image_sys_slider'];
-$offertaEntity = $GLOBALS['sys_news'];
+$offertaEntity = $GLOBALS['vp_offerta'];
 $cameraEntity = $GLOBALS['vp_room'];
 
 $main = new Skin("theme");

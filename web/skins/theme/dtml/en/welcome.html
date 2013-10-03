@@ -1,4 +1,6 @@
 <h3 class="title1">{$instance->title}<span class="title-end"></span></h3>
-<p><div class="block-img1"><img src="skins/theme/img/image5.png" alt="" /></div></p>
-<p>{$instance->body|truncate:246:"...":true} </p>
-<p><a href="page.php?page_id={$instance->id}" class="button2">Maggiori Informazioni &raquo;</a></p>
+
+<div class="block-img1"><img src="data:image/jpg;base64,{$instance->foto->data}" alt="foto del B&B" /></div>
+<div class="section-body-preview">{$instance->body|truncate:246:"...":true}</div>
+
+<div class="info-button"><a href="page.php?page_id={$instance->id}" class="button2">Maggiori Informazioni &raquo;</a></div>

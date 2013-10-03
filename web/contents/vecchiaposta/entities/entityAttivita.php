@@ -18,6 +18,7 @@ class EntityAttivita extends Entity
         $this->addField('latitudine', VARCHAR, 255);
         $this->addField('longitudine', VARCHAR, 255);
         $this->addField('suggest', TEXT);
+        $this->setPresentation("nome");
     }
 }
 

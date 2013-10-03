@@ -9,6 +9,7 @@ class EntityImage extends EntityFile
         $this->addField('title',VARCHAR,255, MANDATORY);
         $this->addField('caption',VARCHAR,255, MANDATORY);
         $this->addField('alt',VARCHAR,255, MANDATORY);
+        $this->setPresentation("title");
 	}
 
     /**

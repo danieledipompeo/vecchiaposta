@@ -27,6 +27,8 @@ if (isset ($_REQUEST['vp_dintorni_id'])){
     $main->setContent("body", $dintorniTemplate->get());
 }else{
     $dintorniContent = new Content($dintorniEntity, $imageEntity);
+    $dintorniContent->setLimit(3);
+    $dintorniContent->setOrderFields('id ASC');
     $main->setContent("body", $dintorniContent->get());
 }
 

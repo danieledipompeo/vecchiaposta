@@ -1,0 +1,34 @@
+<!-- BEGIN .page-header -->
+<div class="page-header">
+    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt="" />
+    <!-- END .page-header -->
+</div>
+<!-- BEGIN .section -->
+<div class="section accommodation-page page-full clearfix">
+    <h2 class="page-title page-title-full">Dintorni</h2>
+    <!-- BEGIN .section -->
+    <div class="section clearfix">
+        {foreach from=$instances item=dintorni}
+        <div class="one-third-full">
+            <p><div class="block-img1">
+            <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">
+                <img src="data:image/jpg;base64,{$dintorni->foto->data}" alt="" />
+            </a></div></p>
+            <h3 class="title1">
+                <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">{$dintorni->nome}</a>
+                <span class="title-end"></span>
+            </h3>
+            <div class="section-long-body-preview">{$dintorni->descrizione|truncate: 300:'...'}</div>
+            <div><a href="dintorni.php?vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></div>
+        </div>
+        {/foreach}
+        <!-- END .section -->
+    </div>
+    <div class="page-pagination page-pagination-full">
+        <p class="clearfix">
+            <span class="fl"><a href="#">&larr; Previous</a></span>
+            <span class="fr"><a href="#">Next &rarr;</a></span>
+        </p>
+    </div>
+    <!-- END .section -->
+</div>

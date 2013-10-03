@@ -1,0 +1,18 @@
+<div id="map-widget-wrapper">
+    <div id="map-widget">
+        {var_dump($dintorni_instance->latitudine)}
+    </div>
+
+    <!-- END #map-widget-wrapper -->
+    <script type="text/javascript">
+
+        function initializeMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng({$dintorni_instance->latitudine}, {$dintorni_instance->longitudine}),
+                zoom: 12,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
+        }
+    </script>
+</div>

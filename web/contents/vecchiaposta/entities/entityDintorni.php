@@ -15,6 +15,7 @@ class EntityDintorni extends Entity
         $this->addField('nome', VARCHAR, 255, MANDATORY);
         $this->addField('latitudine', VARCHAR, 255);
         $this->addField('longitudine', VARCHAR, 255);
+        $this->setPresentation("nome");
     }
 }
 

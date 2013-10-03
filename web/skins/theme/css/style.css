@@ -402,7 +402,7 @@ a {
 
 #main-menu li {
 	text-transform: uppercase;
-	font-family: 14px;
+	font-size: 14px;
 	float: left;
 	line-height: 1;
 	margin: 0 15px 0 0;
@@ -496,13 +496,14 @@ a {
 	z-index: 9999;
 }
 
-#main-menu li.sfHover a span, #main-menu li.current-menu-item> a, #main-menu li.current_page_item span {
+#main-menu li.sfHover a span, #main-menu li.current-menu-item > a, #main-menu li.current_page_item span {
 	color: #fff;
     font-weight: bold;
+    text-shadow: 2px 2px 14px #DEDEDE;
 }
 
 #main-menu a.sf-with-ul {
-	/*padding-right: 2.25em;*/
+	padding-right: 2.25em;
     height: inherit;
 	min-width: 1px;
 }
@@ -515,10 +516,10 @@ a {
 	height: 10px;
 	text-indent: -999em;
 	overflow: hidden;
-	background: url('images/arrows.png') no-repeat -10px -100px;
+	background: url('../img/arrows.png') no-repeat -10px -100px;
 }
 a > .sf-sub-indicator {
-	top: .8em;
+	/*top: .8em;  */
 	background-position: 0 -100px;
 }
 
@@ -528,6 +529,10 @@ a:active > .sf-sub-indicator,
 li:hover > a > .sf-sub-indicator,
 li.sfHover > a > .sf-sub-indicator {
 	background-position: -10px -100px;
+}
+
+li.current-menu-item > a > .sf-sub-indicator{
+    background-position: -10px -100px;
 }
 
 #main-menu ul .sf-sub-indicator { background-position:  -10px 0; }
@@ -2150,6 +2155,7 @@ span.zoom-wrapper span.zoom {
     padding: 0 10px;
     margin: 0 0 0 51px;
     display: inline-block;
+    float: left;
 }
 
 .blog-title a {

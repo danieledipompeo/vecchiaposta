@@ -1,3 +1,4 @@
+<!--ITALIANO-->
 <div id="header-google-map" style="display:none;">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="skins/theme/js/gmap.js"></script>
@@ -16,15 +17,15 @@
     </ul>
 
     <!-- BEGIN .gmap-btn-wrapper -->
-    <div class="gmap-btn-wrapper">
+    <div class="gmap-btn-wrapper" style="border-radius: 50%;">
         <a href="#" class="gmap-btn"></a>
-        <div class="gmap-curve"></div>
+        <!--div class="gmap-curve"></div-->
         <!-- END .gmap-btn-wrapper -->
     </div>
 
     <!-- BEGIN .top-menu-wrapper -->
     <div class="top-menu-wrapper fr clearfix">
-        <a href="accommodation.html" class="button1 fl">Prenota ora</a>
+        <a href="booking.php" class="button1 fl">Prenota ora</a>
         <ul class="top-menu fr">
             <li><a href="#">a</a><span> /</span></li>
             <li><a href="#">aA</a><span> /</span></li>
@@ -37,11 +38,27 @@
 </div>
 
 <!-- BEGIN .title-wrapper -->
-<div id="title-wrapper">
+<div id="title-wrapper" class="clearfix">
     <div id="logo">
-        <a href="index.html">
-            <img src="\skins\theme\img\logo.png"></a>
+        <a href="index.php">
+            <img src="skins/theme/img/logo.png" />
+        </a>
     </div>
-    <div id="last-offert">ultima offerta</div>
+    <div id="last-offert">
+        <div class="clearfix">
+            <h3 class="title1">
+                <a href="prenota.php">{$offerta_instance->title}</a>
+                <span class="title-end"></span>
+            </h3>
+            <!-- END .blog-title -->
+        </div>
+        <div class="clearfix">
+            {$offerta_instance->suggest|truncate:300:'...'}
+            <div>
+                <a href="booking.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
+            </div>
+            <!-- END .blog-content -->
+        </div>
+    </div>
     <!-- END .title-wrapper -->
 </div>

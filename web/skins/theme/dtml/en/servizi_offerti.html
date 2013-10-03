@@ -1,0 +1,10 @@
+<h3 class="title1">Alcuni servizi offerti del B&B<span class="title-end"></span></h3>
+    <div class="section-body-preview">
+        <ul class="list3">
+            {foreach from=$instances item=servizi}
+            <li>{$servizi->nome}</li>
+            {/foreach}
+        </ul>
+    </div>
+<div class="info-button"><a href="{$instance->link}" class="button2">Maggiori Informazioni  &raquo;</a></div>
+<div class="featured-bottom"></div>

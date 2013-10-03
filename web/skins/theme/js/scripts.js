@@ -89,7 +89,4 @@ $(document).ready(function() {
 		$('.gmap-btn').toggleClass('gmap-btn-hover');
 
 	});
-
-    initializeMap();
-	
 });

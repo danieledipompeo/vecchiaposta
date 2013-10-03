@@ -14,6 +14,7 @@ class EntityCamera extends Entity
         $this->addField('descrizione', TEXT);
         $this->addField('nome', VARCHAR, 255, MANDATORY);
         $this->addField('prezzo', INT);
+        $this->setPresentation("nome");
     }
 }
 

@@ -1,3 +1,4 @@
+<!--ITALIANO -->
 <div id="navigation" class="clearfix">
 
     <!-- BEGIN #main-menu -->
@@ -5,13 +6,20 @@
     <ul id="main-menu" class="fl clearfix">
         {foreach from=$instances item=instance}
             {if $instance->parent == null}
-                <li class="current-menu-item"><a href="{$instance->link}">{$instance->entry}</a>
+                {if $instance->link == $smarty.server.SCRIPT_NAME|replace:'/':''}
+                    <li class="current-menu-item">
+                        <a href="{$instance->link}">{$instance->entry}</a>
+                {else}
+                    <li>
+                        <a href="{$instance->link}">{$instance->entry}</a>
+                {/if}
                     {if $instance->sys_menu != null}
                         <ul>
                             {foreach from=$instance->sys_menu item=child_menu}
                                 {if $child_menu->linked_page == 0}
-                                    <li class="text_capitalize"><a href="{$child_menu->link}">{$child_menu->entry}
-                                    </a></li>
+                                    <li class="text_capitalize">
+                                        <a href="{$child_menu->link}">{$child_menu->entry}</a>
+                                    </li>
                                     {else}
                                     <li class="text_capitalize"><a href="page.php?sys_page_id={$child_menu->linked_page}">{$child_menu->entry}
                                     </a></li>
@@ -32,53 +40,3 @@
     <div class="corner-left"></div>
     <div class="corner-right"></div>
 </div>
-
-
-
-
-
-
-
-
-
-<!--
- <div id="navigation" class="clearfix">
-
-<ul id="main-menu" class="fl clearfix">
-    <li class="current-menu-item"><a href="index.html">Home<span>start here</span></a></li>
-    <li><a href="accommodation.html">Camere<span>rates &amp; reservations</span></a>
-        <ul>
-            <li><a href="accommodation-single.html">Single Standard Room</a></li>
-            <li><a href="accommodation-single.html">Double Standard Room</a></li>
-            <li><a href="accommodation-single.html">Single Ensuite Room</a>
-                <ul>
-                    <li><a href="accommodation-single.html">Single Standard Room</a></li>
-                    <li><a href="accommodation-single.html">Double Standard Room</a></li>
-                    <li><a href="accommodation-single.html">Single Ensuite Room</a>
-                </ul>
-            </li>
-            <li><a href="accommodation-single.html">Double Ensuite Room</a></li>
-        </ul>
-    </li>
-    <li><a href="typography.html">Facilities<span>spa &amp; relaxation</span></a>
-        <ul>
-            <li><a href="blog.html">Blog</a>
-            <li><a href="blog-single.html">Blog Single</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="gallery.html">Photo Gallery</a>
-            <li><a href="typography.html">Typography</a>
-            <li><a href="js-elements.html">JavaScript Elements</a></li>
-            <li><a href="left-sidebar.html">Left Sidebar</a></li>
-        </ul>
-    </li>
-    <li><a href="events.html">Eventi<span>what's happening</span></a></li>
-    <li><a href="contact.html">Contatti<span>get in touch</span></a></li>
-</ul>
-<ul class="main-menu-contact-info fr">
-    <li class="info-phone">+39 3479749101</li>
-    <li class="info-email">info [at] vecchiaposta [dot] it</li>
-</ul>
-<div class="corner-left"></div>
-<div class="corner-right"></div>
-</div>
--->
