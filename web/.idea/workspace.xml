@@ -4,9 +4,9 @@
     <list default="true" id="79e42fad-fc6f-4c34-854c-4e8425552d51" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380815433863" ignored="false" />
+    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380877600164" ignored="false" />
     <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806843096" ignored="false" />
-    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380819147239" ignored="false" />
+    <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380899618026" ignored="false" />
     <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
     <file path="/gabbiaLogicaCamera.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720701309" ignored="false" />
     <file path="/navCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379325814838" ignored="false" />
@@ -21,10 +21,10 @@
     <file path="/navDoveSiamo.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379326812001" ignored="false" />
     <file path="/admin-image-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379611193149" ignored="false" />
     <file path="/ImageForm.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380099311895" ignored="false" />
-    <file path="/footer.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380747737490" ignored="false" />
+    <file path="/footer.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380873084469" ignored="false" />
     <file path="/nav.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378990767680" ignored="false" />
     <file path="/slider_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379573599466" ignored="false" />
-    <file path="/frame-private-head.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379489205642" ignored="false" />
+    <file path="/frame-private-head.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380893549693" ignored="false" />
     <file path="/menu_admin.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380010185874" ignored="false" />
     <file path="/InitGraphic.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380374056646" ignored="false" />
     <file path="/sys_user_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379410089475" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="/sys_group_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379410220234" ignored="false" />
     <file path="/sys_news_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379488629495" ignored="false" />
     <file path="/sys_page_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379488154271" ignored="false" />
-    <file path="/layout.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380010058990" ignored="false" />
+    <file path="/layout.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380893638844" ignored="false" />
     <file path="/TextField.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379578714148" ignored="false" />
     <file path="/EditorField.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379412440051" ignored="false" />
     <file path="/form.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379426006953" ignored="false" />
@@ -54,13 +54,13 @@
     <file path="/navDintorniSingolo.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379325688806" ignored="false" />
     <file path="/slider.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379346472225" ignored="false" />
     <file path="/menu.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380189055430" ignored="false" />
-    <file path="/booking.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380375492596" ignored="false" />
+    <file path="/booking.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380878573242" ignored="false" />
     <file path="/index.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380194302937" ignored="false" />
     <file path="/home.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380748140476" ignored="false" />
     <file path="/frame-public.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379687672157" ignored="false" />
     <file path="/admin.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379401178418" ignored="false" />
     <file path="/admin-users-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379409867736" ignored="false" />
-    <file path="/theme_functionality.js" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379427682154" ignored="false" />
+    <file path="/theme_functionality.js" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380876482623" ignored="false" />
     <file path="/RelationManager.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379428776635" ignored="false" />
     <file path="/SelectFromReference.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379412879653" ignored="false" />
     <file path="/HierarchicalPosition.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379432662520" ignored="false" />
@@ -88,7 +88,7 @@
     <file path="/entityImage.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380819671418" ignored="false" />
     <file path="/slider_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379593671899" ignored="false" />
     <file path="/sys_slider_multiple.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379601936473" ignored="false" />
-    <file path="/sliderHome.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380820125989" ignored="false" />
+    <file path="/sliderHome.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380898221406" ignored="false" />
     <file path="/content.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380194046202" ignored="false" />
     <file path="/ImageField2.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379611132683" ignored="false" />
     <file path="/mioField.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379611097110" ignored="false" />
@@ -116,10 +116,10 @@
     <file path="/vp_room_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379759962852" ignored="false" />
     <file path="/camere.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380205225647" ignored="false" />
     <file path="/accommodation-single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379760908519" ignored="false" />
-    <file path="/vp_room_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380543167699" ignored="false" />
+    <file path="/vp_room_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380883284230" ignored="false" />
     <file path="/vp_servizi_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379762344830" ignored="false" />
     <file path="/vp-admin-servizi-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379762367813" ignored="false" />
-    <file path="/booking.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380377881788" ignored="false" />
+    <file path="/booking.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380878779812" ignored="false" />
     <file path="/booking_complete.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379932443234" ignored="false" />
     <file path="/mail_test.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379930932964" ignored="false" />
     <file path="/send_mail.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379931693738" ignored="false" />
@@ -135,18 +135,18 @@
     <file path="/LatLong.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379949741829" ignored="false" />
     <file path="/vp_dintorni_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1379950194526" ignored="false" />
     <file path="/vp_dintorni_multiple.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380211243094" ignored="false" />
-    <file path="/dintorni.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380820787573" ignored="false" />
-    <file path="/attivita.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380208086769" ignored="false" />
-    <file path="/vp_eventi_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380034546223" ignored="false" />
+    <file path="/dintorni.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380870068443" ignored="false" />
+    <file path="/attivita.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380878203982" ignored="false" />
+    <file path="/vp_eventi_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380884372884" ignored="false" />
     <file path="/entityAttivita.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380207151261" ignored="false" />
     <file path="/vp-admin-attivita-manager.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380208527079" ignored="false" />
     <file path="/vp_attivita_multiple.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380209491329" ignored="false" />
     <file path="/vp_attivita_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380028115231" ignored="false" />
-    <file path="/vp_attivita_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380033754697" ignored="false" />
+    <file path="/vp_attivita_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380878631330" ignored="false" />
     <file path="/frame-public-head.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380746618013" ignored="false" />
     <file path="/gmap.js" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380030077062" ignored="false" />
-    <file path="/vp_dintorni_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380035333531" ignored="false" />
-    <file path="/widget_map.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380036062996" ignored="false" />
+    <file path="/vp_dintorni_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380884357979" ignored="false" />
+    <file path="/widget_map.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380879607438" ignored="false" />
     <file path="/welcome.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380194959857" ignored="false" />
     <file path="/parser.inc.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380193248341" ignored="false" />
     <file path="/entityCamera.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380204608118" ignored="false" />
@@ -164,6 +164,10 @@
     <file path="/vp_offerta_report.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380373836237" ignored="false" />
     <file path="/dove-siamoi.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380820556633" ignored="false" />
     <file path="/dovesiamo.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380820454346" ignored="false" />
+    <file path="/dove-siamo.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380870289473" ignored="false" />
+    <file path="/dove-siamo.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380873253893" ignored="false" />
+    <file path="/login.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380876835235" ignored="false" />
+    <file path="/login.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380877259149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,10 +233,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dintorni.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dintorni.php">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="44" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.7826087">
+            <state line="2326" column="19" selection-start="39709" selection-end="39709" vertical-scroll-proportion="0.9232082">
               <folding />
             </state>
           </provider>
@@ -251,22 +255,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/include/view/template/InitGraphic.php" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
-        <option value="$PROJECT_DIR$/skins/theme/js/scripts.js" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/frame-public-head.html" />
-        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
-        <option value="$PROJECT_DIR$/contents/system/entities/entityImage.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entityServiziCamera.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entityEventi.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entityDintorni.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entityCamera.php" />
-        <option value="$PROJECT_DIR$/contents/vecchiaposta/entities/entityAttivita.php" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html" />
-        <option value="$PROJECT_DIR$/dove-siamoi.php" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/dovesiamo.html" />
-        <option value="$PROJECT_DIR$/dove-siamo.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/login.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/header.html" />
         <option value="$PROJECT_DIR$/dintorni.php" />
+        <option value="$PROJECT_DIR$/attivita.php" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html" />
+        <option value="$PROJECT_DIR$/booking.php" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/booking.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/widget/widget_map.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_eventi_single.html" />
+        <option value="$PROJECT_DIR$/skins/system/dtml/it/frame-private-head.html" />
+        <option value="$PROJECT_DIR$/skins/system/css/layout.css" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html" />
+        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
       </list>
     </option>
   </component>
@@ -407,10 +411,6 @@
               <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -427,6 +427,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="it" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,6 +461,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,6 +533,14 @@
               <option name="myItemId" value="skins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -533,10 +553,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="installer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -674,46 +690,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vecchiaposta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vecchiaposta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -740,8 +716,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/skins/theme/dtml/it" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/skins/theme/dtml/it" />
       <recent name="$PROJECT_DIR$/skins/theme/dtml" />
       <recent name="$PROJECT_DIR$/contents/vecchiaposta/entities" />
       <recent name="$PROJECT_DIR$/skins/system/dtml/it/report" />
@@ -915,7 +891,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="2" width="1317" height="766" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1011,102 +987,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/frame-public-head.html">
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="57" selection-start="85" selection-end="85" vertical-scroll-proportion="0.052173913">
+        <state line="9" column="9" selection-start="354" selection-end="354" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.82470787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="70" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.33913043">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/model/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1162" column="20" selection-start="27070" selection-end="27070" vertical-scroll-proportion="0.3469751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/system/entities/entityPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="207" selection-end="239" vertical-scroll-proportion="0.20869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/system/entities/entityImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="358" selection-end="358" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityServiziCamera.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="439" selection-end="439" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityEventi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="637" selection-end="637" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityDintorni.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="506" selection-end="506" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityCamera.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="437" selection-end="437" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/entityAttivita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="639" selection-end="639" vertical-scroll-proportion="0.39130434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="741" selection-end="741" vertical-scroll-proportion="-6.875">
+        <state line="2" column="11" selection-start="76" selection-end="76" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dintorni.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="44" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.7826087">
+        <state line="24" column="4" selection-start="798" selection-end="861" vertical-scroll-proportion="-15.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attivita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="21" selection-start="873" selection-end="873" vertical-scroll-proportion="0.57391304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="47" selection-start="997" selection-end="997" vertical-scroll-proportion="-17.458334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="80" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.4822064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/dove-siamo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="1040" selection-end="1306" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/widget/widget_map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="866" selection-end="866" vertical-scroll-proportion="0.49565217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="431" selection-end="431" vertical-scroll-proportion="0.3202847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_room_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="40" selection-start="886" selection-end="886" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="32" selection-start="2136" selection-end="2149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_eventi_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="44" selection-start="3033" selection-end="3033" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1150" column="21" selection-start="21684" selection-end="21684" vertical-scroll-proportion="0.84974957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/sliderHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.83985764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/system/dtml/it/frame-private-head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="98" selection-start="673" selection-end="673" vertical-scroll-proportion="0.31304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2326" column="19" selection-start="39709" selection-end="39709" vertical-scroll-proportion="0.9232082">
           <folding />
         </state>
       </provider>

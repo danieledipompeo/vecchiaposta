@@ -15,6 +15,12 @@ if (isset($_REQUEST['vp_attivita_id']) ){
     $attivitaContent->forceSingle();
     $attivitaContent->apply($attivitaTemplate, 'attivita');
 
+    $mapWidget = new Skinlet('widget/widget_map');
+    $attivitaContent->setFilter('id', $_REQUEST['vp_attivita_id']);
+    $attivitaContent->forceSingle();
+    $attivitaContent->apply($mapWidget, 'map');
+
+    $attivitaTemplate->setContent('widget_map', $mapWidget->get());
     $cameraContent = new Content($cameraEntity);
     $cameraContent->apply($attivitaTemplate, 'room');
     $main->setContent("body", $attivitaTemplate->get());

@@ -14,9 +14,6 @@ Tags: light, one-column, two-columns, left-sidebar, right-sidebar, custom-colors
 */
 
 
-
-
-
 /* Style Index * /
 0.0 - Reset
 1.0 - Global
@@ -2311,34 +2308,21 @@ span.zoom-wrapper span.zoom {
 .camere-desc-wrapper p{
     text-align: justify;
 }
-/*
-#CDSWIDWRL {
-    font: normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif;
-    color: #2c2c2c;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-    width: 100% !important;
-    max-width: 450px !important;
-    overflow: hidden;
-    text-align: left;
-    position: relative;
+
+.widget>table{
+    width: 100%;
 }
 
-#CDSWIDWRL .widWRLReview textarea {
-    font: normal 11px Verdana,Tahoma,Arial,'Bitstream Vera Sans',sans-serif;
-    color: #787878;
-    border: 1px solid #589442;
-    padding: 3px;
-    width: 100% !important;
-    height: 75px;
-    min-width: 210px;
-    max-width: 450px !important;
-    min-height: 74px;
-    max-height: 75px;
-    overflow: auto;
-    word-wrap: break-word;
-    float: none;
-    margin: 0;
-} */
+.widget >table tr td{
+    vertical-align: middle;
+    text-align: center;
+}
 
+#CDSWIDFRR{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#last-offert .button2:HOVER{
+    color: #19B16B;
+}

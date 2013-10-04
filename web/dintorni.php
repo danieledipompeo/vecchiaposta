@@ -17,7 +17,7 @@ if (isset ($_REQUEST['vp_dintorni_id'])){
     $mapWidget = new Skinlet('widget/widget_map');
     $dintorniContent->setFilter('id', $_REQUEST['vp_dintorni_id']);
     $dintorniContent->forceSingle();
-    $dintorniContent->apply($mapWidget, 'dintorni');
+    $dintorniContent->apply($mapWidget, 'map');
 
     $cameraContent = new Content($cameraEntity);
     $cameraContent->apply($dintorniTemplate, 'room');

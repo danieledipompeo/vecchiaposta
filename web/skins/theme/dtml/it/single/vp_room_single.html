@@ -20,7 +20,7 @@
                         {foreach from=$instance->vp_room_sys_image item=image}
                         <div class="slide">
                             <a href="#">
-                                <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
+                                <img width="450px" height="324px" src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
                             </a>
                             <div class="caption">{$image->id_sys_image->caption}</div>
                         </div>

@@ -32,8 +32,8 @@ if( isset($_GET['vp_offerta_id']) ){
 $room->apply($bookingTemplate, 'room');
 
 $bookingTemplate->setContent('night', $_POST['nights']);
-$bookingTemplate->setContent('from', $_POST['from']);
-$bookingTemplate->setContent('to', $_POST['to']);
+$bookingTemplate->setContent('from', $_POST['datefrom']);
+$bookingTemplate->setContent('to', $_POST['dateto']);
 
 $main->setContent('body', $bookingTemplate->get());
 $main->close();

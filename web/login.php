@@ -12,5 +12,7 @@ require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php
 $main = new Skin('system');
 
 InitGraphic::getInstance()->createSystemGraphic($main);
+$loginBody = new Skinlet('login');
+$main->setContent('body', $loginBody->get());
 
 $main->close();

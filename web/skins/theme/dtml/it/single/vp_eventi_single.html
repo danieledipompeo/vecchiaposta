@@ -13,7 +13,6 @@
         <div class="even-cols clearfix">
             <div class="one-half">
                 <!-- BEGIN #slides -->
-
                 <div id="slides1" class="slide-loader">
                     <!-- BEGIN .slides_container -->
                     <div class="slides_container">
@@ -33,12 +32,6 @@
                 </div>
             </div>
             <div class="one-half last-col">
-                <h3 class="title1">Attivit&agrave; consigliata<span class="title-end"></span></h3>
-                <div class="clearfix">
-                    <div class="one-third servizi-wrapper">
-                        {$eventi_instance->suggest}
-                    </div>
-                </div>
                 <div class="booknow-accompage">
                     <div class="book-price">
                         <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
@@ -58,6 +51,17 @@
                         </div>
                         <input class="bookbutton" type="submit" value="Prenota" />
                     </form>
+                </div>
+                <div class="service-wrapper">
+                    <h3 class="title1">Attivit&agrave; consigliata<span class="title-end"></span></h3>
+                    <div class="clearfix">
+                        <div class="one-third servizi-wrapper">
+                           <ul class="list3">
+                               <li>It's coming...</li>
+                           </ul>
+                            {$eventi_instance->suggest}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

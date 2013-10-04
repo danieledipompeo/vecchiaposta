@@ -1,12 +1,9 @@
 /**
- * Created with IntelliJ IDEA.
- * User: daniele
- * Date: 17/09/13
- * Time: 11.53
- * To change this template use File | Settings | File Templates.
+ * @author dipompeodaniele@gmail.com, n.sacco.dev@gmail.com
  */
 $(document).ready(function(){
-        $(".tablesorter").tablesorter();
+
+    $(".tablesorter").tablesorter();
 });
 
 $(document).ready(function() {
@@ -29,6 +26,20 @@ $(document).ready(function() {
 
 });
 
+$(window).resize(function(){
+    var viewport = $(window).height();
+    console.log(viewport);
+    if(viewport > $("aside#sidebar").height()){
+        $(".column").css("min-height",viewport);
+    }
+    $('.column').equalHeight();
+});
+
 $(document).ready(function(){
+    var viewport = $(window).height();
+    console.log(viewport);
+    if(viewport > $("aside#sidebar").height()){
+        $(".column").css("min-height",viewport);
+    }
     $('.column').equalHeight();
 });

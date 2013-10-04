@@ -7,13 +7,10 @@
 <section id="secondary_bar">
     <div class="user">
         {if $instance->username != null}
-            <p>{$instance->username} (<a href="#"></a>)</p>
-            <a class="logout_user" href="logout.php" title="Logout">Logout</a>
+         <p>{$instance->username} (<a href="#"></a>)</p>
+         <a class="logout_user" href="logout.php" title="Logout">Logout</a>
         {else}
             <p></p>
         {/if}
-    </div>
-    <div class="breadcrumbs_container">
-        <article class="breadcrumbs"><a href="index.html">Website Admin</a> <div class="breadcrumb_divider"></div> <a class="current">Dashboard</a></article>
     </div>
 </section>
