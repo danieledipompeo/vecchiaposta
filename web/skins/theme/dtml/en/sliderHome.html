@@ -1,25 +1,23 @@
 <!-- ITALIANO -->
+<!--[if !IE]> -->
 <div id="slides" class="slide-loader" alt="slider immagini">
 
-    <!-- BEGIN .slides_container -->
     <div class="slides_container">
         {if $slider_instance != null}
             {foreach $slider_instance->sys_image_sys_slider item=image}
             <div class="slide">
                 <a href="accommodation-single.html">
-                    <img src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
+                    <img width="{$slider_instance->width}px" height="{$slider_instance->height}px" src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
                 </a>
                 <div class="caption">{$image->id_sys_image->caption}</div>
             </div>
             {/foreach}
         {/if}
-        <!-- END .slides_container -->
     </div>
 
     <a href="#" class="prev">Previous</a>
     <a href="#" class="next">Next</a>
 
-    <!-- BEGIN .booknow -->
     <div class="booknow">
 
         <form class="booking-form" name="bookroom" action="booking.php" method="post">
@@ -28,9 +26,6 @@
                     <option omitted value="">Prenota una camera</option>
                     {foreach from=$room_instances item=room}
                     <option value="{$room->id}">{$room->nome}</option>
-                    <!--option value="double">Doppia</option>
-                    <option value="triple">Tripla</option>
-                    <option value="quadruple">Quadrupla</option-->
                     {/foreach}
                 </select>
             </div>
@@ -42,6 +37,6 @@
         </form>
 
         <div class="corner-left"></div>
-        <!-- END .booknow -->
     </div>
 </div>
+<!-- <![endif]-->

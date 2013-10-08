@@ -1,18 +1,33 @@
 <div id="map-widget-wrapper">
     <div id="map-widget">
-        {var_dump($dintorni_instance->latitudine)}
     </div>
-
     <!-- END #map-widget-wrapper -->
     <script type="text/javascript">
 
-        function initializeMap() {
-            var mapOptions = {
-                center: new google.maps.LatLng({$dintorni_instance->latitudine}, {$dintorni_instance->longitudine}),
-                zoom: 12,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
-        }
+        {if ( $map_instance->latitudine == null || $map_instance->longitudine == null)}
+            $(document).ready(function initializeMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(42.356261,13.39949),
+                    zoom: 12,
+                    mapTypeId: google.maps.MapTypeId.SATELLITE
+                };
+                mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
+            });
+        {else}
+            $(document).ready(function initializeMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng({$map_instance->latitudine}, {$map_instance->longitudine}),
+                    zoom: 14,
+                    mapTypeId: google.maps.MapTypeId.SATELLITE
+                };
+                mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng({$map_instance->latitudine}, {$map_instance->longitudine}),
+                    map: mapWidget,
+                    title: '{$map_instance->luogo}'
+                });
+            });
+        {/if}
     </script>
 </div>

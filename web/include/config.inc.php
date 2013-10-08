@@ -276,9 +276,6 @@ class Config{
 					$_SESSION['language'] = "en";
 					break;
 			}
-
-			$_SESSION['language'] = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2);
-
 		} else {
 
 			if (isset($_REQUEST['lan'])) {

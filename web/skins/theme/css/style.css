@@ -870,6 +870,10 @@ ol ol li {
 	color: #fff !important;
 }
 
+.button1:HOVER{
+    color: #000 !important;
+}
+
 .button2 {
     font-size: 12px;
 	font-weight: bold;
