@@ -13,6 +13,14 @@ $doveSiamoTemplate = new Skinlet('dove-siamo');
 $cameraContent = new Content($cameraEntity);
 $cameraContent->apply($doveSiamoTemplate, 'room');
 
+if(isset($_REQUEST['sys_page_id']))
+{
+    $page = new Content($pageEntity);
+    $page->setFilter('id', $_REQUEST['sys_page_id']);
+    $page->forceSingle();
+    $page->apply($doveSiamoTemplate, 'page');
+}
+
 $main->setContent("body", $doveSiamoTemplate->get());
 
 $main->close();

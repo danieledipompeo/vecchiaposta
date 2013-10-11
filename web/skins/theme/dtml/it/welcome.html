@@ -1,6 +1,8 @@
 <h3 class="title1">{$instance->title}<span class="title-end"></span></h3>
 
-<div class="block-img1"><img src="data:image/jpg;base64,{$instance->foto->data}" alt="foto del B&B" /></div>
+<div class="block-img1"><img src="data:image/jpg;base64,{$instance->foto->data}" alt="foto del B&B"/></div>
 <div class="section-body-preview">{$instance->body|truncate:246:"...":true}</div>
 
-<div class="info-button"><a href="page.php?page_id={$instance->id}" class="button2">Maggiori Informazioni &raquo;</a></div>
+<div class="info-button">
+    <a href="dove-siamo.php?sys_page_id=5" class="button2">Maggiori Informazioni &raquo;</a>
+</div>

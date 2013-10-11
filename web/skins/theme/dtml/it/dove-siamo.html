@@ -17,7 +17,12 @@
                         $(document).ready(function initializeMap() {
                             var mapOptions = {
                                 center: new google.maps.LatLng(42.458049,13.232913),
-                                zoom:17 ,
+                                zoom:17,
+                                navigationControl: false,
+                                mapTypeControl: false,
+                                scaleControl: false,
+                                draggable: false,
+                                scrollwheel: false,
                                 mapTypeId: google.maps.MapTypeId.SATELLITE
                             };
                             mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
@@ -67,6 +72,9 @@
         </div>
         <div class="description-wrapper">
             <h3 class="title1">Descrizione<span class="title-end"></span></h3>
+            {if $page_instance != null}
+                {$page_instance->body}
+            {/if}
             <p>Il territorio di Cagnano Amiterno si estende in un comprensorio montuoso articolato e caratterizzato
                 da profonde valli scavate dai torrenti che confluiscono nell&rsquo;Aterno. Da visitare:
                 la Chiesa di San Cosimo (o Cosma, anteriore al sec. XII),

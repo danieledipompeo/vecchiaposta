@@ -98,9 +98,7 @@ Class Content {
 				$this->languages[$k] = $k;
 			}
 		}
-
 		//$this->detectCardinality();
-
 	}
 
 	/**
@@ -129,14 +127,13 @@ Class Content {
 		 */
 		$data=$this->getRaw($key);
 
-		
 		/**
 		 * passing retrieved instances to smarty
 		 */
 		if($this->mode==SINGLE)
-		{	
+		{
+
 			$skin=new Skinlet("single/{$entity->entityName}_single");
-			
 			if(isset($entity->instances))
 			{
 				$skin->setContent("instance",$entity->instances[0]);
@@ -246,7 +243,7 @@ Class Content {
 		
 	    /*passing retrieved instances to smarty*/
 		if($this->mode==SINGLE)
-		{	
+		{
 			if(isset($entity->instances))
 			{
                 if( $prefix != ''){
