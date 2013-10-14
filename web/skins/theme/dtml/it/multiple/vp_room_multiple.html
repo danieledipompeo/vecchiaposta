@@ -12,14 +12,12 @@
     <!-- BEGIN .section -->
     <div class="section clearfix">
         {foreach from=$instances item=room}
-            <div class="fourty-five">
-                <p>
-                    <div class="block-img1">
-                        <a href="camere.php?vp_room_id={$room->id}">
-                            <img src="data:image/jpg;base64,{$room->foto->data}" alt="{$room->foto->alt}" />
-                        </a>
-                    </div>
-                </p>
+            <div class="forty-five">
+                <div class="block-img1">
+                    <a href="camere.php?vp_room_id={$room->id}">
+                        <img src="data:image/jpg;base64,{$room->foto->data}" alt="{$room->foto->alt}" />
+                    </a>
+                </div>
                 <h3 class="title1">
                     <a href="camere.php?vp_room_id={$room->id}">
                         {$room->nome}
@@ -29,9 +27,9 @@
                 <div class="camere-desc-wrapper">
                     {$room->descrizione|truncate:300:"...":true}
                 </div>
-                <p>
+                <div>
                     <a href="camere.php?vp_room_id={$room->id}" class="button2">Maggiori informazioni &raquo;</a>
-                </p>
+                </div>
             </div>
         {/foreach}
         <!-- END .section -->

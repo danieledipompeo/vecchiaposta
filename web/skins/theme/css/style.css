@@ -2172,10 +2172,30 @@ span.zoom-wrapper span.zoom {
    margin-left: 25%;
 }
 
-.fourty-five{
+.forty-five{
     width: 45%;
     padding: 30px 20px 30px 20px;
     float: left;
+    height: 390px;
+}
+
+
+.forty-five .button2{
+    color: #424242;
+}
+
+.forty-five .button2:HOVER{
+    color: #19B16B;
+}
+
+.forty-five .title1{
+    margin-top: 20px;
+}
+
+
+
+.camere-desc-wrapper p{
+    text-align: justify;
 }
 
 .my-booknow{
@@ -2299,18 +2319,6 @@ span.zoom-wrapper span.zoom {
 
 .block-img1{
     text-align: center;
-}
-
-.fourty-five .button2{
-    color: #424242;
-}
-
-.fourty-five .button2:HOVER{
-    color: #19B16B;
-}
-
-.camere-desc-wrapper p{
-    text-align: justify;
 }
 
 .widget>table{

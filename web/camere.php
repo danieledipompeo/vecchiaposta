@@ -9,10 +9,11 @@ $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
 if(isset($_REQUEST['vp_room_id'])){
-$cameraContent = new Content($cameraEntity, $serviziCameraRelation, $serviziCameraEntity,
-    $serviziCameraRelation, $cameraEntity, $cameraImageRelation, $imageEntity);
-//$cameraContent->setFilter('id','1');
-//$cameraContent->forceSingle();
+    $cameraContent = new Skinlet('single/vp_room_single');
+    $cameraServiziContent = new Content($cameraEntity, $serviziCameraRelation, $serviziCameraEntity);
+    $cameraServiziContent->apply($cameraContent, 'servizi');
+    $cameraFotoContent = new Content($cameraEntity, $cameraImageRelation, $imageEntity);
+    $cameraFotoContent->apply($cameraContent, 'foto');
 }
 else{
     $cameraContent = new Content($cameraEntity, $imageEntity);
