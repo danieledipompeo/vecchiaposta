@@ -2176,7 +2176,6 @@ span.zoom-wrapper span.zoom {
     width: 45%;
     padding: 30px 20px 30px 20px;
     float: left;
-    height: 390px;
 }
 
 
@@ -2191,8 +2190,6 @@ span.zoom-wrapper span.zoom {
 .forty-five .title1{
     margin-top: 20px;
 }
-
-
 
 .camere-desc-wrapper p{
     text-align: justify;
@@ -2338,3 +2335,15 @@ span.zoom-wrapper span.zoom {
 #last-offert .button2:HOVER{
     color: #19B16B;
 }
+
+/*
+
+PROGETTAZIONE
+
+*/
+
+#hidden-link div a{
+    color: #000;
+}
+
+

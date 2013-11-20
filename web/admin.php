@@ -11,6 +11,4 @@ InitGraphic::getInstance()->createSystemGraphic($main);
 
 $body = new Skinlet("admin");
 $main->setContent("body", $body->get());
-$main->close(); 
-
-?>
+$main->close();

@@ -2,6 +2,7 @@
 
 require_once(realpath(dirname(__FILE__)) . '/installerState.php');
 require_once(realpath(dirname(__FILE__)) . '/installerDatabaseState.php');
+require_once(realpath(dirname(__FILE__)).'/../../include/view/template/InitGraphic.php');
 
 /**
  * @access public
@@ -38,13 +39,20 @@ class InstallerInitState extends InstallerState {
 
 	public function updateOutput() {
 
-		$main = new Skin("installer");
+        $main = new Skin("system");
 
-		$head = new Skinlet("frame-public-head");
-
+		$head = new Skinlet("frame-private-head");
 		$main->setContent("head", $head->get());
-		$header = new Skinlet("header");
+
+        $header = new Skinlet("header");
+        $header->setContent('installer', '1');
 		$main->setContent("header", $header->get());
+
+        $menu = new Skinlet('menu_installer');
+
+        $footer = new Skinlet("footer");
+        $menu->setContent("footer", $footer->get());
+        $main->setContent('menu', $menu->get());
 
 		if($this->validData)
 			$body = new Skinlet("installer_databaseform");
@@ -53,8 +61,6 @@ class InstallerInitState extends InstallerState {
 
 		$main->setContent("body", $body->get());
 
-		$footer = new Skinlet("footer");
-		$main->setContent("footer", $footer->get());
 		$main->close();
 	}
 

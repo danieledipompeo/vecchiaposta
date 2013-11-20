@@ -10,6 +10,7 @@ require_once realpath(dirname(__FILE__))."/contents/installer/installerContext.p
 
 
 
+
 // if(file_exists(realpath(dirname(__FILE__)).'/contents/config.cfg'))
 // {
 // 	Header("Location: index.php");

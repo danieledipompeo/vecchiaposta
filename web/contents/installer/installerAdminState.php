@@ -29,13 +29,13 @@ class InstallerAdminState extends InstallerState {
 
 		//next stage of install workflow
 		$this->request_config['actual_state'] = $next_state;
-			
+
 		$this->request_config['admin_config'] = $this->admin_config;
-		
+
 		$this->install_config = array ('installComplete' => 'install_complete');
-		
+
 		$this->request_config['install_config'] = $this->install_config;
-		
+
 
 		$file_return = file_put_contents(
 				realpath(dirname(__FILE__)).'/../../contents/config.cfg',
@@ -44,25 +44,25 @@ class InstallerAdminState extends InstallerState {
 	}
 
 	public function updateOutput() {
-		
+
+        if ($this->validData) {
+            header('location: install_complete.php');
+        }else{
 			$main = new Skin("installer");
 
 			$head = new Skinlet("frame-public-head");
 
 			$main->setContent("head", $head->get());
 			$header = new Skinlet("header");
+            $header->setContent("webApp", 'Installing');
 			$main->setContent("header", $header->get());
-			if ($this->validData) {
-				$body = new Skinlet("install_complete");
-			}
-			else{
 				$body = new Skinlet("installer_admin");
-			}
 			$main->setContent("body", $body->get());
 
 			$footer = new Skinlet("footer");
 			$main->setContent("footer", $footer->get());
 			$main->close();
+        }
 	}
 
 	public function getNextState(){
@@ -72,14 +72,14 @@ class InstallerAdminState extends InstallerState {
 	public function setInput($arrayInput){
 		$this->validData = false;
 		if( file_exists(realpath(dirname(__FILE__)).'/../../contents/config.cfg')){
-				
+
 			/*
 			 * retrieve a data from file config.cfg
 			*/
 			$this->request_config = json_decode(
 					file_get_contents(
 							realpath(dirname(__FILE__)).'/../../contents/config.cfg'), true);
-				
+
 			if( isset($arrayInput["usernameAdmin"])
 				&& isset($arrayInput["passwordAdmin"])
 					&& isset($arrayInput["emailAdmin"])
@@ -114,4 +114,3 @@ class InstallerAdminState extends InstallerState {
 		}
 	}
 }
-?>

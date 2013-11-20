@@ -33,4 +33,3 @@ class  InstallerState {
 		return $this->stateName;
 	}
 }
-?>

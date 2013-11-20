@@ -23,4 +23,3 @@ $entitiesEntity = new EntityEntities($database, "sys_entities");
 $entitiesEntity->addReference($groupsEntity, "forum_moderator");
 $entitiesEntity->addReference($groupsEntity,"moderator_group");
 $entitiesEntity->addReference($groupsEntity,"priviledged_group");
-?>

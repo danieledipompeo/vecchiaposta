@@ -19,4 +19,5 @@ class EntityServizi extends Entity
     }
 }
 
-$serviziCameraEntity = new EntityServizi($database,"vp_servizi");
+$serviziCameraEntity = new EntityServizi($database,
+    Config::getInstance()->getConfigurations()['database']['prefix']."servizi");

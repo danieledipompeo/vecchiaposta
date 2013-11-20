@@ -40,13 +40,20 @@ echo 'bingo';
 	}
 
 	public function updateOutput() {
-		$main = new Skin("installer");
 
-		$head = new Skinlet("frame-public-head");
+        $main = new Skin("system");
+        $head = new Skinlet("frame-private-head");
+        $main->setContent("head", $head->get());
 
-		$main->setContent("head", $head->get());
-		$header = new Skinlet("header");
-		$main->setContent("header", $header->get());
+        $header = new Skinlet("header");
+        $header->setContent('installer', '1');
+        $main->setContent("header", $header->get());
+
+        $menu = new Skinlet('menu_installer');
+
+        $footer = new Skinlet("footer");
+        $menu->setContent("footer", $footer->get());
+        $main->setContent('menu', $menu->get());
 
 		if($this->validData)
 			$body = new Skinlet("installer_admin");

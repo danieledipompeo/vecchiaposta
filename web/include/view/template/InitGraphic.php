@@ -34,12 +34,9 @@ class InitGraphic{
 	 */
 	public function createGraphic($skin, $hasNews = false)
 	{
-
 		$pageEntity = $GLOBALS['sys_page'];
-
         $menuEntity = $GLOBALS['sys_menu'];
-        $offertaEntity = $GLOBALS['vp_offerta'];
-
+        $offertaEntity = $GLOBALS[Config::getInstance()->getConfigurations()['database']['prefix'].'offerta'];
         $menuTemplate = new Skinlet('menu');
         $menu = new Content($menuEntity,$menuEntity);
         $menu->setFilter("parent_id", 0);
@@ -81,13 +78,11 @@ class InitGraphic{
                 $breadcrump->setContent('actual_script', $actual_script);
             else
                 $breadcrump->setContent('actual_script',str_replace("/", "", $_SERVER['REQUEST_URI']) );
-
             $skin->setContent("sitemap", $breadcrump->get());  */
 
-
         /*creazione della struttura*/
-        $skin->setContent("menu", $menuTemplate->get());
         $skin->setContent("head", $head->get());
+        $skin->setContent("menu", $menuTemplate->get());
         $skin->setContent("header", $header->get());
         $skin->setContent("footer", $footer->get());
 	}
@@ -108,7 +103,9 @@ class InitGraphic{
          * entity necessarie per il funzionamento del back-end
          */
         $actualUser =  $_SESSION['user']['username'];
+
         $servicecategoryEntity = $GLOBALS['sys_servicecategory'];
+
         $servicesEntity = $GLOBALS['sys_service'];
         $servicesGroupsRelation = $GLOBALS['sys_service_sys_group'];
         $groupsEntity = $GLOBALS['sys_group'];
@@ -116,7 +113,7 @@ class InitGraphic{
         $usersGroupsRelation = $GLOBALS['sys_user_sys_group'];
 
         /*
-         * skinlet frame-private-head: skins/system/header.html
+         * skinlet frame-private-head: skins/system/frame-private-head.html
          */
         $head = new Skinlet("frame-private-head");
 
@@ -128,6 +125,9 @@ class InitGraphic{
         $loggedUser->setFilter('username', $actualUser);
         $loggedUser->forceSingle();
         $loggedUser->apply($header);
+
+        $header->setContent('webApp',
+            Config::getInstance()->getConfigurations()["defaultuser"]["webApp"]);
 
         /*
          * skinlet menu_admin: skins/system/menu_admin.html
@@ -171,5 +171,6 @@ class InitGraphic{
         $skin->setContent("menu", $menuTemplate->get());
 
     }
+
 
 }

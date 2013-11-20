@@ -4,14 +4,12 @@ session_start();
 require_once "include/beContent.inc.php";
 require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php');
 //require_once(realpath(dirname(__FILE__)) . '/contents/system/entities/entitySlider.php');
-
 /* recupero delle entity necessarie */
 $sliderEntity = $GLOBALS['sys_slider'];
 $imageEntity = $GLOBALS['sys_image'];
 $imageSliderRelation = $GLOBALS['sys_image_sys_slider'];
-$offertaEntity = $GLOBALS['vp_offerta'];
-$cameraEntity = $GLOBALS['vp_room'];
-
+$offertaEntity = $GLOBALS[Config::getInstance()->getConfigurations()['database']['prefix'].'offerta'];
+$cameraEntity = $GLOBALS[Config::getInstance()->getConfigurations()['database']['prefix'].'room'];
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 

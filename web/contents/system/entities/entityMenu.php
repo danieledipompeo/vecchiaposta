@@ -14,4 +14,3 @@ class EntityMenu extends Entity
 $menuEntity = new EntityMenu($database, "sys_menu");
 $menuEntity->addReference($pageEntity, "linked_page");
 $menuEntity->addReference($menuEntity, "parent");
-?>

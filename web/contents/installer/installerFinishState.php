@@ -41,14 +41,22 @@ class InstallerFinishState extends InstallerState {
 		}
 		else{
 			
-			$main = new Skin("installer");
+			$main = new Skin("system");
 
-			$head = new Skinlet("frame-public-head");
-
+			$head = new Skinlet("frame-private-head");
 			$main->setContent("head", $head->get());
-			$header = new Skinlet("header");
-			$main->setContent("header", $header->get());
-			$body = new Skinlet("installer_init");
+
+            $header = new Skinlet("header");
+            $header->setContent('installer', '1');
+            $main->setContent("header", $header->get());
+
+            $menu = new Skinlet('menu_installer');
+
+            $footer = new Skinlet("footer");
+            $menu->setContent("footer", $footer->get());
+            $main->setContent('menu', $menu->get());
+
+            $body = new Skinlet("installer_init");
 			$main->setContent("body", $body->get());
 
 			$footer = new Skinlet("footer");
