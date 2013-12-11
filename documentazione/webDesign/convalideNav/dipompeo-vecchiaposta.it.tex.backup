@@ -24,7 +24,7 @@
   \begin{titlepage}
     \begin{center}
     % Upper part of the page
-      \includegraphics[width=0.5\textwidth,keepaspectratio=true]{../img/logo}\\[1cm]    
+      \includegraphics[width=0.5\textwidth,keepaspectratio=true]{../../img/logo}\\[1cm]    
       \textsc{\LARGE Covalide prototipo di navigazione}\\[0.6cm]
       \textsc{\LARGE  progetto del sito:\\[0.5cm] ``B\&B La Vecchia Posta''}\\ [2.0cm]
 
@@ -44,7 +44,7 @@
 \begin{abstract}
  In questo documento vengono elencate le peculiarità di navigazione del sito web in oggetto che sono state descritte nel documento dei requisiti in allegato
  alla documentazione rilasciata al committente.
- Il prototipo di navigazione è raggiungibile all'indirizzo \url{http://www.vecchiaposta.it/progettazione/index.html}.
+ Il prototipo di navigazione è raggiungibile all'indirizzo \url{http://http://www.vecchiaposta.it/nuovosito/web/progettazioneV2/index.html}.
  \par Il documento si riverisce al prototipo di navigazione, quindi si mostrano le considerazioni finali sui requisiti tecnici individuati nel relativo documento.
  Il tema presentato nel prototipo fornisce all'utente tutti gli strumenti per testarne l'usabilità, fornendo una reale e quasi totale navigazione del sito.
 \end{abstract}
@@ -69,56 +69,64 @@ All'ultima domanda il test non è riuscito a fornire una risposta dettagliata es
  accetabili in relazione al nostro utente. 
  \par Il sito è risultato navigabile nella sua quasi totalità. L'utente non ha avuto grandi difficoltà nel effettuare le operazioni richieste.
 \end{itemize}
-Per completezza di informazioni si allega il video dell'utilizzo del prototipo da parte dell'utente medio, consultabile all'indirizzo \url{http://youtu.be/_KEx4eMBWiU}, che risulta raggiungere i prorpri obiettivi rapidamente senza 
-problematiche.
-\par Nelle successive fase di sviluppo si effettueranno test successivi mostrando all'utente il tema completo.
-\par L'utilizzo di font sans-serif aumenta la facilità di lettura non affaticando l'utente.
 
 \section*{Struttura dei menu}
 La struttura del menu risulta essere completamente visibile sia alla risoluzione scelta per la progettazione, sia ad una risoluzione più bassa.
-Sono stati evitati scroll orizzontali nelle risoluzioni 1024px (\ref{fig:nav1024}) e 1200px (\ref{fig:nav1200}) (risoluzione di base) che coprono quasi la totalità delle configurazioni degli utenti che navigano
-su internet.
-La struttura del menu mantiene una proporzionalità accettabile con i contenuti informativi in entrambe le risoluzioni considerate. 
-Per quanto riguarda risoluzioni più basse e dispositivi mobile, si rimanda ad una versione successiva dello sviluppo.
+Sono stati evitati scroll orizzontali nelle risoluzioni 1024px (\autoref{fig:nav1024}) e 1200px (\autoref{fig:nav1200}) (risoluzione di base) che coprono quasi la totalità 
+delle configurazioni degli utenti che navigano su internet non attraverso dispositivi mobile.
+\\Per quanto riguarda risoluzioni più basse e dispositivi mobile, si rimanda ad una versione successiva dello sviluppo.
+\par La struttura del menu mantiene una proporzionalità accettabile con i contenuti informativi in entrambe le risoluzioni considerate. 
 \\Si mostrano due screenshot alle due risoluzioni.
 \begin{figure}[h!]%
-    \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../img/nav1024}
+    \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../../img/nav1024}
     \centering
     \caption{Prototipo: risoluzione 1024px}%
     \label{fig:nav1024}%
 \end{figure}
 
 \begin{figure}[h!]%
-    \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../img/nav1200}
+    \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../../img/nav1200}
     \centering
     \caption{Prototipo: risoluzione 1200px}%
     \label{fig:nav1200}%
 \end{figure}
+Per quanto riguarda la struttura del menu si è scelto di progettarla sotto il paradigma del menu a comparsa, che ci ha permesso di mantenere l'ingombro della barra di navigazione
+al minimo e quindi di non assegnare ulteriore spazio ad un menu laterale per accedere alle sottosezioni.
 
-\newpage
 \section*{Navigazione}
-Per la progettazione delle gabbie laogiche ci si è concentrati nello sviluppo di una struttura delle pagine che consenta di essere ripetibile nelle varie sezioni.
-\par Si è scelto di realizzare per tutte le sezioni una pagina di presentazione che mostri all'utente un digest del contenuto mostrando in anteprima i link 
-più importanti per le sotto sezioni.
-\par Le sotto sezioni sono state strutturate in modo tale da avere sopra la piega tutte le informazioni utili alla navigazione. In alto a sinistra si è inserito un'area destinata 
-a contenere uno slider per le immagini relative alla pagina o a contenere la mappa stradale. Parallelamente il lato destro è stato utilizzato per inserire una breve descrizione,
- nel caso delle pagine delle camere e il link alla prenotazione.
- \par Nella zona appena sotto la piega sono state inserite informazioni meno utili o utilizzate solamente da utenti veramente interessati al loro contenuto.
- \par In ogni modo la struttura del sito grazie alla ripetizione porta l'utente utilizzatore a non perdersi mantenendo alto lo stile del sito.
+Per la progettazione delle gabbie logiche (\autoref{fig:navGL}) ci si è concentrati nello sviluppo di una struttura delle pagine che consenta di essere ripetibile nelle varie sezioni.
+\par Le sotto sezioni sono state strutturate in modo tale da avere sopra la piega tutte le informazioni utili alla navigazione. In alto a sinistra si è inserito un'area 
+destinata a contenere uno slider per le immagini relative alla pagina o a contenere la mappa stradale. Parallelamente il lato destro è stato utilizzato per 
+fornire all'utente informazioni utili sottoforma di lista puntata e una scorciatoia alla prenotazione.
+Si riporta uno screenshot della progettazione degli ingombri per una pagina interna del sito.
+\begin{figure}[h!]%
+    \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../../img/navGabbieLogiche}
+    \centering
+    \caption{Gabbia Logica: ingombro pagina interna}%
+    \label{fig:navGL}%
+\end{figure}
+I test hanno riportato esito negativo sulla scelta iniziale di inserire una ``pre-form'' per la prenotazione nella parte alta della pagina. Quindi si è scelto di spostarla nella parte 
+sotto la piega.
 
 \section*{Etichette}
-Nel documento dei requisiti, sezione 2.1.1 \textit{Architettura informativa}, sono state individuate alcune aree semantiche che si dovevano essere inserite nel sito.
-Si è scelto di mantenere la stessa struttura nelle etichette del menu perchè non si riscontrano problematiche di incoerenza e/o possibili incomprensioni. 
-Dalle etichette del menu l'utente ha da subito una chiara visione di quale sia la sezione semantica su cui si sta dirigendo. 
-\par Rispetto al documento dei requisiti si è scelto di non mostrare tutte le sotto categorie nella pagina di presentazione onde evitare 
-un accumulo di informazioni che sarebbero solamente un appesantimento dei contenuti.
+Nel documento dei requisiti, in allegato alla documentazione, alla sezione \textit{2.1.1 - Architettura informativa}, sono state individuate alcune aree semantiche 
+che dovevano essere inserite nel sito. 
+\par A valle dei test eseguiti sugli utenti la scelta di utilizzare la stessa nomenclatura individuata nello storyboard risulta essere adeguata e non ha sottolineato problematiche tali da rendere necessario
+una riprogettazione delle stesse. I vari utenti a cui è stato sottoposto il sito web hanno mostrato una facilità di navigazione del sito e non hanno riscontrato alcuna difficoltà legata all'ambiguità delle
+etichette rispetto alla pagina web a cui sono legate.
+
 
 \section*{Compatibilità browser}
 Il sito web risulta essere compatibile con i principali browser sul mercato in particolare è stato testato su:
 \begin{itemize}
  \item Chrome
  \item Firefox
+ \item Opera
+ \item Internet Explorer 10
 \end{itemize}
-I browser utilizzati per lo sviluppo sono stati Chrome e Firefox, per quanto riguarda la compatibilità del tema con gli altri principali browser sarà analizzata in una fase successiva.
+La compatibilità con i precedenti browser ci permette di coprire quasi la totalità dei navigatori ``desktop'' di internet.
+\par Per quanto riguarda la compatibilità con browser per mobile, come il browser \textit{safari}, che copre una buona percentuale per quanto riguarda i dispositivi mobile iOS, sarà analizzata successivamente
+quando la parte mobile del sito sarà in fase di sviluppo.
+
 
 \end{document}          

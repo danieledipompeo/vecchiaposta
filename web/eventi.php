@@ -8,9 +8,8 @@ require_once(realpath(dirname(__FILE__)).'/include/view/template/InitGraphic.php
 $main = new Skin("theme");
 InitGraphic::getInstance()->createGraphic($main);
 
-
-$eventiContent = new Content($eventiEntity);
 if(isset($_REQUEST['vp_eventi_id'])){
+    $eventiContent = new Content($eventiEntity, $eventiImageRelation, $imageEntity);
     $eventiTemplate = new Skinlet('single/vp_eventi_single');
     $eventiContent->setFilter('id',$_REQUEST['vp_eventi_id']);
     $eventiContent->forceSingle();

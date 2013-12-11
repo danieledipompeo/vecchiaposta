@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../skins/theme/css/prettyPhoto.css" type="text/css" media="all">
     <link type="text/css" href="../skins/theme/css/jqueryui/jquery.ui.datepicker.css" rel="stylesheet">
     <link rel="stylesheet" href="../skins/theme/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../skins/theme/css/font-awesome.css" type="text/css" media="all">
     <link rel="stylesheet" href="../skins/theme/css/colours/green-brown.css" type="text/css" media="all">
     <link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic,700" rel="stylesheet" type="text/css">
 
@@ -62,7 +63,7 @@
 <div class="content-wrapper">
 
 <!-- BEGIN .content-body -->
-<div class="content-body" >
+<div class="content-body">
 
 <!-- BEGIN #header-google-map -->
 <!--ITALIANO-->
@@ -76,11 +77,11 @@
 
 <!-- BEGIN .top-bar -->
 <div class="top-bar clearfix">
-	<span>F</span>
-	<span>G+</span>
-	<span>Tw</span>
-	<span style="margin-left: 40%;">Marker</span>
-	<span style="float:right;">A aA a</span>
+	<span><i style="font-size: 24px;" class="fa fa-facebook-square"></i></span>
+	<span><i style="font-size: 24px;" class="fa fa-google-plus-square"></i></span>
+	<span><i style="font-size: 24px;" class="fa fa-twitter-square"></i></span>
+	<span style="margin-left: 40%;"><i style="font-size: 24px;" class="fa fa-map-marker"></i></span>
+	<span style="float:right;"><span>A<i style="vertical-align: super;font-size: 10px;" class="fa fa-sort-desc"></i></span> aA  <span>A<i style="vertical-align:top;font-size: 10px;"class="fa fa-sort-asc"></i></span></span>
 </div>
 
 <!-- BEGIN .title-wrapper -->
@@ -98,6 +99,25 @@
 
 <!-- BEGIN #navigation -->
 <!--ITALIANO -->
+<div id="title-wrapper" class="clearfix" style="margin-bottom: 0px; height: 140px;">
+    <div id="logo" style="">
+        <a href="index.html"><img style="margin-left: 90px; position:relative;top:0px;" src="../skins/theme/img/logo.png" alt="logo dell'azienda"></a>
+    </div>
+    <div id="last-offert" style="position:relative;top:0px;">
+        <h1 style="font-size: 20px; border-bottom: 1px solid;">Offerta del mese di dicembre</h1>
+        <a href="navPrenota.html" style="color:#000;">
+            <p style="height:40px; overflow:hidden;margin-top:10px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis feugiat magna, eget mattis turpis
+                convallis ac. Mauris eu dolor tristique, gravida nulla sed, volutpat nisi. In ipsum sem, posuere a
+                sollicitudin ac, sollicitudin eget leo. Vestibulum vestibulum diam at augue facilisis tincidunt. Fusce
+                sit amet urna pharetra ante
+            </p> <span style="font-size: 18px;">Prenota la tua vacanza</span></a>
+    </div>
+    <!-- END .title-wrapper -->
+</div>
+
+<!-- BEGIN #navigation -->
+<!--ITALIANO -->
 <div id="navigation" class="clearfix" style="border-bottom: 0px;padding:0px; width:100%;left:0px;">
 
     <!-- BEGIN #main-menu -->
@@ -107,7 +127,7 @@
         </li>
         <li>
             <a href="navCamere.html" class="sf-with-ul">Camere<span class="sf-sub-indicator"> &raquo;</span></a>
-            <ul style="display: none; visibility: hidden;">
+            <ul style="visibility: hidden; display: none; top: 59.8px;">
                 <li class="text_capitalize">
                     <a href="navCameraSingola.html">Camera singola</a>
                 </li>
@@ -124,7 +144,7 @@
         </li>
         <li>
             <a href="navAttivita.html" class="sf-with-ul">Attivit&agrave;<span class="sf-sub-indicator"> &raquo;</span></a>
-            <ul style="display: none; visibility: hidden;">
+            <ul style="visibility: hidden; display: none; top: 59.8px;">
                 <li class="text_capitalize">
                     <a href="navAttivitaIppovia.html">Ippovia del Gran Sasso</a>
                 </li>
@@ -136,9 +156,9 @@
                 </li>
             </ul>
         </li>
-        <li class="current-menu-item">
+        <li>
             <a href="navEventi.html" class="sf-with-ul">Eventi<span class="sf-sub-indicator"> &raquo;</span></a>
-            <ul style="display: none; visibility: hidden;">
+            <ul style="visibility: hidden; display: none; top: 59.8px;">
                 <li class="text_capitalize">
                     <a href="navEventoPerdonanza.html">Perdonanza Celestiniana</a>
                 </li>
@@ -150,9 +170,9 @@
                 </li>
             </ul>
         </li>
-        <li>
+        <li class="current-menu-item">
             <a href="navDintorni.html" class="sf-with-ul">Dintorni<span class="sf-sub-indicator"> &raquo;</span></a>
-            <ul style="display: none; visibility: hidden;">
+            <ul style="visibility: hidden; display: none; top: 59.8px;">
                 <li class="text_capitalize">
                     <a href="navDintorniAmatrice.html">Amatrice</a>
                 </li>
@@ -160,12 +180,12 @@
                     <a href="navDintorniAquila.html">L'Aquila</a>
                 </li>
                 <li class="text_capitalize">
-                    <a href="navDintorniperdonanza-celestiniana.html">Lago di perdonanza-celestiniana</a>
+                    <a href="navDintorniCampotosto.html">Lago di Campotosto</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="navDoveSiamo.html">Dove Siamo</a>
+            <a href="navPrenota.html">Prenota</a>
         </li>
         <!-- END #main-menu -->
     </ul>
@@ -196,9 +216,9 @@
             <div style="height: 86px; margin-bottom: 10px;" class="block-img1">
 		<img src="../skins/theme/img/beb/perdonanza-celestiniana.jpg" />
             </div>
-            <h3 class="title1">
+            <h3 class="title1" style="border-bottom:0;">
                 <a href="navEventoBefana.html">Fiera della befana</a>
-                <span class="title-end"></span>
+                <!--span class="title-end"></span-->
             </h3>
             <div style="overflow:hidden;text-align: center; height: 206px;" class="section-long-body-preview">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel est mi. Cras eget auctor magna, at eleifend purus. Nunc sit amet ultrices felis, ac egestas ante. Suspendisse consequat nibh eu varius dictum. Vestibulum sapien risus, consectetur consectetur dignissim id, porttitor quis odio. Nullam eget lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<p>
@@ -208,9 +228,9 @@
             <div style="height: 86px; margin-bottom: 10px;" class="block-img1">
 		<img src="../skins/theme/img/beb/perdonanza-celestiniana.jpg" />
             </div>
-            <h3 class="title1">
+            <h3 class="title1" style="border-bottom:0;">
                 <a href="navEventoPerdonanza.html">Perdonanza Celestiniana</a>
-                <span class="title-end"></span>
+                <!--span class="title-end"></span-->
             </h3>
             <div style="overflow:hidden;text-align: center; height: 206px;" class="section-long-body-preview">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel est mi. Cras eget auctor magna, at eleifend purus. Nunc sit amet ultrices felis, ac egestas ante. Suspendisse consequat nibh eu varius dictum. Vestibulum sapien risus, consectetur consectetur dignissim id, porttitor quis odio. Nullam eget lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<p>
@@ -220,9 +240,9 @@
             <div style="height: 86px; margin-bottom: 10px;" class="block-img1">
 		<img src="../skins/theme/img/beb/perdonanza-celestiniana.jpg" />
             </div>
-            <h3 class="title1">
+            <h3 class="title1" style="border-bottom:0;">
                 <a href="navEventoCioccolato.html">La festa della cioccolata</a>
-                <span class="title-end"></span>
+                <!--span class="title-end"></span-->
             </h3>
             <div style="overflow:hidden;text-align: center; height: 206px;" class="section-long-body-preview">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel est mi. Cras eget auctor magna, at eleifend purus. Nunc sit amet ultrices felis, ac egestas ante. Suspendisse consequat nibh eu varius dictum. Vestibulum sapien risus, consectetur consectetur dignissim id, porttitor quis odio. Nullam eget lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<p>

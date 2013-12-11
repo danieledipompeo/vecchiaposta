@@ -12,43 +12,44 @@
                 {$widget_map}
             </div>
             <div class="one-half last-col">
-                <div class="booknow-accompage">
-                    <div class="book-price">
-                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
-                    </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking.php" method="post">
-                        <div class="select-wrapper">
-                            <select id="room" name="vp_room_id">
-                                <option>Prenota una camera</option>
-                                {foreach from=$room_instances item=room}
-                                <option value="{$room->id}">{$room->nome}</option>
-                                {/foreach}
-                            </select>
-                        </div>
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" name="datefrom" placeholder="From" class="input-half datepicker">
-                            <input type="text" id="dateto" name="dateto" placeholder="To" class="input-half input-half-last datepicker">
-                        </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
-                    </form>
+                <h3 class="title1">Descrizione<span class="title-end"></span></h3>
+                {$attivita_instance->descrizione}
+            </div>
+        </div>
+        <!--div class="booknow-accompage">
+            <div class="book-price">
+                <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
+            </div>
+            <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php" method="post">
+                <div class="select-wrapper">
+                    <select id="room" name="vp_room_id">
+                        <option>Prenota una camera</option>
+                        {foreach from=$room_instances item=room}
+                            <option value="{$room->id}">{$room->nome}</option>
+                        {/foreach}
+                    </select>
                 </div>
-                <div class="service-wrapper">
-                    <h3 class="title1">Attivit&agrave;<span class="title-end"></span></h3>
-                    <div class="clearfix">
-                        <div class="one-third servizi-wrapper">
-                            <ul class="list3">
-                                <li>It's coming...</li>
-                                {foreach from=$attivita_instance->vp_room_vp_servizi item=servizi}
-                                <li>{$servizi->id_vp_servizi->nome}</li>
-                                {/foreach}
-                            </ul>
-                        </div>
-                    </div>
+                <div class="clearfix">
+                    <input type="text" id="datefrom" name="datefrom" placeholder="From" class="input-half datepicker">
+                    <input type="text" id="dateto" name="dateto" placeholder="To" class="input-half input-half-last datepicker">
+                </div>
+                <input class="bookbutton" type="submit" value="Prenota" />
+            </form>
+        </div>
+        <div class="service-wrapper">
+            <h3 class="title1">Attivit&agrave;<span class="title-end"></span></h3>
+            <div class="clearfix">
+                <div class="one-third servizi-wrapper">
+                    <ul class="list3">
+                        <li>It's coming...</li>
+                        {foreach from=$attivita_instance->vp_room_vp_servizi item=servizi}
+                            <li>{$servizi->id_vp_servizi->nome}</li>
+                        {/foreach}
+                    </ul>
                 </div>
             </div>
         </div>
-        <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-        <p>{$attivita_instance->descrizione}</p>
+
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

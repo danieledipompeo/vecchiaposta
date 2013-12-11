@@ -543,7 +543,7 @@ li.current-menu-item > a > .sf-sub-indicator{
 }
 
 .sf-shadow ul {
-	background:	url('images/shadow.png') no-repeat bottom right #000;
+	background:	url('../img/shadow.png') no-repeat bottom right #000;
 	padding: 0 8px 9px 0;
 }
 .sf-shadow ul.sf-shadow-off {
@@ -1692,7 +1692,7 @@ span.zoom-wrapper span.zoom {
 	cursor: pointer;
 }
 
-/* 9.1 - Booking Form On Accommodation Single Page */
+/*9.1 - Booking Form On Accommodation Single Page*/
 .booknow-accompage {
 	width: 411px;
 	height: 105px;
@@ -2345,5 +2345,36 @@ PROGETTAZIONE
 #hidden-link div a{
     color: #000;
 }
+
+/*
+    HEADER
+*/
+
+#last-offert .clearfix p strong{
+    font-weight: bold;
+}
+
+#last-offert .clearfix .button2{
+    background: #19B16B;
+    color: #fff;
+}
+
+
+
+/*
+    BOOKING.PHp
+*/
+
+#offerta .offert-wrapper .section-body-preview p strong{
+    font-weight: bold;
+    color: #fff;
+}
+
+#tariffe > table{
+    margin: 0 0 20px 0;
+}
+
+
+
 
 

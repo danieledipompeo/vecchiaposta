@@ -1,0 +1,383 @@
+body{
+    width:100%;
+    background-color: #f9f9f9;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p{
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+
+#content-wrapper{
+    width: 970px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+#head{
+    width: 100%;
+    color: #fff;
+}
+
+#head #social-bar{
+    height: 30px;
+    background-color: #17689D;
+    margin-bottom: 10px;
+}
+
+#head #social-bar #social-link-wrapper{
+    float: left;
+    height: 100%;
+}
+#head #social-bar #social-link-wrapper span{
+    display: inline-block;
+    padding: 5px;
+}
+
+#head #social-bar #controller-font-wrapper{
+    float: right;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#head #logo{
+    width: 190px;
+    margin: auto;
+}
+
+/*** ESSENTIAL STYLES ***/
+
+#main-menu, #main-menu * {
+    margin:			0;
+    padding:		0;
+    list-style:		none;
+}
+#main-menu {
+    line-height:	1.0;
+}
+#main-menu ul {
+    position:		absolute;
+    top:			-999em;
+    width:			17em; /* left offset of submenus need to match (see below) */
+}
+#main-menu ul li {
+    width:			100%;
+}
+#main-menu li:hover {
+    visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+#main-menu li {
+    position:		relative;
+}
+#main-menu a {
+    display:		block;
+    position:		relative;
+}
+#main-menu li:hover ul,
+#main-menu li.sfHover ul {
+    left:			0px;
+    top:			4.7em; /* match top ul list item height */
+    z-index:		99;
+}
+ul#main-menu li:hover li ul,
+ul#main-menu li.sfHover li ul {
+    top:			-999em;
+}
+ul#main-menu li li:hover ul,
+ul#main-menu li li.sfHover ul {
+    left:			17em; /* match ul width */
+    top:			0;
+}
+ul#main-menu li li:hover li ul,
+ul#main-menu li li.sfHover li ul {
+    top:			-999em;
+}
+ul#main-menu li li li:hover ul,
+ul#main-menu li li li.sfHover ul {
+    left:			17em; /* match ul width */
+    top:			0;
+}
+
+#navigation {
+    border-bottom: 9px solid;
+    background-color: #fff;
+    position: relative;
+    left: -20px;
+    width: 920px;
+    padding: 0 40px 0 40px;
+    color: #000;
+    margin: 10px 0;
+    box-shadow: 0 0 4px rgba(136, 136, 136, 1);
+}
+
+#main-menu {
+    max-width: 100%;
+    height: 60px;
+}
+
+#main-menu li {
+    text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+    line-height: 1;
+    height: 100%;
+    width: 161px ;
+}
+
+#main-menu li:last-child{
+    width: 165px;
+}
+
+#main-menu li a {
+    color: inherit;
+    padding: 23px;
+}
+
+#main-menu li span {
+    display: block;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+    margin: 8px 0 0 0;
+    color: #000;
+}
+
+#main-menu li:hover,#main-menu li a:hover {
+    background: #f7f7f7;;
+}
+
+/* 4.2 - SuperFish Drop Down Menu */
+#main-menu li li {
+    padding: 0;
+    border-right: none;
+}
+
+#main-menu li li a {
+    color: #424242;
+    text-transform: capitalize;
+    padding: 13px 15px 13px 15px;
+    border-bottom: #e4e4e4 1px solid;
+}
+
+#main-menu li li a:hover {
+    background: #f7f7f7;
+}
+
+#main-menu ul {
+    border-bottom: 3px solid;
+    box-shadow: 0 0 4px rgba(136, 136, 136, 1);
+    background: #fff;
+    z-index: 9999;
+}
+
+#main-menu li.sfHover a span, #main-menu li.current-menu-item > a, #main-menu li.current_page_item span {
+    color: #000;
+    font-weight: bold;
+}
+
+#main-menu a.sf-with-ul {
+    padding-right: 2.25em;
+    min-width: 1px;
+}
+.sf-sub-indicator {
+    position: absolute;
+    display: block;
+    right: .75em;
+    top: 1.05em;
+    width: 10px;
+    height: 10px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url('../skins/theme/img/arrows2.png') no-repeat -10px -100px;
+}
+a > .sf-sub-indicator {
+    /*top: .8em;  */
+    background-position: 0 -100px;
+}
+
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+    background-position: -10px -100px;
+}
+
+li.current-menu-item > a > .sf-sub-indicator{
+    background-position: -10px -100px;
+}
+
+#main-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+#main-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+#main-menu ul a:focus > .sf-sub-indicator,
+#main-menu ul a:hover > .sf-sub-indicator,
+#main-menu ul a:active > .sf-sub-indicator,
+#main-menu ul li:hover > a > .sf-sub-indicator,
+#main-menu ul li.sfHover > a > .sf-sub-indicator {
+    background-position: -10px 0;
+}
+
+.sf-shadow ul {
+    background:	url('../skins/theme/img/shadow.png') no-repeat bottom right #000;
+    padding: 0 8px 9px 0;
+}
+.sf-shadow ul.sf-shadow-off {
+    background: transparent;
+}
+
+aside{
+    float: right;
+    background-color: #006699;
+    width: 270px;
+    color: #fff;
+}
+
+aside #form-prenotazione h1{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+aside #form-prenotazione{
+    height: 320px;
+}
+
+aside #form-prenotazione form{
+    margin-left: 30px;
+}
+
+aside #form-prenotazione form label{
+    display: block;
+}
+
+aside #offerta{
+
+}
+
+#body{
+    width: 700px;
+    float: left;
+}
+
+#body #slider{
+    height: 320px;
+    margin: 0px 10px 10px 0px;
+    width: 690px;
+    overflow: hidden;
+}
+
+#body p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+#body .img-float-wrapper{
+    float: right;
+    border:1px solid;
+    text-align: center;
+    margin: 10px;
+}
+
+#body .img-float-wrapper img{
+    display: inline-block;
+    width: 200px;
+}
+
+#body .img-float-wrapper span{
+    display: block;
+}
+
+#body #content-body-wrapper{
+    width: 690px;
+}
+
+#body #list-camere li{
+    border-bottom: 4px solid #000;
+    height: 270px;
+}
+
+#body #list-camere li:last-child{
+    border-bottom: 0;
+}
+
+#body #list-camere h1{
+    display: inline-block;
+}
+#body #list-camere .list-camere-title span{
+    float: right;
+    position: relative;
+    top: 34px;
+}
+
+
+#body .img-float-wrapper{
+    float: right;
+    border:1px solid;
+    text-align: center;
+    margin: 10px;
+}
+
+#body .img-float-wrapper img{
+    display: inline-block;
+    width: 200px;
+}
+
+#body .img-float-wrapper span{
+    display: block;
+}
+
+#body #room-gallery{
+    border: 5px solid #251650;
+}
+
+#body #room-gallery .img-float-wrapper{
+    float: left;
+    border:1px solid;
+    text-align: center;
+    margin: 10px;
+}
+
+#footer{
+    background-color: #064670;
+    width: 100%;
+    color: #fff;
+}
+
+#footer #tag{
+    width: 700px;
+    float: left;
+}
+
+#footer #site-map{
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+#footer #credits{
+    height: 40px;
+    background-color: #38566f;
+    text-align: center;
+}
