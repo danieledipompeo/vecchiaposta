@@ -39,7 +39,28 @@
 
 <!-- BEGIN .title-wrapper -->
 <div id="title-wrapper" class="clearfix">
-    <div id="logo">
+    <table style="width:100%; vertical-align: middle;">
+        <tr>
+            <td style="width:50%; text-align: center; ">
+                    <a href="index.php">
+                        <img src="skins/theme/img/logo.png" alt="logo dell'azienda"/>
+                    </a>
+            </td>
+            <td id="last-offert">
+                <h3 class="title1">
+                    <a href="prenota.php">{$offerta_instance->title}</a>
+                    <span class="title-end"></span>
+                </h3>
+                <div class="clearfix">
+                    {$offerta_instance->suggest|truncate:300:'...'}
+                    <div>
+                        <a href="prenota.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--div id="logo">
         <a href="index.php">
             <img src="skins/theme/img/logo.png" alt="logo dell'azienda"/>
         </a>
@@ -50,15 +71,13 @@
                 <a href="prenota.php">{$offerta_instance->title}</a>
                 <span class="title-end"></span>
             </h3>
-            <!-- END .blog-title -->
         </div>
         <div class="clearfix">
             {$offerta_instance->suggest|truncate:300:'...'}
             <div>
                 <a href="prenota.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
             </div>
-            <!-- END .blog-content -->
         </div>
-    </div>
+    </div-->
     <!-- END .title-wrapper -->
 </div>

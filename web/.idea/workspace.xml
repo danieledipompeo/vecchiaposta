@@ -4,7 +4,7 @@
     <list default="true" id="79e42fad-fc6f-4c34-854c-4e8425552d51" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1382365978447" ignored="false" />
+    <file path="/header.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1386868185602" ignored="false" />
     <file path="/gabbiaLogica.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378806843096" ignored="false" />
     <file path="/style.css" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1386776298723" ignored="false" />
     <file path="/gabbiaLogicaCamere.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1378720971590" ignored="false" />
@@ -145,7 +145,7 @@
     <file path="/vp_attivita_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380878631330" ignored="false" />
     <file path="/frame-public-head.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380746618013" ignored="false" />
     <file path="/gmap.js" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380030077062" ignored="false" />
-    <file path="/vp_dintorni_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1386695174549" ignored="false" />
+    <file path="/vp_dintorni_single.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1386867614292" ignored="false" />
     <file path="/widget_map.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380879607438" ignored="false" />
     <file path="/welcome.html" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1381533592797" ignored="false" />
     <file path="/parser.inc.php" changelist="79e42fad-fc6f-4c34-854c-4e8425552d51" time="1380193248341" ignored="false" />
@@ -259,6 +259,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -295,7 +296,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -308,7 +308,7 @@
       <file leaf-file-name="vp_eventi_single.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_eventi_single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-15.625">
+            <state line="25" column="34" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -317,7 +317,7 @@
       <file leaf-file-name="prenota.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prenota.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="58" selection-start="792" selection-end="792" vertical-scroll-proportion="-13.166667">
+            <state line="29" column="58" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -326,21 +326,50 @@
       <file leaf-file-name="booking.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="41" selection-start="5956" selection-end="5956" vertical-scroll-proportion="-15.041667">
+            <state line="99" column="41" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vp_attivita_single.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="48" selection-start="412" selection-end="412" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vp_dintorni_single.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="42" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-15.625">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventi.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eventi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="50" selection-start="648" selection-end="654" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="18" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.33653846">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -349,34 +378,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2356" column="23" selection-start="39965" selection-end="39965" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vp_attivita_single.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="9" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.85795456">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="90" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-18.166666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eventi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="50" selection-start="648" selection-end="654" vertical-scroll-proportion="-9.375">
+            <state line="2154" column="17" selection-start="36945" selection-end="36945" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -407,16 +409,16 @@
         <option value="$PROJECT_DIR$/progettazioneV2/navDintorniAmatrice.html" />
         <option value="$PROJECT_DIR$/progettazioneV2/index.html" />
         <option value="$PROJECT_DIR$/progettazioneV2/navPrenota.html" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/footer.html" />
         <option value="$PROJECT_DIR$/eventi.php" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_eventi_single.html" />
         <option value="$PROJECT_DIR$/include/libs/smarty/templates_c/0197b29824f5e4811a172e98e2cf124336d90f5e.file.vp_attivita_single.html.php" />
         <option value="$PROJECT_DIR$/include/libs/smarty/templates_c/387529538a97686235e6c1b8798252a6af5db2ea.file.sliderHome.html.php" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/booking.html" />
-        <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
-        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
         <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html" />
+        <option value="$PROJECT_DIR$/skins/theme/css/style.css" />
+        <option value="$PROJECT_DIR$/skins/theme/dtml/it/header.html" />
       </list>
     </option>
   </component>
@@ -425,7 +427,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="284" />
+    <option name="y" value="28" />
     <option name="width" value="1366" />
     <option name="height" value="740" />
   </component>
@@ -457,8 +459,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -625,16 +627,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="ftp.vecchiaposta.it" serverId="8c4e98a3-8c2f-42fa-8968-8fb0c670e342">
     <servers>
@@ -686,19 +688,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -727,6 +716,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -740,6 +742,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="8c4e98a3-8c2f-42fa-8968-8fb0c670e342" server_name="ftp.vecchiaposta.it">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -761,16 +773,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="8c4e98a3-8c2f-42fa-8968-8fb0c670e342" server_name="ftp.vecchiaposta.it">
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -812,14 +814,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="284" width="1366" height="740" extended-state="6" />
+    <frame x="0" y="28" width="1366" height="740" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67118645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67118645" order="3" side_tool="false" content_ui="tabs" />
@@ -841,6 +842,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
@@ -924,115 +926,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progettazioneV2/navPrenota.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="24" selection-start="9700" selection-end="9700" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="182" column="24" selection-start="9700" selection-end="9700" vertical-scroll-proportion="-0.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progettazioneV2/navDintorniAmatrice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="27" selection-start="13319" selection-end="14771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="977" selection-end="977" vertical-scroll-proportion="-2.5416667">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="243" column="27" selection-start="13319" selection-end="14771" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="138" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.79545456">
-          <folding />
-        </state>
+        <state line="28" column="138" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.79545456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contents/vecchiaposta/entities/relationEventiFoto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="-4.375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eventi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="648" selection-end="654" vertical-scroll-proportion="-9.375">
+        <state line="15" column="50" selection-start="648" selection-end="654" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/libs/smarty/templates_c/387529538a97686235e6c1b8798252a6af5db2ea.file.sliderHome.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="89" selection-start="2393" selection-end="2393" vertical-scroll-proportion="-3.25">
-          <folding />
-        </state>
+        <state line="56" column="89" selection-start="2393" selection-end="2393" vertical-scroll-proportion="-3.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/libs/smarty/templates_c/0197b29824f5e4811a172e98e2cf124336d90f5e.file.vp_attivita_single.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="94" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.22735675">
-          <folding />
-        </state>
+        <state line="49" column="94" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.22735675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_eventi_single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-15.625">
+        <state line="25" column="34" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prenota.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="58" selection-start="792" selection-end="792" vertical-scroll-proportion="-13.166667">
+        <state line="29" column="58" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="41" selection-start="5956" selection-end="5956" vertical-scroll-proportion="-15.041667">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="90" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-18.166666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2356" column="23" selection-start="39965" selection-end="39965" vertical-scroll-proportion="0.0">
+        <state line="99" column="41" selection-start="5956" selection-end="5956" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_attivita_single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="9" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.85795456">
+        <state line="11" column="48" selection-start="412" selection-end="412" vertical-scroll-proportion="-6.875">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/single/vp_dintorni_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-15.625">
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2154" column="17" selection-start="36945" selection-end="36945" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/theme/dtml/it/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="18" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.33653846">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

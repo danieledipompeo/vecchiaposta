@@ -2,22 +2,33 @@
 <!--ITALIANO-->
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt=""/>
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
     <h2 class="page-title">{$instance->nome}</h2>
-    <div style="background: url(skins/theme/img/beb/book_now_badge.png) no-repeat; width: 118px; height: 118px; position: absolute; top:266px; right:20px;">&nbsp;</div>
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
         <div class="even-cols clearfix">
             <div class="one-half">
                 <!-- BEGIN #map-widget-wrapper -->
-                   {$widget_map}
+                {$widget_map}
             </div>
             <div class="one-half last-col">
-                <h3 class="title1">Descrizione<span class="title-end"></span></h3>
+                <div class="title1">
+                    <h3 style="display: inline-block">Descrizione<span class="title-end"></span></h3>
+                    <div class="widget" style="float: right">
+                        <div class="widget-title clearfix">
+                            <h5 style="padding: 8px;
+                            position: relative;
+                            top: -5px;
+                            right: -47px;">Prenota la tua vacanza</h5>
+                        </div>
+
+                        <!-- END .widget -->
+                    </div>
+                </div>
                 <p>{$instance->descrizione}</p>
             </div>
         </div>
