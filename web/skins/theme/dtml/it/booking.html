@@ -28,6 +28,9 @@
                             {/if}
                         </div>
                         <div class="clearboth"></div>
+                        <div style="color: #fff;font-size: 10px">
+                            <sup>*</sup> Tutti i campi sono obbligatori
+                        </div>
                         <div id="offerta" style="margin-top: 10px;">
                             {if $offerta_instance != null}
                             <div class="offert-wrapper">
@@ -35,7 +38,6 @@
                                     {$offerta_instance->title}
                                     <span class="title-end"></span>
                                 </h3>
-
                                 <div class="section-body-preview" style="color:#9d8c81; font-size:12px">
                                     {$offerta_instance->body}
                                 </div>
@@ -43,7 +45,8 @@
                             {/if}
                         </div>
                     </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking_complete.php"
+                    <div>
+                        <form class="booking-form booking-form-accompage" name="bookroom" action="booking_complete.php"
                           method="post">
                         {if $room_instance->nome != null}
                             <input type="text" value="{$room_instance->nome}" class="text-input" disabled="disabled">
@@ -73,9 +76,12 @@
                                        class="input-half input-half-last datepicker" disabled="disabled"/>
                             {/if}
                         </div>
-                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Full Name';"
-                               onfocus="if(this.placeholder=='Full Name')this.placeholder='';" placeholder="Full Name"
-                               name="book-name" class="text-input"/>
+                        {if $nomecliente == null}
+                            <input type="text" placeholder="Nome e Cognome" name="nomecliente" class="text-input" />
+                        {else}
+                            <input type="text" value="{$nomecliente}" name="nomecliente" class="text-input" />
+                        {/if}
+
                         <input type="text" onblur="if(this.placeholder=='')this.placeholder='Number of People';"
                                onfocus="if(this.placeholder=='Number of People')this.placeholder='';"
                                placeholder="Number of People" name="book-num-people" class="text-input"/>
@@ -89,8 +95,12 @@
                                   onblur="if(this.placeholder=='')this.placeholder='Optional Messager';"
                                   onfocus="if(this.placeholder=='Optional Message')this.placeholder='';"
                                   placeholder="Oprional Message" rows="6"></textarea>
+                        <div style="color: #fff;">
+                            <sup>*</sup>Tutti i dati saranno trattati secondo la "Privacy policy ai sensi dell'art. 13 del d.lgs. 196/2003"
+                            <br /><sup>*</sup> Tutti i campi sono obbligatori
+                        </div>
                         <input class="bookbutton" type="submit" value="Prenota ora"/>
-                    </form>
+                    </form></div>
                 </div>
 
             </div>

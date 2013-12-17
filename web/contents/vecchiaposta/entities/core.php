@@ -12,6 +12,8 @@ require_once realpath(dirname(__FILE__)) . '/entityEventi.php';
 require_once realpath(dirname(__FILE__)) . '/entityDintorni.php';
 require_once realpath(dirname(__FILE__)) . '/entityAttivita.php';
 require_once realpath(dirname(__FILE__)) . '/entityOfferta.php';
+require_once realpath(dirname(__FILE__)) . '/entityTag.php';
+
 require_once realpath(dirname(__FILE__)) . '/relationServiziCamera.php';
 require_once realpath(dirname(__FILE__)) . '/relationCameraFoto.php';
 require_once realpath(dirname(__FILE__)) . '/relationAttivitaFoto.php';
@@ -26,6 +28,7 @@ $eventiEntity->connect();
 $dintorniEntity->connect();
 $attivitaEntity->connect();
 $offertaEntity->connect();
+$tagEntity->connect();
 /*relation*/
 $serviziCameraRelation->connect();
 $cameraImageRelation->connect();

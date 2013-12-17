@@ -32,7 +32,7 @@
       \begin{minipage}{0.8\textwidth}
 	\begin{flushleft} \large
 	  \emph{Autore:} Daniele Di Pompeo \\[0.5cm]
-	  \emph{Versione documento: 1.0}\\[0.5cm]
+	  \emph{Versione documento: 1.2}\\[0.5cm]
 	  \emph{Data emissione del documento: \today}\\[0.5cm]
 	\end{flushleft}
       \end{minipage}
@@ -95,18 +95,24 @@ al minimo e quindi di non assegnare ulteriore spazio ad un menu laterale per acc
 
 \section*{Navigazione}
 Per la progettazione delle gabbie logiche (\autoref{fig:navGL}) ci si è concentrati nello sviluppo di una struttura delle pagine che consenta di essere ripetibile nelle varie sezioni.
-\par Le sotto sezioni sono state strutturate in modo tale da avere sopra la piega tutte le informazioni utili alla navigazione. In alto a sinistra si è inserito un'area 
-destinata a contenere uno slider per le immagini relative alla pagina o a contenere la mappa stradale. Parallelamente il lato destro è stato utilizzato per 
-fornire all'utente informazioni utili sottoforma di lista puntata e una scorciatoia alla prenotazione.
-Si riporta uno screenshot della progettazione degli ingombri per una pagina interna del sito.
+\par Le sotto sezioni sono state strutturate in modo tale da avere sopra la piega tutte le informazioni utili alla navigazione. 
+\\In alto a sinistra si è inserito un'area destinata a contenere uno slider per le immagini relative alla pagina o a contenere la mappa stradale.
+Si è utilizzato la restante area per fornire all'utente una descrizione testuale della sezione desiderata. 
+\\Per quanto riguarda la struttura della pagina descrittiva delle camere si è scelto di inserire nell'area destra una ``pre-form'' per la richiesta di disponibilità 
+e la lista degli optional disponibili nella camera.
+\\Le uniche pagine che hanno una struttura differente sono le pagine delle camere. Per queste pagine web si è scelto di inserire al di sopra della piega oltre ad uno slider anche una
+``pre-form'' per la prenotazione e l'elenco puntato dei servizi disponibili nella camera.
+\\Si riporta uno screenshot della progettazione degli ingombri per una pagina interna del sito.
 \begin{figure}[h!]%
     \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../../img/navGabbieLogiche}
     \centering
     \caption{Gabbia Logica: ingombro pagina interna}%
     \label{fig:navGL}%
 \end{figure}
+\newline 
 I test hanno riportato esito negativo sulla scelta iniziale di inserire una ``pre-form'' per la prenotazione nella parte alta della pagina. Quindi si è scelto di spostarla nella parte 
-sotto la piega.
+sotto la piega. Unica eccezione per le sezioni interne è per le sezioni relative alle camere. Qui invece l'utilizzo della ``pre-form'' ha evidenziato un chiaro riferimento all'intenzione dell'utente
+di effettuare la prenotazione.
 
 \section*{Etichette}
 Nel documento dei requisiti, in allegato alla documentazione, alla sezione \textit{2.1.1 - Architettura informativa}, sono state individuate alcune aree semantiche 

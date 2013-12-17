@@ -13,9 +13,7 @@ if(isset($_REQUEST['vp_eventi_id'])){
     $eventiTemplate = new Skinlet('single/vp_eventi_single');
     $eventiContent->setFilter('id',$_REQUEST['vp_eventi_id']);
     $eventiContent->forceSingle();
-    $eventiContent->apply($eventiTemplate, "eventi");
-    $cameraContent = new Content ($cameraEntity);
-    $cameraContent->apply($eventiTemplate, "room");
+    $eventiContent->apply($eventiTemplate);
     $main->setContent("body", $eventiTemplate->get());
 }else{
     $eventiContent = new Content($eventiEntity, $imageEntity);

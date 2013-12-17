@@ -3,7 +3,9 @@
 
     <!-- BEGIN .widget -->
     <div class="widget">
-
+        <div class="widget-title clearfix">
+            <h5>I nostri partner</h5>
+        </div>
         <table>
             <tr>
                 <td>
@@ -26,7 +28,7 @@
                 <td>
                     <div>
                         <a href="http://www.fiab-onlus.it/" target="_blank" rel="nofollow">
-                            <img src="http://www.vecchiaposta.it/wp-content/themes/fermenti/images/fiab.jpg" border="0">
+                            <img src="http://www.vecchiaposta.it/wp-content/themes/fermenti/images/fiab.jpg" border="0" alt="FIAB onlus" />
                         </a>
                     </div>
                 </td>
@@ -65,20 +67,12 @@
     <!-- BEGIN .widget -->
     <div class="widget">
         <div class="widget-title clearfix">
-            <h5>Site Map</h5>
+            <h5>Tags</h5>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="camere.html">Camere</a></li>
-                <li><a href="attivita.html">Attivit&agrave;</a></li>
-                <li><a href="eventi.php">Eventi</a></li>
-                <li><a href="dintorni.html">Dintorni</a></li>
-                <li><a href="dovesiamo.html">Dove siamo</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
-                <li><a href="prenota.html">Prenota</a> </li>
-            </ul>
-        </nav>
+        <div id="tags" style="height: 318px;" class="jqcloud">
+
+        </div>
 
         <!-- END .widget -->
     </div>
@@ -92,13 +86,18 @@
     <!-- BEGIN .widget -->
     <div class="widget">
         <div class="widget-title clearfix">
-            <h5>Flickr</h5>
+            <h5>Site Map</h5>
         </div>
-
-        <div class="flickr_badge_wrapper clearfix">
-           <h2>It's Coming...</h2>
-        </div>
-
+        <nav>
+            <ul>
+                <li><a href="camere.php">Camere</a></li>
+                <li><a href="attivita.php">Attivit&agrave;</a></li>
+                <li><a href="eventi.php">Eventi</a></li>
+                <li><a href="dintorni.php">Dintorni</a></li>
+                <li><a href="dove-siamo.php">Dove siamo</a></li>
+                <li><a href="prenota.php">Prenota</a> </li>
+            </ul>
+        </nav>
         <!-- END .widget -->
     </div>
 
@@ -112,17 +111,35 @@
 <div id="footer-bottom" class="clearfix">
     <p class="fl">&copy; Copyright 2012</p>
     <ul class="footer-menu fr">
-        <li><a href="index.html">Home</a><span>/</span></li>
+        <li><a href="index.php">Home</a><span>/</span></li>
         <li><a href="prenota.php">Prenota</a><span>/</span></li>
     </ul>
     <!-- END #footer-bottom -->
 </div>
+{literal}
 <script>
-    var $container = $('#container');
-
-    $container.imagesLoaded( function(){
-        $container.isotope({
-            // options...
-        });
+    var word_list = [
+        {text: "L'Aquila", weight: 13},
+        {text: "Amatrice", weight: 10.5},
+        {text: "Perdonanza Celestiniana", weight: 9.4},
+        {text: "Ippovia", weight: 8},
+        {text: "Anello del Lago", weight: 6.2},
+        {text: "Festa del Cioccolato", weight: 5},
+        {text: "Fiera dell'epifania", weight: 8},
+        {text: "Il Gran Sasso", weight: 5.4},
+        {text: "Lago di Campotosto", weight: 5},
+        {text: "L'Aquila", weight: 1},
+        {text: "Amatrice", weight: 2.5},
+        {text: "Cagnano Amiterno", weight: 1.4},
+        {text: "Borbona", weight: 4},
+        {text: "Guardia di Finanza", weight: 3.2},
+        {text: "Ospedale", weight: 4},
+        {text: "Villa Letizia", weight: 2.6},
+        {text: "Trekking", weight: 5.5},
+        {text: "Cavallo", weight: 2}
+    ];
+    $(function() {
+        $("#tags").jQCloud(word_list);
     });
 </script>
+{/literal}

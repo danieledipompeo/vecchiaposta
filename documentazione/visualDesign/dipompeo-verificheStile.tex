@@ -47,31 +47,40 @@
 % \tableofcontents
  
 \begin{abstract}
-Lo scopo del seguente documento è convalidare le scelte di scelte progettate differentemente. 
-La prima parte descriverà la qualità grafica, successivamente verrà posta
-l'attenzione per la compatibilità tra browser e in ultimo ma non meno importante si porrà l'attenzione sul rispetto dei requisiti per l'accessibilità per persone diversamente
-abili.
+In questo documento verranno analizzate e riportate le convalide alle scelte progettuali di visual design prese per il sito web \url{www.vecchiaposta.it}.
+\\Un prima parte descriverà le scelte relative al comporto grafico, nella seconda parte invece si analizzerà il comportamento del sito web attraverso la 
+\textit{cross-browser compatibility}.
+\\In ultimo saranno mostrate le regole di accesibilità che il sito web garantisce.
 \end{abstract}
 
 \section*{Qualità della grafica}
 Per valutare gli aspetti grafici si sono seguite le linee guide più classiche.
-Gli oggetti cliccabili risultano essere tutti distinguibili grazie all'utilizzo di effetti di transizione grafica con attenzione all'utilizzo del cursore ``pointer'' del mouse.
-\par Le varie sezioni del sito risultano essere identificabili grazie ad un effetto grafico sugli elementi del menu (aumento del weight del font).
-\par \'E possibile all'utente modificare la grandezza del font utilizzando i comandi del browser non subendo modifiche al comparto grafico a meno di un eccessivo zoom.
-\par Le varie sezioni del sito mantengono la stessa disposizione degli elementi non causando ``labirintite'' all'utente.
-\par I risultato ottenuti per il download dell'homepage si possono considerare accettabili. \'E stato misurato un tempo di download e formattazione del DOM pari a 1,2sec utilizzando
+
+\begin{itemize}
+ \item Gli oggetti cliccabili risultano essere tutti distinguibili grazie all'utilizzo di effetti di transizione grafica in alcuni casi e utilizzo di colori differenti in altri,
+ con attenzione all'utilizzo del cursore ``pointer'' del mouse.
+ \item Le varie sezioni del sito risultano essere identificabili grazie ad un effetto grafico sugli elementi del menu (aumento del weight del font). 
+ \item Le varie sezioni del sito mantengono la stessa disposizione degli elementi non causando ``labirintite'' all'utente.
+ \item I risultati ottenuti per il download dell'homepage si possono considerare accettabili. \'E stato misurato un tempo di download e formattazione del DOM pari a 1,2sec utilizzando
 una connessione a larga banda (>4Mbit/s). Il tempo di download risulta essere ottimale, secondo i parametri rilasciati da Google inc.
+\end{itemize}
+ 
 \newpage
 \section*{Presentazione della pagina}
-Si nota che alla risoluzione ottimale (1200px di larghezza) l'applicazione web risulta essere completamente prova di scroll orizzontali.
-Anche diminuendo la risoluzione a 1024px di larghezza l'applicazione risulta priva di scroll orizzontali. Le due risoluzioni secondo studio statistico del consorzio W3C 
-copre quasi la totalità degli accessi ad internet. Anche dall'analisi dei dati raccolti da google analytics le due soluzioni risultano copri il 100\% degli utenti che hanno
-utilizzato l'applicazione nella sua vecchia versione.
-Anche aumentando la dimensione dei caratteri, fino ad un massimo del 125\%, risultano essere presenti sopra la piega evitando scroll orizzontali per il loro completo funzionamento.
+Alle due risoluzioni, 1200px e 1024px, prese come risoluzioni base per lo sviluppo del sito web \url{www.vecchiaposta.it} non risultano essere presenti 
+scroll orizzontali ma solamente scroll verticali. 
+\par Le due soluzioni prese in analisi risultano essere da studi statistici del consorzio W3C le due soluzioni maggiormente utilizzate
+nel comparto desktop che utilizza la rete internet. 
+Questo dato è confermato anche dall'analisi dei dati statistici raccolti da google analytics sulla versione attualmente online del sito.
+\par Si è lasciato all'utente la possiilità di modificare la dimensione del carattere, per aiutare utenti ipovedenti ad utilizzare il sito web. In particoalre si è garantito all'utente 
+di modificare la dimensione del carattere del testo descrittivo le varie sezioni. Questo per non incappare in una modifica del layout di alcuni componenti, come la barra di navigazione
+principale, per la quale si è utilizzato un carattere più grande rispetto al carattere base.
 \newpage
 \section*{Indipendenza tra browser}
-L'applicazione web rimane utilizzabile interamente anche tramite l'utilizzo di differenti browser. In particolare l'intero progetto è stato sviluppato in ambiente linux su browser
-della famigli web-kit e moz. Sono stati eseguiti test di usabilità anche sul browser della famigli Internet Explor, in particolare IE8, senza segnale mal funzionamenti.
+Il sito web garantisce la \textit{cross-browser compatibility} rimanendo utilizzabile al 100\% anche tramite l'utilizzo di differenti browser.
+In particolare l'intero progetto è stato sviluppato in ambiente linux su browser chrome, ma sono stati eseguiti test anche di compatibilità con
+il browser Firefox, Opera ed Internet Explorer. L'unico browser non testato al momento è Safari di Apple Inc.
+Di seguito si riportano alcuni screenshot per testimoniare la cross-browser compatibility.
 
 \begin{figure}[h!]%
     \includegraphics[width=0.8\textwidth,keepaspectratio=true]{../img/compChrome}
@@ -110,7 +119,7 @@ della famigli web-kit e moz. Sono stati eseguiti test di usabilità anche sul br
 
 \newpage
 \section*{Utenti disabili}
-Per quanto riguarda l'attenzione all'utilizzo dell'applicazione da utenti diversamente abili si posta l'attenzione al disfunzionalità del daltonismo, simulandone l'utilizzo 
+Per quanto riguarda l'attenzione all'utilizzo dell'applicazione da utenti diversamente abili si è posta l'attenzione al disfunzionalità del daltonismo, simulandone l'utilizzo 
 tramite servizi offerti online. Si riporta uno screenshot di esempio.
 
 \begin{figure}[h!]%
@@ -119,9 +128,10 @@ tramite servizi offerti online. Si riporta uno screenshot di esempio.
     \caption{Distorbo Protanopia}%
     \label{fig:daltonismo}%
 \end{figure}
-\par Non è stato l'unico test eseguito per testare la completa accessibilità dell'applicazione da utenti diversamente abili. Un altro test importante è stato testare l'applicazione
-tramite un browser testuale, nel nostro caso si è utilizzato Lynx disponibile per linux. L'utilizzo di un browser testuale aiuta ad individuare eventuali dimenticanze nel campo alt per 
-le immagini e mostra allo sviluppatore anche il corretto sviluppo dell'applicazione rispettando i canoni dettati dai motori di ricerca per i loro robots.
+\par Non è stato l'unico test eseguito per testare la completa accessibilità dell'applicazione da utenti diversamente abili. 
+Un altro test importante è stato testare l'applicazione tramite un browser testuale, nel nostro caso si è utilizzato Lynx disponibile per linux. 
+L'utilizzo di un browser testuale aiuta ad individuare eventuali dimenticanze nel campo alt per le immagini ed evidenzia il corretto 
+sviluppo dell'applicazione secondo le regole dei motori di ricerca che utilizzano software simili per i loro robots.
 
 \begin{figure}[h!]%
     \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../img/lynx}
@@ -132,7 +142,8 @@ le immagini e mostra allo sviluppatore anche il corretto sviluppo dell'applicazi
 
 \newpage
 \par Un ulteriore test per il check sull'accessibilità del sito è stato disabilitare il caricamento delle immagini e del javascript. Il risultato finale risulta essere non del 
-tutto ottimale ma resta comunque accettabile l'accessibilità. Si riporta di seguito uno screenshot del test.
+tutto ottimale ma resta comunque accettabile. Si riporta di seguito uno screenshot del test. Si fa presente che al momento del test il browser chrome risulta avere un bug 
+noto sul comportamento del campo alternativo alle immagini, si spera che in versioni successive ciò sarà risolto.
 \begin{figure}[h!]%
     \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../img/noJsNoImg}
     \centering
@@ -140,24 +151,27 @@ tutto ottimale ma resta comunque accettabile l'accessibilità. Si riporta di seg
     \label{fig:noJsNoImg}%
 \end{figure}
 
-Per il test della luminostità abbiamo utilizzato la seguente formula:
-\begin{center}
-$\frac{(red*299)+(green*587)+(bluee*114)}{1000} \geq {125}$
-\end{center}
+\newpage
+Si sono eseguiti anche alcuni test relativi alla luminosità del sito web. Questo per garantire la corretta visualizzazionde delle pagine e per permettere una facile lettura dei
+contenuti.
+\\Per il test della luminostità abbiamo utilizzato la seguente formula:
+
+\[\frac{(red*299)+(green*587)+(bluee*114)}{1000} \geq {125}\]
 
 tenstando la luminosità del menu, unico elemento ad avere del testo e un colore di sfondo differente dal bianco, il risultato è stato ottimo:
-\\[1cm]
-\begin{center}
-$\frac{(49*299)+(24*587)+(7*114)}{1000} = 295$
-\end{center}
+
+\[ \frac{(49*299)+(24*587)+(7*114)}{1000} = 295 \]
 
 Per testare la differenza tra il colore del testo e il colore dello sfondo si è eseguito il test rispettando l'equazione:
-\begin{center}
-$[max(red1,red2)-min(red1,red2)]+[max(green1,green2)-min(green1,green2)]+[max(blue1,blue2)-min(blue1,blue2)]\geq{500}$
-\end{center}
+
+
+\[[max(red1,red2)-min(red1,red2)]+ \]
+\[+[max(green1,green2)-min(green1,green2)]+ \] 
+\[+[max(blue1,blue2)-min(blue1,blue2)] \geq{500}\]
+
 ottenendo come risultato
-\begin{center}
-$[244-49]+[244-24]+[244-7]={652}$
-\end{center}
+
+\[[244-49]+[244-24]+[244-7]={652}\]
+
 
 \end{document}          

@@ -42,12 +42,14 @@
                     </div>
                     <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php"
                           method="post">
-                        <input type="hidden" name="vp_room_id" value="{$instance->id}"/>
-                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                        <input type="hidden" name="vp_room_id" value="{$servizi_instance->id}"/>
+                        <input type="hidden" value="{$servizi_instance->nome}" class="text-input" disabled="disabled">
+
+                        <input type="text" placeholder="Nome e Cognome" class="text-input" name="nomecliente"/>
 
                         <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
+                            <input type="text" id="datefrom" placeholder="From" class="input-half datepicker" name="datefrom" />
+                            <input type="text" id="dateto" placeholder="To" class="input-half input-half-last datepicker" name="dateto" />
                         </div>
                         <input class="bookbutton" type="submit" value="Prenota"/>
                     </form>
@@ -56,10 +58,10 @@
                     <h3 class="title1">Serivizi<span class="title-end"></span></h3>
 
                     <div class="clearfix">
-                        <div class="one-third servizi-wrapper">
-                            <ul class="list3">
+                        <div class="one-third servizi-wrapper" style="width: 100%">
+                            <ul class="list3" style="border-bottom: #f4f4f4 1px solid; height: 30px">
                                 {foreach from=$servizi_instance->vp_room_vp_servizi item=servizi}
-                                <li>{$servizi->id_vp_servizi->nome}</li>
+                                <li style="float: left; margin-right: 20px; border-bottom: 0;">{$servizi->id_vp_servizi->nome}</li>
                                 {/foreach}
                             </ul>
                         </div>
@@ -68,8 +70,7 @@
             </div>
         </div>
         <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-
-        <p>{$servizi_instance->descrizione}</p>
+            <span class="editable">{$servizi_instance->descrizione}</span>
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

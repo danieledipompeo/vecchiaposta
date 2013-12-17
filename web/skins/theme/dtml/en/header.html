@@ -11,7 +11,7 @@
 
     <!-- BEGIN .social-icons -->
     <ul class="social-icons fl">
-        <li><a href="https://www.facebook.com/vecchia.posta" target=_blank><span id="facebook_icon" ></span></a></li>
+        <li><a href="https://www.facebook.com/vecchia.posta" target=_blank><span id="facebook_icon"></span></a></li>
         <li><a href="skype:+393479749101?call"><span id="skype_icon"></span></a></li>
         <!-- END .social-icons -->
     </ul>
@@ -27,9 +27,9 @@
     <div class="top-menu-wrapper fr clearfix">
         <a href="prenota.php" class="button1 fl">Prenota ora</a>
         <ul class="top-menu fr">
-            <li><a href="#">a</a><span> /</span></li>
-            <li><a href="#">aA</a><span> /</span></li>
-            <li><a href="#">A</a></li>
+            <li><a href="#" id="font-decrease">a</a><span> /</span></li>
+            <li><a href="#" id="font-default">aA</a><span> /</span></li>
+            <li><a href="#" id="font-increase">A</a></li>
         </ul>
         <!-- END .top-menu-wrapper -->
     </div>
@@ -37,28 +37,27 @@
     <!-- END .top-bar -->
 </div>
 
+
 <!-- BEGIN .title-wrapper -->
-<div id="title-wrapper" class="clearfix">
-    <div id="logo">
-        <a href="index.php">
-            <img src="skins/theme/img/logo.png" alt="logo dell'azienda"/>
-        </a>
-    </div>
-    <div id="last-offert">
-        <div class="clearfix">
+<table id="header-info">
+    <tr>
+        <td style="width:50%; text-align: center; ">
+            <a href="index.php">
+                <img src="skins/theme/img/logo.png" alt="logo dell'azienda" height="114" width="190"/>
+            </a>
+        </td>
+        <td id="last-offert">
             <h3 class="title1">
                 <a href="prenota.php">{$offerta_instance->title}</a>
                 <span class="title-end"></span>
             </h3>
-            <!-- END .blog-title -->
-        </div>
-        <div class="clearfix">
-            {$offerta_instance->suggest|truncate:300:'...'}
-            <div>
-                <a href="prenota.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
+
+            <div class="clearfix">
+                {$offerta_instance->suggest|truncate:300:'...'}
+                <div>
+                    <a href="prenota.php?vp_offerta_id={$offerta_instance->id}" class="button2">Prenota</a>
+                </div>
             </div>
-            <!-- END .blog-content -->
-        </div>
-    </div>
-    <!-- END .title-wrapper -->
-</div>
+        </td>
+    </tr>
+</table>

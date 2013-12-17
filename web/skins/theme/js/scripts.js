@@ -89,4 +89,23 @@ $(document).ready(function() {
 		$('.gmap-btn').toggleClass('gmap-btn-hover');
 
 	});
+
+    // Font controll
+    $("#font-increase").click(function(){
+        var textToModify = $(".editable").children("p");
+        var fontSize = parseInt(textToModify.css('font-size').split('px')[0]);
+        fontSize = fontSize + 1 + "px";
+        textToModify.css("font-size",fontSize);
+    });
+
+    $("#font-decrease").click(function(){
+        var textToModify = $(".editable").children("p");
+        var fontSize = parseInt(textToModify.css('font-size').split('px')[0]);
+        fontSize = fontSize - 1 + "px";
+        textToModify.css("font-size",fontSize);
+    });
+
+    $("#font-default").click(function(){
+        $(".editable").children("p").css("font-size","14px");
+    })
 });

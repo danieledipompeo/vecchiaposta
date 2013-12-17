@@ -2,26 +2,28 @@
 <!--ITALIANO-->
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img class="page-header-img" src="skins/theme/img/beb/camere.jpg" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/camere.jpg" alt=""/>
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
-    <h2 class="page-title">{$instance->nome}</h2>
+    <h2 class="page-title">{$servizi_instance->nome}</h2>
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
         <div class="even-cols clearfix">
             <div class="one-half">
                 <!-- BEGIN #slides -->
-
                 <div id="slides1" class="slide-loader">
                     <!-- BEGIN .slides_container -->
                     <div class="slides_container">
-                        {foreach from=$instance->vp_room_sys_image item=image}
+                        {foreach from=$foto_instance->vp_room_sys_image item=image}
                         <div class="slide">
                             <a href="#">
-                                <img width="450px" height="324px" src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
+                                <img width="450px" height="324px"
+                                     src="data:image/jpg;base64,{$image->id_sys_image->data}"
+                                     alt="{$image->id_sys_image->alt}"/>
                             </a>
+
                             <div class="caption">{$image->id_sys_image->caption}</div>
                         </div>
                         {/foreach}
@@ -35,25 +37,31 @@
             <div class="one-half last-col">
                 <div class="booknow-accompage">
                     <div class="book-price">
-                        <h2 class="price">&euro; {$instance->prezzo}<span class="price-detail">per notte</span></h2>
+                        <h2 class="price">&euro; {$servizi_instance->prezzo}<span class="price-detail">per notte</span>
+                        </h2>
                     </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php" method="post">
-                        <input type="hidden" name="vp_room_id" value="{$instance->id}"/>
-                        <input type="text" value="{$instance->nome}" class="text-input" disabled="disabled">
+                    <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php"
+                          method="post">
+                        <input type="hidden" name="vp_room_id" value="{$servizi_instance->id}"/>
+                        <input type="hidden" value="{$servizi_instance->nome}" class="text-input" disabled="disabled">
+
+                        <input type="text" placeholder="Nome e Cognome" class="text-input" name="nomecliente"/>
+
                         <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
+                            <input type="text" id="datefrom" placeholder="From" class="input-half datepicker" name="datefrom" />
+                            <input type="text" id="dateto" placeholder="To" class="input-half input-half-last datepicker" name="dateto" />
                         </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
+                        <input class="bookbutton" type="submit" value="Prenota"/>
                     </form>
                 </div>
                 <div class="service-wrapper">
                     <h3 class="title1">Serivizi<span class="title-end"></span></h3>
+
                     <div class="clearfix">
-                        <div class="one-third servizi-wrapper">
-                            <ul class="list3">
-                                {foreach from=$instance->vp_room_vp_servizi item=servizi}
-                                <li>{$servizi->id_vp_servizi->nome}</li>
+                        <div class="one-third servizi-wrapper" style="width: 100%">
+                            <ul class="list3" style="border-bottom: #f4f4f4 1px solid; height: 30px">
+                                {foreach from=$servizi_instance->vp_room_vp_servizi item=servizi}
+                                <li style="float: left; margin-right: 20px; border-bottom: 0;">{$servizi->id_vp_servizi->nome}</li>
                                 {/foreach}
                             </ul>
                         </div>
@@ -62,7 +70,7 @@
             </div>
         </div>
         <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-        <p>{$instance->descrizione}</p>
+            <span class="editable">{$servizi_instance->descrizione}</span>
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

@@ -19,7 +19,7 @@
                 <a href="attivita.php?vp_attivita_id={$attivita->id}">{$attivita->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <div class="section-long-body-preview">{$attivita->descrizione|truncate:300:"...":true}</div>
+            <div class="section-long-body-preview editable">{$attivita->descrizione|truncate:300:"...":true}</div>
             <a href="vp_attivita.php?vp_attivita_id={$attivita->id}" class="button2">Maggiori informazioni &raquo;</a>
         </div>
         {/foreach}

@@ -1,13 +1,13 @@
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img class="page-header-img" src="skins/theme/img/beb/booking.jpg" alt="" />
-<!-- END .page-header -->
+    <img class="page-header-img" src="skins/theme/img/beb/booking.jpg" alt=""/>
+    <!-- END .page-header -->
 </div>
 
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
 
-    <h2 class="page-title">Prenotazione</h2>
+    <h2 class="page-title">Prenota la tua vacanza</h2>
 
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
@@ -15,16 +15,39 @@
         <div class="even-cols clearfix">
             <div class="one-half">
                 <div class="booknow-accompage full-booking-form">
-                    <div class="book-price">
-                        {if $offerta_instance != null}
-                            <h2 class="price">&euro;{$offerta_instance->prezzo}<span class="price-detail">totale</span></h2>
-                        {else if $room_instance != null}
-                            <h2 class="price">&euro;{$room_instance->prezzo}<span class="price-detail">per notte</span></h2>
-                        {else}
-                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
-                        {/if}
+                    <div style="float: left; width:151px ;">
+                        <div class="book-price">
+                            {if $offerta_instance != null}
+                                <h2 class="price">&euro;{$offerta_instance->prezzo}<span
+                                            class="price-detail">notte per camera</span></h2>
+                            {else if $room_instance != null}
+                                <h2 class="price">&euro;{$room_instance->prezzo}<span
+                                            class="price-detail">per notte</span></h2>
+                            {else}
+                                <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
+                            {/if}
+                        </div>
+                        <div class="clearboth"></div>
+                        <div style="color: #fff;font-size: 10px">
+                            <sup>*</sup> Tutti i campi sono obbligatori
+                        </div>
+                        <div id="offerta" style="margin-top: 10px;">
+                            {if $offerta_instance != null}
+                            <div class="offert-wrapper">
+                                <h3 class="title1" style="color: #fff;font-size: 20px;">
+                                    {$offerta_instance->title}
+                                    <span class="title-end"></span>
+                                </h3>
+                                <div class="section-body-preview" style="color:#9d8c81; font-size:12px">
+                                    {$offerta_instance->body}
+                                </div>
+                            </div>
+                            {/if}
+                        </div>
                     </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="booking_complete.php" method="post">
+                    <div>
+                        <form class="booking-form booking-form-accompage" name="bookroom" action="booking_complete.php"
+                          method="post">
                         {if $room_instance->nome != null}
                             <input type="text" value="{$room_instance->nome}" class="text-input" disabled="disabled">
                         {else}
@@ -32,64 +55,117 @@
                                 <select id="room" name="id_room">
                                     <option>Prenota una camera</option>
                                     {foreach from=$room_instances item=room}
-                                    <option value="{$room->id}">{$room->nome}</option>
+                                        <option value="{$room->id}">{$room->nome}</option>
                                     {/foreach}
                                 </select>
                             </div>
                         {/if}
                         <div class="clearfix">
                             {if $from == null}
-                                <input type="text" id="datefrom" placeholder="from" name="from" class="input-half datepicker" />
+                                <input type="text" id="datefrom" placeholder="from" name="from"
+                                       class="input-half datepicker"/>
                             {else}
-                                <input type="text" id="datefrom" name="from" value="{$from}" class="input-half datepicker" disabled="disabled" />
+                                <input type="text" id="datefrom" name="from" value="{$from}"
+                                       class="input-half datepicker" disabled="disabled"/>
                             {/if}
                             {if $to == null}
-                                <input type="text" id="dateto" name="to" placeholder="to"class="input-half input-half-last datepicker" />
+                                <input type="text" id="dateto" name="to" placeholder="to"
+                                       class="input-half input-half-last datepicker"/>
                             {else}
-                                <input type="text" id="dateto" name="to" value="{$to}" class="input-half input-half-last datepicker" disabled="disabled" />
+                                <input type="text" id="dateto" name="to" value="{$to}"
+                                       class="input-half input-half-last datepicker" disabled="disabled"/>
                             {/if}
                         </div>
-                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Full Name';" onfocus="if(this.placeholder=='Full Name')this.placeholder='';" placeholder="Full Name" name="book-name" class="text-input" />
-                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Number of People';" onfocus="if(this.placeholder=='Number of People')this.placeholder='';" placeholder="Number of People" name="book-num-people" class="text-input" />
-                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Email Address';" onfocus="if(this.placeholder=='Email Address')this.placeholder='';" placeholder="Email Address" name="book-email" class="text-input" />
-                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Phone Number';" onfocus="if(this.placeholder=='Phone Number')this.placeholder='';" placeholder="Phone Number" name="book-phone" class="text-input" />
-                        <textarea class="text-input" onblur="if(this.placeholder=='')this.placeholder='Optional Messager';" onfocus="if(this.placeholder=='Optional Message')this.placeholder='';" placeholder="Oprional Message" rows="6"></textarea>
-                        <input class="bookbutton" type="submit" value="Prenota ora" />
-                    </form>
+                        {if $nomecliente == null}
+                            <input type="text" placeholder="Nome e Cognome" name="nomecliente" class="text-input" />
+                        {else}
+                            <input type="text" value="{$nomecliente}" name="nomecliente" class="text-input" />
+                        {/if}
+
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Number of People';"
+                               onfocus="if(this.placeholder=='Number of People')this.placeholder='';"
+                               placeholder="Number of People" name="book-num-people" class="text-input"/>
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Email Address';"
+                               onfocus="if(this.placeholder=='Email Address')this.placeholder='';"
+                               placeholder="Email Address" name="book-email" class="text-input"/>
+                        <input type="text" onblur="if(this.placeholder=='')this.placeholder='Phone Number';"
+                               onfocus="if(this.placeholder=='Phone Number')this.placeholder='';"
+                               placeholder="Phone Number" name="book-phone" class="text-input"/>
+                        <textarea class="text-input"
+                                  onblur="if(this.placeholder=='')this.placeholder='Optional Messager';"
+                                  onfocus="if(this.placeholder=='Optional Message')this.placeholder='';"
+                                  placeholder="Oprional Message" rows="6"></textarea>
+                        <div style="color: #fff;">
+                            <sup>*</sup>Tutti i dati saranno trattati secondo la "Privacy policy ai sensi dell'art. 13 del d.lgs. 196/2003"
+                            <br /><sup>*</sup> Tutti i campi sono obbligatori
+                        </div>
+                        <input class="bookbutton" type="submit" value="Prenota ora"/>
+                    </form></div>
                 </div>
+
             </div>
             <div class="one-half last-col">
-                {if $offerta_instance != null}
-                    <div class="offert-wrapper">
-                        <h3 class="title1">
-                            {$offerta_instance->title}
-                            <span class="title-end"></span>
-                        </h3>
-                        <div class="section-body-preview">
-                            {$offerta_instance->body}
-                        </div>
-                    </div>
-                {/if}
+                <div id="tariffe">
+                    <h3 class="title1">
+                        Le nostre tariffe
+                        <span class="title-end"></span>
+                    </h3>
+                    <table class="bordi" width="100%" border="1" cellspacing="0" cellpadding="4">
+                        <tbody>
+                        <tr style="text-align: center; font-weight: bold;" valign="TOP">
+                            <td class="bordi" width="98"><strong>Tipologia</strong></td>
+                            <td class="bordi" style="text-align: center;" width="99"><strong>1-3 Notti</strong></td>
+                            <td class="bordi" style="text-align: center;" width="99"><strong>4+ Notti<br>
+                                </strong></td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Singola</td>
+                            <td class="bordi" width="99">&euro; 30,00</td>
+                            <td class="bordi" width="99">&euro; 25,00</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Doppia</td>
+                            <td class="bordi" style="text-align: center;" width="99">&euro; 50,00</td>
+                            <td class="bordi" width="99">&euro; 45,00</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" style="text-align: center;" width="98">Tripla</td>
+                            <td class="bordi" width="99">non disp.</td>
+                            <td class="bordi" width="99">non disp.</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Quadrupla</td>
+                            <td class="bordi" width="99">non disp.</td>
+                            <td class="bordi" width="99">non disp.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <div class="booking-tutorial">
                     <h3 class="title1">
                         Istruzioni
                         <span class="title-end"></span>
                     </h3>
                     <p>
-                        Riceverete una conferma via email nelle prossime ore. In caso di urgenza si prega di contattarci telefonicamente.
-                        Il prezzo mostrato &egrave; puramente indicativo, riceverete via email la nostra migliore offerta per le vostre esigenze.
-                        Vi chiediamo di specificare eventuali esigenze (orario particolare di arrivo e/o partenza, particolari allergie,
+                        Riceverete una conferma via email nelle prossime ore. In caso di urgenza si prega di contattarci
+                        telefonicamente.
+                        Il prezzo mostrato &egrave; puramente indicativo, riceverete via email la nostra migliore
+                        offerta per le vostre esigenze.
+                        Vi chiediamo di specificare eventuali esigenze (orario particolare di arrivo e/o partenza,
+                        particolari allergie,
                         etc..).
                     </p>
                     <ul>
-                        <li>Per modifiche ad una prenotazione contattare <a href="skype:+393479749101?call">+393479749101</a></li>
-                        <li>Per cancellare una prenotazione contattare <a href=""skype:+393479749101?call"">+393479749101</a></li>
+                        <li>Per modifiche ad una prenotazione contattare <a href="skype:+393479749101?call">+393479749101</a>
+                        </li>
+                        <li>Per cancellare una prenotazione contattare <a href="" skype:+393479749101?call"">+393479749101</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    <!-- END .page-content -->
+        <!-- END .page-content -->
     </div>
 
-<!-- END .section -->
+    <!-- END .section -->
 </div>

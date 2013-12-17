@@ -98,9 +98,10 @@ Per la progettazione delle gabbie logiche (\autoref{fig:navGL}) ci si è concent
 \par Le sotto sezioni sono state strutturate in modo tale da avere sopra la piega tutte le informazioni utili alla navigazione. 
 \\In alto a sinistra si è inserito un'area destinata a contenere uno slider per le immagini relative alla pagina o a contenere la mappa stradale.
 Si è utilizzato la restante area per fornire all'utente una descrizione testuale della sezione desiderata. 
-\\Per quanto riguarda la struttura della pagina descrittiva delle camere si è scelto di inserire nell'area destra una ``pre-form'' per la richiesta di disponibilità e la lista degli optional disponibili nella camera.
-\\Appena sotto la piega per le pagine web delle camere si è inserita la descrizione testuale, mentre per le altre pagine interne (attivià, eventi, dintorni) lo stesso spazio è stato suddiviso
-in due aree una per la lista puntata delle informazioni veloci sulle attività suggerite ed una seconda parte dedicata alla ``pre-form'' per la prenotazione.
+\\Per quanto riguarda la struttura della pagina descrittiva delle camere si è scelto di inserire nell'area destra una ``pre-form'' per la richiesta di disponibilità 
+e la lista degli optional disponibili nella camera.
+\\Le uniche pagine che hanno una struttura differente sono le pagine delle camere. Per queste pagine web si è scelto di inserire al di sopra della piega oltre ad uno slider anche una
+``pre-form'' per la prenotazione e l'elenco puntato dei servizi disponibili nella camera.
 \\Si riporta uno screenshot della progettazione degli ingombri per una pagina interna del sito.
 \begin{figure}[h!]%
     \includegraphics[width=0.9\textwidth,keepaspectratio=true]{../../img/navGabbieLogiche}
@@ -109,17 +110,18 @@ in due aree una per la lista puntata delle informazioni veloci sulle attività s
     \label{fig:navGL}%
 \end{figure}
 \newline 
-I test hanno riportato esito negativo sulla scelta iniziale di inserire una ``pre-form'' per la prenotazione nella parte alta della pagina. Quindi si è scelto di spostarla nella parte 
-sotto la piega. Unica eccezione per le sezioni interne è per le sezioni relative alle camere. Qui invece l'utilizzo della ``pre-form'' ha evidenziato un chiaro riferimento all'intenzione dell'utente
-di effettuare la prenotazione.
+Inizialmete si era pensato di inserire la ``pre-form'' di prenotazione nella parte sopra la piega di tutte le pagine interne, ma i test hanno riportato esito negativo su tale scelta.
+\\Si è progettato allora di inserire nel menu la voce ``Prenota'' al posto della voce ``Dove Siamo'', anche se dai dati statistici di google Analytics risultano esserci pochi click sulla voce del
+menu ``Prenota''. Per ovviare a questo problema e risolvere il problema emerso nei test si è scelto anche di inserire un ``widget'' grafico a fianco del testo descrittivo della pagina interna del 
+sito web come scorciatoia per arrivare alla pagina ``Prenota''.
 
 \section*{Etichette}
 Nel documento dei requisiti, in allegato alla documentazione, alla sezione \textit{2.1.1 - Architettura informativa}, sono state individuate alcune aree semantiche 
 che dovevano essere inserite nel sito. 
-\par A valle dei test eseguiti sugli utenti la scelta di utilizzare la stessa nomenclatura individuata nello storyboard risulta essere adeguata e non ha sottolineato problematiche tali da rendere necessario
-una riprogettazione delle stesse. I vari utenti a cui è stato sottoposto il sito web hanno mostrato una facilità di navigazione del sito e non hanno riscontrato alcuna difficoltà legata all'ambiguità delle
+\par A valle dei test eseguiti sugli utenti la scelta di utilizzare la stessa nomenclatura individuata nello storyboard risulta essere adeguata e non ha sottolineato problematiche tali 
+da rendere necessario una riprogettazione delle stesse. 
+I vari utenti a cui è stato sottoposto il sito web hanno mostrato una facilità di navigazione del sito e non hanno riscontrato alcuna difficoltà legata all'ambiguità delle
 etichette rispetto alla pagina web a cui sono legate.
-
 
 \section*{Compatibilità browser}
 Il sito web risulta essere compatibile con i principali browser sul mercato in particolare è stato testato su:
@@ -132,6 +134,5 @@ Il sito web risulta essere compatibile con i principali browser sul mercato in p
 La compatibilità con i precedenti browser ci permette di coprire quasi la totalità dei navigatori ``desktop'' di internet.
 \par Per quanto riguarda la compatibilità con browser per mobile, come il browser \textit{safari}, che copre una buona percentuale per quanto riguarda i dispositivi mobile iOS, sarà analizzata successivamente
 quando la parte mobile del sito sarà in fase di sviluppo.
-
 
 \end{document}          

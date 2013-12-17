@@ -20,7 +20,7 @@
                 <a href="eventi.php?vp_eventi_id={$evento->id}">{$evento->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <div class="section-long-body-preview">
+            <div class="section-long-body-preview editable">
                     {$evento->descrizione|truncate:300:"...":true}
             </div>
             <p><a href="vp_eventi.php?vp_eventi_id={$evento->id}" class="button2">Maggiori informazioni &raquo;</a></p>

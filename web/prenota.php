@@ -34,6 +34,7 @@ $room->apply($bookingTemplate, 'room');
 $bookingTemplate->setContent('night', $_POST['nights']);
 $bookingTemplate->setContent('from', $_POST['datefrom']);
 $bookingTemplate->setContent('to', $_POST['dateto']);
+$bookingTemplate->setContent('nomecliente', $_POST['nomecliente']);
 
 $main->setContent('body', $bookingTemplate->get());
 $main->close();

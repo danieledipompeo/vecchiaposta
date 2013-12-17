@@ -28,7 +28,7 @@
 #main-menu li:hover ul,
 #main-menu li.sfHover ul {
 	left:			-15px;
-	top:			4.7em; /* match top ul list item height */
+	top:			60px; /* match top ul list item height */
 	z-index:		99;
 }
 ul#main-menu li:hover li ul,

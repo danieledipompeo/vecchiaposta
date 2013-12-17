@@ -36,6 +36,7 @@ class InitGraphic{
 	{
 		$pageEntity = $GLOBALS['sys_page'];
         $menuEntity = $GLOBALS['sys_menu'];
+        $tagEntity = $GLOBALS['vp_tag'];
         $offertaEntity = $GLOBALS[Config::getInstance()->getConfigurations()['database']['prefix'].'offerta'];
         $menuTemplate = new Skinlet('menu');
         $menu = new Content($menuEntity,$menuEntity);
@@ -64,6 +65,8 @@ class InitGraphic{
 
         /*skinlet footer: skins/theme/footer.html*/
         $footer = new Skinlet("footer");
+        $tagContent = new Content($tagEntity);
+        $tagContent->apply($footer, 'tag');
 
         /*funzionalità breadcrump
 
@@ -84,6 +87,7 @@ class InitGraphic{
         $skin->setContent("head", $head->get());
         $skin->setContent("menu", $menuTemplate->get());
         $skin->setContent("header", $header->get());
+
         $skin->setContent("footer", $footer->get());
 	}
 

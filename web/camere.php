@@ -10,10 +10,13 @@ InitGraphic::getInstance()->createGraphic($main);
 
 if(isset($_REQUEST['vp_room_id'])){
     $cameraContent = new Skinlet('single/vp_room_single');
+
     $cameraServiziContent = new Content($cameraEntity, $serviziCameraRelation, $serviziCameraEntity);
     $cameraServiziContent->apply($cameraContent, 'servizi');
+
     $cameraFotoContent = new Content($cameraEntity, $cameraImageRelation, $imageEntity);
     $cameraFotoContent->apply($cameraContent, 'foto');
+
 }
 else{
     $cameraContent = new Content($cameraEntity, $imageEntity);

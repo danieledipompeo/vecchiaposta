@@ -11,6 +11,7 @@ InitGraphic::getInstance()->createGraphic($main);
 
 
 if (isset ($_REQUEST['vp_dintorni_id'])){
+
     $dintorniContent = new Content($dintorniEntity);
     $dintorniTemplate = new Skinlet('single/vp_dintorni_single');
 
@@ -18,11 +19,8 @@ if (isset ($_REQUEST['vp_dintorni_id'])){
     $dintorniContent->setFilter('id', $_REQUEST['vp_dintorni_id']);
     $dintorniContent->forceSingle();
     $dintorniContent->apply($mapWidget, 'map');
-
-    $cameraContent = new Content($cameraEntity);
-    $cameraContent->apply($dintorniTemplate, 'room');
-
     $dintorniTemplate->setContent('widget_map', $mapWidget->get());
+
     $dintorniContent->apply($dintorniTemplate);
     $main->setContent("body", $dintorniTemplate->get());
 }else{

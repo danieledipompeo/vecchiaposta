@@ -13,16 +13,16 @@ if (isset($_REQUEST['vp_attivita_id']) ){
     $attivitaTemplate = new Skinlet('single/vp_attivita_single');
     $attivitaContent->setFilter('id',$_REQUEST['vp_attivita_id']);
     $attivitaContent->forceSingle();
-    $attivitaContent->apply($attivitaTemplate, 'attivita');
+
 
     $mapWidget = new Skinlet('widget/widget_map');
+    $attivitaContent = new Content($attivitaEntity);
     $attivitaContent->setFilter('id', $_REQUEST['vp_attivita_id']);
     $attivitaContent->forceSingle();
     $attivitaContent->apply($mapWidget, 'map');
-
     $attivitaTemplate->setContent('widget_map', $mapWidget->get());
-    $cameraContent = new Content($cameraEntity);
-    $cameraContent->apply($attivitaTemplate, 'room');
+
+    $attivitaContent->apply($attivitaTemplate);
     $main->setContent("body", $attivitaTemplate->get());
 
 }else{

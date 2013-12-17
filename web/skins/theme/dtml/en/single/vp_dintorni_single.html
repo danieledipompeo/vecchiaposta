@@ -2,57 +2,38 @@
 <!--ITALIANO-->
 <!-- BEGIN .page-header -->
 <div class="page-header">
-    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt="" />
+    <img class="page-header-img" src="skins/theme/img/beb/dintorni.jpg" alt=""/>
     <!-- END .page-header -->
 </div>
 <!-- BEGIN .section -->
 <div class="section page-full clearfix">
-    <h2 class="page-title">{$instance->nome}</h2>
+    <h2 class="page-title" style="font-weight: bold; padding: 20px 0 20px 20px">{$instance->nome}</h2>
     <!-- BEGIN .page-content -->
     <div class="page-content page-content-full">
         <div class="even-cols clearfix">
             <div class="one-half">
                 <!-- BEGIN #map-widget-wrapper -->
-                   {$widget_map}
+                {$widget_map}
             </div>
             <div class="one-half last-col">
-                <div class="booknow-accompage">
-                    <div class="book-price">
-                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
-                    </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php" method="post">
-                        <div class="select-wrapper">
-                            <select id="room" name="id_room">
-                                <option>Prenota una camera</option>
-                                {foreach from=$room_instances item=room}
-                                <option value="{$room->id}">{$room->nome}</option>
-                                {/foreach}
-                            </select>
+                <div class="title1">
+                    <h3 style="display: inline-block">Descrizione<span class="title-end"></span></h3>
+
+                    <!-- PRENOTA WIDGET
+                        ==========================================-->
+                    <a href="prenota.php">
+                        <div class="widget" style="float: right;position: absolute;top: -13px;right: -50px; ">
+                            <div class="widget-title clearfix">
+                                <h5 style="padding: 8px;">Prenota la tua vacanza</h5>
+                            </div>
                         </div>
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
-                        </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
-                    </form>
+                        <!-- END .widget -->
+                    </a>
+
                 </div>
-                <div class="service-wrapper">
-                    <h3 class="title1">Serivizi<span class="title-end"></span></h3>
-                    <div class="clearfix">
-                        <div class="one-third servizi-wrapper">
-                            <ul class="list3">
-                                <li>It's coming..</li>
-                                {foreach from=$instance->vp_room_vp_servizi item=servizi}
-                                <li>{$servizi->id_vp_servizi->nome}</li>
-                                {/foreach}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <span class="editable">{$instance->descrizione}</span>
             </div>
         </div>
-        <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-        <p>{$instance->descrizione}</p>
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

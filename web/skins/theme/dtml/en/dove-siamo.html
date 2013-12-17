@@ -17,7 +17,12 @@
                         $(document).ready(function initializeMap() {
                             var mapOptions = {
                                 center: new google.maps.LatLng(42.458049,13.232913),
-                                zoom:17 ,
+                                zoom:17,
+                                navigationControl: false,
+                                mapTypeControl: false,
+                                scaleControl: false,
+                                draggable: false,
+                                scrollwheel: false,
                                 mapTypeId: google.maps.MapTypeId.SATELLITE
                             };
                             mapWidget = new google.maps.Map(document.getElementById("map-widget"),mapOptions);
@@ -33,54 +38,26 @@
                 </div>
             </div>
             <div class="one-half last-col">
-                <div class="booknow-accompage">
-                    <div class="book-price">
-                        <h2 class="price"><span class="cheap-price-detail">a partire da</span>&euro; 30</h2>
-                    </div>
-                    <form class="booking-form booking-form-accompage" name="bookroom" action="prenota.php" method="post">
-                        <div class="select-wrapper">
-                            <select id="room" name="id_room">
-                                <option>Prenota una camera</option>
-                                {foreach from=$room_instances item=room}
-                                <option value="{$room->id}">{$room->nome}</option>
-                                {/foreach}
-                            </select>
+                <div class="title1">
+                    <h3 style="display: inline-block">Descrizione<span class="title-end"></span></h3>
+
+                    <!-- PRENOTA WIDGET
+                        ==========================================-->
+                    <a href="prenota.php">
+                        <div class="widget" style="float: right">
+                            <div class="widget-title clearfix">
+                                <h5 style="padding: 8px;
+                            position: relative;
+                            top: -5px;
+                            right: -47px;">Prenota la tua vacanza</h5>
+                            </div>
                         </div>
-                        <div class="clearfix">
-                            <input type="text" id="datefrom" value="From" class="input-half datepicker">
-                            <input type="text" id="dateto" value="To" class="input-half input-half-last datepicker">
-                        </div>
-                        <input class="bookbutton" type="submit" value="Prenota" />
-                    </form>
+                        <!-- END .widget -->
+                    </a>
+
                 </div>
-                <div class="service-wrapper">
-                    <h3 class="title1">Serivizi<span class="title-end"></span></h3>
-                    <div class="clearfix">
-                        <div class="one-third servizi-wrapper">
-                            <ul class="list3">
-                             <li>It's coming...</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                {$page_instance->body}
             </div>
-        </div>
-        <div class="description-wrapper">
-            <h3 class="title1">Descrizione<span class="title-end"></span></h3>
-            <p>Il territorio di Cagnano Amiterno si estende in un comprensorio montuoso articolato e caratterizzato
-                da profonde valli scavate dai torrenti che confluiscono nell&rsquo;Aterno. Da visitare:
-                la Chiesa di San Cosimo (o Cosma, anteriore al sec. XII),
-                la Chiesa di San Sebastiano a Collicello (sec. XVI), la Chiesa di San Giovanni (sec. XVI) e
-                Santa Maria (sec. XVII) a San Giovanni. Succestivo il castello di Cascina (resti, sec. XII)
-                nella piana di cascina, il casale fortificato Dragonetti a Cascina (sec. XVII).</p>
-                <p>Nella frazione Corruccioni &egrave; da non perdere uno splendido esemplare di quercus pubescens,
-                dal diametro di 7 metri e cavo all&rsquo;interno dove riposano e vivono insetti e animali notturni,
-                chiamato la Quercia di zi&rsquo; C&ograve; dal sopranome del suo vecchio proprietario.
-                La grande quercia &egrave; stata censita nel volume &ldquo;Abruzzo: 60 alberi da salvare&rdquo;.</p>
-                <p>Per raggiungerci dal centro della citt&agrave; o dall&rsquo;autostrada A24 si attraversa
-                l&rsquo;antica citt&agrave; romana &ldquo;Amiternum&rdquo; dove si possono ammirare le rovine
-                del teatro e dell&rsquo;anfiteatro, spostando lo sguardo sulla collina di San Vittorino si intravede
-                la torre di avvistamento d&rsquo;epoca romana.</p>
         </div>
         <!-- END .page-content -->
     </div>
