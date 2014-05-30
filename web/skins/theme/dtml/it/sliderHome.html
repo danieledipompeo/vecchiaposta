@@ -6,9 +6,7 @@
         {if $slider_instance != null}
             {foreach $slider_instance->sys_image_sys_slider item=image}
             <div class="slide">
-                <a href="accommodation-single.html">
                     <img width="960" height="420" src="data:image/jpg;base64,{$image->id_sys_image->data}" alt="{$image->id_sys_image->alt}" />
-                </a>
                 <div class="caption">{$image->id_sys_image->caption}</div>
             </div>
             {/foreach}
@@ -30,8 +28,8 @@
                 </select>
             </div>
             <div class="clearfix">
-                <input type="text" id="datefrom" name="datefrom" placeholder="from" class="input-half datepicker">
-                <input type="text" id="dateto" name="dateto" placeholder="to" class="input-half input-half-last datepicker">
+                <input type="text" id="datefrom" name="datefrom" placeholder="da" class="input-half datepicker">
+                <input type="text" id="dateto" name="dateto" placeholder="a" class="input-half input-half-last datepicker">
             </div>
             <input class="bookbutton" type="submit" value="Prenota ora" />
         </form>

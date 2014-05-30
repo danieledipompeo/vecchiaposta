@@ -61,20 +61,23 @@ Per valutare gli aspetti grafici si sono seguite le linee guide più classiche.
  con attenzione all'utilizzo del cursore ``pointer'' del mouse.
  \item Le varie sezioni del sito risultano essere identificabili grazie ad un effetto grafico sugli elementi del menu (aumento del weight del font). 
  \item Le varie sezioni del sito mantengono la stessa disposizione degli elementi non causando ``labirintite'' all'utente.
- \item I risultati ottenuti per il download dell'homepage si possono considerare accettabili. \'E stato misurato un tempo di download e formattazione del DOM pari a 1,2sec utilizzando
-una connessione a larga banda (>4Mbit/s). Il tempo di download risulta essere ottimale, secondo i parametri rilasciati da Google inc.
+ \item I risultati ottenuti per il download dell'homepage si possono considerare accettabili. Si è eseguito un test utilizzando il servizio on-line offerto da \url{tools.pingdom.com/}
+ di cui si riporta un screenshot.
+ \begin{figure}[h!]%
+    \includegraphics[width=0.8\textwidth,keepaspectratio=true]{../img/verificaAccessibilita}
+    \centering
+    \caption{Velocità di caricamento del DOM}%
+    \label{fig:velAccesso}%
+\end{figure}
+
 \end{itemize}
  
 \newpage
 \section*{Presentazione della pagina}
 Alle due risoluzioni, 1200px e 1024px, prese come risoluzioni base per lo sviluppo del sito web \url{www.vecchiaposta.it} non risultano essere presenti 
 scroll orizzontali ma solamente scroll verticali. 
-\par Le due soluzioni prese in analisi risultano essere da studi statistici del consorzio W3C le due soluzioni maggiormente utilizzate
-nel comparto desktop che utilizza la rete internet. 
-Questo dato è confermato anche dall'analisi dei dati statistici raccolti da google analytics sulla versione attualmente online del sito.
-\par Si è lasciato all'utente la possiilità di modificare la dimensione del carattere, per aiutare utenti ipovedenti ad utilizzare il sito web. In particoalre si è garantito all'utente 
-di modificare la dimensione del carattere del testo descrittivo le varie sezioni. Questo per non incappare in una modifica del layout di alcuni componenti, come la barra di navigazione
-principale, per la quale si è utilizzato un carattere più grande rispetto al carattere base.
+\par Le due risoluzioni risultano essere, da studi statistici del consorzio W3C sull'accessibilità del web, le due soluzioni maggiormente utilizzate nel comparto desktop. 
+
 \newpage
 \section*{Indipendenza tra browser}
 Il sito web garantisce la \textit{cross-browser compatibility} rimanendo utilizzabile al 100\% anche tramite l'utilizzo di differenti browser.
@@ -152,7 +155,11 @@ noto sul comportamento del campo alternativo alle immagini, si spera che in vers
 \end{figure}
 
 \newpage
-Si sono eseguiti anche alcuni test relativi alla luminosità del sito web. Questo per garantire la corretta visualizzazionde delle pagine e per permettere una facile lettura dei
+\par Per garantire l'usabilità del sito web agli utenti ipovedenti si è implementata la funzionalità di controllo sulla dimensione del font della pagina.
+In particolare si è garantito all'utente di modificare la dimensione del carattere del testo descrittivo le varie sezioni. 
+\\Questo per non incappare in una modifica del layout di alcuni componenti, come la barra di navigazione
+principale, per la quale si è utilizzato un carattere più grande rispetto al carattere base.
+\par Si sono eseguiti anche alcuni test relativi alla luminosità del sito web. Questo per garantire la corretta visualizzazionde delle pagine e per permettere una facile lettura dei
 contenuti.
 \\Per il test della luminostità abbiamo utilizzato la seguente formula:
 

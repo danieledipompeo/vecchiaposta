@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../skins/theme/css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="../skins/theme/css/font-awesome.css" type="text/css" media="all">
     <link rel="stylesheet" href="../skins/theme/css/colours/green-brown.css" type="text/css" media="all">
-    <link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic,700" rel="stylesheet" type="text/css">
+    <!--link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic,700" rel="stylesheet" type="text/css"-->
 
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -28,7 +28,7 @@
     <script type="text/javascript" src="../skins/theme/js/jquery.ui.widget.js"></script>
     <script type="text/javascript" src="../skins/theme/js/jquery.ui.datepicker.js"></script>
     <script type="text/javascript" src="../skins/theme/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="../skins/theme/js/superfish.js"></script>
+    <script type="text/javascript" src="../skins/theme/js/superfish12.js"></script>
     <script type="text/javascript" src="../skins/theme/js/slides.min.jquery.js"></script>
     <script type="text/javascript" src="../skins/theme/js/scripts.js"></script>
 
@@ -86,14 +86,22 @@
 
 <!-- BEGIN .title-wrapper -->
 <div id="title-wrapper" class="clearfix" style="margin-bottom: 0px; height: 140px;">
-    <div id="logo" style="">
-        <a href="index.html"><img style="margin-left: 90px; position:relative;top:0px;" src="../skins/theme/img/logo.png" alt="logo dell'azienda"></a>
-    </div>
-    <div id="last-offert" style="position:relative;top:0px;">
-        <h1 style="font-size: 20px; border-bottom: 1px solid;">Offerta del mese di dicembre</h1>
-        <a href="navPrenota.html" style="color:#000;"><p style="height:40px; overflow:hidden;margin-top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis feugiat magna, eget mattis turpis convallis ac. Mauris eu dolor tristique, gravida nulla sed, volutpat nisi. In ipsum sem, posuere a sollicitudin ac, sollicitudin eget leo. Vestibulum vestibulum diam at augue facilisis tincidunt. Fusce sit amet urna pharetra ante</p>
-            <span style="font-size: 18px;">Prenota la tua vacanza</span></a>
-    </div>
+    <table>
+        <td style="width: 50%;">
+            <div id="logo" style="">
+                <a href="index.html"><img style="margin-left: 90px; position:relative;top:0px;" src="../skins/theme/img/logo.png" alt="logo dell'azienda"></a>
+            </div>
+        </td>
+        <td>
+            <div id="last-offert" style=" position:relative;top:0px;">
+                <h1 style="font-size: 20px; border-bottom: 1px solid;">Offerta del mese di dicembre</h1>
+                <a href="navPrenota.html" style="color:#000;">
+                    <p style="height:40px; overflow:hidden;margin-top:10px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis feugiat magna, eget mattis turpis convallis ac. Mauris eu dolor tristique, gravida nulla sed, volutpat nisi. In ipsum sem, posuere a sollicitudin ac, sollicitudin eget leo. Vestibulum vestibulum diam at augue facilisis tincidunt. Fusce sit amet urna pharetra ante
+                    </p> <span style="font-size: 18px;">Prenota la tua vacanza</span></a>
+            </div>
+        </td>
+    </table>
     <!-- END .title-wrapper -->
 </div>
 
@@ -233,6 +241,39 @@
                 </div>
             </div>
             <div class="one-half last-col">
+                <div>
+                    <h3 class="title1" style="border-bottom:0;  margin-top:12px">Le nostre tariffe<!--span class="title-end"></span--></h3>
+                    <table class="bordi" width="100%" border="1" cellspacing="0" cellpadding="4" style="border: 2px solid #19B16B;">
+                        <tbody>
+                        <tr style="text-align: center;font-weight: bold;" valign="TOP">
+                            <td class="bordi" width="98"><strong>Camera</strong></td>
+                            <td class="bordi" style="text-align: center;" width="99"><strong>1-3 Notti</strong></td>
+                            <td class="bordi" style="text-align: center;" width="99"><strong>4+ Notti<br>
+                                </strong></td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Singola</td>
+                            <td class="bordi" width="99">&euro; 30,00</td>
+                            <td class="bordi" width="99">&euro; 25,00</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Doppia</td>
+                            <td class="bordi" style="text-align: center;" width="99">&euro; 50,00</td>
+                            <td class="bordi" width="99">&euro; 45,00</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" style="text-align: center;" width="98">Tripla</td>
+                            <td class="bordi" width="99">non disp.</td>
+                            <td class="bordi" width="99">non disp.</td>
+                        </tr>
+                        <tr style="text-align: center;" valign="TOP">
+                            <td class="bordi" width="98">Quadrupla</td>
+                            <td class="bordi" width="99">non disp.</td>
+                            <td class="bordi" width="99">non disp.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <div class="booking-tutorial">
                     <h3 class="title1" style="border-bottom:0;">
                         Istruzioni
@@ -249,39 +290,6 @@
                         <li>Per cancellare una prenotazione contattare <a href="" skype:+393479749101?call""="">+393479749101</a></li>
                     </ul>
                 </div>
-		<div>
-			<h3 class="title1" style="border-bottom:0;  margin-top:12px">Le nostre tariffe<!--span class="title-end"></span--></h3>
-			<table class="bordi" width="100%" border="1" cellspacing="0" cellpadding="4" style="border: 2px solid #19B16B;">
-				<tbody>
-				<tr style="text-align: center;font-weight: bold;" valign="TOP">
-				<td class="bordi" width="98"><strong>Camera</strong></td>
-				<td class="bordi" style="text-align: center;" width="99"><strong>1-3 Notti</strong></td>
-				<td class="bordi" style="text-align: center;" width="99"><strong>4+ Notti<br>
-				</strong></td>
-				</tr>
-				<tr style="text-align: center;" valign="TOP">
-				<td class="bordi" width="98">Singola</td>
-				<td class="bordi" width="99">&euro; 30,00</td>
-				<td class="bordi" width="99">&euro; 25,00</td>
-				</tr>
-				<tr style="text-align: center;" valign="TOP">
-				<td class="bordi" width="98">Doppia</td>
-				<td class="bordi" style="text-align: center;" width="99">&euro; 50,00</td>
-				<td class="bordi" width="99">&euro; 45,00</td>
-				</tr>
-				<tr style="text-align: center;" valign="TOP">
-				<td class="bordi" style="text-align: center;" width="98">Tripla</td>
-				<td class="bordi" width="99">non disp.</td>
-				<td class="bordi" width="99">non disp.</td>
-				</tr>
-				<tr style="text-align: center;" valign="TOP">
-				<td class="bordi" width="98">Quadrupla</td>
-				<td class="bordi" width="99">non disp.</td>
-				<td class="bordi" width="99">non disp.</td>
-				</tr>
-				</tbody>
-				</table>
-		</div>
             </div>
         </div>
         <!-- END .page-content -->

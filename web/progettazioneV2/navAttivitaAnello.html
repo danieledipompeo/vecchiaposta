@@ -28,7 +28,7 @@
     <script type="text/javascript" src="../skins/theme/js/jquery.ui.widget.js"></script>
     <script type="text/javascript" src="../skins/theme/js/jquery.ui.datepicker.js"></script>
     <script type="text/javascript" src="../skins/theme/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="../skins/theme/js/superfish.js"></script>
+    <script type="text/javascript" src="../skins/theme/js/superfish12.js"></script>
     <script type="text/javascript" src="../skins/theme/js/slides.min.jquery.js"></script>
     <script type="text/javascript" src="../skins/theme/js/scripts.js"></script>
 
@@ -86,19 +86,22 @@
 
 <!-- BEGIN .title-wrapper -->
 <div id="title-wrapper" class="clearfix" style="margin-bottom: 0px; height: 140px;">
-    <div id="logo" style="">
-        <a href="index.html"><img style="margin-left: 90px; position:relative;top:0px;" src="../skins/theme/img/logo.png" alt="logo dell'azienda"></a>
-    </div>
-    <div id="last-offert" style="position:relative;top:0px;">
-        <h1 style="font-size: 20px; border-bottom: 1px solid;">Offerta del mese di dicembre</h1>
-        <a href="navPrenota.html" style="color:#000;">
-            <p style="height:40px; overflow:hidden;margin-top:10px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis feugiat magna, eget mattis turpis
-                convallis ac. Mauris eu dolor tristique, gravida nulla sed, volutpat nisi. In ipsum sem, posuere a
-                sollicitudin ac, sollicitudin eget leo. Vestibulum vestibulum diam at augue facilisis tincidunt. Fusce
-                sit amet urna pharetra ante
-            </p> <span style="font-size: 18px;">Prenota la tua vacanza</span></a>
-    </div>
+    <table>
+        <td style="width: 50%;">
+            <div id="logo" style="">
+                <a href="index.html"><img style="margin-left: 90px; position:relative;top:0px;" src="../skins/theme/img/logo.png" alt="logo dell'azienda"></a>
+            </div>
+        </td>
+        <td>
+            <div id="last-offert" style=" position:relative;top:0px;">
+                <h1 style="font-size: 20px; border-bottom: 1px solid;">Offerta del mese di dicembre</h1>
+                <a href="navPrenota.html" style="color:#000;">
+                    <p style="height:40px; overflow:hidden;margin-top:10px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis feugiat magna, eget mattis turpis convallis ac. Mauris eu dolor tristique, gravida nulla sed, volutpat nisi. In ipsum sem, posuere a sollicitudin ac, sollicitudin eget leo. Vestibulum vestibulum diam at augue facilisis tincidunt. Fusce sit amet urna pharetra ante
+                    </p> <span style="font-size: 18px;">Prenota la tua vacanza</span></a>
+            </div>
+        </td>
+    </table>
     <!-- END .title-wrapper -->
 </div>
 
@@ -207,7 +210,12 @@
             </div>
             <div id="hidden-link" class="one-half last-col" style="height: 354px;">
                 <div class="" style="overflow: visible; margin-top: 0px;">
-                    <h3 class="title1">Descrizione<!--span class="title-end"></span--></h3>
+                    <div class="title1">
+                        <h3 style="display: inline-block">Descrizione<!--span class="title-end"></span--></h3>
+                        <span style="float: right">
+                            <a href="navPrenota.html">Prenota</a>
+                        </span>
+                    </div>
                    	<p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec urna vitae ante lacinia
                             commodo. Phasellus arcu ipsum, posuere varius nulla non, lacinia mollis neque. Donec at
@@ -223,62 +231,7 @@
                 </div>
             </div>
         </div>
-        <h3 class="title1">Attivit&agrave;<span class="title-end"></span-></h3>
-        <div style="width: 70%;">
-            <ul class="list3" style="float:left;width: 30%;">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
-            <ul class="list3" style="float:left;width: 30%;">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
-            <ul class="list3" style="float:left;width: 30%;">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
         </div>
-        <div style="height: 189px;
-                    margin-bottom: 10px;
-                    float: right;
-                    background-color: #49392E;
-                    padding: 20px;
-                    color: #fff;">
-            <div class="book-price">
-                <h2 class="price" style="text-align: center;">Prenota la tua camera<span style="display: block; text-align: center;">a partire da 30&euro;</span></h2>
-            </div>
-            <form class="booking-form booking-form-accompage" name="bookroom" action="navPrenota.html" method="post">
-                <div class="select-wrapper">
-                    <select id="room" name="vp_room_id">
-                        <option>Prenota una camera</option>
-                        <option value="1">Camera Singola</option>
-                        <option value="2">Camera Doppia</option>
-                        <option value="3">Camera Tripla</option>
-                        <option value="4">Camera Quadrupla</option>
-                    </select>
-                </div>
-                <div class="clearfix">
-                    <input type="text" id="datefrom" value="From" class="input-half datepicker hasDatepicker">
-                    <input type="text" id="dateto" value="To"
-                           class="input-half input-half-last datepicker hasDatepicker">
-                </div>
-                <input class="bookbutton" type="submit" value="Completa la tua prenotazione"
-                       style="margin: auto;
-                       display: block;
-                       padding: 10px;
-                       margin-top: 8px;">
-            </form>
-        </div>
-        </div-->
         <!-- END .page-content -->
     </div>
     <!-- END .section -->

@@ -32,7 +32,7 @@ $mail->Body    = '<div>
     <img src="cid:logoimg" alt="Logo del B&B La Vecchia Posta" width="200" height="150">
 </div-->
 <br>
-<div>Gentile '.$_POST['book_name'].'</div>
+<div>Gentile '.$_POST['nomecliente'].'</div>
 <p>le confermiamo la ricezione della sua richiesta.
 Nelle prossime ore riceverà la nostra migliore offerta in riferimento alla sua rihciesta.</p>
 <p>le invio i nostri recapiti telefonici:</p>
@@ -68,4 +68,38 @@ if(!$mail->Send()) {
    echo 'Mailer Error: ' . $mail->ErrorInfo;
    exit;
 }
+
+
+
+$mail->From = 'info@vecchiaposta.it';
+$mail->FromName = 'Richiesta dal sito web';
+$mail->AddAddress($_POST['book-email']);  // Add a recipient
+$mail->IsHTML(true);                                  // Set email format to HTML
+
+$mail->Subject = 'Richiesta Prenotazione dal sito web';
+//$mail->AddEmbeddedImage('logo.gif', 'logoimg', 'logo.gif');
+$mail->Body    = '<div>
+
+<ul>
+<li>Nome:'.$_POST['nomecliente'].'</li>
+<li>Email:'.$_POST['book-email'].'</li>
+<li>Telefono:'.$_POST['book-phone'].'</li>
+<li>Notti:'.$_POST['book-email'].'</li>
+<li>Persone:'.$_POST['book-num-people'].'</li>
+<li>Note:'.$_POST['book-email'].'</li>
+<li>Camere:'.$_POST['book-email'].'</li>
+</ul> </div>';
+$mail->AltBody = 'test';
+
+/*$mail->Subject = 'test';
+$mail->Body    = 'test';
+$mail->AltBody = 'test';*/
+
+if(!$mail->Send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    exit;
+}
+
+
 

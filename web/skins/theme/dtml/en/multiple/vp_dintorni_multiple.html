@@ -18,7 +18,7 @@
                 <a href="dintorni.php?vp_dintorni_id={$dintorni->id}">{$dintorni->nome}</a>
                 <span class="title-end"></span>
             </h3>
-            <div class="section-long-body-preview editable">{$dintorni->descrizione|truncate: 300:'...'}</div>
+            <div class="section-long-body-preview editable internal">{$dintorni->descrizione}</div>
             <div><a href="dintorni.php?vp_dintorni_id={$dintorni->id}" class="button2">Maggiori informazioni &raquo;</a></div>
         </div>
         {/foreach}
