@@ -1,8 +1,5 @@
 # README #
 
-
-## What is this repository for? ##
-
 * This repository contains the all documents that are necessary to develop a wep application under UX guidelines.  
 * Version 1.0 (this project is closed)
 
