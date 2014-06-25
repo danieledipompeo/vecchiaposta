@@ -5,28 +5,21 @@ $mail = new PHPMailer();
 //  $mail->SMTPDebug = true;
 
 $mail->IsSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.vecchiaposta.it';  // Specify main and backup server
+$mail->Host = '';  // Specify main and backup server
 $mail->SMTPAuth = false;                               // Enable SMTP authentication
-$mail->Username = 'info@vecchiaposta.it';                            // SMTP username
-$mail->Password = 'uomosil3nt3'; 
-$mail->Port = '25';                          // SMTP password
+$mail->Username = '';                            // SMTP username
+$mail->Password = ''; 
+$mail->Port = '';                          // SMTP password
 //$mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
 
-$mail->From = 'info@vecchiaposta.it';
+$mail->From = '';
 $mail->FromName = 'B&B La Vecchia Posta';
 $mail->AddAddress($_POST['book-email']);  // Add a recipient
-//$mail->AddAddress('ellen@example.com');               // Name is optional
-//$mail->AddReplyTo('info@example.com', 'Information');
-//$mail->AddCC('cc@example.com');
-//$mail->AddBCC('bcc@example.com');
 
-//$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
-//$mail->AddAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->AddAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->IsHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Richiesta Prenotazione';
-//$mail->AddEmbeddedImage('logo.gif', 'logoimg', 'logo.gif');
+
 $mail->Body    = '<div>
 <!--div>
     <img src="cid:logoimg" alt="Logo del B&B La Vecchia Posta" width="200" height="150">
@@ -57,11 +50,8 @@ segiure le indicazio per CAGNANO AMITERNO.</div>
 <font face="Calibri" size="+1"><big>L\'Aquila</big><br>Via Amiternum, 6 - SP30a<br>
 67012 Cagnano Amiterno<br><br><b>Cell</b> <a href="tel:347%209749101" value="+13479749101" target="_blank">347 9749101</a><br><b>Email</b> <a href="mailto:info@vecchiaposta.it" target="_blank">info@vecchiaposta.it</a></font>&nbsp;</small></div><div class="yj6qo"></div><div class="adL">
 </div></div>';
-$mail->AltBody = 'test';
+$mail->AltBody = '';
 
-/*$mail->Subject = 'test';
-$mail->Body    = 'test';
-$mail->AltBody = 'test';*/
 
 if(!$mail->Send()) {
    echo 'Message could not be sent.';
@@ -69,15 +59,13 @@ if(!$mail->Send()) {
    exit;
 }
 
-
-
-$mail->From = 'info@vecchiaposta.it';
+$mail->From = '';
 $mail->FromName = 'Richiesta dal sito web';
 $mail->AddAddress($_POST['book-email']);  // Add a recipient
 $mail->IsHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Richiesta Prenotazione dal sito web';
-//$mail->AddEmbeddedImage('logo.gif', 'logoimg', 'logo.gif');
+
 $mail->Body    = '<div>
 
 <ul>
@@ -91,15 +79,9 @@ $mail->Body    = '<div>
 </ul> </div>';
 $mail->AltBody = 'test';
 
-/*$mail->Subject = 'test';
-$mail->Body    = 'test';
-$mail->AltBody = 'test';*/
 
 if(!$mail->Send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
     exit;
 }
-
-
-
